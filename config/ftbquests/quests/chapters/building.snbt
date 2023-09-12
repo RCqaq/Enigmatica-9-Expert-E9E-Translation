@@ -1,0 +1,848 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: "0856CF7F5CBEB20A"
+	icon: "minecraft:scaffolding"
+	id: "0000000000000096"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to the Building Chapter"
+				""
+				"This section contains a list of building/decoration based mods, and a handful of tools to help you get the job done, and set you on your way to becoming a seasoned builder."
+			]
+			icon: "minecraft:scaffolding"
+			id: "058D3BEB64C74E27"
+			optional: true
+			rewards: [
+				{
+					id: "3C390EFCC5489351"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					id: "4E93367F3DC60C27"
+					item: "hexerei:mahogany_woodcutter"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Dirt Hut No More"
+			tasks: [{
+				id: "4A2592C4467CEAF6"
+				title: "Builder"
+				type: "checkmark"
+			}]
+			title: "Decoration"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["058D3BEB64C74E27"]
+			description: ["Connected Glass adds additional glass blocks and panes with connected textures. This of course covers the clear glass, and all 16 dyed glass types from Vanilla."]
+			icon: "connectedglass:clear_glass"
+			id: "66099AFAA1A6043F"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
+				icon: "kubejs:alchemists_delight"
+				id: "73CEB3BC6963B644"
+				player_command: false
+				title: "Alchemist's Delight"
+				type: "command"
+			}]
+			subtitle: "I can see all obstacles in my way"
+			tasks: [{
+				id: "7E626988261D7522"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "connectedglass"
+					}
+				}
+				title: "Connected Glass"
+				type: "item"
+			}]
+			title: "Connected Glass"
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["058D3BEB64C74E27"]
+			description: [
+				"The mod name really says it all. It's simply that, a lights mod."
+				""
+				"But don't let the name fool you. Simply Light offers a wide range of lights to keep your base lit with style."
+			]
+			icon: "simplylight:illuminant_block_on"
+			id: "42FB32CC99E66E3F"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "7E2D7FEE20672C9D"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			subtitle: "Let there be light"
+			tasks: [{
+				count: 16L
+				id: "1EFA47BC6E4EC782"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "simplylight"
+					}
+				}
+				title: "Any 16x Simply Lights"
+				type: "item"
+			}]
+			title: "Simply Light"
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["058D3BEB64C74E27"]
+			description: [
+				"Are you looking for Glass Stairs? or maybe a Netherite door? How about an Endstone Sign? Well, look no further."
+				""
+				"Framed Blocks introduces a blank template of various shapes and blocks which mimics the texture of the block clicked on them."
+				""
+				"They can even be made to glow by right clicking them with glowstone!"
+			]
+			icon: "framedblocks:framed_cube"
+			id: "0798D5139479A837"
+			rewards: [
+				{
+					id: "7A45DC96F03CA232"
+					item: "framedblocks:framed_hammer"
+					type: "item"
+				}
+				{
+					id: "1C5FD3A8CD3424C0"
+					item: "framedblocks:framed_wrench"
+					type: "item"
+				}
+			]
+			subtitle: "Sky is the limit"
+			tasks: [{
+				count: 4L
+				id: "6D98E195282468AF"
+				item: "framedblocks:framed_cube"
+				type: "item"
+			}]
+			title: "Framed Blocks"
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["058D3BEB64C74E27"]
+			description: [
+				"Are you fed up with that Oak Drawer that is sticking out like a sore thumb in the middle of your build, completely mismatching your building palette?"
+				""
+				"Framed Drawers gives you a blank template which you can combine in a crafting table with different blocks to use their texture instead, whether it's the front, the sides, or the trim, these Framed Drawers are highly customizable visually."
+				""
+				"Needless to say, Functional Storage has more than just a single drawer style template, it actually has a template for each type of drawer, whether it is a 1x2, 2x2 or even a Compacting Drawer."
+			]
+			icon: "functionalstorage:framed_1"
+			id: "473BE440ECB1CEDF"
+			min_width: 250
+			rewards: [
+				{
+					id: "799AB9D93C124D6F"
+					item: "functionalstorage:netherite_upgrade"
+					type: "item"
+				}
+				{
+					id: "006783158FEE960D"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "Build-a-Drawer"
+			tasks: [{
+				id: "130291F7FD5C22C4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:framed_1"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:framed_2"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:framed_4"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:compacting_framed_drawer"
+							}
+						]
+					}
+				}
+				title: "Any Framed Drawer"
+				type: "item"
+			}]
+			title: "Framed Drawers"
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["058D3BEB64C74E27"]
+			description: [
+				"If you love the industrial look of Immersive Engineering, then you will probably love Engineer's Decor."
+				""
+				"This mod adds a handful of decorative blocks that should feel right at home in your Immersive Engineering base. Whether it is a DANGER! sign, or an industrial platforms and support beams, Engineer's Decor has got you covered."
+			]
+			icon: "engineersdecor:steel_catwalk_stairs"
+			id: "68E143E444AF44C2"
+			rewards: [{
+				count: 2
+				id: "3C8E7414A7A4C3C0"
+				item: "engineersdecor:sign_hotwire"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Immersive Decorating"
+			tasks: [{
+				count: 12L
+				id: "3962CC2A503F48BE"
+				item: "engineersdecor:metal_bar"
+				type: "item"
+			}]
+			title: "Engineer's Decor"
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["058D3BEB64C74E27"]
+			description: [
+				"If you are into your medieval or rustic builds, whether it is a castle on a cliff, a cabin in the woods, or a hearty tavern for a weary traveler, Decorative Blocks will have some blocks that fits your style."
+				""
+				"Decorative Blocks offers many nicely textured and well designed blocks for your building needs."
+			]
+			icon: "decorative_blocks:oak_support"
+			id: "03D0B336BB7CEFE1"
+			rewards: [
+				{
+					id: "3305966DAE15A384"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "2A80F9273B5F083C"
+					item: "the_bumblezone:sugar_water_bottle"
+					type: "item"
+				}
+				{
+					id: "6EF2696BD9DA2B0F"
+					item: "farmersdelight:milk_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Stay a while and listen..."
+			tasks: [{
+				id: "36159E7E842C9962"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "decorative_blocks"
+					}
+				}
+				title: "Decorative Blocks"
+				type: "item"
+			}]
+			title: "Decorative Blocks"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"Rome wasn’t built in a day, but with tools like these it certainly could have been. "
+				""
+				"Read on to discover some handy tools to vastly reduce the time it takes to make large scale projects come to life.  "
+			]
+			icon: "framedblocks:framed_hammer"
+			id: "5411C8D2344CC2F1"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "215C050F84460976"
+				item: "minecraft:scaffolding"
+				random_bonus: 16
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "The right tools for the job"
+			tasks: [{
+				id: "48834CDA218F71E0"
+				title: "Building Tools"
+				type: "checkmark"
+			}]
+			title: "General Building Tools"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5411C8D2344CC2F1"]
+			description: [
+				"It cuts, it grinds, it chisels, polishes and even cooks and cleans!"
+				""
+				"All the power of a Stone Cutter, now in a compact portable format in your Sophisticated Backpack or Chest!"
+				""
+				"Disclaimer: Will not actually cook or clean. Not for Commercial Use."
+				""
+				"Warning: Keep away from children, animals, nitwits. Do not place hand on blade while in motion. Extended use may lead to fatigue and loss of vision."
+			]
+			icon: "minecraft:stonecutter"
+			id: "085A8424875A2B23"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "31F796972A4B7369"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			subtitle: "It's like the Chisel, but fatter"
+			tasks: [{
+				id: "0F45B05043BCCBE6"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:stonecutter_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:stonecutter_upgrade"
+							}
+						]
+					}
+				}
+				title: "Stonecutter Upgrade"
+				type: "item"
+			}]
+			title: "Portable Stonecutter"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5411C8D2344CC2F1"]
+			description: [
+				"An advanced building device with several modes allowing for the quick construction of walls, stairs, and platforms. "
+				""
+				"Sneak Right Click on a block to set the block it’ll build with. Use the Building Gadgets Settings Menu key [default: g] to access advanced features. "
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "buildinggadgets:gadget_building"
+				tag: {
+					state: {
+						data: { }
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+					}
+				}
+			}
+			id: "0F06CA2A45323C4C"
+			rewards: [{
+				id: "651CFE821154BBC8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "It builds stuff"
+			tasks: [{
+				id: "5DB4EE8F264A9453"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_building"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Building Gadget"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5411C8D2344CC2F1"]
+			description: [
+				"Quickly swap blocks in an area without having to break and manually place each one. Enchant with Silk Touch to work with delicate blocks such as glass."
+				""
+				"Sneak Right Click on a block to set the block it’ll build with. Use the Building Gadgets Settings Menu key [default: g] to access advanced features. "
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "buildinggadgets:gadget_exchanging"
+				tag: {
+					state: {
+						data: { }
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+					}
+				}
+			}
+			id: "25E1DB1C3F184D4C"
+			rewards: [{
+				id: "2A430B36A4ECDB29"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "It exchanges stuff"
+			tasks: [{
+				id: "0031DADEE3BD0089"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_exchanging"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Exchange Gadget"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5411C8D2344CC2F1"]
+			description: [
+				"A powerful tool that allows copying large areas and rebuilding them instantly elsewhere, making short work of repeating large sections of a build, such as a repeating wall pattern, or sprucing up an area with a few different prefab homes."
+				""
+				"Sneak Right Click on a block to set the block it’ll build with. Use the Building Gadgets Settings Menu key [default: g] to access advanced features. "
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "buildinggadgets:gadget_copy_paste"
+				tag: {
+					mode: 0b
+					template_id: [I;
+						-937522451
+						-1230682587
+						-1166065172
+						-847433661
+					]
+				}
+			}
+			id: "2E5F1C7B4B293531"
+			rewards: [{
+				id: "56EDEB3CE12B8C19"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "It copies and pastes stuff"
+			tasks: [{
+				id: "6AB9C0357788BA56"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_copy_paste"
+					tag: {
+						mode: 0b
+						template_id: [I;
+							-937522451
+							-1230682587
+							-1166065172
+							-847433661
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Copy-Paste Gadget"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5411C8D2344CC2F1"]
+			description: [
+				"For those times when you simply want to clear a hole to build in, and don’t really care what happens to the blocks that were there."
+				""
+				"Be warned, this tool destroys all blocks it removes!"
+				""
+				"Sneak Right Click in the air to configure the area to void. Use the Building Gadgets Settings Menu key [default: g] to access advanced features. "
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "buildinggadgets:gadget_destruction"
+				tag: {
+					fuzzy: 1b
+					overlay: 1b
+				}
+			}
+			id: "095108AB50598C04"
+			rewards: [{
+				id: "61F9F3D49C389940"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Guess what it does .."
+			tasks: [{
+				id: "1441EAF1EDC3AFDF"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_destruction"
+					tag: {
+						fuzzy: 1b
+						overlay: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "Destruction Gadget"
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5411C8D2344CC2F1"]
+			description: [
+				"A modded classic, the Construction Wand simply extends the blocks that are already placed in the world. This can make it easy to build a wall by first laying the foundation, then building up with the wand. "
+				""
+				"This version comes with a few added features as well, such as the ability to destroy blocks, place in mid air, or even place random blocks from those in your hot bar. "
+				""
+				"Ctrl Shift the wand in the air to access a menu with advanced options, or Ctrl Scroll Wheel to quickly toggle between building modes. "
+			]
+			id: "26B88D08862EA1AE"
+			rewards: [{
+				count: 16
+				id: "214C2A82D3E5941A"
+				item: "minecraft:scaffolding"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "Accio"
+			tasks: [{
+				id: "131EB02FBDE8DC98"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:infinity_wand"
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+				title: "Construction Wands"
+				type: "item"
+			}]
+			title: "Construction Wands"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5411C8D2344CC2F1"]
+			description: [
+				"The Extendo Grip increases your reach distance, thus allowing you to place and break blocks at a larger distance."
+				""
+				"To use the Extendo Grip, put it in your Off-Hand, and then use blocks or tools in your Main-Hand as you normally would."
+				""
+				"While wearing a Copper Tank, the Extendo Grip loses no Durability and instead uses some of the air pressure you have stored in your tank."
+			]
+			icon: {
+				Count: 1b
+				id: "create:extendo_grip"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "34F00196E2D0B4B0"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/create/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "384957F4FCE7BC6A"
+				player_command: false
+				title: "Rare Create Loot Box"
+				type: "command"
+			}]
+			subtitle: "BOING! BOING!"
+			tasks: [{
+				id: "36A419607017EA31"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Extendo Grip"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5411C8D2344CC2F1"]
+			description: [
+				"The Wand of Symmetry does not disappoint those who love a little symmetry in their life."
+				""
+				"This tool will automatically place blocks in mirrored positions around a center point, making large projects a breeze."
+				""
+				"To start, Right Click a block on the ground to select the center point. Once selected, Sneak Right Click to open the configuration GUI to choose the plane type and the mirroring axis."
+			]
+			hide_dependency_lines: true
+			icon: "create:wand_of_symmetry"
+			id: "147B701C5BCF2424"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "01870BF5EE173AB5"
+				player_command: false
+				title: "Rare Create Loot Box"
+				type: "command"
+			}]
+			subtitle: "Lay your weary OCD to rest"
+			tasks: [{
+				id: "0A989C0C09502289"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			title: "Wand of Symmetry"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Quark is such a massive mod, and while it could have had it's own section, or even be part of the main Building section, we felt like having it as a stand-alone info quest fits better. While it would be near impossible to write down everything Quark has to offer, the below are some of the highlights for builders to make their life a little easier."
+				""
+				"- Decorative Blocks: Quark offers a plethora of blocks, both crafted like the different themed Chests, or gathered from around the world like the Corundum Crystal Blocks."
+				""
+				"- Trowel: This tool allows the randomization of block placement. It selects block(s) for your hotbar when used."
+				""
+				"For more information on what else does Quark has to offer you as a builder, visit their official website."
+				""
+				"{\"text\":\"Quark Wiki\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://quarkmod.net/#features\"}}"
+			]
+			icon: {
+				Count: 1b
+				id: "quark:trowel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73696B8EC7BB92C7"
+			rewards: [{
+				id: "2577A6FCCC09B07B"
+				item: "quark:abacus"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Jack of all Trades"
+			tasks: [{
+				id: "5B29C3C71D617D0A"
+				title: "Quark"
+				type: "checkmark"
+			}]
+			title: "Quark"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5411C8D2344CC2F1"]
+			description: ["Need a measuring tape? Well, how about an Abacus instead. This little guy will quickly tally up the number of blocks between point A and point B, perfect for planning large builds. Just Right-Click the ground at the start and walk to the end point. "]
+			id: "45A99E75C9AFCFC5"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
+				icon: "kubejs:farmers_delight"
+				id: "0A09BABD778C97C2"
+				player_command: false
+				title: "Farmer's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2F6A3A84B2EBFABD"
+				item: "quark:abacus"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["058D3BEB64C74E27"]
+			description: ["A simple sensor that can be placed over any door. When a player approaches, the door will open automatically. Their vertical detection range may be adjusted with a Redstone Key, allowing them to work on larger doors. "]
+			id: "17F29DFB161A6D1E"
+			rewards: [{
+				id: "2606C21488212483"
+				item: "manyideas_core:redstone_key"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73B6B9FD71519D5C"
+				item: "manyideas_doors:player_door_sensor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["058D3BEB64C74E27"]
+			description: ["Enchanted shears that, when used upon a Rainbow Sheep, will produce Rainbow Wool. "]
+			id: "7F8E9CAAF204E1F3"
+			tasks: [{
+				id: "50B8BB361CE34B8A"
+				item: {
+					Count: 1b
+					id: "manyideas_core:mysterious_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"Create has a set of tools dedicated to saving schematics of structures and replicating them."
+				""
+				"The Schematic and Quill will allow you to save a schematic of an existing structure. This saved schematic will allow you to build the structure somewhere else."
+				""
+				"1) Right-Click to select the two opposite corners of the structure you want to save."
+				"2) Point at a face of the selected area and ctrl-scroll to adjust that side."
+				"3) Right-click to name and save the schematic."
+				""
+				"The Create GitHub has a wiki page with examples of saving schematics:"
+				""
+				"{\"text\":\"Saving a Schematic\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Saving-a-Schematic\"}}"
+			]
+			hide_dependency_lines: true
+			id: "225DD8C72B11FFE3"
+			min_width: 250
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "5596D763FED920E0"
+				player_command: false
+				title: "Rare Create Loot Box"
+				type: "command"
+			}]
+			subtitle: "Archetecture 101"
+			tasks: [{
+				id: "5A9DC446B30DBFA0"
+				item: "create:schematic_and_quill"
+				type: "item"
+			}]
+			title: "Saving Schematics"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["225DD8C72B11FFE3"]
+			description: [
+				"In order to place your saved structures, you need to create a Schematic - this is done on the Schematic Table."
+				""
+				"Choose the schematic you want to create by mousing over the box in the middle of the GUI and scrolling. Place an Empty Schematic into the left slot on the table. Click the checkmark to print the schematic - this uploads it to the server and can take a while for very large schematics. You can close the table while this process completes and come back later. Pressing the “Open Folder” button will open the Schematic folder in your instance, and pressing “Refresh” will update the list of available schematics."
+				""
+				"Schematic in hand, you can place it in-world by right clicking. An on-screen HUD provides options for adjusting the schematic - moving, rotating, or flipping. Shift-right clicking the schematic will also allow you edit placement and rotation/mirroring. You can use this as a building guide, but there are better uses for it..."
+				""
+				"Note: Schematics for common multiblocks are included by default. You can use the \"Open Folder\" button to relocate any schematics you aren’t using and then refresh the list."
+				""
+				"The Create GitHub has a wiki with examples of loading schematics:"
+				""
+				"{\"text\":\"Loading a Schematic\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Loading-a-Schematic\"}}"
+			]
+			id: "7B4FBC9CC07C6E28"
+			min_width: 300
+			rewards: [{
+				id: "03CCD8A592938743"
+				item: "create:empty_schematic"
+				title: "Empty Schematic"
+				type: "item"
+			}]
+			subtitle: "Filing for Building Permits"
+			tasks: [{
+				id: "1D0625DD24276142"
+				item: "create:schematic_table"
+				type: "item"
+			}]
+			title: "Placing Schematics"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B4FBC9CC07C6E28"]
+			description: [
+				"The Schematicannon is how you're going to build your structures. It uses gunpowder as a propellent, and will take blocks from adjacent inventories."
+				""
+				"Take your freshly placed schematic and load it into the Schematicannon. Load gunpowder in the top left - the cannon will use one for each 400 blocks. Hit the Play button in the middle of the interface to begin placing blocks!"
+				""
+				"By default the cannon will pause if it doesn't have the block required, and it will replace any blocks in the way, but will protect tile entities (think chests and similar). Replaced blocks don't drop and are lost - the cannon IS NOT a quarry tool! These settings can be controlled by clicking the button in the bottom left."
+				""
+				"Note: The cannon isn't very fast, but it's possible to split the workload between multiple cannons, and Time in a Bottle works wonders on it!"
+				""
+				"The Create GitHub has a wiki with examples of printing schematics:"
+				""
+				"{\"text\":\"Printing a Schematic\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Printing-a-Schematic\"}}"
+			]
+			id: "55FBBB1108757907"
+			min_width: 300
+			rewards: [{
+				count: 16
+				id: "454017D41CFDE042"
+				item: "minecraft:gunpowder"
+				title: "Gunpowder"
+				type: "item"
+			}]
+			subtitle: "Constructive Detonation"
+			tasks: [{
+				id: "26823569074F6FA3"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			title: "Printing Schematics"
+			x: 2.0d
+			y: 6.0d
+		}
+	]
+	title: "Building"
+}

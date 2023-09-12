@@ -1,0 +1,1044 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_two"
+	group: "2FE70BF4886F08F4"
+	icon: "byg:subzero_crystal_cluster"
+	id: "762FE9447FC2B081"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["55C6945D58D77AB6"]
+			description: [
+				"While the sun sets on the Wilden Grove, so too does the moon rise for your coven. "
+				""
+				"Embrace the night. "
+			]
+			id: "4C676E7D2BA75DE4"
+			rewards: [{
+				count: 2
+				id: "0F52F5957E3F3790"
+				item: "rftoolsbase:infused_diamond"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				icon: "kubejs:gloaming_catalyst"
+				id: "7D0D0C5E4E8FF86D"
+				observe_type: 0
+				timer: 0L
+				title: "Gloaming Catalyst"
+				to_observe: "kubejs:gloaming_catalyst"
+				type: "observation"
+			}]
+			title: "Gloaming Catalyst"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00B21E64DEFACB40"]
+			description: ["Capable of imparting a number of enchantments on items, this Enchanting Apparatus will no doubt be of enormous value in the endeavors to come. "]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "31E4C2A162D7497C"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
+					icon: "kubejs:alchemists_delight"
+					id: "4C9ACBB578AFC307"
+					player_command: false
+					title: "Alchemist's Delight"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "3EA016A20F0AE7FA"
+					item: "ars_nouveau:arcane_platform"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D56C518D77625DD"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "0C24097F0058189C"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55C6945D58D77AB6"]
+			description: [
+				"As the Queen tells it, The Wilden Grove invoked a dangerous ritual to attempt to stop the Cult of the Ur-Ghast before it was too late. "
+				""
+				"Sadly, the ritual was too much, and they lost themselves to the Call of the Beast."
+				""
+				"Send a message on the Queen’s behalf. Tell them &7“Your friendship is mourned. Rest now.”&r, then put them down."
+				""
+				"========================================"
+				""
+				"The Gateway for this fight is on a short timer. "
+				""
+				"Capture a Wilden Chimera and defeat the rest to obtain a Wilden Tribute. The captured Wilden Chimera will be used to mine Magicite, which has multiple uses. "
+				""
+				"Feel free to repeat this fight, but it is not intended to be needed more than once. "
+			]
+			icon: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:wilden_grove_gate"
+				}
+			}
+			id: "0B7E9625225C8413"
+			min_width: 250
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
+				icon: "kubejs:aura_leaf"
+				id: "57F9A2443CFDEB47"
+				player_command: false
+				title: "Aura Infusion"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5E066AEF6EE32A8F"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:wilden_grove_gate"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6BBD39057657A72D"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B7E9625225C8413"]
+			description: ["The Wilden Tribute, found in the aftermath of the fight with the Wilden Grove, is a mark held by those who have reached the pinnacle of magical ability. "]
+			id: "10238EBB9B55F67B"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
+				icon: "kubejs:aura_leaf"
+				id: "2D791DABDEA4EA64"
+				player_command: false
+				title: "Aura Infusion"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1DDBFACA2CC5B913"
+				item: "ars_elemental:mark_of_mastery"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["21C352EEFEB25365"]
+			description: [
+				"Extracting useful quantities of elemental iron from ore is no simple task and will require some specialized apparatus to work through the process. "
+				""
+				"To begin, a specially enchanted Crushing Wheel will be required to break the ore into smaller pieces. The resulting crushed ore will then need to be treated in an acid bath at high heat to begin removing impurities. "
+			]
+			id: "6044FE23384692A5"
+			rewards: [{
+				id: "7D7743EF1763E052"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B70A4972A7F691F"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33BCDA0A76E2523C"]
+			description: [
+				"Focused bursts of controlled magical energies are necessary for transmuting certain materials. As it happens, a specially prepared crystal ball acts as the perfect lens for this sort of transmutation; accepting and amplifying the energies sent in from outside. "
+				""
+				"============================="
+				""
+				"Energizing Rods must be attached to a block that outputs power; they may not be placed on their own. "
+				""
+				"Placing them on the bottom of a Pulsating Crystal works but may be a little awkward. Instead, consider using an Energy Meter or a Modular Router as the block to place them against. Just configure them to output to the side the Energizing Rod will be placed on. "
+			]
+			hide: true
+			icon: "powah:energizing_orb"
+			id: "60324503ED7AC4C1"
+			rewards: [
+				{
+					id: "4FE88FB703488A37"
+					item: "energymeter:meter"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1173DB9473878230"
+					item: "powah:energizing_rod_basic"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1E9F51D9111326A7"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+				{
+					id: "05525E02360F94FE"
+					item: "powah:energizing_rod_basic"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6044FE23384692A5"]
+			description: [
+				"Obtaining the high heat and perfect conditions required to continue purifying Iron will require the construction of yet another magical apparatus, the Enhanced Blast Furnace."
+				""
+				"This device uses Blazing Crystals as fuel and while it is ideal for Iron, it works well for processing many other metals as well. "
+			]
+			icon: "immersiveengineering:advanced_blast_furnace"
+			id: "2BA70920EA1ED0A8"
+			rewards: [{
+				count: 8
+				id: "123F692F841A813C"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "79ABD0D7EFB8D300"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					id: "3296A9C9C71EBE17"
+					item: "kubejs:crude_iron_ingot"
+					type: "item"
+				}
+			]
+			title: "Improved Blast Furnace"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21C352EEFEB25365"]
+			description: [
+				"The following multiblock machines may be constructed with Novice Artificing Blocks:"
+				""
+				"● Metal Press"
+				"● Mixer"
+				"● Bottling Machine"
+				"● Assembler"
+				"● Sawmill"
+			]
+			icon: "immersiveengineering:light_engineering"
+			id: "2C43443DCFFF65F4"
+			rewards: [{
+				id: "4124CD879D379691"
+				item: "immersiveengineering:fluid_pump"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05A605FCDAEBD972"
+				item: "immersiveengineering:light_engineering"
+				type: "item"
+			}]
+			title: "Light Machinery"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1034686D695A8A6D"]
+			description: [
+				"There exists a certain imbalance in magical energies in the realms. While some, like this world, are positively overflowing with magical potential, others have a notable lack. "
+				""
+				"With the Tree of Life partially restored, it is safe to resume the ancient bargain struck with the spirits of the Otherworld, trading Source for their labor. "
+				""
+				"The Energetic Transference Matrix serves as the bridge to facilitate this exchange. When properly integrated into an arcane apparatus, materials and Source may be funneled through to the Otherworld. In exchange, the spirits residing there will transform the materials and return them, keeping the Source as payment. "
+				""
+				"Quite the fair trade, really."
+			]
+			icon: "kubejs:energetic_transference_matrix"
+			id: "21C352EEFEB25365"
+			rewards: [
+				{
+					id: "5C549F9BD46501E4"
+					item: "powah:player_transmitter_basic"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
+					icon: "kubejs:aura_leaf"
+					id: "363F6A8483473ED2"
+					player_command: false
+					title: "Aura Infusion"
+					type: "command"
+				}
+			]
+			subtitle: "Interdimensional Outsourcing"
+			tasks: [
+				{
+					id: "4027AFF2F762B0D1"
+					item: "kubejs:energetic_transference_matrix"
+					type: "item"
+				}
+				{
+					id: "0FC163032DB062F7"
+					item: "thermal:machine_smelter"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2BA70920EA1ED0A8"
+				"4C676E7D2BA75DE4"
+			]
+			description: [
+				"A specialized apparatus for magically infusing materials with various substances, the Metallurgic Infuser is critical in the process of purifying elemental iron. "
+				""
+				"With the inclusion of elemental fire, Crude Iron may be tempered into steel, while the inclusion of elemental air will purify the metal down into malleable Iron. "
+			]
+			id: "49159D9F94B7006C"
+			rewards: [
+				{
+					count: 8
+					id: "37CB2B7EFAFD94D1"
+					item: "emendatusenigmatica:enriched_fire_essence"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1D69775E794A868E"
+					item: "emendatusenigmatica:enriched_air_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7667047356862670"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CC418E7200DF351"]
+			description: [
+				"The Cell Maze seems a likely a place as any to start. Locate it and search around for clues to the Queen's whereabouts.  They’re notable for their large cells partitioned off by Honey Web and contain countless Honey Cocoons."
+				""
+				"Be sure to obtain the Protection of the Hive before entering!"
+				""
+				"================================="
+				""
+				"While in the Bumblezone, Right-Click the Honey Compass in the air to attune it to the Cell Maze."
+			]
+			id: "57861ABDB35ED555"
+			rewards: [{
+				count: 16
+				id: "7171199016FE9E99"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "707735727FE79FB9"
+				item: {
+					Count: 1b
+					id: "the_bumblezone:honey_compass"
+					tag: {
+						CompassType: "structure"
+						TargetDimension: "the_bumblezone:the_bumblezone"
+						TargetPos: {
+							X: -2480
+							Y: 0
+							Z: -1936
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57861ABDB35ED555"]
+			description: [
+				"At last, the Queen!"
+				""
+				"Earn the boon of the Queen by completing the tasks they require, or by returning to them that which is rightfully theirs."
+				""
+				"=================================="
+				""
+				"Essence of the Bees is a very rare reward, indeed, so do not squander it!"
+				"Use it to first craft the Gloaming Catalyst before consuming it to receive the rest of the permanent rewards it grants. "
+			]
+			icon: "the_bumblezone:essence_of_the_bees"
+			id: "55C6945D58D77AB6"
+			rewards: [
+				{
+					count: 8
+					id: "5D5766AB445B727E"
+					item: "the_bumblezone:royal_jelly_bottle"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
+					icon: "kubejs:aura_leaf"
+					id: "21E8E534E6A7EBA6"
+					player_command: false
+					title: "Aura Infusion"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run summon the_bumblezone:beehemoth ~ ~2 ~"
+					icon: "the_bumblezone:bee_queen_spawn_egg"
+					id: "1F7EF0E9FB5A71ED"
+					player_command: false
+					title: "The Queen's Guard"
+					type: "command"
+				}
+				{
+					advancement: "restrictedportals:overworld"
+					criterion: ""
+					id: "31B0F8BB850C792B"
+					type: "advancement"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3CC2FBDD7AB29403"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:honey_compass"
+						tag: {
+							CompassType: "structure"
+							CustomDescription: "item.the_bumblezone.honey_compass_throne_description"
+							CustomName: "item.the_bumblezone.honey_compass_throne_structure"
+							Locked: 1b
+							TargetDimension: "the_bumblezone:the_bumblezone"
+							TargetPos: {
+								X: -1472
+								Y: 0
+								Z: -4688
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "586A6799065EA729"
+					item: "the_bumblezone:essence_of_the_bees"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2153EBB1D50F0039"]
+			description: [
+				"The meandering pathways in the Bumblezone are built for hive minds, and so can be difficult for others to follow. Crafting a Honey Compass will be the safest way forward."
+				""
+				"Remember to show the bees respect while in their home. Feed bees and Honeycomb Brood Blocks some tasty honey treats to earn the Protection of the Hive. Only honored guests are allowed in their most sacred places."
+				""
+				"================================="
+				""
+				"While in the Bumblezone, it is possible to leave at any time by mining to the roof or floor. Above or below a certain point, you’ll be teleported back to where you came from."
+			]
+			icon: "minecraft:honeycomb"
+			id: "4CC418E7200DF351"
+			rewards: [{
+				count: 16
+				id: "6AA44F123D286226"
+				item: "the_bumblezone:bee_bread"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4F31450F59F287F9"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:honey_compass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "727B3D8940DE93A6"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "the_bumblezone:bee_bread"
+								}
+								{
+									Count: 1b
+									id: "minecraft:honey_bottle"
+								}
+							]
+						}
+					}
+					title: "Bee Treats"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60324503ED7AC4C1"]
+			description: ["Known to the ancients as mountain copper, this unique alloy is of particular use in advanced enchanting as an amplifier. "]
+			id: "00B21E64DEFACB40"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "23B342C9B1B2B79C"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "01AF1B57146069F1"
+				item: "emendatusenigmatica:brass_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["31E4C2A162D7497C"]
+			description: [
+				"In places that still keep the old ways, bees hold a privileged position in community life. From the birth of a child to the death of a friend, news of important events are shared first with the bees. "
+				""
+				"It was widely known that the Wilden Grove were avid bee-keepers and some speculated that the bees would carry messages to them through dreams, keeping them apprised of news from far and wide. "
+				""
+				"A pretty story, but surely a simple scrying would have done the same. "
+				""
+				"Just the same, the practice never really died out, especially among the Grove. It seems likely that as the Cult of the Ur-Ghast rose in prominence in this place, the druids may have discussed the events with the bees, perhaps even seeking advice from the Queen. "
+				""
+				"Seek out the Queen Bee to see if they have any clues to offer. "
+				""
+				"================================================="
+				""
+				"In order to travel to the Bumblezone, a Teleporter must be placed directly beneath a Beehive and then an Ender Pearl thrown at the Beehive."
+			]
+			icon: "minecraft:beehive"
+			id: "2153EBB1D50F0039"
+			min_width: 300
+			rewards: [
+				{
+					id: "6363919C99636DBD"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					advancement: "restrictedportals:bumblezone"
+					criterion: ""
+					id: "2E1997D119E6F3A3"
+					type: "advancement"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4A2B53416D546C80"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+				{
+					id: "637617E3CEC25857"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+			]
+			title: "Telling of the Bees"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C676E7D2BA75DE4"]
+			description: [
+				"As a boon for services rendered, the Queen grants safe passage to a lush realm of plenty."
+				""
+				"Nourish the Tree of Life with their gifts and travel to the Overworld in search of more answers in restoring the Tree."
+			]
+			hide_dependency_lines: true
+			icon: "kubejs:tree_of_life_2"
+			id: "2759988A5B69A455"
+			rewards: [
+				{
+					count: 2
+					id: "0606173E7BE74E39"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:stable_warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
+					icon: "kubejs:aura_leaf"
+					id: "14AC976E409BBD66"
+					player_command: false
+					title: "Aura Infusion"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "48FE87B0C247EE47"
+					item: "kubejs:tree_of_life_2"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "110AE71D3773300B"
+					item: "kubejs:shard_of_enduring"
+					type: "item"
+				}
+			]
+			title: "Tree of Life"
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2759988A5B69A455"]
+			description: [
+				"With items attuned to the destination and the blessings of the Queen Bee, travel to the Overworld is now achievable."
+				""
+				"================================="
+				""
+				"Teleportation using the Tree of Life is prone to… drift. Be sure to bring along some means to return home as well as to set up a portal on the other side. "
+			]
+			icon: "supplementaries:globe"
+			id: "356B7D1DFF632DBD"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "4F02BC40CABDEFBD"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "supplementaries:globe"
+					id: "38380859B691C3D0"
+					title: "Visit The Overworld"
+					type: "dimension"
+				}
+				{
+					id: "4448E4A5664FA364"
+					item: "kubejs:teleport_overworld"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["00B21E64DEFACB40"]
+			description: ["The beating heart of a magical energy network, the elementals bound into the ME Controller direct the flow of magical energies between the various components of the network, enabling a witch to perform the most wonderous of feats imaginable. "]
+			icon: "ae2:controller"
+			id: "330C200F0F0243FC"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
+					icon: "kubejs:alchemists_delight"
+					id: "72393E06B7289A9F"
+					player_command: false
+					title: "Alchemist's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
+					icon: "kubejs:aura_leaf"
+					id: "5C8EE393AD050F66"
+					player_command: false
+					title: "Aura Infusion"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "3B6B2B365CAD16C1"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "77937A9F77A075BC"
+					item: {
+						Count: 1b
+						id: "thermal:blizz_spawn_egg"
+						tag: {
+							display: {
+								Lore: ["{\"translate\":\"item.kubejs.ritual_summon_bound_blizz.tooltip\"}"]
+								Name: "{\"translate\":\"item.kubejs.ritual_summon_bound_blizz\"}"
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00B21E64DEFACB40"]
+			description: ["Known for their strength and endurance, Basalz will work tirelessly to power Create machinery if properly compensated with magical energies."]
+			icon: "createaddition:electric_motor"
+			id: "1FDD6F9166A33F8D"
+			rewards: [{
+				id: "340D5E7099030199"
+				item: "kubejs:bright_arcanite_crystal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "04B03547884EC0AA"
+					item: "createaddition:electric_motor"
+					type: "item"
+				}
+				{
+					id: "3484734D8BB146ED"
+					item: {
+						Count: 1b
+						id: "thermal:basalz_spawn_egg"
+						tag: {
+							display: {
+								Lore: ["{\"translate\":\"item.kubejs.ritual_summon_bound_basalz.tooltip\"}"]
+								Name: "{\"translate\":\"item.kubejs.ritual_summon_bound_basalz\"}"
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D0AA79380E87E57"]
+			description: ["Runic Manifolds serve to stabilize a greater dimensional pocket, allowing more spirits to work concurrently on the required task, while requiring less physical space for the apparatus itself. Fancy!"]
+			id: "7563E41DBF4FD286"
+			rewards: [{
+				id: "616836DA3BC9596E"
+				item: "kubejs:bright_arcanite_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D78A382292EF627"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1D0AA79380E87E57"]
+			description: [
+				"The following multiblock machines may be constructed with Adept Artificing Blocks:"
+				""
+				"● Industrial Fermenter"
+				"● Industrial Squeezer"
+				"● Refinery"
+				"● Crusher"
+			]
+			id: "15F56E72212629FB"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
+				icon: "kubejs:alchemists_delight"
+				id: "42238537475907E4"
+				player_command: false
+				title: "Alchemist's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0154E90B21C27B44"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			title: "Heavy Machinery"
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["49159D9F94B7006C"]
+			description: [
+				"While useful in its own right for precision artificing, Invar is better known amongst artificers for its unique ability to resist magical compression. "
+				""
+				"================================="
+				""
+				"Enchant Invar to form Spellbound Invar."
+				""
+				"The following spell form will crush items on the ground: "
+				""
+				"&5Projectile&r > &aCrush&r > &6Sensitive&r "
+			]
+			id: "1D0AA79380E87E57"
+			rewards: [{
+				id: "5D844F4A7BA28FCE"
+				item: "pneumaticcraft:compressed_iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C129E4F6EAC8C83"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1034686D695A8A6D"]
+			description: [
+				"Having friends on the Other Side is proving quite advantageous, as it seems that distances mean little to them in their realm. "
+				""
+				"A Quantum Network Bridge exploits this feature quite handily, making it possible to transport items, fluids, gasses, even power over incredibly long distances and between realms. "
+				""
+				"Refer to the quest in the Applied Energistics 2 chapter for more information on constructing this multiblock."
+			]
+			icon: "ae2:quantum_entangled_singularity"
+			id: "206B112E5F0C1C0A"
+			rewards: [{
+				id: "51FA17E37F1C0EE5"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "191656C32155B744"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "588420C0C476EAA5"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			title: "Quantum Network Bridge"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7563E41DBF4FD286"]
+			description: ["Machines feeling a bit slow? Just make room for some more Spirits in there with Tier Installers. Give them some help as well by installing Energy and Speed upgrades. "]
+			icon: "mekanism:basic_tier_installer"
+			id: "0945523A7F5C5494"
+			rewards: [{
+				count: 2
+				id: "138C7D0E7C94DA26"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "274A3556346681CA"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:basic_tier_installer"
+								}
+								{
+									Count: 1b
+									id: "mekanism:advanced_tier_installer"
+								}
+								{
+									Count: 1b
+									id: "mekanism:elite_tier_installer"
+								}
+								{
+									Count: 1b
+									id: "mekanism:ultimate_tier_installer"
+								}
+							]
+						}
+					}
+					title: "Tier Installers"
+					type: "item"
+				}
+				{
+					id: "13E55AEB17889CB5"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:upgrade_energy"
+								}
+								{
+									Count: 1b
+									id: "mekanism:upgrade_speed"
+								}
+							]
+						}
+					}
+					title: "Upgrades"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7001144C71F0E0BC"]
+			description: [
+				"Though somewhat onerous by hand, it appears to be possible to chip off small shards from the Dimensional Crystal Matrix. "
+				""
+				"Shoving large amounts of material into these crystals without any form of planar stabilization appears to have collapsed the pocket-realm, forming a singularity that appears capable of linking distant places through some other space. "
+				""
+				"================================="
+				""
+				"A 4K Storage Component will be sufficient for crafting Singularities. "
+			]
+			icon: "ae2:condenser"
+			id: "1034686D695A8A6D"
+			rewards: [{
+				id: "4AB0ED4E487C5632"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "20C82AF23D7B3FF1"
+					item: "ae2:condenser"
+					type: "item"
+				}
+				{
+					id: "34F15A06EC034615"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D8D0D2EA0C2B717"]
+			description: [
+				"Though tenuous, the pocket realm contained within this Crystal Matrix should prove quite useful for storing materials. "
+				""
+				"But perhaps there’s more to be discovered here as well. Perhaps with a very sharp knife…"
+			]
+			id: "7001144C71F0E0BC"
+			rewards: [{
+				count: 6
+				id: "5BFE207A3A4BFFD4"
+				item: "kubejs:dimensional_storage_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A0EE27AC02790EC"
+				item: {
+					Count: 1b
+					id: "occultism:dimensional_matrix"
+					tag: {
+						spiritName: "Morjyrzur"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7001144C71F0E0BC"]
+			description: [
+				"As suspected, with even a minimal amount of stabilization, the Matrix can store a wonderous quantity of items. "
+				""
+				"More experimentation with planar stabilizers is certainly warranted. "
+			]
+			id: "5D2DEF2DF3C21A09"
+			rewards: [{
+				id: "0BA1C1494478B440"
+				item: "occultism:storage_stabilizer_tier1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DFF4D850A8B2CF1"
+				item: "occultism:storage_controller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2153EBB1D50F0039"]
+			description: [
+				"Light refracts strangely through these crystals... as if it has travelled a much greater distance. Perhaps there's some truth to those stories after all?"
+				""
+				"Indeed, these Glistering Honey Crystals display a very unusual topology after infusing them with Aura."
+				""
+				"================================="
+				""
+				"Dimensional Crystals may be converted into a Budding block and grown much like Amethyst, making it quite simple to obtain more. "
+			]
+			icon: "the_bumblezone:glistering_honey_crystal"
+			id: "2D8D0D2EA0C2B717"
+			tasks: [
+				{
+					id: "1E12D23625F0F61C"
+					item: "the_bumblezone:glistering_honey_crystal"
+					type: "item"
+				}
+				{
+					id: "49BFDDCD188AC1EC"
+					item: "rftoolsbase:dimensionalshard"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "Chapter Two"
+}

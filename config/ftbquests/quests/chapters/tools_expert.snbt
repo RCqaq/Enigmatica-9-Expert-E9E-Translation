@@ -1,0 +1,1254 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_expert"
+	group: "0856CF7F5CBEB20A"
+	icon: {
+		Count: 1b
+		id: "minecraft:netherite_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6532940C993EB0C1"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2CCCDD05AED3153F"]
+			description: [
+				"Many mods add a variety of very useful tools that can be easy to overlook. These quests won't cover everything, but will serve to highlight some of the more notable options not otherwise covered in other quest chapters."
+				""
+				"Note: Most tools and armor have been Tagged for easier search in EMI. Search for the following categories to discover more:"
+				""
+				"● #armor"
+				"● #armor/helm"
+				"● #armor/chest"
+				"● #armor/leggings"
+				"● #armor/boots"
+				""
+				"● #tools"
+				"● #tools/pickaxe"
+				"● #tools/shovel"
+				"● #tools/axe"
+				"● #tools/hoe"
+				"● #tools/multi-tool"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "291E5727DD1ADDF4"
+			rewards: [{
+				id: "6C88FB980076E7D5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "6CB601D6EDB6AA57"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools"
+					}
+				}
+				title: "Any Tool"
+				type: "item"
+			}]
+			title: "Tools and Armor"
+			x: -10.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["4650EB4575965AAD"]
+			description: [
+				"A powered tool capable of mining blocks from a distance."
+				""
+				"Danger: Class 4 Laser Device. Avoid eye or skin exposure."
+				""
+				"Notable Upgrades"
+				""
+				"● Torch Placer"
+				"● Area Mining"
+				"● Silk Touch"
+				"● Fortune"
+				"● Filterable Void Upgrade"
+				"● Magnet Upgrade"
+			]
+			icon: {
+				Count: 1b
+				id: "mininggadgets:mininggadget"
+				tag: {
+					energy: 1000000
+				}
+			}
+			id: "400BF1DBF5EF7971"
+			rewards: [
+				{
+					id: "00DFFC8DE1F504C3"
+					item: "mininggadgets:upgrade_light_placer"
+					title: "Upgrade: Light Placer"
+					type: "item"
+				}
+				{
+					id: "1BD7572FA91C5CC2"
+					item: "mininggadgets:upgrade_void_junk"
+					type: "item"
+				}
+			]
+			subtitle: "Frickin' Laser Beams"
+			tasks: [
+				{
+					id: "2570BAAA2D7D8317"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mininggadgets:mininggadget"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "mininggadgets:mininggadget_simple"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "mininggadgets:mininggadget_fancy"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "Mining Gadget"
+					type: "item"
+				}
+				{
+					id: "3FEA294367FD4307"
+					item: "mininggadgets:modificationtable"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["291E5727DD1ADDF4"]
+			description: [
+				"Ever wish you could start building a platform in the sky without having to nerd-pole your way up there? "
+				""
+				"Well, if you can't fly you may still need that nerd-pole. If you can, however, grab a bottle of cloud to act as a starting point for the platform. "
+				""
+				"Using a glass bottle between y192 and y196 will get you a Bottled Cloud. Right-Clicking the air again will place the cloud, allowing other blocks to be placed against it. It will disappear after a few moments, but will go back into your bottle on it's own if another block is placed against it in time. "
+			]
+			hide_dependency_lines: true
+			id: "7C80BF770471D535"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "7B241F0433CB46B4"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			subtitle: "Head in the Clouds"
+			tasks: [{
+				id: "36B52599415F3A77"
+				item: "quark:bottled_cloud"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["291E5727DD1ADDF4"]
+			description: [
+				"Save every day like a treasure and spend them on whatever you like."
+				""
+				"Sneak Right-Click most machines to spend stored time on them, speeding them up briefly. "
+			]
+			hide_dependency_lines: true
+			id: "49E1BA11BF18AC10"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
+				icon: "kubejs:sorcerers_delight"
+				id: "7878D3C0A8B1AE6D"
+				player_command: false
+				title: "Sorcerer's Delight"
+				type: "command"
+			}]
+			subtitle: "Just to Spend it With You..."
+			tasks: [{
+				id: "0862CF8273A2BA78"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["291E5727DD1ADDF4"]
+			description: [
+				"There is no dedicated vein miner mod in Enigmatica 9 since we’ve got a variety of very cool tools that offer the same features and more."
+				""
+				"AoE Mining? Vein Mining? Spooky Mining at a Distance? Yeah, we’ve got that. "
+				""
+				"The following quests will help highlight some of the more notable options. Enjoy!"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4650EB4575965AAD"
+			rewards: [{
+				id: "19455C7D8B7BAD8F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5792CBBC2598D7C9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools"
+					}
+				}
+				title: "Any Tool"
+				type: "item"
+			}]
+			title: "Vein Miner?"
+			x: -10.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4650EB4575965AAD"]
+			description: [
+				"Starting at the Diamond tier of drill bit, the Pneumatic Jackhammer is capable of vein mining ores and wood. It’s got a number of other modes as well to help with clearing an area in a more controlled fashion. "
+				""
+				"At the Netherite tier, it gains the ability vein mine any block, if desired. "
+			]
+			icon: {
+				Count: 1b
+				id: "pneumaticcraft:jackhammer"
+				tag: {
+					DigMode: "MODE_1X1"
+					DrillBit: "DIAMOND"
+					UpgradeCache: {
+						speed: 10
+						volume: 25
+					}
+					UpgradeInventory: {
+						Items: [
+							{
+								Count: 25b
+								Slot: 0
+								id: "pneumaticcraft:volume_upgrade"
+							}
+							{
+								Count: 10b
+								Slot: 1
+								id: "pneumaticcraft:speed_upgrade"
+							}
+						]
+						Size: 9
+					}
+					"pneumaticcraft:air": 1200000
+				}
+			}
+			id: "28DF07224351C4B0"
+			rewards: [{
+				count: 4
+				id: "6EB5B00B9A480AC9"
+				item: "pneumaticcraft:volume_upgrade"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "183025779DB8C0CD"
+					item: "pneumaticcraft:jackhammer"
+					type: "item"
+				}
+				{
+					id: "39F8AF3AEE8B4C31"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pneumaticcraft:drill_bit_diamond"
+								}
+								{
+									Count: 1b
+									id: "pneumaticcraft:drill_bit_netherite"
+								}
+							]
+						}
+					}
+					title: "Drill Bits"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4650EB4575965AAD"]
+			description: [
+				"With Vein Mining Units installed, the Meka-Tool gains the ability to vein mine ores and logs. It may optionally be toggled to apply to any block."
+				""
+				"Additionally, the Blasting Unit allows it to mine a large area up to 9x9, with the radius and all other options configured in the Module Tweaker menu."
+			]
+			icon: {
+				Count: 1b
+				id: "mekanism:meka_tool"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "16000000"
+						}]
+						modules: {
+							"mekanism:blasting_unit": {
+								amount: 4
+								blast_radius: 4
+								enabled: 1b
+								renderHUD: 1b
+							}
+						}
+					}
+				}
+			}
+			id: "03213C040584537B"
+			rewards: [{
+				id: "3DB1C4ACE53A9FE0"
+				item: "mekanism:module_shearing_unit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4845CF13045C8DAE"
+					item: "mekanism:meka_tool"
+					type: "item"
+				}
+				{
+					id: "5D160816F72F66AF"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:module_vein_mining_unit"
+								}
+								{
+									Count: 1b
+									id: "mekanism:module_blasting_unit"
+								}
+							]
+						}
+					}
+					title: "Mining Modules"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4650EB4575965AAD"]
+			description: [
+				"When applied to an Axe, the Chainsaw enchantment will cause the axe to fell entire trees, rather than a single block at a time. "
+				""
+				"Crafted Steeleaf Axes even come pre-enchanted!"
+			]
+			id: "1EA2524632247041"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
+				icon: "kubejs:sorcerers_delight"
+				id: "0074A49DCD3DD188"
+				player_command: false
+				title: "Sorcerer's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "12371C7615E49F82"
+				item: {
+					Count: 1b
+					id: "twilightforest:steeleaf_axe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 2s
+							}
+							{
+								id: "apotheosis:chainsaw"
+								lvl: 1s
+							}
+						]
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "Chainsaw"
+			x: -9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4650EB4575965AAD"]
+			description: ["The Skyseeker’s Handaxe natively has the ability to chop whole trees, making short work of any logging operation. "]
+			id: "24FA5629BEE5681B"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "3570B6A36168655F"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "26BB982DA92AE9A0"
+				item: {
+					Count: 1b
+					id: "naturesaura:sky_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4650EB4575965AAD"]
+			description: [
+				"Included with the Novice’s Spellbook is the Glyph of Fell, which acts on Trees, Mushrooms, Cactus, or any other vegetation, cutting them down in one swift action. "
+				""
+				"Available at Tier 2, the Glyph of Break is used for any sort of block breaking. "
+				""
+				""
+				"Apply the Glyph of AOE after either of these glyphs to increase the number of blocks they will break. "
+				""
+				"Example: Touch > Fell or Break > AOE x8"
+			]
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:creative_spell_book"
+				tag: {
+					"ars_nouveau:caster": {
+						current_slot: 2
+						flavor: ""
+						spell_count: 10
+						spells: {
+							spell0: {
+								name: "Grow"
+								recipe: {
+									part0: "ars_nouveau:glyph_touch"
+									part1: "ars_nouveau:glyph_grow"
+									size: 2
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 255
+									g: 255
+									r: 25
+								}
+							}
+							spell1: {
+								name: ""
+								recipe: {
+									part0: "ars_elemental:glyph_homing_projectile"
+									part1: "ars_nouveau:glyph_freeze"
+									part2: "ars_nouveau:glyph_cold_snap"
+									part3: "ars_nouveau:glyph_cold_snap"
+									part4: "ars_nouveau:glyph_amplify"
+									part5: "ars_nouveau:glyph_amplify"
+									part6: "ars_nouveau:glyph_amplify"
+									part7: "ars_nouveau:glyph_amplify"
+									part8: "ars_nouveau:glyph_amplify"
+									part9: "ars_nouveau:glyph_amplify"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 167
+									g: 25
+									r: 80
+								}
+							}
+							spell2: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_touch"
+									part1: "ars_nouveau:glyph_fell"
+									part2: "ars_nouveau:glyph_aoe"
+									part3: "ars_nouveau:glyph_aoe"
+									part4: "ars_nouveau:glyph_aoe"
+									part5: "ars_nouveau:glyph_aoe"
+									part6: "ars_nouveau:glyph_aoe"
+									part7: "ars_nouveau:glyph_aoe"
+									part8: "ars_nouveau:glyph_aoe"
+									part9: "ars_nouveau:glyph_aoe"
+									size: 10
+								}
+								sound: {
+									pitch: 0.01f
+									soundTag: {
+										id: "ars_nouveau:tempestry_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 255
+									g: 25
+									r: 30
+								}
+							}
+							spell3: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_orbit"
+									part1: "ars_nouveau:glyph_aoe"
+									part2: "ars_nouveau:glyph_aoe"
+									part3: "ars_nouveau:glyph_aoe"
+									part4: "ars_nouveau:glyph_aoe"
+									part5: "ars_nouveau:glyph_aoe"
+									part6: "ars_nouveau:glyph_aoe"
+									part7: "ars_nouveau:glyph_split"
+									part8: "ars_nouveau:glyph_split"
+									part9: "ars_nouveau:glyph_lightning"
+									size: 10
+								}
+								sound: {
+									pitch: 1.67f
+									soundTag: {
+										id: "ars_nouveau:tempestry_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 255
+									g: 255
+									r: 255
+								}
+							}
+							spell4: {
+								name: "Launch"
+								recipe: {
+									part0: "ars_nouveau:glyph_projectile"
+									part1: "ars_nouveau:glyph_launch"
+									part2: "ars_nouveau:glyph_heal"
+									size: 3
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 1
+									g: 90
+									r: 255
+								}
+							}
+							spell5: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_projectile"
+									part1: "ars_nouveau:glyph_redstone_signal"
+									size: 2
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 255
+									g: 255
+									r: 25
+								}
+							}
+							spell6: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_touch"
+									part1: "ars_nouveau:glyph_snare"
+									part2: "ars_nouveau:glyph_crush"
+									size: 3
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 1
+									g: 74
+									r: 150
+								}
+							}
+							spell7: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_orbit"
+									part1: "ars_nouveau:glyph_split"
+									part2: "ars_nouveau:glyph_split"
+									part3: "ars_nouveau:glyph_split"
+									part4: "ars_nouveau:glyph_harm"
+									part5: "ars_nouveau:glyph_extend_time"
+									part6: "ars_nouveau:glyph_hex"
+									part7: "ars_elemental:glyph_poison_spores"
+									part8: "ars_nouveau:glyph_amplify"
+									part9: "ars_nouveau:glyph_extend_time"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 25
+									g: 255
+									r: 25
+								}
+							}
+							spell8: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_self"
+									part1: "ars_elemental:glyph_poison_spores"
+									part2: "ars_nouveau:glyph_extend_time"
+									part3: "ars_nouveau:glyph_extend_time"
+									part4: "ars_nouveau:glyph_extend_time"
+									part5: "ars_nouveau:glyph_extend_time"
+									part6: "ars_nouveau:glyph_amplify"
+									part7: "ars_nouveau:glyph_amplify"
+									part8: "ars_nouveau:glyph_amplify"
+									part9: "ars_nouveau:glyph_amplify"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+								}
+							}
+							spell9: {
+								name: "Storm"
+								recipe: {
+									part0: "ars_nouveau:glyph_orbit"
+									part1: "ars_nouveau:glyph_split"
+									part2: "ars_nouveau:glyph_split"
+									part3: "ars_nouveau:glyph_split"
+									part4: "ars_elemental:glyph_poison_spores"
+									part5: "ars_elemental:glyph_poison_spores"
+									part6: "ars_nouveau:glyph_amplify"
+									part7: "ars_nouveau:glyph_amplify"
+									part8: "ars_nouveau:glyph_amplify"
+									part9: "ars_nouveau:glyph_amplify"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 255
+									g: 25
+									r: 30
+								}
+							}
+						}
+					}
+				}
+			}
+			id: "2CFAA6C4D717E6BF"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
+				icon: "kubejs:sorcerers_delight"
+				id: "26D391BE317C1493"
+				player_command: false
+				title: "Sorcerer's Delight"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "6EF4B7A372868F7B"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:novice_spell_book"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:apprentice_spell_book"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:archmage_spell_book"
+								}
+							]
+						}
+					}
+					title: "Spellbooks"
+					type: "item"
+				}
+				{
+					id: "5CF6DEDBBA142D2B"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:glyph_fell"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:glyph_break"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "Glyph of Fell or Break"
+					type: "item"
+				}
+			]
+			title: "Spells"
+			x: -11.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4650EB4575965AAD"]
+			description: [
+				"Upgrades to basic Shovels and Hammers, these tools mine a 3x3 area. "
+				""
+				"Apply Power of the Depth to them to the depth of mining. Each level of the enchant will cause the tool to mine another block deep."
+			]
+			icon: {
+				Count: 1b
+				id: "simplytools:diamond_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E6CE233428FFE63"
+			rewards: [{
+				id: "60ABB884D6744408"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "simplytools:power_of_the_depth"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "38A42BC191855ECB"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplytools:diamond_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "simplytools:diamond_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Excavators"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4650EB4575965AAD"]
+			description: ["With each level of charge, the Infinity Drill and Infinity Saw work in ever increasing areas. The Drill works in a simple radius around the point of mining, while the Saw cuts trees from the top down in a large area. "]
+			icon: {
+				Count: 1b
+				id: "industrialforegoing:infinity_drill"
+				tag: {
+					CanCharge: 1b
+					Energy: 9223372036854775807L
+					Fluid: {
+						Amount: 1000000
+						FluidName: "biofuel"
+					}
+					Selected: "ARTIFACT"
+					Special: 1b
+				}
+			}
+			id: "4439EC0EB57A1F69"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "52510292FF8D040C"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0DD2A260790C8A0A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:infinity_nuke"
+								tag: {
+									CanCharge: 1b
+									Energy: 9223372036854775807L
+									Fluid: {
+										Amount: 0
+										FluidName: "biofuel"
+									}
+									Selected: "ARTIFACT"
+									Special: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:infinity_hammer"
+								tag: {
+									Beheading: 0
+									CanCharge: 1b
+									Energy: 9223372036854775807L
+									Fluid: {
+										Amount: 0
+										FluidName: "biofuel"
+									}
+									Selected: "ARTIFACT"
+									Special: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:infinity_drill"
+								tag: {
+									CanCharge: 1b
+									Energy: 9223372036854775807L
+									Fluid: {
+										Amount: 0
+										FluidName: "biofuel"
+									}
+									Selected: "ARTIFACT"
+									Special: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:infinity_trident"
+								tag: {
+									CanCharge: 1b
+									Channeling: 0b
+									Energy: 9223372036854775807L
+									Fluid: {
+										Amount: 0
+										FluidName: "biofuel"
+									}
+									Loyalty: 0
+									Riptide: 0
+									Selected: "ARTIFACT"
+									Special: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:infinity_saw"
+								tag: {
+									CanCharge: 1b
+									Energy: 9223372036854775807L
+									Fluid: {
+										Amount: 0
+										FluidName: "biofuel"
+									}
+									Selected: "ARTIFACT"
+									Special: 0b
+								}
+							}
+						]
+					}
+				}
+				title: "Infinity Tools"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4650EB4575965AAD"]
+			description: [
+				"The Mining Drill and Buzzsaw both operate with liquid fuels, accepting most liquid fuels in the pack. "
+				""
+				"The Drill itself is capable of up to a 3x3 mining area, while the Buzzsaw will attempt to cut down whole trees. "
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [{
+							Count: 1b
+							Slot: 0
+							id: "immersiveengineering:drillhead_steel"
+						}]
+						Size: 5
+					}
+				}
+				id: "immersiveengineering:drill"
+				tag: {
+					Fluid: {
+						Amount: 4000
+						FluidName: "immersiveengineering:biodiesel"
+					}
+					singleBlockMode: 0b
+					upgrades: {
+						capacity: 2000
+						oiled: 1b
+						waterproof: 1b
+					}
+				}
+			}
+			id: "3F7FCEDE77D9EC80"
+			rewards: [{
+				id: "7A8C7FC8EDC3EA90"
+				item: "immersiveengineering:toolupgrade_drill_damage"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1CE712C151A1CB1F"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											Items: [ ]
+											Size: 5
+										}
+									}
+									id: "immersiveengineering:buzzsaw"
+									tag: { }
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											Items: [ ]
+											Size: 5
+										}
+									}
+									id: "immersiveengineering:drill"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "Engineer's Tools"
+					type: "item"
+				}
+				{
+					id: "6C75C7F200B7655D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "immersiveengineering:drillhead_iron"
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:drillhead_steel"
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:sawblade"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:rockcutter"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Drills and Sawblades"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["291E5727DD1ADDF4"]
+			dependency_requirement: "all_started"
+			description: [
+				"Creeping Creepers got you down? Zealous Zombies getting all up in your face? Salacious Skeletons just won’t let you mine in peace?"
+				""
+				"Get a shield! But not just any shield, Superior Shields are worn in Curio slots and protect their wearer automatically, even from dastardly attacks from behind. "
+				""
+				"Superior Shields have three important stats that determine how well they protect:"
+				""
+				"● Hit Points"
+				"The number of hearts of damage they’re capable of blocking before needing to recharge."
+				""
+				"● Recharge Rate"
+				"The number of seconds it takes to recharge half a shield. "
+				""
+				"● Recharge Delay"
+				"Time in seconds without taking damage before the shield begins to recharge."
+				""
+				"All together, these stats mean that a shield will only be effective in situations where the bearer is not under constant assault, once the Hit Points are diminished, the bearer needs to move away from danger to allow them to recharge. So, they’re excellent for those unexpected attacks, but won’t keep you alive forever. "
+				""
+				"In addition to their basic stats, they may also be enchanted with a number of interesting effects, such as curing the bearer of all potion effects when the shield is depleted or applying Poison to anything that damages the shield. "
+			]
+			hide_dependency_lines: true
+			id: "121CF33BFAEF6205"
+			min_width: 300
+			rewards: [
+				{
+					id: "3345648606C68BEB"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "superiorshields:quickened"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+					icon: "kubejs:scavengers_delight"
+					id: "2FCA3B2C9ABB9D73"
+					player_command: false
+					title: "Scavenger's Delight"
+					type: "command"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "superiorshields:netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "50541B95613CA29B"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "superiorshields:bronze_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "superiorshields:electrum_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "superiorshields:constantan_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "superiorshields:ironwood_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "superiorshields:steeleaf_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "superiorshields:knightmetal_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "superiorshields:enchanter_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Superior Shields"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["291E5727DD1ADDF4"]
+			description: [
+				"Need help juggling all those tools? Craft a Tool Belt!"
+				""
+				"The Tool Belt holds two tools by default but may be expanded to up to nine slots by adding Belt Pouches in an Anvil. "
+				""
+				"While worn in a curio slot, the belt allows quick swapping between any of the tools stored in it. Check the Key Binds menu for options. By default, opening the tool swap menu is on R and opening the belt’s inventory to add or remove tools is on V."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "toolbelt:belt"
+				tag: { }
+			}
+			id: "5460EDD6024A9548"
+			rewards: [{
+				id: "1A699324C4F5EC1A"
+				item: "toolbelt:pouch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A274B01C0215C3F"
+				item: {
+					Count: 1b
+					id: "toolbelt:belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4650EB4575965AAD"]
+			description: ["Great for quickly dismantling leaves on trees, the humble Hoe is also a workhorse out in the fields, scything down grass in large swaths with ease. "]
+			id: "04EC298DE2818F2A"
+			rewards: [{
+				count: 8
+				id: "17A4B0F76044BC9A"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			tasks: [{
+				id: "515526797B08891A"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.5d
+		}
+	]
+	title: "Equipment"
+}

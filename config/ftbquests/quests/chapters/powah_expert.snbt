@@ -1,0 +1,13 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah_expert"
+	group: "72A9465344128AF9"
+	icon: "powah:dielectric_casing"
+	id: "2513FACDC0CF520A"
+	order_index: 13
+	quest_links: [ ]
+	quests: [ ]
+	title: "Powah!"
+}

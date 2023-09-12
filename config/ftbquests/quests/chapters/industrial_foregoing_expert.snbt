@@ -1,0 +1,711 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing_expert"
+	group: "72A9465344128AF9"
+	icon: "industrialforegoing:latex_processing_unit"
+	id: "2861645F43F7DAA3"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2CCCDD05AED3153F"]
+			description: ["Industrial Foregoing provides a wide range of machines to automate various farming related tasks. From growing plants and breeding animals, to duplicating mobs and drilling for resources."]
+			hide: true
+			icon: "industrialforegoing:plastic"
+			id: "7F5A622EA197C0FE"
+			rewards: [{
+				id: "7DDDD5D43A796F70"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: "minecraft:raw_copper"
+				id: "35E13A443EB4BC9E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:raw_materials"
+					}
+				}
+				title: "Industrial Foregoing"
+				type: "item"
+			}]
+			title: "Industrial Foregoing"
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3A4F484FD23B29BA"]
+			description: [
+				"Dissolving solids in liquids is certainly a common task, in the home as much as in industry. "
+				""
+				"The Dissolution Chamber takes this process somewhat further, by dissolving the materials together and then systematically rebuilding something entirely new from the soup. "
+			]
+			hide_dependency_lines: true
+			id: "3E89C56A496461D9"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "379E1DF360B71C28"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "Extreme Measures"
+			tasks: [{
+				id: "4DE2685012E5A8D2"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3A4F484FD23B29BA"]
+			description: [
+				"Machine Addons break down into four categories: speed, efficiency, processing, and range."
+				""
+				"Speed: Increases the operating speed of the machine"
+				""
+				"Efficiency: Reduces the energy requirements of the machine"
+				""
+				"Processing: Allows the machine to perform multiple operations per process"
+				""
+				"Range: Increases the working area of the machine"
+				""
+				"Not all machines can accept all addons. "
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "industrialforegoing:range_addon11"
+				tag: {
+					TitaniumAugment: {
+						Range: 11.0f
+					}
+				}
+			}
+			id: "4CC162048F792C86"
+			min_width: 300
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "6719F2C0C0E7FB2B"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "In the Cards"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "industrialforegoing:range_addon11"
+					tag: {
+						TitaniumAugment: {
+							Range: 11.0f
+						}
+					}
+				}
+				id: "70080631CE03AAC2"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "industrialforegoing:.*_addon"
+					}
+				}
+				title: "Any Addon"
+				type: "item"
+			}]
+			title: "Addons"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3A4F484FD23B29BA"]
+			description: [
+				"This machine is a one-stop shop for cobblestone processing. "
+				""
+				"It can generate cobblestone from lava and water, then perform up to four sequential operations, either Smelting, Crushing, 2x2 Crafting, or 3x3 Crafting, to produce a variety of final outputs. "
+				""
+				"For example, Cobble could be crushed to Gravel, then Sand, and finally smelted into Glass. "
+			]
+			hide_dependency_lines: true
+			id: "74A44328C7E9FAF8"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "3EF8435392E86386"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "Rocks and Shoals"
+			tasks: [{
+				id: "23694575C3ECC943"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3A4F484FD23B29BA"]
+			description: [
+				"A drill capable of mining out very large areas, perfect for extended mining sessions."
+				""
+				"Sneak Right-Click to set its options. "
+				""
+				"Right-Click on a tank of Abyssaline to fill it. "
+			]
+			hide_dependency_lines: true
+			id: "41E4A38DBA6DE6A7"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "35FD9DE9C1AE9790"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0FA22DD447DAE6C6"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_drill"
+					tag: {
+						CanCharge: 1b
+						Energy: 9223372036854775807L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "ARTIFACT"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["10C9F0F84BF69D0A"]
+			description: ["By automatically applying Fertilizer or Bone Meal, the Plant Fertilizer drastically speeds up crop growth in its working area. "]
+			hide_dependency_lines: true
+			id: "08142040D5D8815C"
+			rewards: [
+				{
+					count: 16
+					id: "0C51BC0086C07E6B"
+					item: "industrialforegoing:fertilizer"
+					title: "Fertilizer"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+					icon: "kubejs:rare_lootbox"
+					id: "076765969F37C975"
+					player_command: false
+					title: "Rare Industrial Foregoing Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "Second Chances"
+			tasks: [{
+				id: "5BC241B5CA44B54C"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3A4F484FD23B29BA"]
+			description: [
+				"A more powerful trident capable of damaging many mobs wherever it lands. It has built in Loyalty, Riptide, and Channelling enchantments that may be toggled as desired. "
+				""
+				"Sneak Right-Click to set its options. "
+				""
+				"Right-Click on a tank of Abyssaline to fill it. "
+			]
+			hide_dependency_lines: true
+			id: "63A495A27778E61B"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "5C407B1EF44A000F"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7BF1222DDFC15890"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_trident"
+					tag: {
+						CanCharge: 1b
+						Channeling: 0b
+						Energy: 9223372036854775807L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Loyalty: 0
+						Riptide: 0
+						Selected: "ARTIFACT"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A4F484FD23B29BA"]
+			description: [
+				"The perfect tool for clearing vast tracts of land of any form of tree. This saw operates unlike most tools in that it works its way down from the top of the tree."
+				""
+				"Sneak Right-Click to set its options. "
+				""
+				"Right-Click on a tank of Abyssaline to fill it."
+			]
+			hide_dependency_lines: true
+			id: "255410094C4D7875"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "55819A4D04CED075"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "I'm Still Worthy!"
+			tasks: [{
+				id: "4B57CA7C3F20BDE7"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_hammer"
+					tag: {
+						Beheading: 0
+						CanCharge: 1b
+						Energy: 9223372036854775807L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "ARTIFACT"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3A4F484FD23B29BA"]
+			description: [
+				"By electrifying this questionable substance known as Liquid Meat, Mechanical Dirt can rapidly generate mobs native to the local biome. Light requirements are respected, so mobs won’t spawn on it if the room is too bright."
+				""
+				"Energy and Liquid Meat are distributed to all adjacent Mechanical Dirt blocks, allowing a single connection for each to operate a large grid of Mechanical Dirt. "
+			]
+			hide_dependency_lines: true
+			id: "2E391C1331D1C854"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "6C27923990829FB4"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "A Blight Upon the Land"
+			tasks: [{
+				id: "02831806736BC87A"
+				item: "industrialforegoing:mechanical_dirt"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7F5A622EA197C0FE"]
+			description: ["Industrial Foregoing comes with a variety of machines to help simplify crop farming. "]
+			hide_dependency_lines: true
+			icon: "minecraft:wheat"
+			id: "10C9F0F84BF69D0A"
+			shape: "hexagon"
+			tasks: [{
+				icon: "minecraft:wheat_seeds"
+				id: "20D9B3D97BB89D52"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				title: "Any Seeds"
+				type: "item"
+			}]
+			title: "Getting Started: Farm Management"
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7F5A622EA197C0FE"]
+			description: ["Far from just machines, Industrial Foregoing has a number of utility tools to cover many needs."]
+			hide_dependency_lines: true
+			icon: "industrialforegoing:meat_feeder"
+			id: "3A4F484FD23B29BA"
+			shape: "hexagon"
+			tasks: [{
+				icon: "minecraft:raw_copper"
+				id: "6151856A474E9DD0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:raw_materials"
+					}
+				}
+				title: "Any Raw Materials"
+				type: "item"
+			}]
+			title: "Tools and Utility"
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3A4F484FD23B29BA"]
+			description: [
+				"Transporters are small modules that can be used to, well, transport items or fluids between adjacent inventories. Their range is limited, but they can be very fast. And since more than one can go in a single block space, they can be used for easily splitting and sorting machine outputs to other inventories. "
+				""
+				"Speed Addons will make Transporters operatate more quickly, while Efficiency Addons will allow them to move more per operation."
+			]
+			hide_dependency_lines: true
+			id: "230C4DBDBA945EF5"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "2CF35E56988649E5"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "The Darkness and the Light"
+			tasks: [
+				{
+					id: "50EBA69B08622D27"
+					item: "industrialforegoing:item_transporter_type"
+					type: "item"
+				}
+				{
+					id: "7507AE46BCF8747A"
+					item: "industrialforegoing:fluid_transporter_type"
+					type: "item"
+				}
+				{
+					id: "6E3F7CC015126663"
+					item: "industrialforegoing:world_transporter_type"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Transporters"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["10C9F0F84BF69D0A"]
+			description: [
+				"An excellent addition to any passive animal farm, the Sewer will slowly generate liquid Sewage from the animals in its working area. "
+				""
+				"The Sewer may also gather XP orbs and will convert them directly into Essence. "
+			]
+			hide_dependency_lines: true
+			id: "0D2046CE317CC921"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "131B8F1A1F1FE1FC"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "What You Leave Behind"
+			tasks: [{
+				id: "0A39421A5A792EFA"
+				item: "industrialforegoing:sewer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["10C9F0F84BF69D0A"]
+			description: ["A simple device for making that Sewage into something a little more useful: Fertilizer."]
+			hide_dependency_lines: true
+			id: "52764EBC333BE812"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "58FC0103111007F7"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "A Matter of Perspective"
+			tasks: [{
+				id: "18186923CB301AAB"
+				item: "industrialforegoing:sewage_composter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10C9F0F84BF69D0A"]
+			description: [
+				"The Plant Gatherer will rapidly harvest all crops in its working area, extending out in front of the machine. When harvesting, it will remove the entire crop, so coupling it with a Plant Sower is key. "
+				""
+				"As it harvests crops, it will also produce a small amount of Sludge which will need to be processed."
+				""
+				"Providing it with a small amount of Ether Gas will allow it to replant on harvest automatically."
+			]
+			hide_dependency_lines: true
+			id: "3A75AA5CC54B57CF"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "0DB5BF86FD75C324"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "Reaping the Rewards"
+			tasks: [{
+				id: "37ECEAF58C0961EB"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10C9F0F84BF69D0A"]
+			description: [
+				"A handy device for replanting crops in an area. It plants seeds in an area above it, allowing it to be hidden out of sight underground. "
+				""
+				"Each input slot may be locked to a specific seed type by first placing a seed in the slot, then clicking the lock button. Each slot then corresponds to one of the colored slots on the left of the interface and to the colored dots on the top of the machine. This indicates in which area the seeds will be placed, with a single Sower easily handling up to nine unique crop plots. "
+			]
+			hide_dependency_lines: true
+			id: "1FBB65CA305699EA"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "56424275050ABFF4"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "Sow Many Plants, Sow Little Time"
+			tasks: [{
+				id: "7DE2B1DD0A9C4018"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["10C9F0F84BF69D0A"]
+			description: [
+				"Hydroponics have been used to facilitate the growth of a variety of plants since their inception, growing stronger more nutrient rich foods."
+				""
+				"The Hydroponic Bed acts as any farmland, allowing most crops to be planted atop it. However, with a bit of power and water, it will speed up the crop growth dramatically. "
+				""
+				"By providing a small amount of Ether Gas, it will even automatically harvest the crop its growing. "
+			]
+			hide_dependency_lines: true
+			id: "052EA866FC2E143E"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "3463EB949B33CDA9"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "671363BB149F467C"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10C9F0F84BF69D0A"]
+			description: ["By refining Sludge produced by a Plant Gatherer, a number of blocks may be produced, such as Clay, Sand, and Soul Sand. "]
+			hide_dependency_lines: true
+			id: "5E518FE797F99F6F"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "788C3E2A822F3CD0"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "The Plot Thickens..."
+			tasks: [{
+				id: "202E7CC257BC8DA2"
+				item: "industrialforegoing:sludge_refiner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3A4F484FD23B29BA"]
+			hide_dependency_lines: true
+			icon: "industrialforegoing:fluid_laser_base"
+			id: "56A313EA5C3D6A59"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "356398A4898C5D98"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "If Memory Serves"
+			tasks: [
+				{
+					id: "695ABC9BF36D0A72"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "industrialforegoing:.*_laser_base"
+						}
+					}
+					title: "Laser Base"
+					type: "item"
+				}
+				{
+					id: "22F1AAB9CBAABCB3"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
+			title: "Laser Drilling"
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3A4F484FD23B29BA"]
+			description: [
+				"The ultimate weapon, capable of destroying anything and anyone in a vast area. "
+				""
+				"You’ve been warned. "
+				""
+				"Sneak Right-Click to set its options. "
+				""
+				"Right-Click on a tank of Abyssaline to fill it."
+				""
+				"================================="
+				""
+				"To detonate: "
+				""
+				"  1. Place it somewhere far from "
+				"     anything important."
+				""
+				"  2. Right-Click it to arm it. The casing "
+				"     will close. "
+				""
+				"  3. Light it with a Flint and Steel."
+				""
+				"  4. Run."
+			]
+			hide_dependency_lines: true
+			id: "18BB0AEB0616ED46"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "770DD847637FC248"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0B8F6AF714283187"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_nuke"
+					tag: {
+						CanCharge: 1b
+						Energy: 9223372036854775807L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "ARTIFACT"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3A4F484FD23B29BA"]
+			description: [
+				"The perfect tool for clearing vast tracts of land of any form of tree. This saw operates unlike most tools in that it breaks blocks from the top of the tree down towards wherever it is being used. It clears wood and leaves in an area centered on where it is used, whether those trees are connected to the one being sawed or not."
+				""
+				"Sneak Right-Click to set its options. "
+				""
+				"Right-Click on a tank of Abyssaline to fill it."
+			]
+			hide_dependency_lines: true
+			id: "6D2D4406B69A437B"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "5C632F4FB5098CA3"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "126DC872A6482962"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_saw"
+					tag: {
+						CanCharge: 1b
+						Energy: 9223372036854775807L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "ARTIFACT"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+	]
+	title: "Industrial Foregoing"
+}

@@ -1,0 +1,1629 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natures_aura"
+	group: "5A8B89F87F77CF4C"
+	icon: "naturesaura:gold_leaf"
+	id: "000000000000009E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.0d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.0d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.0d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0E45018D600614BA"]
+			description: [
+				"Nature's Aura is a druidic themed magi-tech mod that uses the omnipresent 'aura' to derive its power. "
+				""
+				"Be warned, Aura is a limited resource which must be managed and replenished lest the natural order be disturbed. Draining too much can cause dire consequences."
+				""
+				"These quests will guide you through the mod, but be sure to refer back to the manual regularly for extra information. Chapters will unlock as you complete these quests and their associated achievements."
+			]
+			hide: true
+			icon: "naturesaura:aura_bloom"
+			id: "000000000000009F"
+			min_width: 250
+			rewards: [{
+				id: "00000000000000A6"
+				item: {
+					Count: 1b
+					id: "superiorshields:copper_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "5DCF7175B494CD02"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+				title: "Nature's Aura"
+				type: "item"
+			}]
+			title: "Nature's Aura"
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["00000000000000A8"]
+			description: [
+				"The Ritual of the Forest is the basis for all magic to come. A tree is sacrificed in the center to provide the energy for the ritual. "
+				""
+				"The items around the outside of the recipe should each be placed into a Wooden Stand; the order is of no consequence and items may be placed manually or by automation. "
+				""
+				"Once the reagents are ready, place and grow the required sapling. The Gold Powder will be consumed along with the items and tree when the ritual completes. "
+				""
+				"Refer to the Book of Natural Aura for specific instructions on building the ritual."
+			]
+			id: "00000000000000A2"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+					icon: "kubejs:rare_lootbox"
+					id: "000000000000035A"
+					player_command: false
+					title: "Rare Nature's Aura Loot Box"
+					type: "command"
+				}
+				{
+					count: 16
+					id: "14A7BCABC52C6E6D"
+					item: "naturesaura:gold_powder"
+					type: "item"
+				}
+			]
+			subtitle: "Tire-toi une bûche"
+			tasks: [{
+				count: 8L
+				id: "000000000000037F"
+				item: "naturesaura:wood_stand"
+				type: "item"
+			}]
+			title: "Ritual of the Forest"
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["000000000000009F"]
+			description: [
+				"To begin upon the naturalist's path, Brilliant Fiber should be woven into the leaves of trees. There, they’ll transform the leaves to a beautiful golden hue."
+				""
+				"Craft one or more Brilliant Fibers and Right-Click them onto any leaves. The effect will spread to nearby leaves, so with careful management, crafting more Brilliant Fibers should not be necessary. "
+				""
+				"Golden Leaf will drop whenever the fully transformed leaves are broken. Place fresh leaves near the remaining transformed leaves to begin converting them as well. "
+			]
+			hide_dependency_lines: true
+			icon: "naturesaura:gold_fiber"
+			id: "00000000000000A8"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+					icon: "kubejs:rare_lootbox"
+					id: "000000000000035B"
+					player_command: false
+					title: "Rare Nature's Aura Loot Box"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
+					icon: "kubejs:farmers_delight"
+					id: "0000000000000A72"
+					player_command: false
+					title: "Farmer's Delight"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The threads that bind us"
+			tasks: [
+				{
+					id: "00000000000000A9"
+					item: "naturesaura:gold_fiber"
+					type: "item"
+				}
+				{
+					id: "43FA051D7359B0CD"
+					item: "naturesaura:gold_leaf"
+					type: "item"
+				}
+			]
+			title: "Getting Started: Rituals"
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["00000000000000A2"]
+			description: [
+				"Upon reaching a high enough skill level, Naturalists may commune directly with the gods, asking boons in exchange for offerings. Do be mindful, however, as the gods are petty at times, no matter what the offering."
+				""
+				"Place the offerings in the bowl and then toss down a Spirit of Calling to complete the ritual. The bowl will hold multiple items, with only a single Spirit required for the full batch. "
+			]
+			hide_dependency_lines: true
+			icon: "naturesaura:offering_table"
+			id: "0000000000000230"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "0000000000000373"
+				player_command: false
+				title: "Rare Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "Just nod if you can hear me"
+			tasks: [{
+				id: "0000000000000231"
+				item: "naturesaura:offering_table"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["000000000000009F"]
+			dependency_requirement: "all_started"
+			description: [
+				"The Natural Altar is the heart of two ritual practices; one to infuse life into objects and another to infuse death. "
+				""
+				"Refer to the Book of Natural Aura's section on the Natural Altar and the Crimson Altar for a preview of the required structure."
+			]
+			hide_dependency_lines: true
+			icon: "naturesaura:nature_altar"
+			id: "00000000000002B5"
+			min_width: 250
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "00000000000004A2"
+				player_command: false
+				title: "Rare Nature's Aura Loot Box"
+				type: "command"
+			}]
+			shape: "hexagon"
+			subtitle: "The duality of life and death"
+			tasks: [
+				{
+					id: "00000000000002B6"
+					item: "naturesaura:nature_altar"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "0000000000000331"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0000000000000332"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0000000000000333"
+					item: "naturesaura:gold_brick"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0000000000000334"
+					item: "minecraft:chiseled_stone_bricks"
+					type: "item"
+				}
+			]
+			title: "Harnessing Aura: Automation"
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["000000000000009F"]
+			description: [
+				"The earliest Naturalists are said to have discovered Aura by observing these Ancient Trees. They found their roots grew deep, drawing Aura up from the depths and dispersing it into the environment. "
+				""
+				"Upon realizing the Aura could be renewed, they set about devising ever more elaborate ways to use and replenish it. Those who pushed it too far, however, paid dearly. "
+				""
+				"The trees grown from Ancient Saplings serve two primary purposes:"
+				""
+				"First, they’ll help replenish Aura in the area they’re planted, albeit slowly. As they do, the leaves will die and decay.  Worry not, more effective methods of replenishing the Aura exist."
+				""
+				"Second, the wood is particularly useful when it comes to the arcane as it is steeped in the magical energies of Aura. It makes a fine base for many an arcane implement. "
+			]
+			hide_dependency_lines: true
+			id: "00000000000002C1"
+			min_width: 300
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+					icon: "kubejs:rare_lootbox"
+					id: "0000000000000369"
+					player_command: false
+					title: "Rare Nature's Aura Loot Box"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "0000000000000702"
+					item: "naturesaura:ancient_log"
+					title: "Ancient Log"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Give And Take"
+			tasks: [{
+				id: "00000000000002C2"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			title: "Getting Started: Generating Aura"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"The Transmutation Catalyst augments the Natural and Crimson Altars to allow them to perform further transformations. "
+				""
+				"Place it on any of the four short pillars surrounding the Altar itself to activate it."
+			]
+			id: "00000000000002C3"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "0000000000000371"
+				player_command: false
+				title: "Epic Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "To obtain, something equal must be lost"
+			tasks: [{
+				id: "00000000000002C4"
+				item: "naturesaura:conversion_catalyst"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"The Crumbling Catalyst augments the Natural and Crimson Altars to allow them to perform further transformations. "
+				""
+				"Place it on any of the four short pillars surrounding the Altar itself to activate it."
+			]
+			id: "00000000000002C5"
+			rewards: [{
+				count: 32
+				id: "0000000000000359"
+				item: "naturesaura:gold_leaf"
+				title: "Gold Leaf"
+				type: "item"
+			}]
+			subtitle: "For ivy climbs the crumbling hall"
+			tasks: [{
+				id: "00000000000002C6"
+				item: "naturesaura:crushing_catalyst"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["000000000000031A"]
+			description: [
+				"Each Aura generating device is limited to the extent it can replenish Aura. It is possible, however, to push this boundary and flood an area with an over-abundance of Aura. "
+				""
+				"Place the Creational Catalyst beneath any Aura Generator to remove its generation cap and attain such lushness as has not been observed since the early days of creation."
+			]
+			id: "00000000000002C7"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "0000000000000378"
+				player_command: false
+				title: "Epic Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "An explosion of life to match the primordial age"
+			tasks: [{
+				id: "00000000000002C8"
+				item: "naturesaura:generator_limit_remover"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: ["Many devices have a specific range that can only be seen by Right-Clicking on them with a Mystical Magnifier. It's a valuable tool to any natural botanist."]
+			hide_dependency_lines: true
+			id: "00000000000002C9"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "0000000000000377"
+				player_command: false
+				title: "Rare Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "Relax, I'll need some information first"
+			tasks: [{
+				id: "00000000000002CA"
+				item: "naturesaura:range_visualizer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["00000000000000A2"]
+			description: [
+				"Untrained eyes may notice the more overt signs of Aura in an area, subtle glowing lights and lush plant growth."
+				""
+				"The Environmental Eye further hones the Naturalist’s vision to grant deeper insights into the Aura infusing the landscape. "
+				""
+				"Finding an area with higher-than-normal Aura at this stage may be helpful, as some Aura will be consumed in order to create the apparatuses needed to help renew it. "
+			]
+			hide_dependency_lines: true
+			id: "00000000000002CB"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "0000000000000367"
+				player_command: false
+				title: "Rare Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "It's still magic even if you know how it's done"
+			tasks: [{
+				id: "00000000000002CC"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"A portable source of Aura that can be be put to good use with a variety of tools. "
+				""
+				"Refer to the Book of Natural Aura's section on Natural Tools for potential uses."
+				""
+				"Note: These may not fill completely when worn. To get a full charge, or to even automate filling them, they may be placed in a Natural Altar to their maximum capacity."
+			]
+			hide_dependency_lines: true
+			id: "00000000000002CD"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "000000000000032D"
+				player_command: false
+				title: "Rare Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "Geo-caching 101"
+			tasks: [{
+				id: "00000000000002CE"
+				item: "naturesaura:aura_cache"
+				type: "item"
+			}]
+			title: "Harnessing Aura: Tools of the Trade"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000002CB"]
+			description: ["An advanced version of the Natural Eye which grants its owner the ability to see ever more precise details of the Aura around them."]
+			id: "00000000000002E4"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "0000000000000370"
+				player_command: false
+				title: "Epic Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "Open your eyes, then open your eyes again"
+			tasks: [{
+				id: "00000000000002E5"
+				item: "naturesaura:eye_improved"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["00000000000002CD"]
+			description: [
+				"Higher capacity than the Aura Cache."
+				""
+				"Refer to the Book of Natural Aura's section on Natural Tools for potential uses."
+				""
+				"Note: These may not fill completely when worn. To get a full charge, or to even automate filling them, they may be placed in a Natural Altar to their maximum capacity."
+			]
+			id: "00000000000002EE"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "000000000000036F"
+				player_command: false
+				title: "Epic Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "Thy cup runneth over"
+			tasks: [{
+				id: "00000000000002EF"
+				item: "naturesaura:aura_trove"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"The most powerful of Naturalists have found that when combined with a rare catalyst, the passage of time itself may be manipulated. "
+				""
+				"This process will rapidly advance time at a great cost of Aura. Be wary not to allow Aura to drop too far!"
+			]
+			hide_dependency_lines: true
+			icon: "naturesaura:time_changer"
+			id: "00000000000002F0"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "000000000000036E"
+				player_command: false
+				title: "Epic Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "From dusk, to dawn"
+			tasks: [
+				{
+					id: "00000000000002F1"
+					item: "naturesaura:clock_hand"
+					type: "item"
+				}
+				{
+					id: "00000000000002F2"
+					item: "naturesaura:time_changer"
+					type: "item"
+				}
+			]
+			title: "Shifting Sundial"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"A simple apparatus that helps contain livestock and other animals. Creatures within the range of this block will be unable to step beyond its boundaries. "
+				""
+				"No Aura is consumed to produce this effect."
+				""
+				"The range depends upon strength of the redstone signal it is provided. "
+			]
+			hide_dependency_lines: true
+			id: "00000000000002F8"
+			rewards: [
+				{
+					id: "000000000000032B"
+					item: "create:analog_lever"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+					icon: "kubejs:rare_lootbox"
+					id: "3EF0E6B29460EC10"
+					player_command: false
+					title: "Rare Nature's Aura Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "A line in the sand"
+			tasks: [{
+				id: "00000000000002F9"
+				item: "naturesaura:animal_container"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00000000000000A2"]
+			description: [
+				"A ritual that harnesses the powers of creation itself, allowing its user to bring forth new life from the barest traces of material."
+				""
+				"Once built, simply throw down the reagents atop the altar. If there's enough Aura, the ritual will proceed automatically."
+				""
+				"Refer to the Book of Natural Aura for specific instructions on building the ritual."
+			]
+			hide_dependency_lines: true
+			icon: "naturesaura:animal_spawner"
+			id: "00000000000002FA"
+			min_width: 250
+			rewards: [{
+				id: "040E31F21688B546"
+				item: "naturesaura:pet_reviver"
+				type: "item"
+			}]
+			subtitle: "Crossing the threshold"
+			tasks: [
+				{
+					id: "00000000000002FB"
+					item: "naturesaura:animal_spawner"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "000000000000033F"
+					item: "naturesaura:infused_brick"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0000000000000340"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0000000000000341"
+					item: "naturesaura:ancient_planks"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"The Imperceptible Builder assists in complicated automation tasks, taking blocks from nearby inventories and placing them down. "
+				""
+				"Specify where it should place blocks by placing an example in an Item Frame on the Builder itself. "
+				""
+				"Refer to the Book of Natural Aura for specific instructions."
+			]
+			hide_dependency_lines: true
+			id: "00000000000002FC"
+			rewards: [
+				{
+					id: "000000000000031E"
+					item: "minecraft:item_frame"
+					title: "Item Frame"
+					type: "item"
+				}
+				{
+					id: "000000000000031F"
+					item: "naturesaura:farming_stencil"
+					title: "Farming Stencil"
+					type: "item"
+				}
+			]
+			subtitle: "Constructive interference"
+			tasks: [{
+				id: "00000000000002FD"
+				item: "naturesaura:placer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"When two Aura Field Creators are linked together, they form a destructive zone between them that rapidly breaks blocks at the cost of some Aura. "
+				""
+				"To link them, simply Right-Click one, and then the other. Supply a Redstone signal to either of them to enable the system. They'll begin drawing Aura and breaking blocks after a short delay."
+				""
+				"An Item Frame can be used to alter their behavior as well: "
+				""
+				"Note: The Aura Field Creator will use any tool provided in the frame including any enchants or special break properties of the tool. Shears shear leaves, shovels collect snow, Fortune and Silk Touch are respected. "
+			]
+			hide_dependency_lines: true
+			id: "00000000000002FE"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "0000000000000362"
+				player_command: false
+				title: "Rare Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "Destructive interference"
+			tasks: [{
+				count: 2L
+				id: "00000000000002FF"
+				item: "naturesaura:field_creator"
+				type: "item"
+			}]
+			title: "Aura Field Creators"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"When placed upon a Furnace, Blast Furnace, or Smoker, the Extraneous Firestarter will draw in nearby Aura, converting it into heat for smelting and cooking. "
+				""
+				"While this process is much quicker than burning Coal or other combustible materials, it does come with the drawback that it can drain Aura into dangerous levels. Multiple may even be installed to enhance the effect. "
+			]
+			hide_dependency_lines: true
+			id: "0000000000000308"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "0000000000000356"
+				player_command: false
+				title: "Rare Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "Maxwell's demon, hard at work"
+			tasks: [{
+				id: "0000000000000309"
+				item: "naturesaura:furnace_heater"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"The entire Aura field appears to be connected in some fashion, even across dimensions. Though the measurable effects tend to be more localized, some brilliant Naturalist was able to deduce a way to use the subtle ripples in the weave to transfer matter unimaginable distance. "
+				""
+				"Ender Crates can be assigned to a channel in an Anvil by simultaneously renaming them and combining them with an Eye of Ender. More Crates can be assigned to the same channel at any time by giving them the same name. "
+				""
+				"Similarly, Ender Oculars may be assigned a channel to allow personal access to the same inventory. Perfect for dropping off the spoils of exploration while far from home."
+				""
+				"A small amount of Aura is used every time an item is moved in or out of the crate. Therefore, it is vital that Aura is generated on both sides of the connection. "
+			]
+			hide_dependency_lines: true
+			id: "000000000000030A"
+			rewards: [
+				{
+					id: "000000000000033D"
+					item: "naturesaura:ender_access"
+					title: "Ender Ocular"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "000000000000033E"
+					item: "minecraft:ender_eye"
+					title: "Eye of Ender"
+					type: "item"
+				}
+			]
+			subtitle: "Abaddon's gate"
+			tasks: [{
+				id: "000000000000030B"
+				item: "naturesaura:ender_crate"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["000000000000030E"]
+			description: [
+				"When placed atop an Adept’s Hopper or a Vanilla Hopper, the Hopper Enhancement allows the collection of blocks up to seven blocks away. A very useful tool to have in any automated apparatus."
+				""
+				"If used with an Adept’s Hopper, any filter set will be respected by the Hopper Enhancement. "
+			]
+			id: "000000000000030C"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "20911E51DB4A9D8A"
+				player_command: false
+				title: "Rare Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "It reaches out nothing answers and it reaches out"
+			tasks: [{
+				id: "000000000000030D"
+				item: "naturesaura:hopper_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"One of the few Natural devices that do not consume Aura to function, Adept’s Hoppers are a filterable hopper that moves items slightly faster than a vanilla hopper. "
+				""
+				"Place an Item Frame on the side and insert any item or block in the frame to set the filter. "
+			]
+			hide_dependency_lines: true
+			id: "000000000000030E"
+			rewards: [
+				{
+					count: 4
+					id: "000000000000031D"
+					item: "minecraft:item_frame"
+					title: "Item Frame"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+					icon: "kubejs:rare_lootbox"
+					id: "1FF5A00AF41D494F"
+					player_command: false
+					title: "Rare Nature's Aura Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "Filtering through the morass"
+			tasks: [{
+				id: "000000000000030F"
+				item: "naturesaura:grated_chute"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["00000000000002C1"]
+			description: [
+				"Over the ages, Naturalists have come up with numerous ways to replenish Aura. Some require more advanced knowledge than others, and each has its own requirements and complications. "
+				""
+				"In most cases, they involve closing the circle, returning the energies imbued in some living entity back to the latent Aura field. Though a few creative methods have been discovered that involve more arcane energies. "
+				""
+				"Each has been detailed at length in the Book of Natural Aura."
+			]
+			id: "000000000000031A"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "0000000000000863"
+				player_command: false
+				title: "Rare Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "Do. Or do not. There is no try."
+			tasks: [{
+				id: "734C25E26EBC19C5"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:oak_generator"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:flower_generator"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:moss_generator"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:slime_split_generator"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:potion_generator"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:animal_generator"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:projectile_generator"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:firework_generator"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:chorus_generator"
+							}
+						]
+					}
+				}
+				title: "Aura Generators"
+				type: "item"
+			}]
+			title: "Esoteric Ecology"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["00000000000000A2"]
+			description: [
+				"Lush Aura has a variety of side effects which may or may not be desirable at any given time. Powders exist to control when and where these effects occur."
+				""
+				"● Barrens - Prevent the formation of grass on Netherrack."
+				""
+				"● Bountiful Core - Stone and Netherrack are converted to ore with the appropriate Aura type."
+				""
+				"● Steady Growth - The growth of crops, plants, and flowers will no longer be boosted by Aura."
+				""
+				"● Fertility - Passive Animals will breed when able."
+				""
+				"● No Storage - Your Aura Cache or Trove will not charge in the area."
+			]
+			hide_dependency_lines: true
+			id: "0000000000000339"
+			min_width: 250
+			rewards: [
+				{
+					id: "0000000000000354"
+					item: "naturesaura:powder_placer"
+					title: "Powder Manipulator"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "0000000000000366"
+					player_command: false
+					title: "Epic Nature's Aura Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "Dust in the wind"
+			tasks: [
+				{
+					id: "000000000000033A"
+					item: {
+						Count: 1b
+						id: "naturesaura:effect_powder"
+						tag: {
+							effect: "naturesaura:nether_grass"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000350"
+					item: {
+						Count: 1b
+						id: "naturesaura:effect_powder"
+						tag: {
+							effect: "naturesaura:ore_spawn"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000351"
+					item: {
+						Count: 1b
+						id: "naturesaura:effect_powder"
+						tag: {
+							effect: "naturesaura:plant_boost"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000352"
+					item: {
+						Count: 1b
+						id: "naturesaura:effect_powder"
+						tag: {
+							effect: "naturesaura:animal"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000353"
+					item: {
+						Count: 1b
+						id: "naturesaura:effect_powder"
+						tag: {
+							effect: "naturesaura:cache_recharge"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Effect Powders"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: ["When Aura is drawn through this device, it causes the heat in the area to rapidly disperse, dropping localized temperatures and causing snow and ice to form. "]
+			hide_dependency_lines: true
+			id: "74D66D473E0509C7"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "5685824F755FD107"
+				player_command: false
+				title: "Epic Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "She sounds like she's in a flurry"
+			tasks: [{
+				id: "19319697794F7334"
+				item: "naturesaura:snow_creator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00000000000002CD"]
+			description: [
+				"Just as Ender Eyes may assist in the location of Strongholds, these assist in the location of other important structures."
+				""
+				"● Eye of the Pillager will locate Pillager Outposts."
+				""
+				"● Eye of the Blaze will locate Nether Fortresses."
+				""
+				"● Eye of the Shulker will locate End Cities."
+			]
+			hide_dependency_lines: true
+			id: "37237E4F7D0020E0"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "726807EBB03D8BE4"
+				player_command: false
+				title: "Rare Nature's Aura Loot Box"
+				type: "command"
+			}]
+			subtitle: "The eyes have it"
+			tasks: [{
+				id: "7F151E516222CEF2"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:outpost_finder"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:fortress_finder"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:end_city_finder"
+							}
+						]
+					}
+				}
+				title: "Eyes in the Dark"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"A closed system which prevents any loss of Aura, this small device serves as an excellent timer, releasing a Redstone pulse whenever the Aura within fully evaporates and re-condenses. The more Aura, the longer this process takes."
+				""
+				"Right-Click the Aura Vaporizer with bottled Aura to define the time of the clock. Right-Click with an empty hand to retrieve whatever has been previously installed. "
+				""
+				"Each bottle of sunlight equates to one second of time. One bottle of ghosts, one minute. One bottle of darkness, one hour. "
+			]
+			hide_dependency_lines: true
+			id: "1FBCA7605FF2CEF2"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "435589B2E3400026"
+				player_command: false
+				title: "Rare Nature's Aura Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "174F5E30E87BBCF4"
+				item: "naturesaura:aura_timer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"While true that Water is easily obtained through other means, an Everlasting Spring provides a convenient place to connect a pipe to supply other machinery. "
+				""
+				"The Spring provides water at the cost of a small amount of Aura. "
+			]
+			hide_dependency_lines: true
+			id: "010B7E7E08893815"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "2078B2E2903D871C"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "60C52ACACF0BEEB0"
+				item: "naturesaura:spring"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"Keeping hostile creatures away from sensitive contraptions can be quite vital. The last thing anyone needs is a surprise Creeper visit. "
+				""
+				"For a miniscule upkeep cost, the Lamp of Sanctuary will inhibit natural mob spawns in its area of influence, the range of which is determined by the strength of the Redstone signal it is receiving. "
+			]
+			hide_dependency_lines: true
+			id: "1ADD012B51234B7D"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "398C537F585E06BA"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6BA181F81623848A"
+				item: "naturesaura:spawn_lamp"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["000000000000030E"]
+			description: ["Quite the simple device, but powerful, nonetheless. The Item distributor moves items from the inventory above it and evenly distributes them to the inventories adjacent. "]
+			id: "1E5CC7C2C414A8AB"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
+				icon: "kubejs:farmers_delight"
+				id: "64FB7A460234CA2F"
+				player_command: false
+				title: "Farmer's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3E7B9CAFE34D49A3"
+				item: "naturesaura:item_distributor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00000000000002CD"]
+			description: ["A true marvel for anyone who’s spent any time toiling in the earth to extract resources. With Eir’s Token attached to a tool, it will simply stop working rather than break at low durability. "]
+			hide_dependency_lines: true
+			id: "4A5FA8B49626B99C"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "3DBA5D25A0607A73"
+				player_command: false
+				title: "Rare Nature's Aura Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "36E55AB645848C72"
+				item: "naturesaura:break_prevention"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00000000000002CD"]
+			description: ["When held anywhere in one’s inventory, the Ring of Last Chance prevents a killing blow, shattering itself rather than allow its bearer to slip off this mortal coil. "]
+			hide_dependency_lines: true
+			id: "242E5ADFA0884661"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
+				icon: "kubejs:alchemists_delight"
+				id: "108A5AC2A7832A0B"
+				player_command: false
+				title: "Alchemist's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "207B5525FD177EA2"
+				item: "naturesaura:death_ring"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00000000000002CD"]
+			description: [
+				"Botanist’s equipment offers several unique benefits to its user beyond the basic uses for armor and tools of each type. "
+				""
+				"● All pieces may be repaired with Aura simply by sneaking with an Aura Cache or Aura Trove equipped. "
+				""
+				"● Botanist’s Pickaxe: May be used to infuse materials with Aura by Right-Clicking."
+				""
+				"● Botanist’s Handaxe: Cleaves through leaves very rapidly."
+				""
+				"● Botanist’s Shovel: Converts Dirt to Grass and creates 3x3 Dirt Paths in Grass."
+				""
+				"● Botanist’s Hoe: Randomly produces seeds when tilling Farmland."
+				""
+				"● Botanist’s Blade: Inflicts Slow on its target."
+				""
+				"● Botanist’s Armor: When wearing a full set, inflicts Withering on attacking enemies."
+			]
+			icon: {
+				Count: 1b
+				id: "naturesaura:infused_iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "159E146307DBBB87"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "22036BC2088D50A5"
+				player_command: false
+				title: "Rare Nature's Aura Loot Box"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "3F050F9F25788BB3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_sword"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_pickaxe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_shovel"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_hoe"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Botanist's Tools"
+					type: "item"
+				}
+				{
+					id: "0EA1FC09DF9019A6"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_chest"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_pants"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_shoes"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Botanist's Armor"
+					type: "item"
+				}
+			]
+			title: "Botanist's Equipment"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000002CD"]
+			description: [
+				"Skyseeker’s equipment offers several unique benefits to its user beyond the basic uses for armor and tools of each type. "
+				""
+				"● All pieces may be repaired with Aura simply by sneaking with an Aura Cache or Aura Trove equipped. "
+				""
+				"● Skyseeker’s Pickaxe: Instantly teleports mined blocks into the user’s inventory."
+				""
+				"● Skyseeker’s Handaxe: Capable of chopping entire trees in a single action."
+				""
+				"● Skyseeker’s Shovel: Upon Right-Click, replaces the target block with whatever block is held in the off-hand."
+				""
+				"● Skyseeker’s Hoe: Tills a larger area of land, destroying tall grass and other vegetation in the process."
+				""
+				"● Skyseeker’s Blade: Inflicts Levitation on its target."
+				""
+				"● Skyseeker’s Armor: When wearing a full set, grants a speed bonus and the ability to step up one block."
+			]
+			icon: {
+				Count: 1b
+				id: "naturesaura:sky_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DC23A0D5C698DC4"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "2C1BEB25E59B8F06"
+				player_command: false
+				title: "Epic Nature's Aura Loot Box"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "25C3D3A01B4DCD7B"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "naturesaura:sky_sword"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_pickaxe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_shovel"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_hoe"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Skyseeker's Tools"
+					type: "item"
+				}
+				{
+					id: "27F6108FE8D25E90"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "naturesaura:sky_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_chest"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_pants"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_shoes"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Skyseeker's Armor"
+					type: "item"
+				}
+			]
+			title: "Skyseeker's Equipment"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000002CD"]
+			description: ["Drawing Aura from a worn Cache or Trove, these staves aid in locating various objects; they can be quite useful both at home and while adventuring abroad. "]
+			hide_dependency_lines: true
+			id: "62B50A6A3764AF7A"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "49FD9AE13A2A9FA3"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4412D64BBD5A0B03"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:loot_finder"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:netherite_finder"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:cave_finder"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:light_staff"
+							}
+						]
+					}
+				}
+				title: "Staves of Power"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"Used in crafting several objects of power, creating Bottled Aura itself is easily automated with a Dispenser. "
+				""
+				"Simply place a Bottle and Cork in the dispenser and provide a Redstone Pulse. Provided there is sufficient Aura in the area, a bottle of the local Aura type will be produced. "
+			]
+			hide_dependency_lines: true
+			id: "35538F8C6F596EE9"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
+				icon: "kubejs:farmers_delight"
+				id: "790B02389C97D92B"
+				player_command: false
+				title: "Farmer's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "68B1E345C4BD4325"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:aura_bottle"
+								tag: {
+									stored_type: "naturesaura:overworld"
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:aura_bottle"
+								tag: {
+									stored_type: "naturesaura:nether"
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:aura_bottle"
+								tag: {
+									stored_type: "naturesaura:end"
+								}
+							}
+						]
+					}
+				}
+				title: "Bottled Aura"
+				type: "item"
+			}]
+			title: "Bottled Aura"
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["00000000000002B5"]
+			description: [
+				"Once thought to be entirely separate, the magical energies know as Source, Aura, and FE are in fact all facets of the same energy. By making use of special crystals, it becomes possible to convert between them with ease. "
+				""
+				"Pulsating Crystals work by absorbing Source from nearby Source Jars and converting it into usable FE. Should the area contain sufficient Aura, it will also be consumed, greatly enhancing the FE generated. "
+				""
+				"Resonating Crystals, on the other hand, set up an internal resonance with FE, converting it back into Source or Aura. If a Source Jar is near enough, it will send it there. If there is no jar, or if it is 100% full, the Resonating Crystal will instead convert the incoming FE to Aura and diffuse it into the atmosphere. "
+			]
+			hide_dependency_lines: true
+			id: "3B584D6A33A0D8A4"
+			min_width: 300
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "6A253E63ACD97A02"
+				player_command: false
+				title: "Epic Nature's Aura Loot Box"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "576EF68AC9677774"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "enigmaticunity:dim_source_generator"
+								}
+								{
+									Count: 1b
+									id: "enigmaticunity:bright_source_generator"
+								}
+								{
+									Count: 1b
+									id: "enigmaticunity:iridescent_source_generator"
+								}
+							]
+						}
+					}
+					title: "Pulsating Crystals"
+					type: "item"
+				}
+				{
+					id: "420D02A1E0F76E08"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "enigmaticunity:dim_source_producer"
+								}
+								{
+									Count: 1b
+									id: "enigmaticunity:bright_source_producer"
+								}
+								{
+									Count: 1b
+									id: "enigmaticunity:iridescent_source_producer"
+								}
+							]
+						}
+					}
+					title: "Resonating Crystals"
+					type: "item"
+				}
+			]
+			title: "Energy Conversion"
+			x: -2.0d
+			y: 1.5d
+		}
+	]
+	title: "Nature's Aura"
+}
