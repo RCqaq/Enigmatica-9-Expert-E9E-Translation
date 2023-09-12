@@ -10,14 +10,14 @@
 	quests: [
 		{
 			description: [
-				"Welcome to Enigmatica 9, we're glad to have you! :D"
+				"欢迎来到Enigmatica 9，我们很高兴您前来游玩:D"
 				" "
-				"Quests are divided into two types:"
+				"任务分为2种类型："
 				""
-				"● Discovery"
-				"● Learning Mods"
+				"● 探索"
+				"● 学习模组"
 				""
-				"You can learn more about each type below."
+				"你可以在下方了解每种任务的更多信息。"
 				""
 			]
 			icon: "minecraft:oak_sapling"
@@ -28,7 +28,7 @@
 				icon: "kubejs:farmers_delight"
 				id: "0000000000000A93"
 				player_command: false
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			size: 1.5d
@@ -37,25 +37,25 @@
 				id: "0000000000000046"
 				type: "checkmark"
 			}]
-			title: "Welcome!"
+			title: "欢迎！"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["0000000000000045"]
 			description: [
-				"The Discovery questline's purpose is to show what's available in the pack."
+				"“探索”任务线旨在展示本模组包中的内容。"
 				""
-				"These chapters are a great place to start if you're new to modded Minecraft or if you're in the need for inspiration."
+				"如果这是你第一次接触MC模组包，或者你需要灵感，那么这些章节是一个很好的开始。"
 				""
-				"It currently has the following chapters:"
+				"该任务线目前有以下章节："
 				""
-				"● Adventure"
-				"● Building"
-				"● Equipment"
-				"● Redstone and Logic"
-				"● Storage"
-				"● Villagers"
+				"● 冒险"
+				"● 建造"
+				"● 装备"
+				"● 红石与逻辑"
+				"● 存储"
+				"● 村民"
 			]
 			id: "00000000000002AC"
 			rewards: [{
@@ -66,7 +66,7 @@
 			tasks: [{
 				icon: "minecraft:compass"
 				id: "00000000000002AD"
-				title: "Discovering Enigmatica"
+				title: "探索Enigmatica"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -75,9 +75,9 @@
 		{
 			dependencies: ["0000000000000045"]
 			description: [
-				"The Learning Mods chapters are designed to help you get started with large content mods and are broken up into Tech and Magic sections. They will explain roughly how to progress and how to work with the blocks and concepts present in the mod. "
+				"“学习模组”的若干章节旨在帮助你入门科技与魔法这两类的大型模组。它们粗略解释了如何发展该模组、如何使用模组中的方块以及模组中的一些概念。"
 				""
-				"These chapters cover a lot of ground, but they don’t cover everything. So, be sure to explore the manuals for those mods that have them."
+				"这些章节的确覆盖了很多知识，但是这并不是全部。所以请确保你阅读过各个模组的手册（如果它们有的话）。"
 			]
 			icon: "minecraft:writable_book"
 			id: "00000000000002AE"
@@ -88,7 +88,7 @@
 			}]
 			tasks: [{
 				id: "00000000000002AF"
-				title: "Learning Mods"
+				title: "学习模组"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -97,9 +97,9 @@
 		{
 			dependencies: ["0000000000000045"]
 			description: [
-				"If you're new to modded Minecraft, it can be a bit daunting to figure out what's what."
+				"如果你是Minecraft模组包的新手，想要完全搞清楚模组包里的所有内容，可能有点令人生畏。"
 				""
-				"That's why we made a book, to sum up the basics and give you a solid baseline to begin your modded journey!"
+				"这就是为什么我们写了一本书《笨蛋模组指南》、总结了一些基础知识，并为你提供一个坚实的起跑线，以开启你的模组之旅！"
 			]
 			id: "00000000000006E9"
 			rewards: [{
@@ -111,10 +111,10 @@
 						"patchouli:book": "patchouli:modded_for_dummies"
 					}
 				}
-				title: "Modded for Dummies"
+				title: "笨蛋模组指南"
 				type: "item"
 			}]
-			subtitle: "Hey, listen!"
+			subtitle: "嘿，听着！"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -124,33 +124,27 @@
 					}
 				}
 				id: "00000000000006EA"
-				title: "Hey, listen!"
+				title: "嘿，听着！"
 				type: "checkmark"
 			}]
-			title: "Modded for Dummies"
+			title: "笨蛋模组指南"
 			x: 1.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["0000000000000045"]
 			description: [
-				"A vast repository of knowledge in the palm of your hands. This tome comes pre-populated with the manuals for each mod so they’re always at the ready. "
+				"知识的海洋在你的手掌心聚集——这本宝典内置了各个模组的手册，你可以随时翻开阅读。"
 				""
-				"● Right-Click to open the menu and choose a "
-				"  book. Once chosen, the Eccentric Tome "
-				"  transforms and becomes that book, for all "
-				"  intents and purposes. "
+				"●右击打开菜单，选择一本手册。选中后，怪奇宝典就会变成它的模样。"
 				""
-				"● Left-Click the air to revert it back to the "
-				"  Eccentric Tome."
+				"●手持怪奇宝典左击空气将其还原。"
 				""
-				"● When transformed, Sneak and press Throw to "
-				"  remove a given book. "
+				"●怪奇宝典变化之后，按Shift+Q键可以移除选中的手册。"
 				""
-				"● Craft the Tome with a book to merge them once "
-				"  more. "
+				"●把宝典与手册放在一起合成可以将它们合并。"
 				""
-				"Lost your book? Just craft a new one, it’ll come pre-filled with manuals."
+				"宝典丢了？只需要再合成一本新的宝典，合成的宝典预置了所有的手册。"
 			]
 			icon: {
 				Count: 1b
@@ -308,19 +302,19 @@
 					}
 				}
 				only_one: true
-				title: "Full Eccentric Tome"
+				title: "完整的怪奇宝典"
 				type: "item"
 			}]
-			subtitle: "Don't Panic"
+			subtitle: "不要惊慌"
 			tasks: [{
 				id: "7781E2B735D79B56"
 				item: "minecraft:book"
 				type: "item"
 			}]
-			title: "Eccentric Tome"
+			title: "怪奇宝典"
 			x: -1.5d
 			y: -6.0d
 		}
 	]
-	title: "Getting Started"
+	title: "旅途的开始"
 }
