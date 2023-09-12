@@ -1,0 +1,5 @@
+{
+	"name": "物品管理器",
+	"description": "$(l)$(#ffa500)Just Enough Items$(reset)（简称 JEI）是$(l)所有模组生存中最重要的工具$(reset)。它是你的向导、你的配方手册、你的追踪器以及你的益友（但愿如此）。本章你将会学习如何使用它。",
+	"icon": "minecraft:writable_book"
+}
