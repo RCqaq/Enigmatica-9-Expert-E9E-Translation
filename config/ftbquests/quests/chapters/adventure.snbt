@@ -11,9 +11,11 @@
 		{
 			dependencies: ["0E45018D600614BA"]
 			description: [
-				"Explorers beware, for terrors await in many seemingly abandoned structures throughout the lands. "
+				"探险者们，注意了！在这片土地上，许多看似被遗弃的建筑中都有恐怖的东西在等待着你。"
 				""
-				"Treasure awaits the brave; death awaits the weak. "
+				"宝藏等待勇者，死亡等待弱者。"
+				""
+				"译者注：砍杀游戏（Hack 'n Slash）是指一种强调战斗或近战的游玩方式，包含这类元素的游戏中经常出现地牢或与地牢有关的内容。"
 			]
 			hide: true
 			id: "0000000000000C85"
@@ -22,23 +24,25 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Hack 'n Slash"
+			subtitle: "砍杀游戏"
 			tasks: [{
 				icon: "kubejs:scavengers_delight"
 				id: "0000000000000C86"
-				title: "Dungeoneering"
+				title: "地牢探险"
 				type: "checkmark"
 			}]
-			title: "Dungeoneering"
+			title: "地牢探险"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0E45018D600614BA"]
 			description: [
-				"Like what you see? Oh, the Biomes You’ll go adds a plethora of beautiful new biomes to spruce up your world. "
+				"喜欢你旅途中看到的风景吗？你将去的生物群系（Oh, the Biomes You’ll go）增加了大量美丽的新生物群落，使你的世界变得更加丰富多彩。"
 				""
-				"Take a stroll, look around, see what you like. Maybe you’ll find a new place to call home? "
+				"散散步，观察一下周围，看看你喜欢什么。你也许会找到一个新的地方作家？"
+				""
+				"译者注：副标题中的句子来自于的迪奥多·盖泽尔的书籍《Oh! The Places You‘ll Go 哦，你想去的地方！》，该模组的名称就改编自此书标题。"
 			]
 			hide: true
 			id: "0000000000000C89"
@@ -47,23 +51,25 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "It's opener out there, in the wide open air."
+			subtitle: "旷野大漠，更尽开阔。"
 			tasks: [{
 				icon: "byg:pink_cherry_sapling"
 				id: "0000000000000C8A"
-				title: "Oh, The Biomes You'll Go"
+				title: "哦，你将去的生物群系"
 				type: "checkmark"
 			}]
-			title: "Oh, The Biomes You'll Go"
+			title: "哦，你将去的生物群系"
 			x: -1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["0E45018D600614BA"]
 			description: [
-				"Trouble finding your way? Need to find a new desert for some good old-fashioned sand gathering? Maybe a new place to call home, instead?"
+				"找不到路吗？需要找个新的沙漠来一次美美的传统挖沙吗？亦或是想找一个新地方作家？"
 				""
-				"Craft a Nature’s Compass to help locate rare or unusual biomes. "
+				"制作一个生物群系指南针来帮你找到稀有或特殊的生物群系。"
+				""
+				"译者注：副标题的句子来自于诺顿·贾斯特的书籍《神奇的收费亭》。"
 			]
 			hide: true
 			id: "0000000000000C97"
@@ -72,7 +78,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "We're not lost, we're right here on this very spot."
+			subtitle: "我们没有迷路，我们就在目的地。"
 			tasks: [{
 				id: "0000000000000C98"
 				item: {
@@ -88,9 +94,9 @@
 		{
 			dependencies: ["0E45018D600614BA"]
 			description: [
-				"Travel to a world swathed in shadow, where frightful beasts call home. Fortune favors the bold! "
+				"你要探险的这个世界被阴影笼罩，里面居住着可怕的野兽。幸运眷顾勇敢者！"
 				""
-				"To form the portal, make a 2x2 pool of water surrounded by grass. Place flowers on the grass blocks and toss a diamond into the water."
+				"建造一个四周为草方块（或者泥土）的2x2的水池，在草方块上放置花并往水池中丢入一个钻石，通往暮色森林的传送门就建好了。"
 			]
 			hide: true
 			id: "33D933483F33A53D"
@@ -103,7 +109,7 @@
 				advancement: "twilightforest:root"
 				criterion: ""
 				id: "26A9364AA502ACCD"
-				title: "Twilight Forest"
+				title: "暮色森林"
 				type: "advancement"
 			}]
 			x: -1.0d
@@ -111,7 +117,11 @@
 		}
 		{
 			dependencies: ["0E45018D600614BA"]
-			description: ["The world of bees is vaster than one might imagine. Throw an Ender Pearl into a hive to see just what’s waiting on the other side. "]
+			description: [
+				"蜜蜂的世界比人们想象的要更广阔。向蜂巢投掷一枚末影珍珠来看看在另一边等待你的是什么。"
+				""
+				"译者注：你还可以被活塞挤进去……"
+			]
 			hide: true
 			id: "03AC8543D6A41D0D"
 			rewards: [{
@@ -126,10 +136,10 @@
 				id: "5EE8D2B8705B17FE"
 				type: "advancement"
 			}]
-			title: "The Bumblezone"
+			title: "蜜蜂领域"
 			x: 1.0d
 			y: 2.5d
 		}
 	]
-	title: "Adventure"
+	title: "冒险"
 }
