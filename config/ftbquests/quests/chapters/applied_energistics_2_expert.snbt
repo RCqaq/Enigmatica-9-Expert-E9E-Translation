@@ -226,7 +226,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"标准且耐用的玻璃线缆，可以传输至多八个频道，并且有十七种颜色可供选择。"
+				"标准、耐用的玻璃线缆，可以传输至多八个频道，并且有十七种颜色可供选择。"
 				""
 				"不同颜色的玻璃线缆可以紧依着放置而不连接，以达到频道分离的目的。"
 			]
@@ -258,11 +258,11 @@
 		{
 			dependencies: ["64845BD36C494E85"]
 			description: [
-				"包层线缆的功能与玻璃线缆相同，只是外观上更加简洁。"
+				"Covered Cables are functionally equivalent to Glass Cables, merely offering a cleaner aesthetic. "
 				""
-				"而致密包层线缆不同，它可以传输比包层线缆多四倍的频道，因此它们最适合用于从ME控制器提取频道。用致密包层线缆可以从ME控制器的一个面中提取至多32个频道。"
+				"Dense Covered Cables, on the other hand, transmit four times as many channels per cable, making them the best at extracting channels from an ME controller, extracting as many as 32 channels per side. "
 				""
-				"不过，一部分的设备不能与致密线缆相连接，比如终端和总线。因此，尽管致密线缆可以完美充当ME网络中的主干线，你仍需要普通的线缆来连接这些设备。"
+				"However, partial block devices such as Terminals or Buses will not connect to a Dense Cable, so while they make excellent trunk lines, regular cables will still be needed for the final connection to these devices. "
 			]
 			id: "78F2C89B4BDC3518"
 			rewards: [{
@@ -290,7 +290,7 @@
 						]
 					}
 				}
-				title: "包层线缆"
+				title: "Covered Cables"
 				type: "item"
 			}]
 			x: 0.0d
