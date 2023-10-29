@@ -1,7 +1,7 @@
 {
-	"block.thermal.dynamo_disenchantment": "Arcane Dynamo",
-	"block.thermal.machine_smelter": "Aura Forge",
-	"thermal.jei.smelter": "Aura Forge",
-	"block.thermal.machine_furnace": "Arcane Furnace",
-	"thermal.jei.furnace": "Arcane Furnace"
+	"block.thermal.dynamo_disenchantment": "Disenchantment Dynamo",
+	"block.thermal.machine_smelter": "Induction Smelter",
+	"thermal.jei.smelter": "Induction Smelter",
+	"block.thermal.machine_furnace": "Redstone Furnace",
+	"thermal.jei.furnace": "Redstone Furnace"
 }
