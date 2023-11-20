@@ -11,7 +11,7 @@
 		{
 			dependencies: ["0097F2FB87804251"]
 			description: [
-				"ME控制器网络由一个ME控制器多方块结构、一些线缆和一定数量的频道组成，其中频道的数量取决于控制器多方块结构的大小。在该网络中，频道按就近原则分配，因此如果一根玻璃线缆上连接了超过八个设备，只有离控制器最近的八个设备能够分配到频道。"
+				"ME控制器网络由一个ME控制器多方块结构、一些线缆和一定数量的频道组成，其中频道的数量取决于ME控制器多方块结构的大小。在该网络中，频道按就近原则分配，因此如果一根玻璃线缆上连接了超过八个设备，只有离ME控制器最近的八个设备能够分配到频道。"
 				""
 				"ME控制器多方块本身的结构相对自由，但是仍需符合下列规则："
 				"1. 所有ME控制器方块必须直接相连。"
@@ -45,7 +45,7 @@
 		}
 		{
 			dependencies: ["0097F2FB87804251"]
-			description: ["任何基于P2P或控制器的ME网络，其主要目的都是存储和物流。就ME网络的存储而言，你有两种选择：ME存储总线和ME驱动器。"]
+			description: ["任何基于P2P或ME控制器的ME网络，其主要目的都是存储和物流。就ME网络的存储而言，你有两种选择：ME存储总线和ME驱动器。"]
 			hide_dependency_lines: true
 			icon: "ae2:chest"
 			id: "7FB8B3BF03A89410"
@@ -108,7 +108,7 @@
 				""
 				"{\"text\":\"AE2维基：存储元件\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/#/1.19.2/ae2:features/me-network/storage-cells.md\"}}"
 				""
-				"译者注：原文的链接失效了，这是新的链接。"
+				"译者注：原文的链接失效了，这是新的维基链接。"
 			]
 			id: "0B95DC452E02E964"
 			rewards: [{
@@ -140,7 +140,7 @@
 				""
 				"{\"text\":\"AE2维基：存储元件\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/#/1.19.2/ae2:features/me-network/storage-cells.md\"}}"
 				""
-				"译者注：原文的链接失效了，这是新的链接。"
+				"译者注：原文的链接失效了，这是新的维基链接。"
 			]
 			id: "4B21571216DCDC69"
 			rewards: [{
@@ -172,7 +172,7 @@
 				""
 				"{\"text\":\"AE2维基：存储元件\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/#/1.19.2/ae2:features/me-network/storage-cells.md\"}}"
 				""
-				"译者注：原文的链接失效了，这是新的链接。"
+				"译者注：原文的链接失效了，这是新的维基链接。"
 			]
 			id: "73765EC8E099FD57"
 			rewards: [{
@@ -226,7 +226,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"标准、耐用的玻璃线缆，可以传输至多八个频道，并且有十七种颜色可供选择。"
+				"标准且耐用的玻璃线缆，可以传输至多八个频道，并且有十七种颜色可供选择。"
 				""
 				"不同颜色的玻璃线缆可以紧依着放置而不连接，以达到频道分离的目的。"
 			]
@@ -258,11 +258,11 @@
 		{
 			dependencies: ["64845BD36C494E85"]
 			description: [
-				"Covered Cables are functionally equivalent to Glass Cables, merely offering a cleaner aesthetic. "
+				"包层线缆的功能与玻璃线缆相同，只是外观上更加简洁。"
 				""
-				"Dense Covered Cables, on the other hand, transmit four times as many channels per cable, making them the best at extracting channels from an ME controller, extracting as many as 32 channels per side. "
+				"而致密包层线缆不同，它可以传输比包层线缆多四倍的频道，因此它们最适合用于从ME控制器提取频道。用致密包层线缆可以从ME控制器的一个面中提取至多32个频道。"
 				""
-				"However, partial block devices such as Terminals or Buses will not connect to a Dense Cable, so while they make excellent trunk lines, regular cables will still be needed for the final connection to these devices. "
+				"不过，一部分的设备不能与致密线缆相连接，比如终端和总线。因此，尽管致密线缆可以完美充当ME网络中的主干线，你仍需要细线缆来连接这些设备。"
 			]
 			id: "78F2C89B4BDC3518"
 			rewards: [{
@@ -290,7 +290,7 @@
 						]
 					}
 				}
-				title: "Covered Cables"
+				title: "ME包层线缆"
 				type: "item"
 			}]
 			x: 0.0d
@@ -298,7 +298,7 @@
 		}
 		{
 			dependencies: ["5F3E20C3B3A32ACF"]
-			description: ["Auto Crafting consists of three parts: the Crafting CPU, Pattern Providers, and the Patterns themselves. All three work in concert to run any Auto Crafting request. "]
+			description: ["AE的自动合成由三个部分组成：合成处理单元、样板供应器和样板本身。三者协同工作，能够处理任何自动合成的请求。"]
 			id: "103D66D58E2AE871"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/ae2/epic"
@@ -312,16 +312,16 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			title: "Autocrafting"
+			title: "自动合成"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7346C9F69D3927FF"]
 			description: [
-				"Terminals allow manual insertion and extraction from the network, while Crafting Terminals add a built in Crafting Table, allowing quick crafting with materials in the system. "
+				"你可以用ME终端手动放入或拿取存储在网络中的东西。而合成终端则内置了一个工作台，可以让你用系统中的材料进行快速合成。"
 				""
-				"Items may be picked up as normal while Fluids and Chemicals may be retrieved by Left Clicking a Fluid Tank or Chemical tank on the fluid or chemical in the Terminal. Similarly, they may be deposited by Right Clicking the tank into the list in the Terminal."
+				"物品可以通过左击正常拿取，而流体和化学品则需要用流体储罐或化学品储罐左击流体或化学品拿取。同样，它们可以通过在终端中右击储罐来存放至网络。"
 			]
 			hide_dependency_lines: true
 			id: "489B2FA4E73E5951"
@@ -350,19 +350,19 @@
 						]
 					}
 				}
-				title: "Terminals"
+				title: "ME终端"
 				type: "item"
 			}]
-			title: "System Access"
+			title: "AE系统交互"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["103D66D58E2AE871"]
 			description: [
-				"When it comes to actually telling the system how to craft something, a Pattern must be encoded within the Pattern Encoding Terminal. Recipes may be easily encoded by searching them in JEI and clicking the plus (+) button to transfer the items into the Pattern Encoder. It is not necessary to have the ingredients on hand. "
+				"如果你要让系统合成某些东西，就必须通过ME样板终端对样板进行编码。在JEI中搜索物品，并点击加号（+）按钮就可以用该物品的配方传输至ME样板终端以进行编码。编码时，背包中不需要有对应的合成材料。"
 				""
-				"Once encoded, place the Pattern in an appropriate Pattern Provider. "
+				"样板编码完成后，你还需要将样板放入对应的样板供应器。"
 			]
 			id: "5D1DAA00815D0590"
 			rewards: [{
@@ -377,77 +377,62 @@
 				item: "ae2:pattern_encoding_terminal"
 				type: "item"
 			}]
-			title: "Encoding Patterns"
+			title: "样板编码"
 			x: -2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5F3E20C3B3A32ACF"]
 			description: [
-				"P2P or Point to Point, is a concept of using a single channel to transmit up to 32. Setting up a P2P connection can certainly be daunting for players who are new to AE2, but the basics are fairly accessible."
+				"P2P，或“点对点”，是指一种使用1个频道来传递至多32个频道的概念。设置P2P连接对AE2新手玩家来说，无疑是令人生畏的，但其最基础的设置还是相当易于理解的。"
 				""
-				"{\"text\":\"AE2 Wiki: P2P Tunnels\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://appliedenergistics.github.io/features/me-network/misc/p2p-tunnel\"}} "
+				"{\"text\":\"AE2维基：P2P通道\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.19.2/features/me-network/misc/p2p-tunnel\"}} "
 				""
-				"Refer to the following pages for an example on setting this up. "
+				"查看后续页面，了解设置P2P连接的样例。"
+				""
+				"译者注：原文的链接失效了，这是新的维基链接。"
 				""
 				"{@pagebreak}"
-				"P2P Example:"
+				"P2P样例："
 				""
-				"1. Place down a Controller and power it."
+				"1. 放置一个ME控制器并为其供能。"
 				""
-				"2. Next, place an ME P2P Tunnel against the Controller; "
-				"   the flat side should be in contact with the Controller."
+				"2. 然后，将P2P通道-ME紧贴ME控制器放置，平整的一面对着控制器。"
 				""
-				"3. Follow this by running a length of Red ME Glass Cable "
-				"   from the P2P Tunnel back to the Controller. This "
-				"   registers the P2P Tunnel on the network. This Red ME"
-				"   Glass cable will be our Controller line. Any color will "
-				"   do; the trick is to remain consistent and organized. "
+				"3. 接着，用一条红色玻璃线缆从P2P通道连回ME控制器，这将在网络"
+				"	上注册该P2P通道。这条红色玻璃线缆是我们的ME控制器线。使用"
+				"	任何颜色的线缆都能起效，这么做只是为了理线的统一和有序。"
 				""
-				"4. Now, from any free face on the Controller, run a "
-				"   Green Covered Cable. Green will represent our carrier "
-				"   cables and will only be used to transmit P2P "
-				"   connections. Again, any color will do; however, avoid "
-				"   using anything that might accidentally cross-connect "
-				"   with other segments. "
+				"4. 现在，从ME控制器的任何其他面，接出一条绿色包层线缆。这条绿色"
+				"	线缆代表我们的载体线缆，仅用于传输P2P连接。同样，使用任何颜"
+				"	色的线缆都能起效，但是请避免使用会和其他部分意外相连的颜色。"
 				""
-				"5. At the end of this Green Covered Cable, place another "
-				"   ME P2P Tunnel. This should place with the flat side "
-				"   facing out, giving a nice view of the Certus texture on "
-				"   that face. "
+				"5. 在绿色包层线缆的末端放置另一个P2P通道-ME，平整的一面朝外，"
+				"	也就是有赛特斯石英材质的那一面。"
 				"{@pagebreak}"
-				"6. Next, these two Tunnels must be linked; this is "
-				"   performed with a Memory Card; the color of the card "
-				"   does not matter."
+				"6. 接下来，你需要用内存卡将这两个P2P通道相连。任何颜色的内存卡"
+				"	都行。"
 				""
-				"7. Sneak Right-Click the Card on the ME P2P Tunnel "
-				"   attached to the Controller. The frequency will change "
-				"   from 0000 to some random four-character ID. "
-				"   That ID is now stored in the Memory Card. "
+				"7. 用内存卡潜行右击连接在ME控制器上的P2P通道-ME，通道的频率将"
+				"	会从0000变为四位的随机十六进制ID。频率将会存储在内存卡中。"
 				""
-				"10. Now, take the Memory Card to the other P2P Tunnel "
-				"    and Right-Click the Tunnel. It should now be "
-				"    configured on the same Frequency ID and should "
-				"    display as “Linked (Output Side)”. Place a Yellow "
-				"    Dense Cable against the flat side of this Tunnel and "
-				"    all 32 channels from the Controller will now be "
-				"    accessible to the Yellow Dense Cable. "
+				"8. 现在，用这张内存卡右击另一个P2P通道。该通道现在应该会被连接"
+				"	到与内存卡相同的频率，并显示有“已连接（输出端）”。紧靠该P2P"
+				"	通道的平整面放置一条黄色致密线缆，然后你就可以通过这条黄色致"
+				"	密线缆使用来自ME控制器的全部32个频道。"
 				""
-				"At this point, the Green Covered Cable should show that only one channel has been used, no matter how many connections are made on the Yellow cable. "
+				"此时，无论黄色线缆中有多少频道被占用，绿色包层线缆都只会显示有一个频道被占用。"
 				""
-				"With such a small network, this may seem like a lot of work for little gain, and that would be an accurate assessment. However, consider a larger Controller multiblock: "
+				"在如此小型的网络下，这似乎是个吃力不讨好的操作，事实也确实如此。然而，让我们考虑一个更大型的ME控制器多方块："
 				""
-				"● Eight P2P Tunnels can be placed against the Controller "
-				"  and connected via a single Controller line as above."
+				"● 八个紧贴ME控制器的P2P通道，由一根包层线缆全部连接。"
 				" "
-				"● A single Covered Cable can then transmit all eight of "
-				"  those P2P Tunnels out to a remote place in your base. "
+				"● 再用一根包层线缆就可以将这八个P2P通道传输到你基地的远处。"
 				""
-				"● Each of those P2P Tunnels will carry 32 channels for a "
-				"  total of 256 channels, all being transmitted over a "
-				"  single Covered Cable."
+				"● 每个P2P通道可以携带32个频道，总计256个频道，只需要一根包层"
+				"  线缆就可以传输。"
 				" "
-				"Doing the same without P2P would require managing eight individual Dense Cables all the way out to the same remote place."
+				"想要不使用P2P而达到同样效果，则需要铺设八根独立的致密线缆至同样的地点。"
 			]
 			icon: "ae2:me_p2p_tunnel"
 			id: "78F157F1561D932F"
@@ -479,26 +464,26 @@
 							value: "ae2:memory_cards"
 						}
 					}
-					title: "Memory Cards"
+					title: "内存卡"
 					type: "item"
 				}
 			]
-			title: "ME P2P Tunnels"
+			title: "P2P通道-ME"
 			x: -3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["103D66D58E2AE871"]
 			description: [
-				"The Crafting CPU itself is a cuboid multiblock consisting of Crafting Units, Crafting Storage, and optionally Crafting Co-Processing Units."
+				"合成处理单元是一种立方体型的多方块结构，由合成单元、合成存储器和可选的并行处理单元组成。"
 				""
-				"Crafting Units themselves are strictly filler blocks used to complete the required cuboid shape in the case that more storage is either not accessible or undesirable. "
+				"合成单元本身只能当作填充方块用，既在不需要或造不起更多合成存储器时用来补全成型所需的立方体结构。"
 				""
-				"Crafting Storage determines how large a craft may be processed by that CPU. Deeply nested crafts with many steps involved will need larger CPUs to hold everything. "
+				"合成存储器决定了合成处理单元能处理多大的合成任务。多层嵌套、步骤繁杂的合成任务需要交给容量更大的合成处理单元来处理。"
 				""
-				"Crafting Co-Processing Units allow a CPU to parallelize, assuming the network is set up to allow it. This means either putting the same pattern in multiple Pattern Providers attached to separate machines, or having multiple Molecular Assemblers attached to a single Pattern Provider"
+				"并行处理单元能使合成处理单元在可行的时候并行处理任务。并行处理在多个样板供应器拥有相同样板，或多个分子装配室与同一样板供应器相连时触发。"
 				""
-				"Each Crafting CPU is capable of seeing a single crafting task through from start to finish. This may involve multiple steps, such as turning Logs to Planks, then Planks to Sticks, and finally turning those sticks into a tool. "
+				"合成任务可能会有很多步骤，比如一个从原木到木板，再从木板到木棍，最后将木棍合成至工具的合成任务。合成处理单元能够从头到尾完整地处理这样的合成任务。"
 			]
 			id: "7E5425AD75D67C77"
 			min_width: 300
@@ -548,7 +533,7 @@
 						]
 					}
 				}
-				title: "Crafting CPU"
+				title: "合成处理单元"
 				type: "item"
 			}]
 			x: -1.5d
@@ -557,15 +542,15 @@
 		{
 			dependencies: ["103D66D58E2AE871"]
 			description: [
-				"While the Crafting CPU manages the craft, Pattern Providers are responsible for dispensing items and returning the results back to the system. "
+				"合成处理单元负责合成，而样板供应器负责分配原材料并将合成结果放回系统中。"
 				""
-				"For basic crafting table style crafting, the Pattern Provider needs one or more adjacent Molecular Assemblers connected to it. The Assemblers will receive the inputs and the pattern from the Pattern Provider, then automatically push the result back to the Pattern Provider upon completion. Molecular Assemblers are also capable of automating the Smithing Table and Stonecutter. The process is identical to basic crafting recipes."
+				"想要进行普通的工作台类型的合成，样板供应器需要与一个或多个分子装配室相邻。分子装配室将会从样板供应器那里接收输入物品和样板，合成完成后，就会自动将合成结果返回给样板供应器。分子装配室也可以自动合成锻造台和切石机的配方。操作方法和普通的合成配方类似。"
 				""
-				"For crafts involving other machines, otherwise known as Processing Patterns, the Pattern Provider should be placed adjacent to the machine on the correct side. For example, automating a vanilla Furnace would require the Pattern Provider to be set on top of the furnace and would require something, such as a hopper, to pull the result from the bottom and return it through a Pattern Provider. "
+				"想要进行涉及其他机器的合成，即处理样板所对应的合成，样板供应器需要与处理机器正确的一面相邻。比方说，如果想要实现原版熔炉的自动化，就需要在熔炉的顶上放置一个样板供应器，并在底下放置一个漏斗或其他能够抽出产物的东西，最后将产物通过样板供应器送回。"
 				""
-				"In many cases, it is simplest to use other logistics mods to hand dispensing the inputs and retrieving the outputs, but that’s an exercise for you to solve. "
+				"在大多数情况下，使用其他物流模组来处理输入和输出会更加简单，但这是你自己要解决的问题。"
 				""
-				"Machines such as Mekanism or Thermal machines, which can push back out the same side they received items on are therefore much simpler to automate, as a single Pattern Provider is all that is needed. "
+				"通用机械和热力的机器可以从接收物品的一面弹出物品，因此自动化起来更加容易，只需要一个样板供应器就足够了。"
 			]
 			icon: "ae2:molecular_assembler"
 			id: "67DC697DC3116C61"
@@ -589,18 +574,18 @@
 					type: "item"
 				}
 			]
-			title: "Crafting"
+			title: "合成"
 			x: -1.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["489B2FA4E73E5951"]
 			description: [
-				"Exceptionally useful for automation tasks, the Formation and Annihilation Planes allow Placing and Breaking of blocks, respectively. They may also be configured to drop or pick up items."
+				"成型面板和破坏面板分别可以放置和破坏方块，它们对自动化非常有帮助。"
 				""
-				"The Formation Plane will not pull from the network, however. Instead, the items are placed as they enter the system. This means in many cases a separate network, or Subnetwork, will need to be built to make full use of the Formation Plane. This can consist of as little as a Controller or Energy Acceptor for power, an Interface, a Cable, and the Formation Plane. Any items sent into the Interface will be instantly placed. "
+				"成型面板不会从网络中提取物品，相反，它会在物品进入网络时放置该物品。这意味着在不少情况下，你需要搭建单独的网络或子网络才能充分使用成型面板。该网络仅需要包含一个控制器或能源接收器功能、一个ME接口、一条线缆以及成型面板。任何送入ME接口的物品都会被瞬间放置。"
 				""
-				"The Annihilation Plane will work immediately on any block in front of it. It may also be enchanted with Fortune or Silk Touch to allow it to efficiently process things like Certus Quartz Clusters or Ice. It cannot be filtered directly, however. To filter what it breaks, a Subnetwork is required with filtered storage that only allows the desired block to enter the system. For example, when working with Certus Quartz, to ensure it only breaks a full Certus Quartz Cluster, the subnetwork should have a filtered storage on it that only accepts Certus Quartz Crystals. A filtered Storage Bus pointed into a Chest is sufficient."
+				"当有任何方块在破坏面板前方时，破坏面板会瞬间启动工作。它可以附魔时运或精准采集来高效地采集赛特斯石英簇或冰一类的方块。但它不能直接进行过滤。想要对其破坏的方块进行过滤，需要一个带有过滤存储的子网络，只允许目标方块进入网络中。比方说，当采集赛特斯石英时，为了确保破坏面板只破坏完全成长的赛特斯石英簇，子网络的存储就需要过滤为只接受赛特斯石英水晶。一个箱子加一个存储总线就足够了。"
 			]
 			id: "4BD11D2FEB20CA76"
 			min_width: 300
@@ -628,7 +613,7 @@
 		}
 		{
 			dependencies: ["489B2FA4E73E5951"]
-			description: ["Where an Interface passively accepts or provides materials, Import and Export Buses actively push and pull them. Set an Export Bus against a tank and configure it to export Water to keep the tank filled, or set an Import bus against a tank of Hydrogen to import it into storage. "]
+			description: ["ME接口被动地接收或提供物品，而输入总线和输出总线则主动输入和输出物品。你可以将输出总线贴着储罐放置，并将其调整为输出水，就可以保证储罐中始终充满了水。你也可以将输入总线贴着存放着氢气的储罐放置，将氢气输入进存储系统中。"]
 			id: "380710CC9E988E6E"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/ae2/rare"
@@ -649,13 +634,13 @@
 					type: "item"
 				}
 			]
-			title: "ME Import/Export bus"
+			title: "ME输入/输出总线"
 			x: 2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["489B2FA4E73E5951"]
-			description: ["The ME Interface allows for both insertion and extraction of material from the ME system in a single block. Any material inserted into the Interface is instantly transferred into available storage on the Network. It may optionally be configured to supply up to nine materials, making them accessible for pipes from other mods to extract them from the system. "]
+			description: ["ME接口仅占一格方块大，且能够在ME系统中输入或输出物品。任何输入进接口的物品都会被不断地传输到网络中可用的存储中去。ME接口可以进行调整，为来自其他模组的管道，提供最多九种物品的输出。"]
 			id: "45FD47C73C76D9EB"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/ae2/rare"
@@ -675,13 +660,15 @@
 		{
 			dependencies: ["489B2FA4E73E5951"]
 			description: [
-				"The Quantum Network Bridge is a multiblock allowing a network to be extended wirelessly and across dimensions. It consists of a ring of eight ME Quantum Ring blocks surrounding a central ME Quantum Link Chamber and may be built both vertically and horizontally."
+				"量子网桥是一个多方块结构，它能使网络以无线形式传输并实现跨维度网络。量子网桥由8个ME量子环围绕一个ME量子链接仓构成，水平或竖直摆放都可以。"
 				""
-				"Two such structures are required for the multiblock to function, and a pair of Quantum Entangled Singularities must be placed into each end. The remote side will also need to be provided with power to jumpstart it."
+				"要使量子网桥生效，需要两个这样的结构，以及一对量子缠绕态奇点，分开放置在两端。当两端都有电时才能开启量子网桥。"
 				""
-				"Once built, the two sides of the network are seen as the same. Be sure to chunk load both sides, however."
+				"建造好后，两端的网络会被视为是相同的一个网络。请确保两端都被加载。"
 				""
-				"{\"text\":\"AE2 Wiki: Quantum Bridge\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://appliedenergistics.github.io/features/me-network/quantum-bridge\"}}"
+				"{\"text\":\"AE2维基：量子网桥\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.19.2/features/me-network/quantum-bridge\"}}"
+				""
+				"译者注：原文的链接失效了，这是新的维基链接。"
 			]
 			icon: "ae2:quantum_entangled_singularity"
 			id: "03662FB8C114E255"
@@ -712,16 +699,16 @@
 					type: "item"
 				}
 			]
-			title: "Quantum Network Bridge"
+			title: "量子网桥"
 			x: 2.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["7FB8B3BF03A89410"]
 			description: [
-				"Storage Monitors allow a window into the Network, displaying the total amount of a given item. "
+				"存储监控器可以用于显示ME网络里面某个物品的存量。"
 				""
-				"Conversion monitors enhance this functionality by allowing the player to insert and withdraw those items by simply Right-Clicking it. "
+				"交换监控器是存储监控器的功能加强版，允许玩家通过左右击取出或放入物品。"
 			]
 			id: "4A481FE223072D06"
 			rewards: [{
@@ -749,7 +736,7 @@
 						]
 					}
 				}
-				title: "Storage and Conversion Monitors"
+				title: "存储和交换监控器"
 				type: "item"
 			}]
 			x: 1.5d
@@ -758,11 +745,11 @@
 		{
 			dependencies: ["103D66D58E2AE871"]
 			description: [
-				"Pattern Providers can occasionally end up tucked away in hard-to-reach places. The Pattern Access Terminal grants remote access to every Provider on the network, allowing new Patterns to be easily installed from one location. "
+				"样板供应器有时会被塞到一些难够到的地方。你可以通过样板管理终端远程访问网络中的所有样板供应器，无需跑动即可轻松安装新的样板。"
 				""
-				"Pattern Providers will automatically inherit the name of the block they’re attached to, however, if a custom name is desired for organizational reasons they may be renamed at an Anvil."
+				"样板供应器会自动继承它们所连接的方块的名称，不过，如果出于管理原因，你需要一个别的名称，那么它们可以在铁砧处进行命名。"
 				""
-				"Individual Pattern Providers may be hidden from the Terminal by toggling the Pattern Access Terminal button in the GUI. "
+				"样板供应器还可以单独设置在样板管理终端内是否可见。"
 			]
 			id: "7DC10A42E9E03052"
 			rewards: [{
@@ -783,9 +770,9 @@
 		{
 			dependencies: ["0097F2FB87804251"]
 			description: [
-				"Ad Hoc Networks consist of an Energy Acceptor, some amount of cable, and up to eight channels. If more than eight channels are used, the entire network will shut down."
+				"临时网络由能源接收器、若干线缆和至多八个频道组成。如果超过八个频道被使用，整个网络就会关闭。"
 				""
-				"The channel limit can be fairly restrictive but consider that a single ME Storage Bus can be used with a Storage Controller from Functional Storage or Sophisticated Storage; a small Ad Hoc network can therefore allow centralized access to a very large amount of storage, making this a great way to get organized early on. "
+				"临时网络的频道限制相当的严格，但是你可以考虑用ME存储总线连接功能性存储的存储控制器或精妙存储；这样你就可以通过一个小型临时网络来集中访问大型的存储。这是一个早期管理存储的好方法。"
 			]
 			hide_dependency_lines: true
 			id: "7346C9F69D3927FF"
@@ -802,23 +789,23 @@
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			title: "Ad Hoc Networks"
+			title: "临时网络"
 			x: 1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0097F2FB87804251"]
 			description: [
-				"Automating the collection of Certus Quartz will be one of the primary challenges to getting into AE2, as Certus Quartz will be in high demand. "
+				"赛特斯石英的需求量非常大，因此自动化采集赛特斯石英将会是深入AE2的主要挑战之一。"
 				""
-				"Several options exist for automated harvesting, including Amethyst Golems from Ars Nouveau. "
+				"你有若干种选择来实现自动收获，其中包括新生魔艺的紫晶傀儡。"
 			]
 			id: "23B703D29164C39A"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/miners_delight"
 				icon: "kubejs:miners_delight"
 				id: "78266754B7850F70"
-				title: "Miner's Delight"
+				title: "矿工乐事"
 				type: "command"
 			}]
 			tasks: [{
@@ -832,9 +819,9 @@
 		{
 			dependencies: ["78F2C89B4BDC3518"]
 			description: [
-				"Smart Cables and Dense Smart Cables function in an identical manner to their Covered Cable counterparts with one addition; they display the number of channels in use on their side. "
+				"智能线缆和致密线缆与包层线缆和致密包层线缆功能几乎一致，只是多了一项功能：它们可以显示线缆上占用了多少个频道。"
 				""
-				"Note: Smart and Covered cables of the same type and color will connect, so it is not necessary to run long lengths of Smart Cable. Instead, consider using one at the line’s starting point and continuing with Covered Cables from there. This gives an easy indication of the number of channels in use on that entire line. "
+				"注：同样粗细、颜色的智能线缆和包层线缆可以互相连接，因此你不需要搭建很长一条智能线缆。你可以在线缆的开头放置一根致密线缆，然后用包层线缆继续搭建。这样就可以清楚的显示整条线缆的频道使用情况。"
 			]
 			id: "066690B512F54C08"
 			rewards: [{
@@ -862,7 +849,7 @@
 						]
 					}
 				}
-				title: "Smart Cables"
+				title: "智能线缆"
 				type: "item"
 			}]
 			x: 0.0d
@@ -871,13 +858,13 @@
 		{
 			dependencies: ["78F157F1561D932F"]
 			description: [
-				"P2P may be used for more than transmitting channels, however, allowing long range transportation of many materials over the network that will soon be crisscrossing your base. "
+				"然而，P2P不仅仅能用于传输频道，它还可以让你通过网络长距离运输许多材料。这些材料的运输线很快就会在你基地里变得交错纵横。"
 				""
-				"To configure a P2P Tunnel for a given transfer type, place down an ordinary ME P2P Tunnel, then Right Click it with an attunement item. For an Energy Tunnel, for example, this will be most any FE compatible item. The item is not consumed and all valid options for each Tunnel type are shown in JEI. "
+				"要想将P2P通道设置成给定的传输类型，先放置一个普通的P2P通道-ME，然后手持调谐物品右击通道。例如对P2P通道-FE来说，绝大多数兼容FE的物品都可以是调谐物品。调谐物品不会被消耗，所有通道类型的调谐物品都会在JEI中显示。"
 				""
-				"In addition to allowing neater cabling through a base, P2P channels have essentially limitless throughput and no travel time; items inserted in one end come out the other end immediately. "
+				"除了可以让基地里的布线更加整洁以外，P2P通道还有基本上无限的吞吐量并且无需传输时间。当一端的物品被输入，另一端就会立即出来物品。"
 				""
-				"While ME P2P Tunnels may not be nested, the other types of P2P Tunnels may be transmitted over an ME P2P Tunnel connection."
+				"虽然P2P通道-ME不能进行嵌套，但是其他种类的P2P通道可以通过P2P通道-ME进行传输。"
 			]
 			id: "0F0C0C200A524CBF"
 			min_width: 300
@@ -926,7 +913,7 @@
 						]
 					}
 				}
-				title: "Other P2P Tunnels"
+				title: "其他P2P通道"
 				type: "item"
 			}]
 			x: -3.5d
@@ -935,11 +922,13 @@
 		{
 			dependencies: ["2CCCDD05AED3153F"]
 			description: [
-				"Applied Energistics takes storage and logistics to the next level. On its own, it is capable of automating many crafts while also providing deep storage solutions and capabilities to bridge many mods. "
+				"应用能源把存储和物流提升到了一个新的层次。仅靠此模组，你就可以自动化大量合成、获得深层的存储解决方案，并且将许多模组联动起来。"
 				""
-				"Getting started will require finding some Certus Quartz, and that’s going to take a little exploration. Get your boots and compass, it’s time to head out. "
+				"你需要找到一些赛特斯石英来入门，而这需要一点小小的探索。准备好你的靴子和指南针，是时候出发了。"
 				""
-				"{\"text\":\"AE2 Wiki\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://appliedenergistics.github.io/\"}}"
+				"{\"text\":\"AE2维基\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://appliedenergistics.org\"}}"
+				""
+				"译者注：原文的链接失效了，这是新的维基链接。"
 			]
 			hide: true
 			icon: "ae2:singularity"
