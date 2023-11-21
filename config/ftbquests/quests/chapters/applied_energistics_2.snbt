@@ -19,7 +19,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/miners_delight"
 				icon: "kubejs:miners_delight"
 				id: "16C28EC18C21F2F9"
-				title: "矿工乐事"
+				title: "矿工乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -44,7 +44,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "4D335664F4D4ED3D"
-				title: "拾荒者乐事"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [
@@ -126,7 +126,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "0F35EC2C40562447"
-				title: "拾荒者乐事"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -883,7 +883,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/miners_delight"
 				icon: "kubejs:miners_delight"
 				id: "2F0C078854BD0C27"
-				title: "矿工乐事"
+				title: "矿工乐事包"
 				type: "command"
 			}]
 			tasks: [{
