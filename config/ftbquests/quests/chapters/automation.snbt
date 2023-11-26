@@ -11,12 +11,12 @@
 		{
 			dependencies: ["3468E652B4FE85FA"]
 			description: [
-				"Modular Routers are very powerful tools for automation. They're a single block that can be augmented to do many things, like breaking blocks, sorting items, pushing items into remote inventories, or all of the above at once, and more!"
+				"模块化路由器是建立自动化的利器。它们可以附加拓展来完成很多事情，比如破坏方块、整理物品、从路由器发送物品到其他容器，或者以上功能一次满足。它们的功能还不止这些！"
 				""
-				"All of the modules/upgrades/augments in Modular Routers have info tooltips, just hold 'i' while holding the mouse over them in JEI or your inventory for some hints as to how they operate."
-				"(tooltips won't work if a JEI recipe window is open)"
+				"所有模块化路由器里的模块/升级/拓展都有物品信息提示。在JEI或物品栏中对该物品按住“i”键来查看物品提示。"
+				"（JEI配方窗口打开时无法查看物品信息）"
 				""
-				"There is also a mod guidebook \"Modular Routers Manual\", which will have details on everything."
+				"该模组还有一本指导书叫模块化路由器手册，内含该模组全部内容的详细说明。"
 			]
 			hide_dependency_lines: true
 			id: "15E49A6B00BE744C"
@@ -24,29 +24,29 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/miners_delight"
 				icon: "kubejs:miners_delight"
 				id: "0000000000000968"
-				title: "Miner's Delight"
+				title: "矿工乐事包"
 				type: "command"
 			}]
-			subtitle: "Have you tried turning it off and on again?"
+			subtitle: "你试过关机重启了吗？"
 			tasks: [{
 				id: "366C08F8F32D7E4B"
 				item: "modularrouters:modular_router"
 				type: "item"
 			}]
-			title: "Item Router"
+			title: "物品路由器"
 			x: -10.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3468E652B4FE85FA"]
 			description: [
-				"xNet acts as a programmable logistics interface which can adapt to external conditions based on programmed logic. It can transfer Items, Fluids, Gases, and Power rapidly and in precise amounts in addition to its logic capabilities."
+				"XNet充当了可编程物流接口的角色，它可以基于设定好的逻辑来适应外部环境。"
 				""
-				"To get started, all that is required is a Controller, some Cables, and some Connectors of the same color. The Controller itself needs a small amount of power to operate as well. "
+				"你只需要一个控制器、一些线缆和与线缆相同颜色的连接器即可入门XNet。控制器需要少量的能量才能工作。"
 				""
-				"Place Connectors against machines or Redstone devices, then use regular cables to connect them back to the Controller. Another Connector is required at the Controller as well. "
+				"将连接器贴着机器或红石设备放置，然后用普通的线缆将连接器与控制器相连。控制器一端也需要连接器才能与线缆相连。"
 				""
-				"All programming is performed within the Controller itself by first creating channels and then selecting connectors in the GUI to program what they will do. Watching a few videos on this is highly recommended, as it is not something that’s easily learned without visual guides. "
+				"所有的编程操作都将在控制器内进行。首先创建频道，然后在界面中选择连接器并编程它们的行为。非常推荐观看一些关于XNet的教程视频，因为如果没有视觉指导的话，你可能很难轻松搞懂如何使用XNet。"
 			]
 			hide_dependency_lines: true
 			icon: "xnet:controller"
@@ -55,7 +55,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "0000000000000A5D"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			tasks: [
@@ -91,7 +91,7 @@
 							]
 						}
 					}
-					title: "Any XNet cable"
+					title: "任意XNet线缆"
 					type: "item"
 				}
 				{
@@ -120,16 +120,16 @@
 							]
 						}
 					}
-					title: "Any XNet Connector"
+					title: "任意XNet连接器"
 					type: "item"
 				}
 			]
-			title: "XNet Controller"
+			title: "XNet控制器"
 			x: -10.0d
 			y: -4.0d
 		}
 		{
-			description: ["Mods bring a lot to the table when it comes to using redstone. From cable that can transmit 16 different signals at once, compact one-block timers or latches, or just wireless inter-dimensional connections, there's bound to be a solution to your redstone needs. "]
+			description: ["说起红石，模组为它带来了许多有用的功能。从一次性传输十六种不同红石信号的线缆到紧凑的单方块计时器，再到红石锁和维度内无线红石连接，模组都有对应的解决方案。"]
 			icon: "minecraft:comparator"
 			id: "3468E652B4FE85FA"
 			rewards: [{
@@ -142,13 +142,13 @@
 				id: "61B85B234D1E9F5E"
 				type: "checkmark"
 			}]
-			title: "Redstone and Logic"
+			title: "红石与逻辑"
 			x: -10.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["15E49A6B00BE744C"]
-			description: ["Modules represent the Router’s basic programming; at least one is required for the Router to do anything at all. Up to nine Modules may be installed in a single Router and each will activate in order from left to right whenever the Router activates. "]
+			description: ["模块是模块化路由器的编程基础，你需要至少一个模块来让路由器真正工作。一台路由器最多可以安装九个模块。路由器启动后，它会从左到右依次执行这些模块。"]
 			hide_dependency_lines: true
 			id: "21B266F6556271EB"
 			rewards: [{
@@ -168,16 +168,16 @@
 		{
 			dependencies: ["60A72B4FC2AFD9C3"]
 			description: [
-				"Distributor Modules function much like MK2 Senders and Pullers and are bound to a block in the same way. However, the Distributor may be bound to as many as eight different sides or blocks. "
+				"分配模块的功能与2型发送模块和抽取模块类似。不过，它可以与至多八个不同的面或方块绑定。"
 				""
-				"Open the module’s GUI to set it to transfer either into the Router or Out, and to set a distribution strategy, such as Round Robin or Random. "
+				"可以在模块的界面中设置是发送还是提取，也可以设置分配的策略，如循环和随机。"
 			]
 			id: "1956D60143703C16"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "239155FDD340ECAF"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -198,7 +198,7 @@
 		}
 		{
 			dependencies: ["21B266F6556271EB"]
-			description: ["The Breaker Module breaks blocks adjacent to the Router. It uses the properties of the Pickaxe used to craft it, including enchantments, break level, and other special features, so be sure to craft the Module with an appropriate Pickaxe."]
+			description: ["破坏模块会破坏与路由器相邻的方块。它会继承合成该模块时使用的镐的属性，包括魔咒、采掘等级以及其他特性。因此请确保选取合适的镐来合成该模块。"]
 			id: "108E174F5672BF48"
 			rewards: [{
 				id: "1277D5B23BCA8923"
@@ -236,16 +236,16 @@
 		{
 			dependencies: ["21B266F6556271EB"]
 			description: [
-				"Activator Modules will attempt to Right-Click blocks or entities with the item in their buffer. "
+				"执行模块会试图使用路由器缓存区的物品右击方块和实体。"
 				""
-				"They may also be used to attack entities if given a weapon and set to Attack mode. "
+				"如果给予执行模块武器并设置为攻击模式，它们也可以用来攻击实体。"
 			]
 			id: "27C9B26FB5FF10E1"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
 				icon: "kubejs:sorcerers_delight"
 				id: "3922A588208AF529"
-				title: "Sorcerer's Delight"
+				title: "法师乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -268,16 +268,16 @@
 		{
 			dependencies: ["21B266F6556271EB"]
 			description: [
-				"Vacuum Modules are powerful automation tools that allow picking up items from the ground based on complex filters. "
+				"真空模块可以从地上捡取物品并根据复杂的过滤器进行过滤，是强大的自动化工具。"
 				""
-				"If Augmented with an XP Vacuum, they can even be used to collect XP orbs and convert it to compatible XP fluids or Bottles O’ Enchanting."
+				"如果使用经验吸收拓展对其进行拓展，它们甚至可以收集经验球并将其转换为流体或附魔之瓶。"
 			]
 			id: "322583CAAD093EE4"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "3C512C78B12406AA"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -300,20 +300,20 @@
 		{
 			dependencies: ["21B266F6556271EB"]
 			description: [
-				"Fluid Modules work as either a Puller or a Sender, transferring fluids into or out of the router. Note that the Router has no built-in fluid tank to store anything, so one must be provided. A bucket or most modded tanks will work fine, simply place it in the Router’s buffer. "
+				"流体模块既可以抽取到路由器中也可以从路由器发送流体。请注意路由器并没有用于存储流体的内置流体储罐，所以必须为其提供一个。桶和大多数模组的储罐都可以，只需要放在路由器的缓存区就行。"
 				""
-				"It will either interact with a tank or with fluid in the world, allowing it to place and collect fluid in a block space if desired. "
+				"它可以与世界中的储罐或流体交互，在一格方块空间内放置或收集流体。"
 				""
-				"The MK1 variant may only interact with a block space directly adjacent to the router. The direction may be set in the modules GUI. "
+				"流体模块1型只能在路由器直接相邻的一格方块空间内工作。方向可以在模块界面中进行设置。"
 				""
-				"The MK2 variant must be linked to a block space by Sneak Right-Clicking the module on the desired block. "
+				"流体模块2型必须与一格方块空间相连，使用模块潜行右击目标方块来设定连接。"
 			]
 			id: "56234AA9ED3E8324"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "30E1EC30981D6B46"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -349,7 +349,7 @@
 						]
 					}
 				}
-				title: "Fluid Modules"
+				title: "流体模块"
 				type: "item"
 			}]
 			x: -11.5d
@@ -358,9 +358,9 @@
 		{
 			dependencies: ["3468E652B4FE85FA"]
 			description: [
-				"The Redstone Pen and Quill can \"draw\" redstone dust on any side of a block, with full manual control of connections. Just right click to start drawing! Just having a charged path running over a block won't power the block, but you can choose to do so by right clicking in the center of the redtone path with the pen."
+				"红石笔和红石羽毛笔可以在方块的任意面“画”出红石粉。红石粉的连接可以完全人为控制。只需要右击就可以开始绘画了！充能的红石线不会对其覆盖的方块充能，但是你可以用红石笔右击红石粉的中心来改变其充能行为。"
 				""
-				"The Quill uses up redstone dust from your inventory, while the Pen version is charged up with redstone and doesn't need any from your inventory. Craft the pen with dust or blocks to recharge it. The Pen also re-absorbs the redstone when you clear a segment of path by left clicking it."
+				"红石羽毛笔会使用你物品栏中的红石，而红石笔则自带红石。将红石笔与红石或红石块一起合成即可重新装填红石笔。红石笔也可以在你左击红石线后回收红石。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -398,19 +398,19 @@
 						]
 					}
 				}
-				title: "Either Redstone Pen"
+				title: "红石笔或红石羽毛笔"
 				type: "item"
 			}]
-			title: "Redstone Pen"
+			title: "红石笔"
 			x: -7.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["3468E652B4FE85FA"]
 			description: [
-				"Cheap wireless redstone, with unlimited channels, and good but not unlimited range."
+				"廉价的无线红石，有无限的频道和良好但有限的范围。"
 				""
-				"For a detailed explanation on how to use this, use the 'ponder' feature by holding your mouse over the item in JEI or an inventory, and holding the ponder key (default: w)."
+				"在JEI或物品栏中对该物品长按思索键（默认：w），以启用“思索”功能并查看详细的解释。"
 			]
 			hide_dependency_lines: true
 			id: "28A8C7959A7EEBAE"
@@ -431,9 +431,9 @@
 		{
 			dependencies: ["28A8C7959A7EEBAE"]
 			description: [
-				"Can remotly activate connected Redstone Links."
+				"可以远程激活相连的红石连接。"
 				""
-				"For a detailed explanation on how to use this, use the 'ponder' feature by holding your mouse over the item in JEI or an inventory, and holding the ponder key (default: w)."
+				"在JEI或物品栏中对该物品长按思索键（默认：w），以启用“思索”功能并查看详细的解释。"
 			]
 			id: "21E4D556E8AE724E"
 			rewards: [{
@@ -452,9 +452,9 @@
 		{
 			dependencies: ["3468E652B4FE85FA"]
 			description: [
-				"Set the output with a signal at the back, and reset the output with a signal from the side. Perfect for toggling your power generation automatically."
+				"用背面的信号设置输出，用侧面的信号重置输出。非常适合用于自动开关你的发电设施。"
 				""
-				"For a detailed explanation on how to use this, use the 'ponder' feature by holding your mouse over the item in JEI or an inventory, and holding the ponder key (default: w)."
+				"在JEI或物品栏中对该物品长按思索键（默认：w），以启用“思索”功能并查看详细的解释。"
 			]
 			hide_dependency_lines: true
 			id: "1042C49086A29CE2"
@@ -474,9 +474,9 @@
 		{
 			dependencies: ["559D7D60CDDE5596"]
 			description: [
-				"When attempting to read Redstone signals from non-vanilla sources, a Proxy block is often required. These should be placed so that the Redstone source points into the Proxy, and then the xNet Connector is placed against the Proxy itself. "
+				"你通常需要一个代理器来读取非原版信号源发出的红石信号。将它们与红石信号源相邻放置，红石信号源指向代理器，然后再将代理器与XNet连接器相邻放置。"
 				""
-				"In some cases, a block update is also required. For those, use the Redstone Proxy (update) block instead."
+				"某些情况下，你还需要检测方块更新。使用红石代理器（更新）来应对这些情况。"
 			]
 			id: "34D8561D229A3122"
 			rewards: [{
@@ -502,16 +502,16 @@
 						]
 					}
 				}
-				title: "Redstone Proxies"
+				title: "红石代理器"
 				type: "item"
 			}]
-			title: "Redstone Proxy (Update)"
+			title: "红石代理器"
 			x: -11.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3468E652B4FE85FA"]
-			description: ["Acts like redstone dust, but in solid block form. Easy vertical transmission!"]
+			description: ["与红石一样，但是以固体方块的形态存在。简单的垂直红石信号传输！"]
 			hide_dependency_lines: true
 			id: "359D48635F222076"
 			rewards: [{
@@ -531,9 +531,9 @@
 		{
 			dependencies: ["44070C90619D14E6"]
 			description: [
-				"Simple relays that can be placed on any side of a block. The tooltips explain how each one works."
+				"可放置在方块任意面的简单中继器。物品提示解释了它们运作的方式。"
 				""
-				"When placing, right click the side of the block face you want the output side to face."
+				"放置时，右击方块上你想输出信号的面。"
 			]
 			icon: "redstonepen:inverted_relay"
 			id: "28F791EC21444045"
@@ -573,16 +573,16 @@
 						]
 					}
 				}
-				title: "Any RS Pen Relay"
+				title: "任意红石笔中继器"
 				type: "item"
 			}]
-			title: "RS Pen Relays"
+			title: "红石笔中继器"
 			x: -7.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["15E49A6B00BE744C"]
-			description: ["Upgrades are installed in the Router itself and augment how it operates, such as speeding it up or making it immune to blast damage."]
+			description: ["升级安装在路由器中，用于增强其功能，例如加速其运作或使其免疫爆炸伤害。"]
 			hide_dependency_lines: true
 			id: "7CD587747CC14268"
 			rewards: [{
@@ -601,7 +601,7 @@
 		}
 		{
 			dependencies: ["15E49A6B00BE744C"]
-			description: ["Augments are installed within individual Modules and apply only to that module, changing how it operates. "]
+			description: ["拓展安装在独立的模块上，并只对该模块起效，改变其运作方式。"]
 			hide_dependency_lines: true
 			id: "7CA354074FCF8447"
 			rewards: [{
@@ -621,9 +621,9 @@
 		{
 			dependencies: ["3468E652B4FE85FA"]
 			description: [
-				"Sends a pulse a set amount of time after receiving a signal"
+				"在收到信号的一定时间后发送红石脉冲。"
 				""
-				"For a detailed explanation on how to use this, use the 'ponder' feature by holding your mouse over the item in JEI or an inventory, and holding the ponder key (default: w)."
+				"在JEI或物品栏中对该物品长按思索键（默认：w），以启用“思索”功能并查看详细的解释。"
 			]
 			hide_dependency_lines: true
 			id: "26365967FDE026B6"
@@ -643,9 +643,9 @@
 		{
 			dependencies: ["1042C49086A29CE2"]
 			description: [
-				"Uses an input pulse to toggle the output. Use a repeater to send a pulse from the output back to the input, with a delay, to make a pulse lengthener."
+				"根据输入的红石脉冲来开关输出信号。用中继器将红石脉冲从输出端发送回输入端，并加上延迟，即可制作出一个脉冲延长器。"
 				""
-				"For a detailed explanation on how to use this, use the 'ponder' feature by holding your mouse over the item in JEI or an inventory, and holding the ponder key (default: w)."
+				"在JEI或物品栏中对该物品长按思索键（默认：w），以启用“思索”功能并查看详细的解释。"
 			]
 			id: "2013BF98F905223C"
 			rewards: [
@@ -671,16 +671,16 @@
 		{
 			dependencies: ["559D7D60CDDE5596"]
 			description: [
-				"The RF Tools filter is compatible with xNet and is required for tag filtering. "
+				"RF工具箱的过滤器与XNet兼容，想要按标签过滤必须用它。"
 				""
-				"Insert the filter into one of the 4 slots at the top of the UI and choose which filter a connector uses with the 'filter index' button on the right."
+				"将过滤器放在界面顶部的四个物品栏中，然后点击右侧的“filter-index”按钮选择连接器要使用的过滤器。"
 			]
 			id: "0597A437596EABC1"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "7E251F2D83DBC6E3"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -698,16 +698,16 @@
 		{
 			dependencies: ["7CA354074FCF8447"]
 			description: [
-				"Regulator Augments act differently based on what Module they’re installed in. In general, they put a condition on when the module can act. For a Sender, they’ll only send if the target inventory has fewer items than the limit. "
+				"调节拓展的作用因其所在的模块而异。总的来说，它们会对模块的功能添加一个条件。对装有调节拓展的发送模块来说，仅当目标容器内的物品数量少于限制时，它才会发送物品。"
 				""
-				"Check the entry in the Modular Routers Manual for details on how it changes each module. "
+				"查阅模块化路由器手册中关于调节拓展的条目，来详细了解其如何改变每个模块的行为。"
 			]
 			id: "0163571DC8F997F5"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "621F32F72099BE12"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -715,20 +715,20 @@
 				item: "modularrouters:regulator_augment"
 				type: "item"
 			}]
-			title: "The Regulator Augment"
+			title: "调节拓展"
 			x: -15.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["7CD587747CC14268"]
 			description: [
-				"Speed and Stack Upgrades help to control how quickly the Router operates. "
+				"速度和堆叠升级用于控制路由器工作的速度。"
 				""
-				"Install more Speed upgrades to get the Router to run through its program more frequently."
+				"路由器安装的速度升级越多，运行模块的频率就越高。"
 				""
-				"Stack Upgrades, on the other hand, allow the Router to move more items per operation. For example, moving a full stack of items every few seconds is generally more efficient than one item every tick. "
+				"而堆叠升级可以使路由器每次工作时搬运更多的物品。举个例子，每几秒搬运一组物品比每刻搬运一个物品高效得多。"
 				""
-				"Both may be combined, of course, to achieve the desired goal. "
+				"当然，它们两者可以结合使用，来达到你想要的目的。"
 			]
 			id: "3D7E621374741748"
 			rewards: [
@@ -762,7 +762,7 @@
 		}
 		{
 			dependencies: ["7CD587747CC14268"]
-			description: ["Makes the router fully blast proof, making them immune to both TnT and Withers, making them a valuable upgrade for working with explosions or building Withers. "]
+			description: ["让你的路由器彻底防爆，使其能够免疫TNT和凋灵的爆炸。这些升级在处理爆炸和召唤凋灵时非常有用。"]
 			id: "27F2EAA313795208"
 			rewards: [{
 				id: "2DA82C3A16F3ACB1"
@@ -780,13 +780,13 @@
 		{
 			dependencies: ["21B266F6556271EB"]
 			description: [
-				"Sender and Puller Modules send items to or pull items from remote inventories, respectively. "
+				"发送模块会向远处的容器发送物品，而抽取模块从容器中抽取物品。"
 				""
-				"The MK1 variants may only operate in a straight line, but line of sight is not required. Therefore, a Puller MK1 could retrieve items from a chest on the other side of a wall. They will only interact with the first inventory in range, however. "
+				"1型模块只能在直线范围内工作，但是方块的遮挡不会影响连接。因此，抽取模块1型可以从墙对面的箱子那里拿取物品。不过，它们只能与范围内最近的容器交互。"
 				""
-				"MK2 variants do away with the straight line, instead interacting with a specific side of a block. Sneak Right-Click the module on the side of a block it should interact with to bind it. For example, to retrieve the output of a furnace, it would need to be bound to the bottom face of the furnace."
+				"2型模块没有直线的限制，它们直接与指定方块的指定面进行交互。手持模块潜行右击想要交互的方块的面，将该模块与其绑定。比方说，抽取熔炉输出的模块，需要与熔炉的底部面相连。"
 				""
-				"MK3 Senders go one step further still, allowing the router to send any distance, even across dimensions. The remote inventory must be loaded, of course. Otherwise, they are bound to a side of an inventory the same way as MK2 variants."
+				"发送模块3型更进一步，能使路由器向任何地方，乃至其他维度发送物品。当然，目标容器必须被加载。除此以外，它们和2型模块一样，需要和容器的某一面进行绑定。"
 			]
 			id: "60A72B4FC2AFD9C3"
 			rewards: [
@@ -860,7 +860,7 @@
 							]
 						}
 					}
-					title: "Sender Modules"
+					title: "发送模块"
 					type: "item"
 				}
 				{
@@ -892,7 +892,7 @@
 							]
 						}
 					}
-					title: "Puller Modules"
+					title: "抽取模块"
 					type: "item"
 				}
 			]
@@ -902,11 +902,11 @@
 		{
 			dependencies: ["21B266F6556271EB"]
 			description: [
-				"The Energy Output and Energy Distribution Modules allow the Router to supply power to nearby blocks. "
+				"能量输出模块和能量分配模块能使路由器为附近的方块供能。"
 				""
-				"Where the Energy Output Module may only output to adjacent blocks, the Distribution Module may send to up to eight remote blocks within range. "
+				"能量输出模块只能向相连方块进行输出，而能量分配模块能够向范围内至多八个方块发送能量。"
 				""
-				"In either case, some source of power is required. This can be in the form of an energy containing item in the Router’s Buffer, or from the Router’s internal energy buffer if Energy Upgrades are installed. "
+				"无论哪种情况，都需要能量源。这可以是路由器缓存区中的储能物品，也可以是安装有能量升级的路由器的能量缓存区。"
 			]
 			icon: {
 				Count: 1b
@@ -923,7 +923,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
 				icon: "kubejs:sorcerers_delight"
 				id: "27AFD476C3E9CE35"
-				title: "Sorcerer's Delight"
+				title: "法师乐事包"
 				type: "command"
 			}]
 			tasks: [
@@ -961,13 +961,13 @@
 		}
 		{
 			dependencies: ["7CD587747CC14268"]
-			description: ["Grants the Router some amount of energy storage, allowing the router to handle both Item and Energy transfer at once. "]
+			description: ["使路由器能够存储一些能量，使其能够同时传输物品和能量。"]
 			id: "5A7512AA919309E5"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
 				icon: "kubejs:sorcerers_delight"
 				id: "56004BEDB4624F96"
-				title: "Sorcerer's Delight"
+				title: "法师乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -980,13 +980,13 @@
 		}
 		{
 			dependencies: ["7CA354074FCF8447"]
-			description: ["When installed in Modules that work at range, these will adjust the working area. A Vacuum Module, for example, could have its range reduced to prevent picking up items for some other automation, or a Sender could have the range increased to reach further inventories."]
+			description: ["当这些拓展安装在远程工作的模块上时，它们将会调整模块的工作范围。拿真空模块举例，范围降级拓展可以减少它的范围，以放置其捡起其他自动化装置所需的物品。对发送模块来说，范围升级拓展可以增加其范围，使其能够与更远的容器交互。"]
 			id: "5769B2F6C1C41BF9"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "16F20BC236C77741"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1007,7 +1007,7 @@
 						]
 					}
 				}
-				title: "Range Augments"
+				title: "范围拓展"
 				type: "item"
 			}]
 			x: -13.0d
@@ -1015,7 +1015,7 @@
 		}
 		{
 			dependencies: ["7CD587747CC14268"]
-			description: ["Sneak Right-Click these on another block and then install it in a Router to upgrade its look and feel. Make the Router look like practically anything at all, even flowers!"]
+			description: ["使用该升级右击要伪装成的方块，然后将其安装在路由器中，即可更新路由器的外观与触感。它可以让路由器看起来像几乎任何东西，连花也不例外！"]
 			id: "58F3471ACCC0F86A"
 			rewards: [{
 				id: "54186C7FFD7F0FE0"
@@ -1033,26 +1033,26 @@
 		{
 			dependencies: ["21B266F6556271EB"]
 			description: [
-				"Whether for automation, retractable drawbridges, or fancy doors, the Extruder Module may be of use in many situations."
+				"无论是用于自动化或是建造伸缩式吊桥和花哨的门，挤出模块都能派上用场。"
 				""
-				"The MK1 variant will place blocks from the Router’s buffer on a high Redstone signal and then retract them again on a low signal. Bear in mind that the Breaker module used to craft it must have been crafted with a sufficiently high tier Pickaxe to break whatever blocks are being retrieved. "
+				"1型模块将在高红石信号下消耗路由器缓存区中的方块，并在低红石信号时收回它们。请记住，用于合成该模块的破坏模块必须用足够高挖掘等级的镐进行合成，才能够破坏所有收回的方块。"
 				""
-				"When combined with some external logic, these can be great for collecting blocks from in-world transformations, such as oxidized copper."
+				"当与外部的逻辑装置相结合时，这些模块可以很好地从世界内转换中采集方块，比如氧化的铜块。"
 				""
-				"The MK2 variant is mostly just for aesthetic uses such as bridges or doors. All the blocks it places are ‘ghost’ blocks and will allow a player to walk on them or prevent them from passing through. "
+				"2型模块几乎只为造桥或造门一类的美观用途所用。所有其放置的方块都是假方块，玩家可以在上面走动，并且不能穿过它们。"
 				""
-				"With a Mimic Augment installed, the blocks retain some of the target block’s properties, such as light level and hardness."
+				"当安装有模仿拓展时，假方块会保留一些目标方块的特性，如光照等级和硬度。"
 				""
-				"With a Pushing Augment installed, the Extruder will push entities as blocks are extruded."
+				"当安装有推动拓展时，挤出模块将会在挤出方块时推动前方的实体。"
 				""
-				"When using multiple Extruders together, the Sync Upgrade can help ensure that they all run simultaneously."
+				"当同时使用多个挤出模块时，同步升级可以帮助同步所有的路由器。"
 			]
 			id: "3CB129682BA3399A"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "67EA54AB859657A6"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1085,7 +1085,7 @@
 						]
 					}
 				}
-				title: "Extruder Module"
+				title: "挤出模块"
 				type: "item"
 			}]
 			x: -9.5d
@@ -1093,7 +1093,7 @@
 		}
 		{
 			dependencies: ["21B266F6556271EB"]
-			description: ["Need more advanced filters? Or just a bigger filter? Modular Routers has a variety of filter items that may be used in the filter slots of all Modules, enabling some truly advanced capabilities. "]
+			description: ["需要更加高级的过滤器？或者是更大的过滤器？模块化路由器有各种各样的过滤器，能够安装在任何模块的过滤器栏位中，使其开启一些真正的高级功能。"]
 			icon: "modularrouters:bulk_item_filter"
 			id: "795B13C31D41A45D"
 			rewards: [{
@@ -1127,19 +1127,19 @@
 						]
 					}
 				}
-				title: "Any Filter"
+				title: "任意过滤器"
 				type: "item"
 			}]
-			title: "More Filtering"
+			title: "更多过滤"
 			x: -10.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["26365967FDE026B6"]
 			description: [
-				"Holds redstone signal specified amount of time after initial signal was removed."
+				"在最开始的红石信号消失后，保持一定时间的红石信号。"
 				""
-				"For a detailed explanation on how to use this, use the 'ponder' feature by holding your mouse over the item in JEI or an inventory, and holding the ponder key (default: w)."
+				"在JEI或物品栏中对该物品长按思索键（默认：w），以启用“思索”功能并查看详细的解释。"
 			]
 			id: "3C349C559F88A363"
 			rewards: [{
@@ -1157,7 +1157,7 @@
 		}
 		{
 			dependencies: ["7CD587747CC14268"]
-			description: ["Fluid Transfer Upgrades act a bit like Stack upgrades for Fluids, allowing the Router to handle more fluid per activation. Rates will still need to be set in the Fluid Module."]
+			description: ["流体传输升级的功能类似于流体版的堆叠升级，可以使路由器每次工作时处理更多的流体。你仍需要在流体模块中设置速率。"]
 			id: "41C71AEDF8E9A5C7"
 			rewards: [{
 				count: 3
@@ -1175,13 +1175,13 @@
 		}
 		{
 			dependencies: ["7CA354074FCF8447"]
-			description: ["Filter Round Robin Augments change the nature of a Modules filter, turning it into a round robin list instead. Each time the Module activates, it will cycle to the next item in the filter and only act on that. This can be very useful for times when the Router should pick up a different item each time it activates. "]
+			description: ["过滤器循环拓展改变了模块过滤器的本质，使其成为一个循环列表。每当路由器工作时，过滤器将会循环至列表中的下一个物品，并只对该物品进行操作。在只想路由器每次捡起不同物品时，这个拓展会非常有用。"]
 			id: "43D0BB5727B18AB3"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "08DE601136922190"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1194,13 +1194,13 @@
 		}
 		{
 			dependencies: ["7CA354074FCF8447"]
-			description: ["Used in Flingers and Droppers, Pickup Delay Augments prevent the dropped or flung item from being immediately picked up by a player. Each one adds a ten second delay."]
+			description: ["延迟拾取拓展用于投掷和投掷器模块，它会阻止玩家立即拾取被投掷的物品。每个拓展会添加十秒钟的拾取延迟。"]
 			id: "64E9FD4632B92843"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "2243774A0B86BB25"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1213,13 +1213,13 @@
 		}
 		{
 			dependencies: ["7CA354074FCF8447"]
-			description: ["Fast Pickup Augments are used in Vacuum Modules and force the Module to ignore any pickup delay on the item, picking it up as soon as possible. "]
+			description: ["快速拾取拓展用于真空模块，它能强制该模块无视物品的拾取延迟，使其尽量快的拾取物品。"]
 			id: "460F55C357B8DF7F"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "2AD1A7E7FBED5577"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1233,16 +1233,16 @@
 		{
 			dependencies: ["7CA354074FCF8447"]
 			description: [
-				"The Redstone Augment allows a single Module to be disabled or enabled based on the Redstone signal the Router is receiving. "
+				"红石拓展能根据路由器接收的红石信号开启或关闭单个模块。"
 				""
-				"The Router still needs to run for this to work, however. So, it should be set to Redstone Mode: Always while this is installed in a module, allowing specific Modules to be disabled or enabled."
+				"不过，为了该拓展能工作，路由器仍需要开启。因此当该拓展安装在模块中时，路由器的红石控制模式应设置为“始终”，这样就可以开启或关闭指定模块。"
 			]
 			id: "6C80F938921271DC"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "27427773186BCFB8"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1256,16 +1256,16 @@
 		{
 			dependencies: ["7CA354074FCF8447"]
 			description: [
-				"Stack Augments simply increase the stack size for a given Module independent of other Modules."
+				"堆叠拓展仅增加给定模块的堆叠大小，与其他模块独立。"
 				""
-				"For example, a Puller could be given two Stack Augments to allow it to pull four items at a time, then four Senders could be used to distribute those four items evenly to four different inventories. "
+				"举个例子，安装有两个堆叠拓展的抽取模块一次可以抽取四个物品，然后四个发送模块就可以将这四个物品均匀的分配到四个不同的容器中。"
 			]
 			id: "189E11ADA3E5BF23"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "5DA8602DB0ED0DF3"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1279,18 +1279,18 @@
 		{
 			dependencies: ["21B266F6556271EB"]
 			description: [
-				"Flingers and Droppers are a great way to get items into the world. "
+				"投掷和投掷器模块是将物品投掷到世界中的好办法。"
 				""
-				"While Droppers will simply drop the item straight down, Flingers can impart some velocity like a Vanilla Dispenser. The speed and direction are configurable, however. "
+				"投掷器模块投掷的物品只会直接下落，而投掷模块可以像原版发射器一样施加一些速度。并且其速度和方向是可以设置的。"
 				""
-				"When setting the Speed, start small and experiment; the Flinger is quite powerful. A Speed of 1.0 and Pitch of 45.0 can launch items about 18 blocks. At max speed, the items may never be seen again."
+				"在设定速度时，先从较小的数值开始试验；投掷模块相当有力。1.0的速度和45.0的上下偏转可以将物品发射出18格方块远。如果设置成最大速度，你可能永远也见不到它发射出去的物品了。"
 			]
 			id: "67591F9B9E23D5C3"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "36E4235895E38D38"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			tasks: [
@@ -1332,15 +1332,15 @@
 		{
 			dependencies: ["3468E652B4FE85FA"]
 			description: [
-				"Redstone Wiring represents an advancement in Redstone technology, allowing a dedicated Engineer to build complex logic circuits that are less prone to the failings of traditional Redstone Dust. A color-coded channel system also allows a single small network to interact with multiple independent machines. "
+				"红石线材代表着红石技术领域的一大进步。专职工程师通过它可以建造复杂的逻辑电路，这些电路很少出现传统红石粉中的缺陷。颜色编码的频道系统使得单个小型网络可以与多个独立的机器进行交互。"
 				""
-				"Redstone Wires may be stretched between Redstone Wire Connectors, Probe Connectors, or Interface Connectors. These carry the Redstone signal without the signal decaying. "
+				"红石线缆可以搭设在红石接线器、红石探测接线器红石接口连接器之间。红石线缆承载的红石信号不会有信号衰减。"
 				""
-				"Redstone Wire Connectors act as Input and Output points for a signal and may be placed directly on a block. They must have their mode and color channel set by using a Screwdriver on them."
+				"红石接线器充当了信号的输入点和输出点，且可以直接放置在方块上。对着它们使用螺丝刀来修改模式和颜色频道。"
 				""
-				"Redstone Probe Connectors act very much like Comparators with a few extra built-in features. Most Immersive Engineering machines will output special comparator signals that may also be read by this Connector. Refer to the Engineer’s Manual for specifics about each machine."
+				"红石探测接线器和比较器的功能非常相似，但是多了一些额外的内置功能。大多数沉浸工程的机器会输出特别的比较器信号，红石探测接线器可以读取这些信号。查阅工程师手册以了解每种机器的特性。"
 				""
-				"Redstone Interface Connectors are used in conjunction with special blocks like Item Batchers and Logic Units, allowing the signals used by those blocks to be read."
+				"红石接口连接器用于连接计量分配器和逻辑单元一类的特殊方块，它能读取这些方块使用的信号。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:wirecoil_redstone"
@@ -1350,7 +1350,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "21186E3E79CE729E"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [
@@ -1375,16 +1375,16 @@
 					type: "item"
 				}
 			]
-			title: "Redstone Wiring"
+			title: "红石线材"
 			x: -9.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["3468E652B4FE85FA"]
 			description: [
-				"The Logic Unit represents a compact and potentially very complex Redstone Logic computer. Up to ten Logic Circuits must be programmed and placed within and a Redstone Interface Connector attached to the outside. "
+				"逻辑单元是一台紧凑并且能够变得非常复杂的红石逻辑电脑。其内部可以容纳十个编程好的逻辑电路板，外部则需要红石接口连接器与其相连。"
 				""
-				"Whenever the inbound signal changes, the Unit will cycle through each of the installed circuits once, performing each operation, allowing multiple logic gates to be applied to a signal, or even multiple color codes to be used as Input and Output signals. "
+				"每当其输入信号变化，逻辑单元就会循环执行安装在其内部的所有电路板一次。逻辑单元可以在一个信号上应用多个逻辑门，甚至可以将多种颜色编码当作输入和输出信号。"
 			]
 			hide_dependency_lines: true
 			id: "1FF9CA3EE7F4278A"
@@ -1392,7 +1392,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "50603CD292ADFE2D"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1406,15 +1406,15 @@
 		{
 			dependencies: ["1FF9CA3EE7F4278A"]
 			description: [
-				"Logic Circuits themselves are crafted in the Engineer’s Circuit Table. "
+				"逻辑电路板在工程师电路台上合成而得。"
 				""
-				"This workbench requires power, which is input from the back, as well as some quantity of Runic Proto-Boards, Lead Wire, and Vacuum Tubes. Different logic operations will require different quantities. "
+				"工程师电路台需要在其背部输入能量，还需要一些电路板、铅线和真空管。不同的逻辑运算需要的物品数量不同。"
 				""
-				"Circuits are programmed with an operator as well as Input and Output colors. "
+				"电路板将会通过运算符和输入输出颜色进行编程。"
 				""
-				"When ready, the completed circuit is withdrawn from the right side of the GUI. "
+				"编程完毕后，在界面的右边取出做好的逻辑电路板。"
 				""
-				"Circuits may have their Inputs and Outputs reprogrammed by placing them back in the upper slot, but the operator is locked in upon first creation. "
+				"将逻辑电路板放入上方的栏位可以重编程它的输入和输出，但运算符会在第一次合成时锁死。"
 			]
 			icon: "immersiveengineering:logic_circuit"
 			id: "2159567BA78E0A96"
@@ -1422,7 +1422,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "59C423C8FAA91053"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [
@@ -1453,13 +1453,13 @@
 		{
 			dependencies: ["3468E652B4FE85FA"]
 			description: [
-				"Redstone Modules are used to read and output Redstone signals by transmitting them over a pipe network. Each Module may be set to a color channel, allowing up to 16 different signals over the same tube network."
+				"红石模块用于读取红石信号并将其通过管道网络进行传输。红石模块可以设置颜色频道，使得同一个管道网络可以同时传输十六种不同的红石信号。"
 				""
-				"This requires no air and signals do not degrade over distance. "
+				"传输红石信号不需要空气，信号强度也不会随距离衰减。"
 				""
-				"Installing a Module Expansion card into a Module in Receiving mode, it may be set to behave exactly like a vanilla Comparator, getting a signal from blocks that emit special values for Comparators, like the Refinery."
+				"在模块设置成接收模式时对其安装模块拓展水晶，可以将模块的行为变得和原版比较器一样，使之能够从精炼厂一类的方块中读取特殊的比较器信号。"
 				""
-				"By installing such a card into a Module in Emitting mode, several features become available. For example, by making use of the color channels, it can function as an AND gate, OR gate, compare against another channel or against a constant value, and much more. By chaining them together, some truly compact Redstone logic can be made."
+				"在模块设置成输出模式时对其安装模块拓展水晶，可以获得若干新功能。比方说，通过使用颜色频道，它可以充当与门、或门和与常信号比较等等。将它们连接在一起，就可以制造出一些真正紧凑的红石逻辑装置。"
 			]
 			hide_dependency_lines: true
 			id: "1B0B9D271A013CB1"
@@ -1470,23 +1470,23 @@
 				item: "pneumaticcraft:module_expansion_card"
 				type: "item"
 			}]
-			subtitle: "Redstone Evolution"
+			subtitle: "红石革命"
 			tasks: [{
 				count: 2L
 				id: "332907C9101D2A78"
 				item: "pneumaticcraft:redstone_module"
 				type: "item"
 			}]
-			title: "Redstone Modules"
+			title: "红石模块"
 			x: -8.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["3468E652B4FE85FA"]
 			description: [
-				"The Universal Sensor is a powerful block that will output a redstone signal based on various conditions, such as detecting a nearby player, when a player Right-Clicks a block, the presence of blocks, light level, or even the current heat of a block."
+				"万能传感器是一个强大的方块，它会基于各种条件输出红石信号，如检测到附近的玩家时、玩家右击方块时、某方块是否存在、光照等级，甚至某方块当前的热量。"
 				""
-				"When reading heat, try aiming it at a heat pipe or a PNC:R machine, rather than at an inventory with a heat frame."
+				"当读取热量时，请试着将其对准热管或者气动工艺的机器，而不是对准带有导热框架的容器。"
 			]
 			hide_dependency_lines: true
 			id: "0D01781386CC5EEE"
@@ -1494,17 +1494,17 @@
 				{
 					id: "78E81C6649951023"
 					item: "pneumaticcraft:block_tracker_upgrade"
-					title: "Block Tracker Upgrade"
+					title: "方块追踪升级"
 					type: "item"
 				}
 				{
 					id: "4A857F82E1E65B98"
 					item: "pneumaticcraft:gps_tool"
-					title: "GPS Tool"
+					title: "定位工具"
 					type: "item"
 				}
 			]
-			subtitle: "Under the Radar"
+			subtitle: "藏踪匿迹"
 			tasks: [{
 				id: "189A3C683392323F"
 				item: "pneumaticcraft:universal_sensor"
@@ -1514,5 +1514,5 @@
 			y: -6.0d
 		}
 	]
-	title: "Redstone and Logic"
+	title: "红石与逻辑"
 }
