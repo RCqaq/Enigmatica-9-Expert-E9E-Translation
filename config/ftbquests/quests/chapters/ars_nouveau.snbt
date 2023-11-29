@@ -337,7 +337,7 @@
 				title: "支配之杖"
 				type: "item"
 			}]
-			subtitle: "《教母魔棒》"
+			subtitle: "教母魔棒"
 			tasks: [{
 				id: "00000000000003EC"
 				item: "ars_nouveau:relay"
@@ -365,7 +365,7 @@
 				title: "稀有新生魔艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "《平等权利》"
+			subtitle: "平等权利"
 			tasks: [{
 				id: "00000000000003EE"
 				item: "ars_nouveau:relay_splitter"
@@ -562,7 +562,7 @@
 				title: "稀有新生魔艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "《巫婆怪女》"
+			subtitle: "巫婆怪女"
 			tasks: [
 				{
 					id: "5A68031815311494"
@@ -600,7 +600,7 @@
 				title: "稀有新生魔艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "《欧戈婆婆的烹饪书》"
+			subtitle: "欧戈婆婆的烹饪书"
 			tasks: [{
 				id: "38EA6B9C79DD69C5"
 				item: "ars_nouveau:potion_jar"
@@ -1679,7 +1679,7 @@
 				title: "拾荒者乐事包"
 				type: "command"
 			}]
-			subtitle: "《午夜之袍》"
+			subtitle: "午夜之袍"
 			tasks: [
 				{
 					id: "43F2181E17E92B5D"
