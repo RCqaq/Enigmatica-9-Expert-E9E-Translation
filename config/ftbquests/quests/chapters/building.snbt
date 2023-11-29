@@ -10,9 +10,9 @@
 	quests: [
 		{
 			description: [
-				"Welcome to the Building Chapter"
+				"欢迎来到“建筑”章节。"
 				""
-				"This section contains a list of building/decoration based mods, and a handful of tools to help you get the job done, and set you on your way to becoming a seasoned builder."
+				"本章节包含了一系列和建筑与装饰有关的模组，以及一些工具。这些工具能够帮助你建造，并让你成为一个经验丰富的建筑工。"
 			]
 			icon: "minecraft:scaffolding"
 			id: "058D3BEB64C74E27"
@@ -30,29 +30,34 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Dirt Hut No More"
+			subtitle: "不再有火柴盒"
 			tasks: [{
 				id: "4A2592C4467CEAF6"
 				title: "Builder"
 				type: "checkmark"
 			}]
-			title: "Decoration"
+			title: "装饰"
 			x: 0.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["058D3BEB64C74E27"]
-			description: ["Connected Glass adds additional glass blocks and panes with connected textures. This of course covers the clear glass, and all 16 dyed glass types from Vanilla."]
+			description: [
+				"连接玻璃增加了带有连接纹理的玻璃和玻璃板。当然，这包括透明玻璃，以及来自原版的所有十六种染色玻璃。"
+				""
+				"译者注：副标题中的歌词来自于Johnny Nash演"
+				"唱的歌曲《I Can See Clearly Now》。"
+				]
 			icon: "connectedglass:clear_glass"
 			id: "66099AFAA1A6043F"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
 				icon: "kubejs:alchemists_delight"
 				id: "73CEB3BC6963B644"
-				title: "Alchemist's Delight"
+				title: "炼金术士乐事包"
 				type: "command"
 			}]
-			subtitle: "I can see all obstacles in my way"
+			subtitle: "前路的阻碍我已都一目了然"
 			tasks: [{
 				id: "7E626988261D7522"
 				item: {
@@ -62,19 +67,19 @@
 						value: "connectedglass"
 					}
 				}
-				title: "Connected Glass"
+				title: "连接玻璃"
 				type: "item"
 			}]
-			title: "Connected Glass"
+			title: "连接玻璃"
 			x: 0.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["058D3BEB64C74E27"]
 			description: [
-				"The mod name really says it all. It's simply that, a lights mod."
+				"这个模组的名字说明了一切。就这么简单，一个灯光模组。"
 				""
-				"But don't let the name fool you. Simply Light offers a wide range of lights to keep your base lit with style."
+				"但不要被它的名字所欺骗，简易光源提供了各式各样的灯，让你的基地亮出风格。"
 			]
 			icon: "simplylight:illuminant_block_on"
 			id: "42FB32CC99E66E3F"
@@ -82,10 +87,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "7E2D7FEE20672C9D"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
-			subtitle: "Let there be light"
+			subtitle: "上帝说：要有光！"
 			tasks: [{
 				count: 16L
 				id: "1EFA47BC6E4EC782"
@@ -96,21 +101,21 @@
 						value: "simplylight"
 					}
 				}
-				title: "Any 16x Simply Lights"
+				title: "任意16个简易光源的物品"
 				type: "item"
 			}]
-			title: "Simply Light"
+			title: "简易光源"
 			x: -0.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["058D3BEB64C74E27"]
 			description: [
-				"Are you looking for Glass Stairs? or maybe a Netherite door? How about an Endstone Sign? Well, look no further."
+				"你在寻找玻璃楼梯吗？下界合金门？或者是末地石指示牌？那么，你不必再苦苦寻找了。"
 				""
-				"Framed Blocks introduces a blank template of various shapes and blocks which mimics the texture of the block clicked on them."
+				"镶框方块添加了一个由各种形状和方块组成的空白模板，用方块右击它，它就会模仿对应方块的纹理。"
 				""
-				"They can even be made to glow by right clicking them with glowstone!"
+				"用荧石右击它们甚至可以使其发光！"
 			]
 			icon: "framedblocks:framed_cube"
 			id: "0798D5139479A837"
@@ -126,25 +131,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "Sky is the limit"
+			subtitle: "想象才是极限"
 			tasks: [{
 				count: 4L
 				id: "6D98E195282468AF"
 				item: "framedblocks:framed_cube"
 				type: "item"
 			}]
-			title: "Framed Blocks"
+			title: "镶框方块"
 			x: 1.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["058D3BEB64C74E27"]
 			description: [
-				"Are you fed up with that Oak Drawer that is sticking out like a sore thumb in the middle of your build, completely mismatching your building palette?"
+				"你是否已经厌倦了那列在你基地里刺眼的，与你的建筑色调完全不匹配的橡木抽屉？"
 				""
-				"Framed Drawers gives you a blank template which you can combine in a crafting table with different blocks to use their texture instead, whether it's the front, the sides, or the trim, these Framed Drawers are highly customizable visually."
+				"镶框抽屉给了你一个空白的模板，让你可以在工作台中结合不同的方块来替换纹理，无论是正面、侧面还是边框都能够替换。这些镶框抽屉有着高度可定制的视觉效果。"
 				""
-				"Needless to say, Functional Storage has more than just a single drawer style template, it actually has a template for each type of drawer, whether it is a 1x2, 2x2 or even a Compacting Drawer."
+				"更不用说该模组提供的不只是一个抽屉样式模板，实际上它对每一种类型的抽屉都有一个模板，无论是1x2、2x2，亦或是压缩抽屉。"
 			]
 			icon: "functionalstorage:framed_1"
 			id: "473BE440ECB1CEDF"
@@ -161,7 +166,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Build-a-Drawer"
+			subtitle: "抽屉DIY"
 			tasks: [{
 				id: "130291F7FD5C22C4"
 				item: {
@@ -188,19 +193,19 @@
 						]
 					}
 				}
-				title: "Any Framed Drawer"
+				title: "任意镶框抽屉"
 				type: "item"
 			}]
-			title: "Framed Drawers"
+			title: "镶框抽屉"
 			x: -1.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["058D3BEB64C74E27"]
 			description: [
-				"If you love the industrial look of Immersive Engineering, then you will probably love Engineer's Decor."
+				"如果你喜欢沉浸工程的工业外观，那么你可能会爱上工程师的装饰这个模组。"
 				""
-				"This mod adds a handful of decorative blocks that should feel right at home in your Immersive Engineering base. Whether it is a DANGER! sign, or an industrial platforms and support beams, Engineer's Decor has got you covered."
+				"该模组增加了一些装饰性的方块，应该与你的沉浸工程基地十分搭配。无论是“危险！”标志还是工业风格的平台和支撑梁，工程师的装饰都能为你提供。"
 			]
 			icon: "engineersdecor:steel_catwalk_stairs"
 			id: "68E143E444AF44C2"
@@ -211,23 +216,23 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			subtitle: "Immersive Decorating"
+			subtitle: "沉浸装饰"
 			tasks: [{
 				count: 12L
 				id: "3962CC2A503F48BE"
 				item: "engineersdecor:metal_bar"
 				type: "item"
 			}]
-			title: "Engineer's Decor"
+			title: "工程师的装饰"
 			x: -1.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["058D3BEB64C74E27"]
 			description: [
-				"If you are into your medieval or rustic builds, whether it is a castle on a cliff, a cabin in the woods, or a hearty tavern for a weary traveler, Decorative Blocks will have some blocks that fits your style."
+				"如果你喜欢中世纪或乡村风格的建筑，那么无论是悬崖上的城堡、森林中的小木屋，还是为疲惫的旅行者准备的温馨酒馆，装饰方块都有适合你的风格的选择。"
 				""
-				"Decorative Blocks offers many nicely textured and well designed blocks for your building needs."
+				"装饰方块提供了许多材质精美、设计精良的方块，以满足你的建筑需求。"
 			]
 			icon: "decorative_blocks:oak_support"
 			id: "03D0B336BB7CEFE1"
@@ -248,7 +253,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Stay a while and listen..."
+			subtitle: "英雄请留步，且听我一言……"
 			tasks: [{
 				id: "36159E7E842C9962"
 				item: {
@@ -258,18 +263,18 @@
 						value: "decorative_blocks"
 					}
 				}
-				title: "Decorative Blocks"
+				title: "装饰方块"
 				type: "item"
 			}]
-			title: "Decorative Blocks"
+			title: "装饰方块"
 			x: 1.5d
 			y: 9.0d
 		}
 		{
 			description: [
-				"Rome wasn’t built in a day, but with tools like these it certainly could have been. "
+				"罗马不是一天建成的，但有了这些工具，它绝对可以一天建成。"
 				""
-				"Read on to discover some handy tools to vastly reduce the time it takes to make large scale projects come to life.  "
+				"继续阅读来了解一些方便的工具，这些工具能显著减少大型建筑建造的时间。"
 			]
 			icon: "framedblocks:framed_hammer"
 			id: "5411C8D2344CC2F1"
@@ -282,26 +287,26 @@
 				type: "item"
 			}]
 			shape: "gear"
-			subtitle: "The right tools for the job"
+			subtitle: "工欲善其事，必先利其器"
 			tasks: [{
 				id: "48834CDA218F71E0"
-				title: "Building Tools"
+				title: "建筑工具"
 				type: "checkmark"
 			}]
-			title: "General Building Tools"
+			title: "建筑工具总览"
 			x: 0.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["5411C8D2344CC2F1"]
 			description: [
-				"It cuts, it grinds, it chisels, polishes and even cooks and cleans!"
+				"它能切割、研磨、雕刻和抛光，它甚至还可以做饭和清洁！"
 				""
-				"All the power of a Stone Cutter, now in a compact portable format in your Sophisticated Backpack or Chest!"
+				"切石机的所有功能，现在以紧凑的便携形式来到了你的精妙背包和箱子中！"
 				""
-				"Disclaimer: Will not actually cook or clean. Not for Commercial Use."
+				"免责声明：实际上不会做饭或清洁。不用于商业用途。"
 				""
-				"Warning: Keep away from children, animals, nitwits. Do not place hand on blade while in motion. Extended use may lead to fatigue and loss of vision."
+				"警告：请将其放在儿童、动物和傻瓜接触不到的地方。移动时不要将手放在刀片上。过度使用可能导致疲劳和视力下降。"
 			]
 			icon: "minecraft:stonecutter"
 			id: "085A8424875A2B23"
@@ -309,10 +314,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "31F796972A4B7369"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
-			subtitle: "It's like the Chisel, but fatter"
+			subtitle: "它就像凿子，但更胖"
 			tasks: [{
 				id: "0F45B05043BCCBE6"
 				item: {
@@ -331,19 +336,19 @@
 						]
 					}
 				}
-				title: "Stonecutter Upgrade"
+				title: "切石机升级"
 				type: "item"
 			}]
-			title: "Portable Stonecutter"
+			title: "便携式切石机"
 			x: 0.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["5411C8D2344CC2F1"]
 			description: [
-				"An advanced building device with several modes allowing for the quick construction of walls, stairs, and platforms. "
+				"一种先进的建筑装置，具有多种模式，可以快速建造墙壁、楼梯和平台。"
 				""
-				"Sneak Right Click on a block to set the block it’ll build with. Use the Building Gadgets Settings Menu key [default: g] to access advanced features. "
+				"潜行右击一个方块来设置它要建造的方块。使用建筑小帮手的设置菜单键[默认：g]来访问高级功能。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -365,7 +370,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "It builds stuff"
+			subtitle: "它负责建筑"
 			tasks: [{
 				id: "5DB4EE8F264A9453"
 				item: {
@@ -383,16 +388,16 @@
 				}
 				type: "item"
 			}]
-			title: "Building Gadget"
+			title: "建筑小帮手"
 			x: -2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5411C8D2344CC2F1"]
 			description: [
-				"Quickly swap blocks in an area without having to break and manually place each one. Enchant with Silk Touch to work with delicate blocks such as glass."
+				"在一个区域内快速交换方块，且无需手动破坏或放置每个方块。使用“精准采集”来处理易碎的方块，比如玻璃。"
 				""
-				"Sneak Right Click on a block to set the block it’ll build with. Use the Building Gadgets Settings Menu key [default: g] to access advanced features. "
+				"潜行右击一个方块来设置它要建造的方块。使用建筑小帮手的设置菜单键[默认：g]来访问高级功能。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -414,7 +419,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "It exchanges stuff"
+			subtitle: "它负责更替"
 			tasks: [{
 				id: "0031DADEE3BD0089"
 				item: {
@@ -432,16 +437,16 @@
 				}
 				type: "item"
 			}]
-			title: "Exchange Gadget"
+			title: "更替小帮手"
 			x: -2.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["5411C8D2344CC2F1"]
 			description: [
-				"A powerful tool that allows copying large areas and rebuilding them instantly elsewhere, making short work of repeating large sections of a build, such as a repeating wall pattern, or sprucing up an area with a few different prefab homes."
+				"一个强大的工具，可以复制大面积的区域，并在其他地方立即重建。可以在短时间内重复建造大面积的区域，如重复的墙面图案，或用几个不同的房屋来装饰一个区域。"
 				""
-				"Sneak Right Click on a block to set the block it’ll build with. Use the Building Gadgets Settings Menu key [default: g] to access advanced features. "
+				"潜行右击一个区块来设置它要建造的方块。使用建筑小帮手的设置菜单键[默认：g]来访问高级功能。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -463,7 +468,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "It copies and pastes stuff"
+			subtitle: "它负责复制和粘贴"
 			tasks: [{
 				id: "6AB9C0357788BA56"
 				item: {
@@ -481,18 +486,18 @@
 				}
 				type: "item"
 			}]
-			title: "Copy-Paste Gadget"
+			title: "复制-粘贴小帮手"
 			x: -2.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["5411C8D2344CC2F1"]
 			description: [
-				"For those times when you simply want to clear a hole to build in, and don’t really care what happens to the blocks that were there."
+				"当你只是想清出一个洞用来建造时，并不会关心那里的方块怎么样，对吧？"
 				""
-				"Be warned, this tool destroys all blocks it removes!"
+				"请注意，这个工具会销毁所有它移除的方块！"
 				""
-				"Sneak Right Click in the air to configure the area to void. Use the Building Gadgets Settings Menu key [default: g] to access advanced features. "
+				"潜行右击空气来配置想要破坏的区域。使用建筑小帮手的设置菜单键[默认：g]来访问高级功能。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -509,7 +514,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Guess what it does .."
+			subtitle: "猜猜看它负责什么……"
 			tasks: [{
 				id: "1441EAF1EDC3AFDF"
 				item: {
@@ -522,18 +527,18 @@
 				}
 				type: "item"
 			}]
-			title: "Destruction Gadget"
+			title: "破坏小帮手"
 			x: -1.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["5411C8D2344CC2F1"]
 			description: [
-				"A modded classic, the Construction Wand simply extends the blocks that are already placed in the world. This can make it easy to build a wall by first laying the foundation, then building up with the wand. "
+				"作为一个经典模组，建筑魔杖的功能就是延展已经放置在世界中的方块。你可以用它很轻松地建造一堵墙：先打好地基，然后用魔杖往上建造。"
 				""
-				"This version comes with a few added features as well, such as the ability to destroy blocks, place in mid air, or even place random blocks from those in your hot bar. "
+				"此版本还增加了一些功能，如摧毁方块和在空中放置方块，它甚至可以从你的快捷栏中随机放置方块。"
 				""
-				"Ctrl Shift the wand in the air to access a menu with advanced options, or Ctrl Scroll Wheel to quickly toggle between building modes. "
+				"手持建筑之杖看向空气，并同时按下Ctrl键和Shift键，可以进入带有高级选项的菜单；或者按Ctrl键滚动鼠标滚轮，在不同建筑模式之间快速切换。"
 			]
 			id: "26B88D08862EA1AE"
 			rewards: [{
@@ -543,7 +548,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Accio"
+			subtitle: "飞来咒！"
 			tasks: [{
 				id: "131EB02FBDE8DC98"
 				item: {
@@ -569,21 +574,21 @@
 						]
 					}
 				}
-				title: "Construction Wands"
+				title: "建筑之杖"
 				type: "item"
 			}]
-			title: "Construction Wands"
+			title: "建筑之杖"
 			x: -0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5411C8D2344CC2F1"]
 			description: [
-				"The Extendo Grip increases your reach distance, thus allowing you to place and break blocks at a larger distance."
+				"伸缩机械手增加了你的触及距离，从而使你能够放置和打破更远距离的方块。"
 				""
-				"To use the Extendo Grip, put it in your Off-Hand, and then use blocks or tools in your Main-Hand as you normally would."
+				"要想使用伸缩机械手，先它放在你的副手，然后像平常一样使用你主手的方块或工具。"
 				""
-				"While wearing a Copper Tank, the Extendo Grip loses no Durability and instead uses some of the air pressure you have stored in your tank."
+				"当你装备有铜背罐时，伸缩机械手不会失去耐久度，而是消耗储存在背罐中的压缩空气。"
 			]
 			icon: {
 				Count: 1b
@@ -597,10 +602,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "384957F4FCE7BC6A"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "BOING! BOING!"
+			subtitle: "啵嘤~ 啵嘤~"
 			tasks: [{
 				id: "36A419607017EA31"
 				item: {
@@ -612,18 +617,18 @@
 				}
 				type: "item"
 			}]
-			title: "Extendo Grip"
+			title: "伸缩机械手"
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5411C8D2344CC2F1"]
 			description: [
-				"The Wand of Symmetry does not disappoint those who love a little symmetry in their life."
+				"对称之杖绝不会让强迫症患者们失望。"
 				""
-				"This tool will automatically place blocks in mirrored positions around a center point, making large projects a breeze."
+				"这个工具会自动围绕一个中心点镜像放置方块，使你能够轻松建造大型项目。"
 				""
-				"To start, Right Click a block on the ground to select the center point. Once selected, Sneak Right Click to open the configuration GUI to choose the plane type and the mirroring axis."
+				"首先，右击点击地面上的方块来选择中心点。选中后，潜行右击以打开配置界面，并选择平面类型和镜像轴。"
 			]
 			hide_dependency_lines: true
 			icon: "create:wand_of_symmetry"
@@ -632,30 +637,32 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "01870BF5EE173AB5"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Lay your weary OCD to rest"
+			subtitle: "强迫症福音"
 			tasks: [{
 				id: "0A989C0C09502289"
 				item: "create:wand_of_symmetry"
 				type: "item"
 			}]
-			title: "Wand of Symmetry"
+			title: "对称之杖"
 			x: 1.5d
 			y: 7.0d
 		}
 		{
 			description: [
-				"Quark is such a massive mod, and while it could have had it's own section, or even be part of the main Building section, we felt like having it as a stand-alone info quest fits better. While it would be near impossible to write down everything Quark has to offer, the below are some of the highlights for builders to make their life a little easier."
+				"夸克是一个非常庞大的模组，虽然它本该有自己的章节，甚至应该是建筑章节的主要部分之一，但我们觉得把它作为一个独立的信息任务更合适。虽然要写下夸克模组所提供的一切是几乎不可能的，但下面是这个模组一些亮点，好让建筑工的生活轻松一点。"
 				""
-				"- Decorative Blocks: Quark offers a plethora of blocks, both crafted like the different themed Chests, or gathered from around the world like the Corundum Crystal Blocks."
+				"- 装饰性方块：夸克提供了大量的方块，既有像不"
+				"同材质的箱子一样手工制作的方块，也可以像刚玉方块一样从世界各地收集的方块。"
 				""
-				"- Trowel: This tool allows the randomization of block placement. It selects block(s) for your hotbar when used."
+				"- 抹泥铲：此工具可以随机放置快捷栏中的方块。"
+				"使用时需要选择你快捷栏中的方块。这对建造废墟和小路很有用。"
 				""
-				"For more information on what else does Quark has to offer you as a builder, visit their official website."
+				"想要了解更多关于夸克模组能够在建筑方面为你提供的东西，请访问它的官方网站。"
 				""
-				"{\"text\":\"Quark Wiki\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://quarkmod.net/#features\"}}"
+				"{\"text\":\"夸克维基\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://quarkmod.net/#features\"}}"
 			]
 			icon: {
 				Count: 1b
@@ -671,25 +678,25 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Jack of all Trades"
+			subtitle: "万金油"
 			tasks: [{
 				id: "5B29C3C71D617D0A"
 				title: "Quark"
 				type: "checkmark"
 			}]
-			title: "Quark"
+			title: "夸克"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5411C8D2344CC2F1"]
-			description: ["Need a measuring tape? Well, how about an Abacus instead. This little guy will quickly tally up the number of blocks between point A and point B, perfect for planning large builds. Just Right-Click the ground at the start and walk to the end point. "]
+			description: ["需要卷尺吗？那么，不妨来看看算盘。这个小家伙可以快速计算出点A到点B的举例，非常适合用于规划大型建筑。只需用算盘右击想要作为起点的方块，然后走到终点就可以了。"]
 			id: "45A99E75C9AFCFC5"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "0A09BABD778C97C2"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -702,7 +709,7 @@
 		}
 		{
 			dependencies: ["058D3BEB64C74E27"]
-			description: ["A simple sensor that can be placed over any door. When a player approaches, the door will open automatically. Their vertical detection range may be adjusted with a Redstone Key, allowing them to work on larger doors. "]
+			description: ["一个可以放在任何门上面的简易传感器。当玩家靠近时，装有传感器的门会自动打开。传感器的垂直检测范围可以通过红石钥匙调整，让其可以装在更大的门上。"]
 			id: "17F29DFB161A6D1E"
 			rewards: [{
 				id: "2606C21488212483"
@@ -719,7 +726,7 @@
 		}
 		{
 			dependencies: ["058D3BEB64C74E27"]
-			description: ["Enchanted shears that, when used upon a Rainbow Sheep, will produce Rainbow Wool. "]
+			description: ["一把附魔的剪刀，对彩虹羊使用时，会剪出彩虹羊毛。"]
 			id: "7F8E9CAAF204E1F3"
 			tasks: [{
 				id: "50B8BB361CE34B8A"
@@ -737,17 +744,18 @@
 		}
 		{
 			description: [
-				"Create has a set of tools dedicated to saving schematics of structures and replicating them."
+				"机械动力有一组专用于保存和搭建蓝图的工具。"
 				""
-				"The Schematic and Quill will allow you to save a schematic of an existing structure. This saved schematic will allow you to build the structure somewhere else."
+				"蓝图与笔能让你将现有结构保存至蓝图。保存好的蓝图可以在其他地方建造。"
 				""
-				"1) Right-Click to select the two opposite corners of the structure you want to save."
-				"2) Point at a face of the selected area and ctrl-scroll to adjust that side."
-				"3) Right-click to name and save the schematic."
+				"1) 右击以选择要保存的结构的两个对角。"
+				"2) 指向选定区域的一个面，然后按住Ctrl键滚动鼠标滚轮以"
+				"调整该面。"
+				"3) 右击蓝图以命名并保存蓝图。"
 				""
-				"The Create GitHub has a wiki page with examples of saving schematics:"
+				"机械动力的GitHub维基上有保存蓝图的示例："
 				""
-				"{\"text\":\"Saving a Schematic\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Saving-a-Schematic\"}}"
+				"{\"text\":\"保存蓝图\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Saving-a-Schematic\"}}"
 			]
 			hide_dependency_lines: true
 			id: "225DD8C72B11FFE3"
@@ -756,66 +764,64 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "5596D763FED920E0"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Archetecture 101"
+			subtitle: "建筑小贴士"
 			tasks: [{
 				id: "5A9DC446B30DBFA0"
 				item: "create:schematic_and_quill"
 				type: "item"
 			}]
-			title: "Saving Schematics"
+			title: "保存蓝图"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["225DD8C72B11FFE3"]
 			description: [
-				"In order to place your saved structures, you need to create a Schematic - this is done on the Schematic Table."
+				"为了放置你保存好的结构，你需要创建一个蓝图——你需要蓝图桌来完成此操作。"
 				""
-				"Choose the schematic you want to create by mousing over the box in the middle of the GUI and scrolling. Place an Empty Schematic into the left slot on the table. Click the checkmark to print the schematic - this uploads it to the server and can take a while for very large schematics. You can close the table while this process completes and come back later. Pressing the “Open Folder” button will open the Schematic folder in your instance, and pressing “Refresh” will update the list of available schematics."
+				"将鼠标悬停在界面中间的框上并滚动滚轮，选择要创建的蓝图。将空白蓝图放入蓝图桌的左侧栏位中。点击复选框打印蓝图——这会将蓝图上传至服务器，非常大的蓝图可能需要一些时间上传。你可以在该过程进行时离开蓝图桌，完成后再回来。按“打开文件夹”按钮可以打开实例中的蓝图文件夹，而按“刷新”按钮可以更新可用蓝图的列表。"
 				""
-				"Schematic in hand, you can place it in-world by right clicking. An on-screen HUD provides options for adjusting the schematic - moving, rotating, or flipping. Shift-right clicking the schematic will also allow you edit placement and rotation/mirroring. You can use this as a building guide, but there are better uses for it..."
+				"手持蓝图并右击可以将其放置在世界中。屏幕上的HUD提供了用于调整蓝图的选项——移动、旋转或翻转。按住Shift键并在蓝图上右击，还可以编辑放置和旋转/镜像。你可以将其用作搭建指引，但它有更好的用途……"
 				""
-				"Note: Schematics for common multiblocks are included by default. You can use the \"Open Folder\" button to relocate any schematics you aren’t using and then refresh the list."
+				"机械动力的GitHub维基上有加载蓝图的示例："
 				""
-				"The Create GitHub has a wiki with examples of loading schematics:"
-				""
-				"{\"text\":\"Loading a Schematic\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Loading-a-Schematic\"}}"
+				"{\"text\":\"加载蓝图\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Loading-a-Schematic\"}}"
 			]
 			id: "7B4FBC9CC07C6E28"
 			min_width: 300
 			rewards: [{
 				id: "03CCD8A592938743"
 				item: "create:empty_schematic"
-				title: "Empty Schematic"
+				title: "空白蓝图"
 				type: "item"
 			}]
-			subtitle: "Filing for Building Permits"
+			subtitle: "建筑许可证备案"
 			tasks: [{
 				id: "1D0625DD24276142"
 				item: "create:schematic_table"
 				type: "item"
 			}]
-			title: "Placing Schematics"
+			title: "放置蓝图"
 			x: 2.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["7B4FBC9CC07C6E28"]
 			description: [
-				"The Schematicannon is how you're going to build your structures. It uses gunpowder as a propellent, and will take blocks from adjacent inventories."
+				"蓝图加农炮是用来搭建结构的。它使用火药作为推进剂，并会从相邻容器中拿取方块。"
 				""
-				"Take your freshly placed schematic and load it into the Schematicannon. Load gunpowder in the top left - the cannon will use one for each 400 blocks. Hit the Play button in the middle of the interface to begin placing blocks!"
+				"将蓝图装载进蓝图加农炮中。在左上角装入火药——每建造400个方块会消耗一个火药。点击界面中间的“▶”按钮以开始建造！"
 				""
-				"By default the cannon will pause if it doesn't have the block required, and it will replace any blocks in the way, but will protect tile entities (think chests and similar). Replaced blocks don't drop and are lost - the cannon IS NOT a quarry tool! These settings can be controlled by clicking the button in the bottom left."
+				"默认情况下，如果加农炮没有所需的方块，加农炮就会暂停。并且它将替换任何阻挡建造的方块，但将保护实体方块（想想箱子和类似的东西）。替换的方块不会掉落并会丢失——加农炮不是采掘工具！点击左下角的按钮可以控制这些设置。"
 				""
-				"Note: The cannon isn't very fast, but it's possible to split the workload between multiple cannons, and Time in a Bottle works wonders on it!"
+				"注：加农炮的速度不是很快，但可以在多个加农炮之间分配工作负荷。时间之瓶与其相性极佳！"
 				""
-				"The Create GitHub has a wiki with examples of printing schematics:"
+				"机械动力的GitHub维基上有打印蓝图的示例："
 				""
-				"{\"text\":\"Printing a Schematic\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Printing-a-Schematic\"}}"
+				"{\"text\":\"打印蓝图\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Printing-a-Schematic\"}}"
 			]
 			id: "55FBBB1108757907"
 			min_width: 300
@@ -826,16 +832,16 @@
 				title: "Gunpowder"
 				type: "item"
 			}]
-			subtitle: "Constructive Detonation"
+			subtitle: "建造性摧毁"
 			tasks: [{
 				id: "26823569074F6FA3"
 				item: "create:schematicannon"
 				type: "item"
 			}]
-			title: "Printing Schematics"
+			title: "打印蓝图"
 			x: 2.0d
 			y: 6.0d
 		}
 	]
-	title: "Building"
+	title: "建筑"
 }
