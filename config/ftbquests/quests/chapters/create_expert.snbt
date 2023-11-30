@@ -11,13 +11,13 @@
 		{
 			dependencies: ["2CCCDD05AED3153F"]
 			description: [
-				"Welcome to Create! At its core, Create follows the same primary purpose as Vanilla Redstone: Give the player items to enable fanciful creations. "
+				"欢迎来到机械动力！该模组的内核与原版红石的主要目的相同，为玩家提供能够实现奇妙创作的物品。"
 				""
-				"What sort of creations, you ask? Well, just about anything. Make rideable trains, tunnel bores, massive functional windmills, or even a working Rubik’s Cube!"
+				"你问这什么样的创作？嗯，什么都可以！制作列车、隧道掘进机、巨大的风车，甚至是能玩的鲁比克魔方！"
 				""
-				"Your imagination is the limit. "
+				"只有你想不到的，没有你做不到的。"
 				""
-				"Naturally, with so much ground to cover, these quests will not be exhaustive. Instead, the goal will be to introduce basic concepts of Create to give you a solid footing to begin experimenting on your own. "
+				"当然，任务不可能将这么多内容全都详细介绍一遍。相反，我们的目标是引入机械动力的基本概念，为你的探索奠定坚实的基础。"
 			]
 			hide: true
 			icon: "create:wrench"
@@ -40,27 +40,29 @@
 						value: "forge:raw_materials"
 					}
 				}
-				title: "Create"
+				title: "机械动力"
 				type: "item"
 			}]
-			title: "Create"
+			title: "机械动力"
 			x: 7.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0A67F4F9AE300856"]
 			description: [
-				"As with many systems, power is required. For Create, this generally means making something spin. There are, of course, multiple ways to do this, but let’s go over some basics briefly. "
+				"与许多系统一样，动力是必须品。在机械动力中，动力通常意味着让某些东西旋转。当然，有多种方法可以做到这一点。但在这之前，让我们先简单了解一些基本知识。"
 				""
-				"First, there are Generators and Consumers. Naturally, Generators will make things spin, while Consumers operate with the Rotation provided. But not all Generators and Consumers are equal. "
+				"首先是动力源和作业元件。不言而喻，动力源产生旋转力，带动作业元件进行旋转。但并非所有的动力源和作业元件都是相对的。"
 				""
-				"Each Generator is capable of outputting a given number of Stress Units which are divided up among all connected Consumers. If the consumers need more SU than is being output, then the entire system will grind to a halt. "
+				"每个动力源都能够输出一定量的应力单元（SU），这些应力单元在分配到所有连接的作业元件之间。如果作业元件需要的SU比输出的多，那么整个系统将陷入过载。"
 				""
-				"The faster a Consumer is operating, the higher its impact and the more SU it uses. "
+				"作业元件运作的速度越快，其影响就越大，使用的SU也就越多。"
 				""
-				"To get an idea of how many SU are being generated or consumed, wear a pair of Engineer’s Goggles while looking at a block. "
+				"要了解生成或消耗的SU，可以戴上工程师护目镜并看向相关方块。"
 				""
-				"As a final note, while Create has no in game guidebook, it does have a Ponder system which shows how everything works through short in game animated sequences. Hover over most items and press the Ponder key shown in the tooltip to view them.  "
+				"最后提一句，虽然机械动力没有游戏内的指南书，但该模组有一个思索系统，可以通过简短的连续动画来展示物品是如何运作的。将鼠标悬浮在可以思索的物品上，并按下物品提示中显示的思索键来查看思索界面。"
+				""
+				"译者注：副标题《贾维斯和玩具工厂》是一部2014年上映的青少年情景喜剧。"
 			]
 			hide_dependency_lines: true
 			icon: "create:goggles"
@@ -69,11 +71,11 @@
 			rewards: [{
 				id: "5B15F41A9F4FA7AE"
 				item: "create:goggles"
-				title: "Engineer's Goggles"
+				title: "工程师护目镜"
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Some Assembly Required"
+			subtitle: "贾维斯和玩具工厂"
 			tasks: [{
 				id: "0636D39777033A66"
 				item: {
@@ -96,7 +98,7 @@
 						]
 					}
 				}
-				title: "Getting Started: Rotational Power"
+				title: "入门：旋转力"
 				type: "item"
 			}]
 			x: 7.0d
@@ -105,16 +107,18 @@
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"Perhaps the first multi part contraption to be made is the Windmill. This is a High SU generator capable of operating at high RPMs. Generating more SU and higher speed is merely a function of adding more Sails to the structure."
+				"也许你建造的第一个多方块装置就是风车。它一个能在高转速下运行，并产出大量SU的动力源。只需要向结构中添加更多风帆，速度就会更快，并且产生更多的SU。"
 				""
-				"Where to begin? Place down the Windmill Bearing. The sticky looking green side is where the rest of the structure will be built. Power will come out the opposite end. Note that they may be built in any orientation."
+				"该从哪里开始呢？先放下风车轴承。带绿色粘液的一侧是建造结构其余部分的地方。动力将从另一端输出。请注意，风车可以在任何方向上建造。"
 				""
-				"Next, attach the Radial Chassis to the sticky side of the bearing. The Radial Chassis here acts as the axle for the windmill and the blades will extend from it. "
-				"The Chassis can be made sticky by Right-Clicking with a Slime Ball (does not consume the slime) and most any decorative block may be attached out to the connection limit of the Windmill. "
+				"接下来，将径向底盘连接到轴承的粘性侧。这个径向底盘充当了风车的轴，而风车的叶片将会与这根轴相连接。"
+				"用黏液球右击底盘可使其变粘（不会消耗黏液球），使绝大多数装饰方块能够在风车连接半径内与风车进行连接。"
 				""
-				"To view the current connective radius of the Chassis, hold your wrench and look at the chassis. The highlighted blocks will be part of the structure. The radius may be adjusted with your scroll-wheel."
+				"手持扳手并看向底盘来查看底盘的连接半径。高亮显示的方块是结构的一部分。你可以使用鼠标滚轮来调整半径。"
 				""
-				"Note that glue is only needed for connecting blocks that aren't captured by a Chassis, for instance if blocks extend in front of the wind mill. Glue is not needed at all if sails are attached directly to the Chassis, but then, where’s the fun of that? Make it Pretty!"
+				"请注意，只有在连接未被底盘识别的方块时才需要胶水，例如连接在风车前方的延展方块时。如果风帆直接与底盘相连，那么就根本不需要胶水，但那又有什么乐趣呢？把风车做的更漂亮点吧！"
+				""
+				"译者注：副标题《鬼使神差》是于1987年美国上映、加入了外星机械元素的家庭情景剧电影。"
 			]
 			icon: "create:white_sail"
 			id: "0F8AB5768B1C2320"
@@ -129,18 +133,18 @@
 							Damage: 0
 						}
 					}
-					title: "Super Glue"
+					title: "强力胶"
 					type: "item"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "265E3903847F3130"
-					title: "Epic Create Loot Box"
+					title: "史诗机械动力战利品箱"
 					type: "command"
 				}
 			]
-			subtitle: "Batteries Not Included"
+			subtitle: "鬼使神差"
 			tasks: [
 				{
 					id: "2FF82C0F29345D03"
@@ -179,32 +183,35 @@
 							]
 						}
 					}
-					title: "Sails"
+					title: "风帆"
 					type: "item"
 				}
 			]
-			title: "Windmill"
+			title: "风车"
 			x: 5.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"The Water Wheel, while considerably simpler to set up than a Windmill, also produces far fewer SU and operates at a much lower speed. "
+				"水车虽然比风车建造起来简单得多，但产生的SU比风车少得多，运行速度也慢得多。"
 				""
-				"It is useful for applications where small size is more important than speed. For instance, when making a fancy door to your base. "
+				"对更注重小尺寸，而不是速度的应用场景来说，它很有用。例如，制作一扇通往基地的花哨的门时。"
 				""
-				"To get it going, simply allow water to flow past it."
+				"只需让水流过水车，它就会持续运行。"
+				""
+				"译者注：副标题中的歌词来自Dead or Alive演"
+				"唱的歌曲《You Spin Me Round》。"
 			]
 			id: "6E6CFBCB2D86480C"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "7F6B1C3C3F88F766"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
-			subtitle: "Like A Record, Baby"
+			subtitle: "宝贝，就像旋转一张光盘"
 			tasks: [{
 				id: "398D87D681ADA291"
 				item: "create:water_wheel"
@@ -217,15 +224,15 @@
 			dependencies: ["780BADC429826D36"]
 			dependency_requirement: "all_started"
 			description: [
-				"An integral part of any factory, the Encased Fan may be used both for Crafting operations and for moving items or mobs. "
+				"鼓风机是任何工厂都不可或缺的一部分，它既可以用于加工，也可以用于移动物品和生物。"
 				""
-				"To use the fan for crafting, it must be set up to blow through Lava, Water, Fire, or Soul Fire. Items dropped in the stream of air on the far side will be Smelted, Washed, Smoked, or Haunted, respectively."
+				"要想使用鼓风机进行加工，必须使其的气流能够吹过熔岩、水、火或灵魂火。掉落在远端气流中的物品则会分别被冶炼、洗涤、烟熏和缠魂。"
 				""
-				"The air stream can pass through certain blocks like Iron Bars and Trap Doors, allowing safe containment of your Lava and Water. "
+				"鼓风机产生的气流可以穿过铁栅栏或活板门等特定的方块，从而安全地容纳熔岩或水。"
 				""
-				"Of special note, the Fan can be used to process items directly on a Depot or Belt, however the items on a belt do not stop moving while they are being processed. "
+				"特别注意：鼓风机可用于直接处理置物台或传送带上的物品，不过传送带上的物品在处理过程中不会停止移动。"
 				""
-				"To make efficient use of a fan and belt setup, make it blow across the length of the belt. Faster spin speeds mean the air stream blows farther. This also allows the fan to process multiple stacks at once. "
+				"想要有效利用鼓风机和传送带这个组合，请让鼓风机的气流吹过传送带。旋转速度越快，气流吹得就越远。这也使得鼓风机能够一次处理多组物品。"
 			]
 			hide_dependency_lines: true
 			icon: "create:propeller"
@@ -235,7 +242,7 @@
 				{
 					id: "0A143EDC0DB433E1"
 					item: "create:analog_lever"
-					title: "Analog Lever"
+					title: "模拟拉杆"
 					type: "item"
 				}
 				{
@@ -244,7 +251,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "I'm a Big Fan"
+			subtitle: "鼓灰级粉丝"
 			tasks: [{
 				id: "49D1CDC195EAAE1E"
 				item: "create:encased_fan"
@@ -256,9 +263,13 @@
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"Making a pretty windmill is probably not the only reason you’re here. Most likely, you’d like this thing to actually do something useful, but it’s way up there and we’re way down here… "
+				"想要建造一座漂亮的风车很可能不是你看到这里的唯一原因。很有可能的是，你希望这个风车能做一些有用的事情。但它高高在上，而我们却在底下……"
 				""
-				"As it happens, conveying rotational force is quite simple. Shafts can be used to convey power linearly while cogs may be used to change direction and speed. "
+				"碰巧，传递旋转力非常简单。传动杆可以沿直线传输动力，而齿轮可以用于改变方向和速度。"
+				""
+				"译者注：副标题中的歌词来自于Isaac Hayes演"
+				"唱的歌曲《Theme From Shaft》。其中，“"
+				"Shaft”正好是传动杆的英文单词。"
 			]
 			hide_dependency_lines: true
 			id: "1BEDF6F64E346198"
@@ -267,7 +278,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "6701BD22C891A0F5"
-					title: "Rare Create Loot Box"
+					title: "稀有机械动力战利品箱"
 					type: "command"
 				}
 				{
@@ -277,27 +288,27 @@
 					type: "item"
 				}
 			]
-			subtitle: "Shut Yo Mouth"
+			subtitle: "闭上你的嘴"
 			tasks: [{
 				count: 16L
 				id: "5ADE0C735C849DE2"
 				item: "create:shaft"
 				type: "item"
 			}]
-			title: "Shaft"
+			title: "传动杆"
 			x: 6.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"Tired of unsightly holes in your base? Shivering from drafty shaft seals? Look no further. "
+				"不想再看到基地里那些难看的孔洞？看到漏风的传动杆洞就浑身颤抖？不用再看了，解药就在这里。"
 				""
-				"Right-Click a Casing onto a Shaft or Cog to cover it. Perfect for those times when the shaft is passing through walls or floors. "
+				"用机壳右击传动杆或齿轮对其进行封装。非常适合在传动杆穿过墙壁或地板时使用。"
 				""
-				"Covering a Cog will also prevent its shaft from connecting to any adjacent blocks unless wrenched. Existing connections are not disabled when a Casing is applied."
+				"对齿轮进行封装还可以防止其与任何相邻的方块连接，除非使用扳手进行更改。使用机壳前的连接不会被断开。"
 				""
-				"They also look great under Mechanical Belts."
+				"它们配合传送带使用也非常好看。"
 			]
 			hide_dependency_lines: true
 			id: "0BC3EAEF807A3043"
@@ -305,10 +316,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "78FA2D541E288B56"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "That's Below the Belt"
+			subtitle: "遮遮掩掩"
 			tasks: [{
 				count: 4L
 				id: "588C7E583427E4D7"
@@ -330,16 +341,16 @@
 				}
 				type: "item"
 			}]
-			title: "Casings"
+			title: "机壳"
 			x: 8.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"That’s a long run of shaft you’ve got there. Seems a little unsupported, no?"
+				"那边的那根传动杆真长。它看起来没什么支撑，不是吗？"
 				""
-				"Brackets may be attached to Shafts or Cogs and are entirely decorative. They sure do make things look nicer though!"
+				"支架可以与传动杆和齿轮相连，且完全是装饰性的。但它们可以使东西看起来更美观！"
 			]
 			hide_dependency_lines: true
 			id: "3E72EE1807CDD108"
@@ -347,10 +358,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "689DB92C44140D9D"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Brace Yourselves"
+			subtitle: "支棱起来"
 			tasks: [
 				{
 					count: 4L
@@ -365,16 +376,16 @@
 					type: "item"
 				}
 			]
-			title: "Brackets"
+			title: "支架"
 			x: 5.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"Slightly more costly than a pair of cogs, Gear Boxes serve the same purpose as perpendicular cogs, to change the direction of a shaft line. "
+				"十字齿轮箱的成本略高于一对齿轮，它与一对垂直的齿轮作用相同，能够改变转动杆的方向。"
 				""
-				"However, they have a slight advantage in that they can be used to split power off in two directions. They also have a vertical variant to get a shaft line running up or down. "
+				"不过，十字齿轮箱有一个微小的优势，即它可以将动力分成两个方向。它还有一个竖直变种，可以将传动杆变为向上或向下转动。"
 			]
 			hide_dependency_lines: true
 			id: "417A0D7FCC31C9C6"
@@ -382,10 +393,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "37B5190441657460"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Let's Try a Change in Tack"
+			subtitle: "让我们转变一下方向"
 			tasks: [{
 				id: "2CEB0E0797ABE86A"
 				item: "create:gearbox"
@@ -397,15 +408,17 @@
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"Just because our windmill is running a little slowly doesn’t mean everything else needs to. The rotational speed of a system can be stepped up (or down) by way of simple gear ratios. "
+				"你的风车的速度有点慢，但这并不代表其他一切也得这么慢。一个系统的转速可以通过简单的齿轮比来提高（或降低）。"
 				""
-				"For instance, assume your power is turning a small cogwheel. Connecting the teeth to a large cogwheel’s teeth will result in the shaft of the larger cogwheel rotating at half the speed of the drive shaft."
+				"比方说，假设你的动力正在驱动小齿轮进行转动。将小齿轮的齿与大齿轮的齿贴合后，大齿轮的传动杆的转速就会变成小齿轮转速的一半。"
 				""
-				"Similarly, a large cogwheel that is interlocked with the teeth of a small cogwheel will cause that cogwheel’s shaft to rotate at twice the speed. "
+				"类似地，将大齿轮作为驱动轮与小齿轮贴合将导致小齿轮的传动杆以原来两倍的速度旋转。"
 				""
-				"These effects may be chained but bear in mind that the faster the consumers in this system run, the higher the SU cost. "
+				"这些效果可以连环叠加，但请记住，系统中作业元件运行得越快，SU占用就越多。"
 				""
-				"Additionally, two large cogwheels can be interlocked perpendicularly to allow a shaft to change directions. Useful for going around corners or bringing power down from high above."
+				"此外，两个大齿轮可以垂直贴合，以改变传动轴的旋转方向。这对转弯或将动力运往高处很有用。"
+				""
+				"译者注：副标题中的“斯贝斯利链齿公司”出自1962年起播出的家庭喜剧动画片《杰森一家》。在动画片中，这家公司的对头是格斯韦尔轮齿公司。"
 			]
 			hide_dependency_lines: true
 			id: "0529A7926084FDB2"
@@ -414,10 +427,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "5DA3139CCB2387ED"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Spacely's Sprockets"
+			subtitle: "斯贝斯利链齿公司"
 			tasks: [
 				{
 					count: 4L
@@ -432,22 +445,22 @@
 					type: "item"
 				}
 			]
-			title: "Cogwheels"
+			title: "齿轮"
 			x: 7.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["21E017D060FC5109"]
 			description: [
-				"As with many things in Create, the Mechanical Belt is a multi-purpose item."
+				"和机械动力中许多物品一样，传送带也有着许多的用途。"
 				""
-				"Its primary purpose is item transportation and can carry items along horizontally, as well as up and down 45-degree slopes. "
+				"传送带的主要用途是物品运输。它可以水平运输物品，也能以45度的斜坡进行运输。"
 				""
-				"However, it can also convey power from one shaft to another. This can be an excellent way to power multiple parallel shafts while maintaining the direction of rotation. "
+				"不过，它也可以用于将动力从一根传动杆传递到另一根传动杆。这是在保持旋转方向的同时为多个平行的传动杆提供动力的极佳办法。"
 				""
-				"A single belt can stretch up to 20 blocks and each block space could conceivably attach it to another shaft line if necessary. "
+				"一条传送带可以拉伸至20格方块长，其中每格方块都可以连接传动杆。"
 				""
-				"To attach them to a Shaft, simply place two Shafts and then Right-Click each with the belt in hand. Right-Click a Shaft into an existing Belt to add a connection."
+				"只需放置两根传动杆，然后用传送带依次右击这两根传动杆即可进行连接。用传动杆右击成型的传送带即可添加连接。"
 			]
 			hide_dependency_lines: true
 			id: "035D3B83AB5BDF27"
@@ -456,26 +469,29 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "62C35306B67B2809"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "You're On a Roll Now"
+			subtitle: "鸿运滚滚"
 			tasks: [{
 				count: 4L
 				id: "7BD2ADE2765A251A"
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			title: "Mechanical Belts"
+			title: "传送带"
 			x: 2.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"Encased Chain Drives may be used much like belts, connecting perpendicular shafts together."
+				"链式传动箱与传送带的用处类似，它可以将垂直的传动杆连接在一起。"
 				""
-				"They may also be used to change the direction of power by placing multiple of them in-line and rotating them 90-degrees from one another. "
+				"它也可用于改变动力的方向，办法是将多个传动箱并排交错90度放置。"
+				""
+				"译者注：副标题中的歌词来自于Sam Cooke演唱"
+				"的歌曲《Chain Gang》。"
 			]
 			hide_dependency_lines: true
 			id: "183883DE59B8C18F"
@@ -483,10 +499,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "5710F5B07DBCE190"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Working on the Chain Gang"
+			subtitle: "那是带链条的劳改犯们干活时发出的声音"
 			tasks: [{
 				id: "3356FB1F9B83A44B"
 				item: "create:encased_chain_drive"
@@ -498,9 +514,9 @@
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"It is not always practical to chain hundreds of cogs to achieve the exact right speed. Enter, the Rotation Speed Controller. Place a Large Cogwheel in the top slot and power it. "
+				"将数百个齿轮连接起来就为了达到一个确切的速度不太现实。这就轮到转速控制器派上用场了。你需要在它的顶部插槽中放置一个大齿轮并为其提供动力。"
 				""
-				"The Controller will automatically adjust to any RPM on its two output shafts. Set the speed with the scroll-wheel. "
+				"转速控制器会自动调整自身两个输出传动杆上的转速。你可以使用鼠标滚轮设置转动速度。"
 			]
 			hide_dependency_lines: true
 			icon: "create:rotation_speed_controller"
@@ -509,18 +525,18 @@
 				{
 					id: "47BF8587EEDF584B"
 					item: "create:large_cogwheel"
-					title: "Large Cogwheel"
+					title: "大齿轮"
 					type: "item"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
 					icon: "kubejs:legendary_lootbox"
 					id: "039581C4AD45A4C3"
-					title: "Legendary Create Loot Box"
+					title: "传奇机械动力战利品箱"
 					type: "command"
 				}
 			]
-			subtitle: "Kick It Into Overdrive"
+			subtitle: "挂到超速档"
 			tasks: [{
 				id: "274F7413D31D0B78"
 				item: "create:rotation_speed_controller"
@@ -532,9 +548,9 @@
 		{
 			dependencies: ["21E017D060FC5109"]
 			description: [
-				"Funnels serve both to push into and pull from inventories. "
+				"漏斗既能向容器中输出物品，也能从中输入物品。"
 				""
-				"A funnel attached to a chest, for instance, can extract from the chest and dump onto an adjacent Belt line. Similarly, a belt feeding into a funnel will push items into the attached inventory."
+				"比方说，连接至箱子的漏斗可以从箱子中提取物品并倾倒在相邻的传送带上。类似地，进入漏斗的传送带会将物品放入相邻的容器中。"
 			]
 			hide_dependency_lines: true
 			id: "76C15F75CAC6EA59"
@@ -542,10 +558,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "0F1A62465CBB42D6"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Bit of a Slippery Slope"
+			subtitle: "滑坡效应"
 			tasks: [
 				{
 					id: "1CC1574FBA2DE3BC"
@@ -564,11 +580,11 @@
 		{
 			dependencies: ["21E017D060FC5109"]
 			description: [
-				" The chute is a simple yet fast way to convey items downwards. Simply drop them in the top and they’ll come out the bottom. "
+				"溜槽一种简单且快捷的向下传送物品的方式。只需把物品放在顶部，它们就会从底部出来。"
 				""
-				"The advantage that chutes offer over simply dropping an item in the world is that they can move items at a 45-degree angle and multiple chutes can converge into a single chute, allowing better control of where the item ends up."
+				"溜槽相比直接投掷物品的优势在于，它能以45度角输送物品，且多个溜槽可以合并成一个溜槽，从而更好地控制物品的最终落点。"
 				""
-				"Chutes may also be used to convey items upwards. If a chute has an encased fan set up directly on top of it, it can be used to pull items off a Belt. Of course, getting that item out requires some way of extracting from the chute, such as a Funnel."
+				"溜槽也可用于向上输送物品。如果溜槽顶部安装了一个鼓风机，则可以使用鼓风机将物品脱离传送带。当然，你还需要某种方法把物品从溜槽中拿出来，比如用机械动力漏斗。"
 			]
 			hide_dependency_lines: true
 			id: "5D9D512AF7BACF22"
@@ -576,30 +592,30 @@
 			rewards: [{
 				id: "622EAD08CD315864"
 				item: "create:encased_fan"
-				title: "Encased Fan"
+				title: "鼓风机"
 				type: "item"
 			}]
-			subtitle: "Learning To Take Things in Slide"
+			subtitle: "以溜槽的角度看世界"
 			tasks: [{
 				count: 4L
 				id: "61AF2B91C765B6A0"
 				item: "create:chute"
 				type: "item"
 			}]
-			title: "Chutes"
+			title: "溜槽"
 			x: 3.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["21E017D060FC5109"]
 			description: [
-				"Far from simple covers for your Mechanical Belts, Tunnels serve a useful purpose in splitting items. "
+				"隧道远不止是一个带盖的传送带，它在分流物品时起到了重要作用。"
 				""
-				"As a stack of items passes through an Andesite Tunnel, it will automatically take one item from the stack and place it onto adjacent belts or depots. "
+				"当一组物品通过安山岩隧道时，隧道将自动从一组中取出一件物品，并将其放置到相邻的传送带或容器中。"
 				""
-				"Brass Tunnels work a bit differently than Andesite Tunnels. Rather than splitting onto adjacent belts, a line of Tunnels can be formed along multiple parallel belts."
+				"黄铜隧道的工作原理与安山岩隧道略有不同。黄铜隧道可以并联以连接多个传送带，而不是只能分离到相邻传送带上。"
 				""
-				"As items pass into one tunnel, they’ll be evenly split among all connected tunnels on the other side."
+				"当物品通过黄铜隧道时，它们会被均分到另一侧的所有通道中。"
 			]
 			hide_dependency_lines: true
 			id: "13BABBB9E5BC167D"
@@ -607,10 +623,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "21CE398AFABF3FC8"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Double Slit Experiment"
+			subtitle: "双缝实验"
 			tasks: [
 				{
 					id: "24CA81419BEBDCF2"
@@ -629,9 +645,9 @@
 		{
 			dependencies: ["21E017D060FC5109"]
 			description: [
-				"A simple item buffer. "
+				"一个简单的物品缓冲。"
 				""
-				"Depots will hold a single stack of items, but they will also interact with Encased Fan Washing, Blasting, Smoking, and Haunting recipes, as well as the Plate Press. "
+				"置物台可以容纳一组物品，它们也可以与鼓风机洗涤、冶炼、烟熏和缠魂加工以及动力辊压机进行交互。"
 			]
 			hide_dependency_lines: true
 			id: "61CC9070E557407D"
@@ -639,10 +655,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "5272BC579D3D9836"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Buffer Allocation Failed"
+			subtitle: "缓冲区分配失败"
 			tasks: [{
 				id: "3573823661D0D526"
 				item: "create:depot"
@@ -654,11 +670,13 @@
 		{
 			dependencies: ["21E017D060FC5109"]
 			description: [
-				"Mechanical Arms serve as advanced short range item transport. They may be linked to multiple points at once for both extraction and insertion operations"
+				"动力臂用于高级的短程物品运输。它可以在其工作范围内的任意两点间移动物品。"
 				""
-				"Linking is done prior to placing the Arm, simply Right-Click it onto permitted inventory types, such as Depots, Funnels, or Belts. Right-Click again to toggle between input and output modes."
+				"在放置动力臂之前要进行连接，用动力臂右击可识别的容器（如置物台、机械动力漏斗或传送带）即可进行设置。再次右击可在输入模式和输出模式之间切换。"
 				""
-				"The Mechanical Arm can reach up to four blocks away in total. "
+				"动力臂最远可以触及四格方块的距离。"
+				""
+				"译者注：副标题中的句子来自于喜剧科幻片《霹雳五号》。"
 			]
 			hide_dependency_lines: true
 			id: "5C517A5685DBE05D"
@@ -667,10 +685,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "0A7D176961C23E15"
-				title: "Legendary Create Loot Box"
+				title: "传奇机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Number 5 is Alive"
+			subtitle: "五号还活着！"
 			tasks: [{
 				id: "209FAB6C9047CEBA"
 				item: "create:mechanical_arm"
@@ -682,9 +700,11 @@
 		{
 			dependencies: ["780BADC429826D36"]
 			description: [
-				"Millstones have been used for ages, representing some of our oldest technology still in use. They’re far more efficient than grinding things by hand."
+				"石磨有着很悠久的历史，这项最古老的技术仍在被我们使用。它们比手工研磨东西效率高得多。"
 				""
-				"Create’s Millstone is an excellent early way to stretch materials a little further. "
+				"机械动力的石磨是前期提高矿石产量的好方法。"
+				""
+				"译者注：副标题中的句子出自戏剧卡通片《恶搞之家》第四季第二十八集中皮特·格里芬在圆蛤镇五号新闻台中主持的节目《什么事令我不齿》中的开场白。"
 			]
 			hide_dependency_lines: true
 			id: "4EAAE11B2CB2508D"
@@ -692,10 +712,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "02080084ABF0EECA"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "You Know What Really Grinds My Gears?"
+			subtitle: "你知道什么事令我不齿吗？"
 			tasks: [{
 				id: "2718BB43CC315C6B"
 				item: "create:millstone"
@@ -707,15 +727,15 @@
 		{
 			dependencies: ["780BADC429826D36"]
 			description: [
-				"Crushing Wheels are the big brother to the Millstone used until now. In general, they do a better job, producing more per input than the Millstone would."
+				"粉碎轮是石磨的老大哥。总的来说，粉碎轮更好，它的产出比相对石磨来说更高。"
 				""
-				"Their harder surface is also capable of dealing with materials that the Millstone cannot."
+				"粉碎轮更坚硬的表面能够处理石磨无法处理的材料。"
 				""
-				"Setting up a pair of Crushing Wheels will require a little bit of clever thinking as both wheels must be rotated in opposite directions with the tops rotating inwards towards the point where the two wheels meet."
+				"搭建一对粉碎轮需要动点小脑筋，因为两个粉碎轮必须朝相反的方向旋转，即从顶部朝着两轮相交处旋转。"
 				""
-				"Place the wheels with a single block gap between them. Items may be either dropped in the top or inserted in a more controlled manner by funneling them into the ‘block’ space where the two wheels meet."
+				"放置粉碎轮时，两轮之间应留有单个方块的空隙。物品可以从底部丢下，也可以通过机械动力漏斗放入两轮相交的“方块”中，以便控制。"
 				""
-				"Crushing Wheels may also be placed horizontally, allowing them to interface nicely with a Belt system."
+				"粉碎轮也可以水平放置，这能使它们很好的与传送带系统相连。"
 			]
 			hide_dependency_lines: true
 			id: "372939B9A825CBE7"
@@ -724,28 +744,28 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "5464DCCBFDF03454"
-				title: "Legendary Create Loot Box"
+				title: "传奇机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "It's Crunch Time"
+			subtitle: "粉碎时间到！"
 			tasks: [{
 				count: 2L
 				id: "4F04499D0E5DE632"
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			title: "Crushing Wheels"
+			title: "粉碎轮"
 			x: 14.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["780BADC429826D36"]
 			description: [
-				"Useful for both Crafting and other Automation pursuits, the Deployer will find it’s way into many creations."
+				"机械手可以满足合成和其他自动化的需求。它可以用于很多装置的创作。"
 				""
-				"An item may be inserted into the Deployer by Belt, Funnel, Hopper, or most any other item transport method. When powered, it will continuously attempt to Right-Click the held item on any entity in front of it, be it item or mob. "
+				"你可以用传送带、机械动力漏斗、原版漏斗或几乎所有其他运输方式将物品输入进机械手。机械手获得动力后，它将持续尝试在其前方的任何实体上“使用”其持有的物品，无论那个实体是物品还是怪物。"
 				""
-				"Right-Clicking the hand with a Wrench will switch the Deployer into Left-Click mode, allowing it to attack mobs with a weapon, or otherwise interact with things that need to be Left-Clicked."
+				"用扳手右击机械手的“手”可以将其切换至左击模式，使其可以使用武器攻击生物，亦或者是与其他需要左击的物品进行交互。"
 			]
 			hide_dependency_lines: true
 			icon: "create:brass_hand"
@@ -754,10 +774,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "533389DECD3DB973"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Getting Down to Brass Tacks"
+			subtitle: "直指要害"
 			tasks: [
 				{
 					id: "15E1CB053901CE0B"
@@ -781,7 +801,7 @@
 		}
 		{
 			dependencies: ["0A67F4F9AE300856"]
-			description: ["With some basic power and logistics under our belts, it’s time we get our hands dirty and get down to business. Create offers several new crafting mechanics that are important to understand to work with the mod. "]
+			description: ["有了一些基本的动力和物流作保障，是时候开始干正事，搞点实践了。机械动力增加了几种新的合成机制，这些机制对理解该模组非常重要。"]
 			hide_dependency_lines: true
 			icon: "create:whisk"
 			id: "780BADC429826D36"
@@ -789,11 +809,11 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "5044588C6DA5D045"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			shape: "hexagon"
-			subtitle: "Just a Little Something I Whipped Up"
+			subtitle: "就做了一点微小的工作"
 			tasks: [{
 				id: "58A9C660957F3340"
 				item: {
@@ -816,7 +836,7 @@
 						]
 					}
 				}
-				title: "Getting Started: Material Processing"
+				title: "入门：材料处理"
 				type: "item"
 			}]
 			x: 12.5d
@@ -825,15 +845,15 @@
 		{
 			dependencies: ["780BADC429826D36"]
 			description: [
-				"The Mechanical Press is a great way to flatten things in need of smashing. It will also compact materials when combined with a Basin, making Ingots from Nuggets, for example."
+				"动力辊压机非常适合用于压制东西。与工作盆结合时它还可以压缩材料，比如将粒压成锭。"
 				""
-				"For Plates, the Press can be installed over a Belt, Depot, or any other block. "
+				"压制板时，辊压机可以安装在传送带、置物台或任何其他方块上。"
 				""
-				"If placed over a Belt, it will automatically cause the Belt to pause while the Press is operating. "
+				"如果放置了在传送带上，那么辊压机运行时传送带就会自动暂停。"
 				""
-				"When over a Depot, it will similarly work as soon as it detects an item below that needs pressing."
+				"当处在置物台上方时，一旦辊压机探测到下方有需要压制的物品，它就会开始工作。"
 				""
-				"While over any other block, however, a redstone signal is required to make it start. "
+				"然而当处在其他方块上方时，辊压机需要红石信号才能启动。"
 			]
 			hide_dependency_lines: true
 			id: "4953C4EFF1D71FC2"
@@ -842,10 +862,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "20A5EC236DC4A972"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Boil 'em, Mash 'em, Stick 'em in a Stew"
+			subtitle: "煮土豆，土豆泥，大锅炖土豆！"
 			tasks: [{
 				id: "05F9C570924BAC36"
 				item: "create:mechanical_press"
@@ -857,11 +877,11 @@
 		{
 			dependencies: ["780BADC429826D36"]
 			description: [
-				"The Mechanical Mixer helps blend both solids and liquids into more useful forms, from brewing potions, making tea, or making advanced alloys, the mixer does it all. A basin below the mixer is required."
+				"动力搅拌器能将固体或液体混合成更有用的形态。从酿造药水、泡茶到制作高级合金，它都能做到。搅拌器下方需要一个工作盆。"
 				""
-				"Note that some recipes require heat, this is provided by way of a Blaze Burner."
+				"请注意，有些配方需要加热，而热量需要烈焰人燃烧室来提供。"
 				""
-				"If a Depot or Item Drain is placed adjacent and one block down from the Basin, recipes will automatically be output. A small spout will appear on the Basin when the Depot or Item Drain is placed correctly. "
+				"如果工作盆相邻的方块下方放置了置物台或分液池，合成产物就自动输出到里面。如果放置正确，工作盆上就会出现一个小型的喷口。"
 			]
 			hide_dependency_lines: true
 			icon: "create:mechanical_mixer"
@@ -870,10 +890,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "634D74739A220234"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "There's Been a Mix-Up, Officer"
+			subtitle: "现场一片混乱，警官"
 			tasks: [
 				{
 					id: "2F933BBDF96EB6F7"
@@ -892,11 +912,11 @@
 		{
 			dependencies: ["780BADC429826D36"]
 			description: [
-				"When high temperatures are required, there’s nothing quite like the scorching heat of the Nether. Why not bring it home with you?"
+				"当你需要高温时，没有比下界灼热的高温更好的选择了。为什么不把它带回家呢？"
 				""
-				"Blaze Burners are created by Right-Clicking an empty burner on either a Blaze (consumes the mob) or a Blaze Spawner (does not consume the spawner). They’ll burn hot, but not forever."
+				"手持空燃烧室右击烈焰人（消耗怪物）或烈焰人刷怪笼（不消耗刷怪笼）可以得到烈焰人燃烧室。它很烫，但不会永远烫下去。"
 				""
-				"Feed them coal or other burnable material to get them riled up again if they cool down."
+				"如果烈焰人冷却了，就给它喂煤炭或其他可燃材料，使其再次产生怒火。"
 			]
 			hide_dependency_lines: true
 			id: "24D0F4F6DD9176EF"
@@ -904,10 +924,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "0AF701A6E011A769"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Dat Ash Tho"
+			subtitle: "灰常火辣"
 			tasks: [{
 				id: "6BA5F80D7DFF5751"
 				item: "create:blaze_burner"
@@ -919,21 +939,21 @@
 		{
 			dependencies: ["24D0F4F6DD9176EF"]
 			description: [
-				"What do you mean that’s not hot enough? Well, let them eat cake!"
+				"你说不够热是什么意思？好吧，那让它们吃蛋糕吧！"
 				""
-				"When a recipe calls for Super-Heating, a Blaze Cake is in order to fuel the Blaze Burner. "
+				"当配方需要超级加热时，你需要给烈焰人燃烧室喂烈焰蛋糕来制作该配方。"
 				""
-				"Making Blaze Cake will really test your skills as it combines a lot of different mechanics. How far can you take your automation?"
+				"制作烈焰蛋糕将考验你的技能，因为它结合了许多不同的合成机制。你的自动化能带你走到多远？"
 			]
 			id: "3F3F1688537E79E6"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "17932E9C90BF9F0B"
-				title: "Legendary Create Loot Box"
+				title: "传奇机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Forbidden Snacks"
+			subtitle: "禁忌零食"
 			tasks: [{
 				id: "055A7D6F11BE8F99"
 				item: "create:blaze_cake"
@@ -945,11 +965,11 @@
 		{
 			dependencies: ["21E017D060FC5109"]
 			description: [
-				"Just as moving items isn’t free, so to does it require some rotational force to pump and work with fluids."
+				"正如我们不能不费力气就移动物体，动力泵也需要一些旋转力来泵送和处理流体。"
 				""
-				"The Mechanical Pump accepts power from a cog, pressurizing a section of pipe to cause fluid to flow in one direction or the other, depending on the direction of rotation. "
+				"动力泵接受来自齿轮的动力，并向一段管道进行加压，使流体沿一个方向或其反方向流动，流动的方向具体取决于齿轮旋转方向。"
 				""
-				"The block has a handy little directional indicator to help visualize the flow. A single pump can pressurize a large section of pipe, so be sure to spread them out. "
+				"该方块有一个小型流向指示器，用于帮助可视化水流。一台动力泵可以给一长段管道加压，所以尽量将它们分的散点。"
 			]
 			hide_dependency_lines: true
 			icon: "create:mechanical_pump"
@@ -958,10 +978,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "563CFD1505CBBC00"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Archimedean Screw"
+			subtitle: "阿基米德螺线"
 			tasks: [
 				{
 					id: "4BB7F0E6F2CB41E6"
@@ -979,7 +999,7 @@
 		}
 		{
 			dependencies: ["21E017D060FC5109"]
-			description: ["Fluid valves may be opened and closed by applying some rotational force, for example with a Valve Handle. "]
+			description: ["通过对流体阀门施加一些旋转力可以将其打开或关闭，比方说用阀门手轮。"]
 			hide_dependency_lines: true
 			icon: "create:fluid_valve"
 			id: "360088196B951985"
@@ -987,10 +1007,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "513969EA94AFA47D"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Shut The Front Door"
+			subtitle: "把阀门关上"
 			tasks: [
 				{
 					id: "09CA331CE0AB9FE9"
@@ -1008,17 +1028,17 @@
 		}
 		{
 			dependencies: ["21E017D060FC5109"]
-			description: ["Doing the impossible is just another Tuesday in modded. Smart Fluid Pipes act as a fluid filter, either controlling what is allowed to be pulled from a connected tank, or what is allowed to continue down the line. "]
+			description: ["原版里不可能的事，在模组里就是家常便饭。智能流体管道充当了流体过滤器的功能，它既可以控制从储罐中输出什么流体，也可以控制管道中传输什么流体。"]
 			hide_dependency_lines: true
 			id: "5529332469374634"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "757E5C7AB9DC87FF"
-				title: "Legendary Create Loot Box"
+				title: "传奇机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Reverse Osmosis Filter"
+			subtitle: "半透膜"
 			tasks: [{
 				id: "3D7F52D89450E8A9"
 				item: "create:smart_fluid_pipe"
@@ -1030,14 +1050,15 @@
 		{
 			dependencies: ["21E017D060FC5109"]
 			description: [
-				"Fluid Tanks are a thematic multi-block tank for all your fluid storing needs. "
+				"流体储罐一种机械动力主题的多方块储罐，可以满足你所有的流体存储需求。"
 				""
-				"While they can't be interacted with by the player directly, needing pipes to insert and extract fluids, they merge with adjacent tanks to form large multi-blocks for bulk storage."
-				"They can have a 1x1, 2x2, or 3x3 base and may be extended vertically. "
+				"尽管流体储罐无法直接与玩家交互，并且需要管道来输入或输出流体，但它可以和相邻的储罐合并，形成大型的多方块结构，以用于大批量存储。"
+				"流体储罐的底部可以放置成1x1、2x2、3x3或者更大的正方形。"
 				""
 				"================================="
 				""
-				"Note, the storage capacity of Fluid Tanks has been increased substantially in Enigmatica 9. "
+				"注：Enigmatica 9对流体储罐的储量进行了大幅"
+				"的提升。"
 			]
 			hide_dependency_lines: true
 			id: "1BDD98EC01F427FE"
@@ -1045,33 +1066,33 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "34E1C82BFD5BD409"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Unfathomably Deep"
+			subtitle: "深不可测"
 			tasks: [{
 				count: 4L
 				id: "0E6AFA2E108ACB1E"
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			title: "Fluid Tanks"
+			title: "流体储罐"
 			x: 0.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["780BADC429826D36"]
-			description: ["The spout is paired with a Depot by placing it above the Depot. It will attempt to fill any item appearing on the Depot. For example, to make buckets of water, fill potion bottles, or make delicious tea!"]
+			description: ["将注液器放置在置物台上方与其配对。注液器会尝试填充置物台上出现的任何物品。比方说，它可以装一桶水、注满药水瓶，或者做美味的茶！"]
 			hide_dependency_lines: true
 			id: "0F1BA9EA4A4E1E83"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "2D708C8085FCBB03"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Spouting Off Nonsense"
+			subtitle: "满“嘴”胡言"
 			tasks: [{
 				id: "1F50DC2FC43E1C4B"
 				item: "create:spout"
@@ -1083,11 +1104,11 @@
 		{
 			dependencies: ["0A67F4F9AE300856"]
 			description: [
-				"Modular Contraptions are build-it-yourself multiblock structures with nearly endless possibilities. "
+				"模块化动态结构是一种DIY多方块结构，有着近乎无限的可能性。"
 				""
-				"They can either be fixed in place and run using rotational power, or they can be attached to a minecart and run for free, requiring only powered rails to keep the cart moving. "
+				"模块化动态结构即可以固定在原地并通过旋转力运行，也可以连接到矿车上自由运行，只需要充能铁轨就可以保持矿车移动。"
 				""
-				"The following are some of the specialized blocks that may be used for these contraptions."
+				"以下是一些专门用于搭建这些动态结构的方块。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1151,7 +1172,7 @@
 			rewards: [{
 				id: "2897A0F829A9F11E"
 				item: "minecraft:minecart"
-				title: "Minecart"
+				title: "矿车"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1160,16 +1181,16 @@
 				item: "create:wrench"
 				type: "item"
 			}]
-			title: "Modular Contraptions"
+			title: "模块化动态结构"
 			x: 7.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["5F310E6373C3A6FF"]
 			description: [
-				"When it comes to moving contraptions, Mechanical Pistons can be a great early start. "
+				"谈起移动动态结构，动力活塞可以是一个很好的开始。"
 				""
-				"As a simple example of where one might use these, imagine a long field of crops. A Mechanical Piston could be used to push a harvesting contraption back and forth over the field periodically to gather crops. "
+				"举个简单的例子，想象有一片长长的庄稼地。动力活塞定期在田里来回推动收割装置，并采集作物。"
 			]
 			icon: "create:mechanical_piston"
 			id: "273CC6A935E6CCA2"
@@ -1178,18 +1199,18 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "48B4464DBD40B9D0"
-					title: "Rare Create Loot Box"
+					title: "稀有机械动力战利品箱"
 					type: "command"
 				}
 				{
 					count: 8
 					id: "350C5628949B4110"
 					item: "create:piston_extension_pole"
-					title: "Piston Extension Pole"
+					title: "活塞杆"
 					type: "item"
 				}
 			]
-			subtitle: "Engineering Outreach Program"
+			subtitle: "工程师交流项目"
 			tasks: [{
 				id: "64A817D85AF2DC57"
 				item: {
@@ -1208,7 +1229,7 @@
 						]
 					}
 				}
-				title: "Mechanical Piston"
+				title: "动力活塞"
 				type: "item"
 			}]
 			x: 5.0d
@@ -1217,13 +1238,13 @@
 		{
 			dependencies: ["5F310E6373C3A6FF"]
 			description: [
-				"Cart Assemblers are used to build a contraption destined to ride a mine cart. "
+				"矿车装配站可以用于建造矿车上的动态结构。"
 				""
-				"The contraption should be built on top of the Assembler. Once prepared, giving the assembler a Redstone signal will convert all connected blocks into one entity. "
+				"装配站的顶部可以建造动态结构。建造完成后，给装配站一个红石信号就可以把所有连接的方块转变成一个实体。"
 				""
-				"The entire cart can then be picked up by using a wrench on it, allowing for easy transport of the device. "
+				"然后就可以用扳手将整个矿车捡起，以便于设备的运输。"
 				""
-				"A great example of a mine cart-based contraption would be a tunnel bore mining machine. It could be set up to lay down its own track in front of it and pull up track behind it. It could even build its own bridges to avoid ravines!"
+				"隧道掘进机就是一个基于矿车的动态结构的很好的例子。它可以搭建成在前面铺设轨道，然后在后面收回轨道。它甚至可以建造桥梁以避开沟壑！"
 			]
 			id: "1C3D0868BEFA2BD6"
 			min_width: 250
@@ -1231,10 +1252,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "4494D69A52071143"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Putting the Cart Before the Horse"
+			subtitle: "把车装在马的前面——本末倒置"
 			tasks: [{
 				id: "6829F2AEBEC8CD85"
 				item: "create:cart_assembler"
@@ -1246,19 +1267,19 @@
 		{
 			dependencies: ["5F310E6373C3A6FF"]
 			description: [
-				"Similar to Windmill Bearings, Mechanical Bearings may be used to build rotating contraptions. "
+				"与风车轴承类似，动力轴承可用于建造旋转动态结构。"
 				""
-				"For instance, a long sweeping armed contraption could be built that swings through a tree farm, cutting down all the trees it encounters. "
+				"举个例子，我们可以建造一个有着长长的手臂的装置，它会在树场中转动，并砍倒它遇到的所有树。"
 			]
 			id: "4405D0E5F291C3E2"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "1597FC0ADBA5E7C9"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Getting Out of an Unbearable Situation"
+			subtitle: "摆脱无法承受的处境"
 			tasks: [{
 				id: "35B56C6B4BEE87A3"
 				item: "create:mechanical_bearing"
@@ -1277,20 +1298,20 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Chassis blocks serve to form a base for larger creations. "
+				"底盘方块可以用于形成更大的动态结构的底部。"
 				""
-				"Linear chassis connect to one another along the darker edge and will automatically be treated as a ‘whole’ piece that other parts may be glued to. "
-				"They will also capture a line of blocks attached to the lighter side if glue is placed on the chassis itself. "
+				"轴向底盘可以沿自身深色面依次连接，并自动被视为一个“整体”，其他部件可以粘在这个整体的上面。"
+				"如果在底盘上涂上胶水，它的浅色面还能捕获一列与其连接的方块。"
 				""
-				"Similarly, Radial chassis can capture blocks in a circular plane so long as they all touch and the one in contact with the light face of the chassis has been glued in place."
+				"类似地，径向底盘可以捕获圆形平面中的方块，只要它们与底盘接触并且底盘的浅色面涂有胶水。"
 				""
-				"This results in the ability to build very large contraptions with very little glue. However, they are not required. Instead, blocks may simply be glued together to form a larger piece in an irregular shape."
+				"使用底盘可以用很少的胶水制作非常大的动态结构。不过它们并不是必需的。恰恰相反，方块可以直接粘合在一起，形成一个不规则形状的大块。"
 				""
-				"Worry not, once the contraption is formed, the glue marks will become invisible, allowing for very aesthetic builds."
+				"不用担心，一旦这个动态结构成型，胶痕就看不见了，因此你可以搭建非常美观的结构。"
 				""
-				"Use your scroll wheel while holding a wrench and looking at the chassis to configure its capture range. "
+				"手持扳手并看向底盘时使用鼠标滚轮来调整其连接范围。"
 				""
-				"Note: A slime ball may be used infinitely to set glue marks on Chassis blocks themselves. Right-Click with the slime ball to apply to one side. Double Right-Click to apply to all sides."
+				"注意：黏液球可以无限次地在底盘方块上添加胶痕。用黏液球右击底座可以涂抹底座的一个面，双击右键可以涂抹所有的面。"
 			]
 			id: "299048747CDB2516"
 			min_width: 300
@@ -1298,7 +1319,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "378F3AE6697344A6"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
 			tasks: [
@@ -1313,22 +1334,22 @@
 					type: "item"
 				}
 			]
-			title: "Chassis"
+			title: "底盘"
 			x: 7.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["299048747CDB2516"]
-			description: ["A smart harvester that gently harvests only mature crops. "]
+			description: ["智能的收割机，会温柔地收割成熟作物。"]
 			id: "731A9E96BAFDBA4C"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "6ED3255791EBD190"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Outstanding In Its Field"
+			subtitle: "庄稼地里的靓仔"
 			tasks: [{
 				id: "13911A217105BD44"
 				item: "create:mechanical_harvester"
@@ -1339,16 +1360,16 @@
 		}
 		{
 			dependencies: ["299048747CDB2516"]
-			description: ["Mobile or Stationary, the Mechanical Drill serves as a capable mining apparatus. "]
+			description: ["无论是移动的还是固定的，动力钻头都是一种功能强大的采掘设备。"]
 			id: "2005DEC30C94F4AD"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "28C9B593F7559123"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Nothing to See Here, Just a Boring Machine"
+			subtitle: "这儿没什么好看的，就是台掘进机罢了"
 			tasks: [{
 				id: "423BF25ACF0E60C2"
 				item: "create:mechanical_drill"
@@ -1360,19 +1381,19 @@
 		{
 			dependencies: ["299048747CDB2516"]
 			description: [
-				"Ploughing Fields is hard work. Make a machine to do it for you!"
+				"耕地是一项艰苦的工作。造一台机器来帮你干吧！"
 				""
-				"The Mechanical Plow is useful for more than simple farm maintenance, however, and can make a great addition to a moving minecart machine for pulling up extra track behind it."
+				"动力犁不仅可以用于简单的农场维护，还可以放在移动的矿车机器后犁出耕地。"
 			]
 			id: "274E797023E98258"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "54F79A04D05AC440"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "A Groundbreaking Innovation"
+			subtitle: "农场大“耕”新"
 			tasks: [{
 				id: "1D98BD2723B2587C"
 				item: "create:mechanical_plough"
@@ -1384,21 +1405,21 @@
 		{
 			dependencies: ["299048747CDB2516"]
 			description: [
-				"From Chopping Trees to Carving Stone, this Saw has seen it all. "
+				"从砍树到雕刻石头，这把锯子见证了一切。"
 				""
-				"When stationary and powered, it can serve both for cutting logs to planks and for any stonecutter recipe. Stonecutter recipes will give a random output unless a filter is set on the Saw itself."
+				"动力锯静止且有动力时，它既可以将原木切割成木板，也可以制作任何切石机配方。除非动力锯上设置了过滤，否则制作切石机配方时它将会随机输出合成结果。"
 				""
-				"When attached to a moving machine, it will chop whole trees in one swoop. Handy for a simple tree farm. "
+				"当动力锯连接在移动的机器上时，它可以一下子砍掉整棵树。这对建造一个简单的树场来说很有用。"
 			]
 			id: "797763DE2C50D314"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "001C17D5D029CEEE"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Cutting Edge Technology"
+			subtitle: "“切”沿科技"
 			tasks: [{
 				id: "1B4763A22B304F47"
 				item: "create:mechanical_saw"
@@ -1410,25 +1431,25 @@
 		{
 			dependencies: ["299048747CDB2516"]
 			description: [
-				"In many cases, the tools that can be attached to a moving contraption will also automatically pick up the items they’re harvesting, so long as there is ample storage on the device. "
+				"在许多情况下，只要动态结构上有足够的存储空间，与装置相连的工具就会自动拾取其收割的物品。"
 				""
-				"Simply gluing a chest in place is sufficient for providing that storage place, but getting items out again is another matter. "
+				"只需将箱子黏在适当的位置就足以提供存储空间，但如何将物品取出是则又是一个问题。"
 				""
-				"Interfaces act as a proxy for the inventories on moving machines. Whenever a Portable Interface on a contraption meets an Interface sitting in the world, the contraption will pause briefly, creating a connection."
+				"接口充当着动态结构上的容器的代理。每当装置上的便携式接口遇到世界中的接口时，装置就会短暂暂停，并与其建立连接。"
 				""
-				"If something is set up to pull from, or push to that interface, the machine will remain paused until nothing is flowing through the Interface. Once the flow has stopped, it will move on."
+				"如果设置了该接口的输入输出，机器将保持暂停，直到不再有任何物品通过该接口。一旦传输停止，它就会继续运行。"
 				""
-				"To prevent this pause, or interrupt it early, a Redstone signal can be supplied to the fixed position Interface. "
+				"如果想要取消或提前中断这种暂停，可以向固定位置的接口提供红石信号。"
 			]
 			id: "58B3F7B9968F9D7E"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "22E781622F117752"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Plug and Play"
+			subtitle: "即插即玩"
 			tasks: [
 				{
 					id: "33AA3FE874954EE5"
@@ -1441,28 +1462,28 @@
 					type: "item"
 				}
 			]
-			title: "Portable Interfaces"
+			title: "移动式接口"
 			x: 7.0d
 			y: 14.0d
 		}
 		{
 			dependencies: ["5F310E6373C3A6FF"]
 			description: [
-				"Need a Lift? "
+				"需要举高高吗？"
 				""
-				"Build your own with a Rope Pulley by attaching your own platform. "
+				"将绳索滑轮与一个平台相连来建造属于你自己的电梯。"
 				""
-				"Use a Gearshift to reverse direction with ease."
+				"使用反转齿轮箱来轻松反转方向。"
 			]
 			id: "1FD1BDE180595CB9"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "762027CFF1BB1983"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "It Has It's Ups and Downs"
+			subtitle: "它有起有落"
 			tasks: [{
 				id: "313887BA46E496E5"
 				item: "create:rope_pulley"
@@ -1474,9 +1495,9 @@
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"Slightly finer control than messing with gear ratios, an Adjustable Chain Gearshift uses a Redstone signal to set the variable speed, up to twice the input speed. "
+				"与摆弄齿轮比相比，可调节链式传动箱的控制更加精细。它可以接收红石信号来进行变速，最高可达输入旋转速度的两倍。"
 				""
-				"Consider using an Analogue Lever to easily set a fixed speed. "
+				"可以考虑使用模拟拉杆来设置固定的速度。"
 			]
 			hide_dependency_lines: true
 			id: "0982E0B3C563E541"
@@ -1484,10 +1505,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "129FC9D4B142A885"
-				title: "Legendary Create Loot Box"
+				title: "传奇机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Shifting Into Higher Gear"
+			subtitle: "挂到高速档"
 			tasks: [{
 				id: "09D9C662DEB0C51D"
 				item: "create:adjustable_chain_gearshift"
@@ -1500,11 +1521,11 @@
 			dependencies: ["21E017D060FC5109"]
 			dependency_requirement: "one_completed"
 			description: [
-				"With a Hose Pulley, fluids may be pumped into or out of the world. Create massive lakes or drain them dry to let your factory grow!"
+				"通过软管滑轮，流体可以在世界中泵入或泵出。创建巨大的湖泊或将其排干，不断扩张你的工厂！"
 				""
-				"Very large bodies, such as oceans or massive lava lakes in the Nether will be considered Bottomless, so if you wish to drain something like an Ocean Monument, it may still be necessary to build some retaining walls to break things up."
+				"非常大的水体，如海洋或巨大的熔岩湖，将被视为无限大。因此，如果你想通过排水来建造像海底纪念碑一样的建筑，可能需要建造一些隔断墙来将建筑和水体分开。"
 				""
-				"Note, the Hose Pulley does not pump by itself. Lower the hose into the fluid body set up a Mechanical Pump to do the work for you. "
+				"注：软管滑轮不会自己泵送流体。你需要将软管降到流体内，并使用动力泵泵取流体。"
 			]
 			hide_dependency_lines: true
 			id: "5367697265B2572C"
@@ -1513,10 +1534,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "12FECCF21E3A5E81"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Well, There's an Upside and a Downside"
+			subtitle: "它有正反两面"
 			tasks: [{
 				id: "41B454D275D1DE8B"
 				item: "create:hose_pulley"
@@ -1528,9 +1549,9 @@
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"Need to reverse direction? Then the Gearshift is what you’re looking for. "
+				"需要反转方向吗？那么反转齿轮箱就是你要找的东西。"
 				""
-				"Applying a Redstone signal to the block will cause the output side to start spinning in the opposite direction relative to the drive side. "
+				"向该方块施加红石信号可使输出面向着驱动面相反的方向旋转。"
 			]
 			hide_dependency_lines: true
 			id: "6FA60FAFEB59003A"
@@ -1538,10 +1559,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "615974670DD4392E"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Time to Switch Things Up"
+			subtitle: "是时候做出改变了"
 			tasks: [{
 				id: "35EA22E18BF7C927"
 				item: "create:gearshift"
@@ -1553,9 +1574,9 @@
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"Quite the simple device, really. A Clutch disengages power on a shaft line, making for a simple on/off switch. "
+				"非常简单的设备，真的。离合器将传动杆上的动力分离，从而实现一个简单的开关。"
 				""
-				"It could useful for more advanced contraptions that need precise timing, as well."
+				"这对需要精确计时的高级动态结构也很有用。"
 			]
 			hide_dependency_lines: true
 			id: "45F0B34B3988D2F0"
@@ -1563,10 +1584,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "4258C881DD19230C"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Going to Have to Stop You Right There"
+			subtitle: "必须就此打断你"
 			tasks: [{
 				id: "52A6BBA8F88E28FB"
 				item: "create:clutch"
@@ -1578,19 +1599,21 @@
 		{
 			dependencies: ["24D0F4F6DD9176EF"]
 			description: [
-				"Stayed out too late par-tea-ing like it's 1773? Need a little more tranquili-tea in your life?"
+				"在外面玩到很晚，就像1773年那会儿倒茶倒到很晚？生活里需要更多的茶吗？"
 				""
-				"Try some Builder's Tea! It doesn't take too long to prepare."
+				"试试建造工茶饮吧！它不需要泡很久才能喝。"
+				""
+				"译者注：1773年发生了历史上著名的波士顿倾茶事件。"
 			]
 			id: "7FC80C83F7A70EA3"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "4BD7F5A9A1818D77"
-				title: "Legendary Create Loot Box"
+				title: "传奇机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Hello Brew-TEA-Full!"
+			subtitle: "你好，“沏”爱的！"
 			tasks: [{
 				id: "207BBE59083BB681"
 				item: "create:builders_tea"
@@ -1603,9 +1626,11 @@
 			dependencies: ["21E017D060FC5109"]
 			dependency_requirement: "one_completed"
 			description: [
-				"The Item drain is useful for draining fluids from any fluid-containing items, like buckets or bottles. It's also quite handy for getting fluids out of a Basin."
+				"分液池可以从任何包含流体的东西中抽取流体，比如桶和玻璃瓶。它也可以非常方便的从工作盆中提取流体。"
 				""
-				"It has small internal tank, from which fluids can be accessed by pipes."
+				"分液池有一个小型的内置储罐，可以通过管道进行访问。"
+				""
+				"译者注：副标题中的歌词改编自电影《海王》的插曲《Ocean to Ocean》。"
 			]
 			hide_dependency_lines: true
 			id: "70B2C4200B09A07E"
@@ -1614,10 +1639,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "2573803F64C9B873"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Bless the Drains Down in Africa"
+			subtitle: "让大雨在非洲倾“池”而下"
 			tasks: [{
 				id: "1AAE8908EE3033EE"
 				item: "create:item_drain"
@@ -1629,11 +1654,11 @@
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"With a source of heat, water, and an enclosed space, a Steam Engine can be manufactured to produce enormous amounts of SU. "
+				"有了热源、水源和封闭空间，就可以造出一台蒸汽引擎，并产出大量的SU。"
 				""
-				"A basic Boiler setup requires four Fluid Tanks placed in a square and at least one Steam Engine attached. Filling the tanks with water and providing a source of heat below it will get things moving. Click a Shaft against the Steam Engine to get power out of the system"
+				"搭建一台基础的锅炉需要将四个流体储罐摆放成一个正方形，并让至少一台蒸汽引擎与储罐相连。将储罐装满水并在其下方提供热源，蒸汽引擎就会动起来。用传动杆右击蒸汽引擎就可以将动力导出。"
 				""
-				"Boilers may be heated passively by any campfire or magma block, however by actively heating them with a Blaze Burner, they reach much higher temperatures and therefore produce more SU. Either way, they’ll need a constant supply of Water, with more used per operation as the number of Engines increases."
+				"你可以通过任意营火或岩浆块被动加热锅炉，也可以用烈焰人燃烧室主动加热它。主动加热的锅炉可以达到更高的温度，从而产生更多SU。无论何种方式，锅炉都需要稳定的供水。蒸汽引擎的数量越多，锅炉每次工作消耗的水也就越多。"
 			]
 			icon: "create:steam_engine"
 			id: "6C74400AD471917A"
@@ -1643,7 +1668,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
 					icon: "kubejs:legendary_lootbox"
 					id: "730DADB4DB8FCE64"
-					title: "Legendary Create Loot Box"
+					title: "传奇机械动力战利品箱"
 					type: "command"
 				}
 				{
@@ -1652,7 +1677,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A Newcomen on the Block"
+			subtitle: "新到的纽科门蒸汽引擎"
 			tasks: [
 				{
 					id: "3BFC93247964F2FA"
@@ -1672,11 +1697,11 @@
 		{
 			dependencies: ["5F310E6373C3A6FF"]
 			description: [
-				"Be it simple Transportation of goods or people, or powering a moving quarry, Trains offer an elegant solution. "
+				"无论是简单的货物和人员运输，还是为移动的采石场提供动力，列车都提供了一个优雅的解决方案。"
 				""
-				"Trains are large mobile contraptions that may be automated by way of Train Stations, Train Schedules, and Train Signals. They’ll move through un-loaded chunks, making long-distance transport of materials feasible; only the Station needs to be loaded. Drills and other machines will not function in un-loaded chunks, however."
+				"列车是一种大型可移动结构，可以通过列车站、列车时刻表和列车信号机来实现自动化。只要列车站所在区块被加载，它就可以从未加载的区块中穿过，这使得远距离运输材料成为可能。然而，隧道掘进机等其他机器并不能在未加载的区块中运作。"
 				""
-				"Building trains begins with the Train Station. Due to the complexity of this feature, watching the Ponder for each of the various pieces of Train equipment is highly recommended."
+				"你需要从列车站开始建造列车。由于列车的复杂特性，我们高度建议您观看各种列车设备的思索动画。"
 			]
 			icon: "create:track"
 			id: "28371C67E6DC0C84"
@@ -1685,10 +1710,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "76589AD67CFA6AA0"
-				title: "Legendary Create Loot Box"
+				title: "传奇机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Watch Your Step"
+			subtitle: "列车进站，当心脚下"
 			tasks: [
 				{
 					count: 16L
@@ -1712,17 +1737,21 @@
 					type: "item"
 				}
 			]
-			title: "Trains"
+			title: "列车"
 			x: 7.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["0A67F4F9AE300856"]
-			description: ["Half the joy of Create is seeing things move, and its logistics options do not disappoint. From Belts that render their contents, to Pipes showing fluids flowing through them, Create offers ways of moving around most anything. "]
+			description: [
+				"机械动力一半的乐趣都在于看到你造的东西动起来，而它的物流选择绝对能让你获得这份乐趣。从可以看到上面物品的传送带，到显示其中移动的流体的管道，机械动力为几乎所有东西都提供了运输的办法。"
+				""
+				"译者注：副标题中的句子出自苏斯博士笔下的绘本故事《一条鱼，两条鱼，红色的鱼，蓝色的鱼》。"
+				]
 			hide_dependency_lines: true
 			id: "21E017D060FC5109"
 			shape: "hexagon"
-			subtitle: "From Here to There, Funny Things Were Everywhere"
+			subtitle: "从这里到那里，欢乐的事情在世界的每个角落里"
 			tasks: [{
 				id: "2FAB5E21F73D3C8C"
 				item: {
@@ -1745,7 +1774,7 @@
 						]
 					}
 				}
-				title: "Getting Started: Logistics and Storage"
+				title: "入门：逻辑和存储"
 				type: "item"
 			}]
 			x: 1.5d
@@ -1754,13 +1783,14 @@
 		{
 			dependencies: ["21E017D060FC5109"]
 			description: [
-				"Like the shipping crates they replicate, Item Vaults can hold an enormous number of items per block. They don’t allow manual interaction, however, so items must be inserted or extracted via automation."
+				"物品保险库和现实中的货箱长得很相似，并且都可以装下数量巨大的物品。不过，它不能手动进行交互，因此必须通过自动化输入和输出物品。"
 				""
-				"Vaults may be combined to form a multi-block storage container. The base must remain square and can be expanded up to 3x3, while the length can be up to 3x the diameter for a maximum size of 3x3x9. "
+				"可以合并物品保险库来形成一个多方快存储容器。其底部必须是正方形，最大可以拓展至3x3，而其长度最大可以是宽度的三倍，因此其最大大小为3x3x9。"
 				""
 				"================================="
 				""
-				"Note, the storage capacity of Vaults has been increased substantially in Enigmatica 9. "
+				"注：Enigmatica 9对物品保险库的储量进行了大"
+				"幅的提升。"
 			]
 			hide_dependency_lines: true
 			id: "2B2831B7CA29DFE7"
@@ -1768,10 +1798,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "4D53FA0D11747F26"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Hoarder's Dream"
+			subtitle: "囤积者的梦中情物"
 			tasks: [{
 				id: "5FDBE067CC27D743"
 				item: "create:item_vault"
@@ -1783,19 +1813,19 @@
 		{
 			dependencies: ["2C03271FD5A61ADC"]
 			description: [
-				"These simple electric motors make an excellent and compact source of SU. "
+				"这些简单的电动马达可以当作极好的紧凑SU产生装置。"
 				""
-				"Provide power from any source of FE to get them spun up and set their operating speed on the back. Spinning faster allows them to provide more SU, but at an increasing FE cost. For high SU, low speed applications, be sure to pair them with a Rotation Speed Controller."
+				"为电动马达提供任何来源的FE就可以使它旋转起来。在它的背部可以设置转速。转速越快，其产生的SU就越多，但是消耗的FE也越多。使用电动马达为高SU消耗，低转速的机器提供动力时，请确保将它与转速控制器配对使用。"
 			]
 			id: "304335B08B51F1DA"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "4F43163D2CBCABEF"
-				title: "Legendary Create Loot Box"
+				title: "传奇机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Getting Wired Up"
+			subtitle: "接通电源"
 			tasks: [{
 				id: "470B3E86185B251B"
 				item: "createaddition:electric_motor"
@@ -1807,19 +1837,21 @@
 		{
 			dependencies: ["24D0F4F6DD9176EF"]
 			description: [
-				"Who knew a Blaze could get thirsty? They’re certainly not interested in Water, but other combustible fluids seem to hit the spot just fine. "
+				"谁能想到烈焰人也会口渴？它们肯定不会对水感兴趣，但是似乎别的可燃流体正和它们口味。"
 				""
-				"Giving the Blaze a Straw allows them to accept liquid fuels instead. Given the right fuel, it may even be super heated!"
+				"给燃烧室里的烈焰人一根吸管，它就能接收流体燃料。如果提供了正确的燃料，它还能进行超级加热！"
+				""
+				"译者注：副标题《余温之恋》是电影《007：大破量子危机》的一个非官方译名。"
 			]
 			id: "22B7A9A1F7CDD7A1"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "30DE8FD2BCB34418"
-				title: "Epic Create Loot Box"
+				title: "史诗机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "A Quantum of Solace "
+			subtitle: "余温之恋"
 			tasks: [{
 				id: "031BAA05820B2A8A"
 				item: "createaddition:straw"
@@ -1830,17 +1862,17 @@
 		}
 		{
 			dependencies: ["780BADC429826D36"]
-			description: ["The Rolling Mill is well suited for rolling out some clean rods or extruding wires suitable for electronics use. These may be used manually, or inline with conveyor belts as part of a larger factory.  "]
+			description: ["轧机非常适合用来轧制一些用于制作电子产品的金属棒和金属线。你可以手动使用它们，也可以将其作为大型工厂的一部分，放在传送带上。"]
 			hide_dependency_lines: true
 			id: "22FC283CBAF198BF"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "4CE1F858B1237850"
-				title: "Rare Create Loot Box"
+				title: "稀有机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Keep them ingots rollin'"
+			subtitle: "尽情轧制吧"
 			tasks: [{
 				id: "6751D909A230A60B"
 				item: "createaddition:rolling_mill"
@@ -1852,11 +1884,14 @@
 		{
 			dependencies: ["780BADC429826D36"]
 			description: [
-				"A high-powered electrical device capable of charging objects wirelessly by induced currents, the Tesla Coil can be quite useful in any factory."
+				"特斯拉线圈是一种高功率的电力设备，能够通过感应电流为物品无线充电，在任何工厂都很有用。"
 				""
-				"When placed above a Belt or Depot and provided sufficient power, the Tesla coil will impart a charge into items on the Belt or Depot. This works not only with crafting recipes, but also for charging equipment like tools and batteries. "
+				"当特斯拉线圈放置在传送带或置物台上方，并提供有足够的动力时，它会对传送台或置物台上的物品进行放电。它不仅可以用于合成配方，也可以用于为工具和电池一类的装备充电。"
 				""
-				"The Coil may be deployed for more destructive purposes as well by placing it and providing a Redstone Signal in addition to the power. In this mode, it will damage nearby entities"
+				"特斯拉线圈也可以用于实现更具毁灭性的目的。将它放置下来，并提供红石信号与动力，它就会开始伤害附近的实体。"
+				""
+				"译者注：副标题原文为“Assault and Battery”，其中“Battery”的"
+				"常见翻译是电池，但该单词同时也有殴打和侵犯的意思。"
 			]
 			hide_dependency_lines: true
 			id: "0FAE129A0C845C20"
@@ -1865,10 +1900,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "4A9E638F4D1CD688"
-				title: "Legendary Create Loot Box"
+				title: "传奇机械动力战利品箱"
 				type: "command"
 			}]
-			subtitle: "Assault and Battery"
+			subtitle: "人身“电”击"
 			tasks: [{
 				id: "2E53D2DD93264422"
 				item: "createaddition:tesla_coil"
@@ -1878,5 +1913,5 @@
 			y: 4.5d
 		}
 	]
-	title: "Create"
+	title: "机械动力"
 }
