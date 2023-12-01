@@ -1,10 +1,10 @@
 # Enigmatica-9-Expert-E9E-Translation
 
-本项目为 [Enigmatica 9: Expert - E9E](https://www.curseforge.com/minecraft/modpacks/enigmatica9expert) 模组包的汉化，汉化内容包括任务书、模组包自制模组、模组包自制帕秋莉手册、KubeJS词条。欢迎大家进行反馈，更欢迎有能力者帮助参与汉化工作。
+本项目为 [Enigmatica 9: Expert - E9E](https://www.curseforge.com/minecraft/modpacks/enigmatica9expert) 整合包的汉化，汉化内容包括任务书、整合包自制模组、整合包自制帕秋莉手册、KubeJS词条。欢迎大家进行反馈，更欢迎有能力者帮助参与汉化工作。
 
 ## Enigmatica 9: Expert
 
-Enigmatica 9: Expert（简称 E9E）是一款 Minecraft 1.19.2 下的任务引导式模组包，由 NillerMedDild 为首的 Enigmatica 团队制作。
+Enigmatica 9: Expert（简称 E9E）是一款 Minecraft 1.19.2 下的任务引导式整合包，由 NillerMedDild 为首的 Enigmatica 团队制作。
 
 来体验 Enigmatica 团队精心打造的下一代专家整合包吧——在那里，科技与魔法的界限将变得模糊。你将在暮色森林、蜜蜂领域以及经典的原版维度开启一场传奇的旅途，设法复苏神秘枯萎的生命之树。记载详细的任务书将会指引你完成这场冒险！
 
