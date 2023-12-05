@@ -1027,7 +1027,7 @@
 						value: "forge:raw_materials"
 					}
 				}
-				title: "任意粗矿物"
+				title: "任意粗矿石"
 				type: "item"
 			}]
 			title: "应用能源2"
