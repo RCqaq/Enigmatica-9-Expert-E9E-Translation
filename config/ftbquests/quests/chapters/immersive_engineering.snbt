@@ -11,9 +11,9 @@
 		{
 			dependencies: ["0E45018D600614BA"]
 			description: [
-				"Immersive Engineering is a versatile tech mod with a focus on large multiblock structures and logistics, all while looking like it came out of a 19th century factory. "
+				"沉浸工程是一个功能丰富的科技模组，专注于大型多方块结构和物流。在提供上述功能的同时，该模组里面的东西看起来像是从十九世纪的工厂走出来的一样。"
 				""
-				"The Engineer’s Handbook does a wonderful job of covering things, so be sure to check it out from time to time."
+				"工程师手册详细地讲解了该模组中的内容，记得时不时看看它。"
 			]
 			hide: true
 			icon: "immersiveengineering:manual"
@@ -23,7 +23,7 @@
 				id: "7B54B7BEEA99667F"
 				item: "minecraft:raw_copper"
 				random_bonus: 5
-				title: "Copper Chunk"
+				title: "铜矿块"
 				type: "item"
 			}]
 			shape: "gear"
@@ -38,24 +38,24 @@
 				}
 				type: "item"
 			}]
-			title: "Immersive Engineering"
+			title: "沉浸工程"
 			x: -3.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["0000000000000004"]
 			description: [
-				"Factory building wouldn’t be complete without proper logistics to route items, fluid, and power to the machines that need them. As such, Immersive Engineering offers a robust suite of tools to assist in the effort. "
+				"如果没有为机器输送物品、流体和电力的物流，就称不上一个合格的工厂。因此，沉浸工程提供了一套强大的工具来辅助建造它们。"
 				""
-				"Before delving too deep, however, a few tools need introduction, as they’ll be required going forward."
+				"不过，在深入沉浸工程之前，我们需要介绍一些未来必须用到的工具。"
 				""
-				"The trusty Engineer's Hammer is used primarily to form multiblock machines and rotate applicable blocks. They’re also useful for banging out metal plates in a pinch."
+				"可靠的工程师锤主要用于成型多方块机器以及旋转可旋转的方块。它在必要时也可以用来敲出金属板。"
 				""
-				"Engineer’s Wire Cutters are essential to several crafts but are perhaps most useful for quickly disconnecting live hanging wires safely."
+				"工程师剪线钳可以合成几种关键的配方，不过它最大的用处可能是快速且安全的断开带电的线缆。"
 				""
-				"The Engineer’s Screwdriver is handy for making precise changes to Redstone connectors among other things."
+				"工程师螺丝刀可以方便地对红石接线器等方块作出精确的调整。"
 				""
-				"All these tools and more can be stored for easy access in an Engineer’s Toolbox. "
+				"上述所有工具以及一些其他工具都可以存储在工程师工具箱中，以便访问。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:toolbox"
@@ -66,7 +66,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "14FA4A24C7409F77"
-					title: "Rare Immersive Engineering Loot Box"
+					title: "稀有沉浸工程战利品箱"
 					type: "command"
 				}
 				{
@@ -114,19 +114,19 @@
 					type: "item"
 				}
 			]
-			title: "Getting Started: Logistics and Storage"
+			title: "入门：物流和存储"
 			x: -3.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["2E14B84D1594EBE0"]
 			description: [
-				"Critical to the creation of Steel, the Coke Oven is primarily used for processing Coal into Coal Coke and Creosote, two materials that will be used extensively throughout Immersive Engineering."
+				"焦炉对钢铁的生产至关重要，它主要用于将煤加工成焦煤和杂酚油，这两种材料将在接下来的沉浸工程发展中被广泛使用。"
 				""
-				"Items and fluids may be piped in and out automatically."
+				"物品和流体可以通过管道自动输入和输出焦炉。"
 				""
 				""
-				"The Engineer’s Manual shows how this structure is constructed. Right-Click the block highlighted in Red in the manual with an Engineer’s Hammer to form the structure. "
+				"工程师手册展示了如何建造该结构。使用工程师锤右击手册中红色高亮显示的方块，即可将该结构成型。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:coke_oven"
@@ -135,7 +135,7 @@
 				count: 8
 				id: "000000000000060A"
 				item: "emendatusenigmatica:coal_coke_gem"
-				title: "Coal Coke"
+				title: "焦煤"
 				type: "item"
 			}]
 			tasks: [{
@@ -144,16 +144,16 @@
 				id: "7AEAEA5C633940CF"
 				type: "advancement"
 			}]
-			title: "Coke Oven"
+			title: "焦炉"
 			x: 0.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["0C5F307C84EECADF"]
 			description: [
-				"Once used for pumping water or grinding grains, now Windmills harness the breeze to generate electricity instead; putting it to use for far more varied tasks. "
+				"曾经用于抽水或研磨谷物的风车，现在改为利用微风发电；将其运用于更加多样的任务。"
 				""
-				"Always place the Kinetic Dynamo first, and then the Windmill on the face with the black circle. Windmill Sails may be Right-Clicked onto it to help it catch more wind and thus spin faster. Placing it higher in the air has a similar effect."
+				"总是先放置动能发电机，然后将风车放在动能发电机带有黑色圆圈的面上。改良风车叶片可以右击安装在风车上，以帮助其得到更多的风力，从而使风车旋转得更快。将风车放在更高的空中也有类似的效果。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:windmill"
@@ -163,14 +163,14 @@
 					count: 2
 					id: "0000000000000615"
 					item: "immersiveengineering:wirecoil_copper_ins"
-					title: "Insulated LV Wire Coil"
+					title: "绝缘低压线圈"
 					type: "item"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "479085DC8961252C"
-					title: "Rare Immersive Engineering Loot Box"
+					title: "稀有沉浸工程战利品箱"
 					type: "command"
 				}
 			]
@@ -192,15 +192,15 @@
 		{
 			dependencies: ["0000000000000007"]
 			description: [
-				"Wires are used to transmit FE and come in three different tiers, each providing different input and output rates, as well as maximum transfer rates. Refer to the Engineer’s Manual for exact rates of each tier."
+				"线缆可以用于传输FE，且分成三个等级，每个等级有着不同的输入和输出速率，以及最大传输速率。有关每个等级的确切速率，请参阅工程师手册。"
 				""
-				"Connectors are used to set an input or output point and should be placed accordingly. Wires may be Right-Clicked onto them, with a single wire capable of stretching multiple blocks. A single wire may only be stretched so far, however."
+				"接线器用于建立输入或输出点，应按需放置。用线缆右击接线器可以与其连接，一根线缆可以延展至许多格方块长。不过，一根线缆也就只能延展至这么长。"
 				""
-				"Relays may be used to extend the reach of a wire. They won’t transmit power into the block they’re placed on but do allow multiple wire connections. Use them whenever a power line needs to run long distances or to split/combine power lines. "
+				"继电器可以用于延长线缆的距离。继电器不会将电力传输至其所放置的方块上，但是它可以连接多根线缆。当需要远距离的输电线缆或拆分/组合输电线缆时，请使用它们。"
 				""
-				"Be mindful around live wires, as they will zap anyone unlucky enough to step into them. "
+				"小心带电的线缆，因为它们会电击任何不幸触碰到它们的人。"
 				""
-				"Note: Wires will transmit power through unloaded chunks so long as the start and end points are loaded, making them very useful for long distance power runs. "
+				"注：只要线缆的起点和终点的区块都被加载，线缆就可以通过未加载的区块传输电力，因此它非常适合用于远距离电力运输。"
 			]
 			icon: "immersiveengineering:wirecoil_copper"
 			id: "000000000000000F"
@@ -215,7 +215,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "35F82EC15261CF27"
-					title: "Rare Immersive Engineering Loot Box"
+					title: "稀有沉浸工程战利品箱"
 					type: "command"
 				}
 			]
@@ -242,7 +242,7 @@
 							]
 						}
 					}
-					title: "Bare Wires"
+					title: "裸露线缆"
 					type: "item"
 				}
 				{
@@ -267,7 +267,7 @@
 							]
 						}
 					}
-					title: "Wire Connectors"
+					title: "接线器"
 					type: "item"
 				}
 				{
@@ -292,22 +292,22 @@
 							]
 						}
 					}
-					title: "Wire Relays"
+					title: "继电器"
 					type: "item"
 				}
 			]
-			title: "Basic Wiring"
+			title: "基础线材"
 			x: -3.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["000000000000000F"]
 			description: [
-				"Note: Wires will transmit power through unloaded chunks so long as the start and end points are loaded, making them very useful for long distance power runs. "
+				"注：只要线缆的起点和终点的区块都被加载，线缆就可以通过未加载的区块传输电力，因此它非常适合用于远距离电力运输。"
 				""
-				"Insulating wires prevents them from shocking entities that walk through them, making them ideal for connections close to machines where one might need to move around. "
+				"绝缘线缆可以防止它们电击触碰它们的实体，使之成为了连接常用机器的理想线缆。"
 				""
-				"HV Wires may not be insulated, however, and are therefore best used as long-distance power transmission lines, with Transformers being used to bring MV or LV down to a given location."
+				"然而，高压线缆不能被绝缘。因此，它最好用于远距离的电力传输，配合变压器在指定地点将其降至中压或低压。"
 			]
 			icon: "immersiveengineering:wirecoil_copper_ins"
 			id: "0000000000000014"
@@ -316,14 +316,14 @@
 					count: 16
 					id: "000000000000060C"
 					item: "immersiveengineering:hemp_fiber"
-					title: "Industrial Hemp Fiber"
+					title: "工业大麻纤维"
 					type: "item"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "000000000000060D"
-					title: "Rare Immersive Engineering Loot Box"
+					title: "稀有沉浸工程战利品箱"
 					type: "command"
 				}
 			]
@@ -345,19 +345,19 @@
 						]
 					}
 				}
-				title: "Insulated Wires"
+				title: "绝缘线缆"
 				type: "item"
 			}]
-			title: "Insulated Wiring"
+			title: "绝缘线材"
 			x: -3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["000000000000000F"]
 			description: [
-				"Accumulators act as power storage on a network. "
+				"蓄电池充当着电力网络中的能量存储。"
 				""
-				"Right-Click a side with an Engineer’s Hammer to toggle between Input (blue), Output (orange), and off. "
+				"用工程师锤右击其侧面以切换输入（蓝色）、输出（橙色）或无连接。"
 			]
 			hide_dependency_lines: true
 			id: "0000000000000017"
@@ -366,7 +366,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "0000000000000614"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -391,7 +391,7 @@
 						]
 					}
 				}
-				title: "Accumulators"
+				title: "蓄电池"
 				type: "item"
 			}]
 			x: -3.0d
@@ -400,9 +400,9 @@
 		{
 			dependencies: ["2E14B84D1594EBE0"]
 			description: [
-				"Engineers will spend a good deal of time at their workbenches, tinkering with tools and carefully forming delicate parts. "
+				"工程师会花大量时间在装配台旁修改工具，或是精心制作精密的部件。"
 				""
-				"The Engineer’s Workbench provides a space for modifying tools from the mod, and doubles as a crafting bench for items that require an Engineer’s Blueprint. "
+				"工程师装配台为修改该模组的工具提供了空间，并且在合成需要工程师蓝图的物品时提供了相比工作台双倍的输出。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:workbench"
@@ -418,7 +418,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "42A6A92476A1E6A3"
-					title: "Rare Immersive Engineering Loot Box"
+					title: "稀有沉浸工程战利品箱"
 					type: "command"
 				}
 			]
@@ -446,9 +446,9 @@
 		{
 			dependencies: ["0C5F307C84EECADF"]
 			description: [
-				"Though the form of energy they produce has evolved over time, water wheels themselves are quite ancient. Rather than turning a millstone directly, however, these days they’re connected to a Dynamo to produce electrical energy instead. "
+				"水车有着悠久的历史，但是它产生能量的形式已经随着时间的推移发生了改变。如今，水车与动能发电机相连并产生电能，而不是直接转动磨盘。"
 				""
-				"Always place the Kinetic Dynamo first, and then the Water Wheel on the face with the black circle. Up to three Water Wheels may be chained into the same Dynamo. Once set up, get it spinning by running water over or under the Water Wheels."
+				"总是先放置动能发电机，然后将水车放在动能发电机带有黑色圆圈的面上。同一台动能发电机最多可以连接三台相连的水车。建造好水车后，让水在水车的上方或下方流动来使其旋转。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:watermill"
@@ -458,14 +458,14 @@
 					count: 2
 					id: "0000000000000617"
 					item: "immersiveengineering:wirecoil_copper_ins"
-					title: "Insulated LV Wire Coil"
+					title: "绝缘低压线圈"
 					type: "item"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "4077FA420E15CA1E"
-					title: "Rare Immersive Engineering Loot Box"
+					title: "稀有沉浸工程战利品箱"
 					type: "command"
 				}
 			]
@@ -487,19 +487,19 @@
 		{
 			dependencies: ["0000000000000007"]
 			description: [
-				"Getting items from processing to storage need not be a manual effort and Conveyor Belts will handle the task quite adequately. "
+				"将加工完成的物品送入存储并不需要人力，传送带就可以很好地完成这个任务。"
 				""
-				"Much like Rails, Conveyor Belts may slope up or down. They may even be waterlogged if necessary, and Right-Clicking them with a dye will change the color of the wall. "
+				"和铁轨类似，传送带可以向上或向下倾斜。如果必要，它们甚至可以含水。用染料右击传送带可以改变其护栏的颜色。"
 				""
-				"They come in multiple varieties, such as the decorative ‘covered’ belts, but also the more practical:"
+				"传送带有许多种类，比如装饰性的“绝缘”传送带，但是还有更多实用的种类："
 				""
-				"Dropping Conveyors will insert into inventories below them, or simply drop items on the ground beneath them. They may be disabled with a Redstone signal."
+				"卸货传送带可以将物品输入至其下方的容器中，或是直接将物品投掷到其下方的地面。可以通过红石信号关闭它们。"
 				""
-				"Vertical Conveyors allow for compact vertical movement of items without having to climb up a sloped run of normal Conveyor Belts."
+				"垂直传送带可以在垂直方向上移动物品，比普通传送带的斜坡更加省空间。"
 				""
-				"Splitting Conveyors will simply alternate sending each stack they receive to one side or the other. They will not split a stack of items on the belt."
+				"分流传送带可以交替向两侧发送其接收到的物品。当传送带上只有一组物品时，它不会将该组物品分开。"
 				""
-				"Extracting Conveyors will pull from the attached inventory. They may have their extraction rate adjusted with a Screwdriver and the Extraction point may be adjusted with a Hammer, allowing input from the side of the belt, rather than in line with the flow of the belt. They’re also Redstone sensitive, with a high signal disabling them entirely."
+				"抽取传送带可以从相连的容器中抽取物品。用螺丝刀可以调整抽取速率，而用工程师锤则可以调整抽取点，使得传送带可以从侧边输入物品，而非传送带的运动方向。这种传送带同样可以被红石控制，用高红石信号就可以彻底关闭它们。"
 			]
 			icon: "immersiveengineering:conveyor_basic"
 			id: "000000000000001E"
@@ -508,7 +508,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "000000000000060E"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [
@@ -529,13 +529,13 @@
 		{
 			dependencies: ["2E14B84D1594EBE0"]
 			description: [
-				"An all-purpose crushing machine commonly used for processing ores and other bulk items."
+				"一台多功能的粉碎机器，常用于加工矿物或其他大批量物品。"
 				""
-				"Items may be dropped into the open top, where they’ll be absorbed and processed in the order they were received. They may also be piped into the top to avoid dropping items in the world, however briefly."
+				"物品可以在机器的上方投掷进去，在那里它们会进入机器并按顺序被加工。物品也可以通过管道从底部输送进去，以避免物品在世界中短暂的停留。"
 				""
-				"When complete, it will automatically output items to a belt or inventory in front of the machine."
+				"加工完成后，粉碎机会自动将物品输出至机器前方的传送带或容器中。"
 				""
-				"Beware, the grinding blades can do a lot of damage, easily killing mobs and quickly destroying any items that fall in that don’t have a recipe. "
+				"请小心，研磨刀片能够造成很高的伤害，可以轻松杀死生物，并快速摧毁任何没有配方的物品。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:crusher"
@@ -544,7 +544,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "0000000000000621"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -553,18 +553,18 @@
 				id: "73A3A0763A628DCA"
 				type: "advancement"
 			}]
-			title: "Crusher"
+			title: "粉碎机"
 			x: -0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2E14B84D1594EBE0"]
 			description: [
-				"A staple of any machine room, the Metal Press may be used to efficiently produce plates, gears, wires, and other stamped products. "
+				"金属冲压机是厂房里的主要机器，可以用于高效地生产板材、齿轮、线缆和其他冲压产品。"
 				""
-				"Right-Click an appropriate Mold onto the central piston to set up the machine. Molds may be swapped out at any time, though it’s often more convenient to build multiple presses that are each dedicated to a type. "
+				"用合适的模具右击机器中间的活塞，以设定机器。模具可以随时更换，不过建造多台金属冲压机，每台分别负责一种冲压类型通常会更加方便。"
 				""
-				"Items are fed into the mill via the built-in conveyor belts and the resulting items will carry on along the belt. "
+				"物品通过内置的传送带送入冲压机，冲压后的产物也会被该传送带运送出来。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:metal_press"
@@ -574,7 +574,7 @@
 					count: 8
 					id: "000000000000061E"
 					item: "emendatusenigmatica:iron_plate"
-					title: "Iron Plate"
+					title: "铁板"
 					type: "item"
 				}
 				{
@@ -582,14 +582,14 @@
 					count: 4
 					id: "000000000000061F"
 					item: "emendatusenigmatica:steel_plate"
-					title: "Steel Plate"
+					title: "钢板"
 					type: "item"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "72236F0E6C545F53"
-					title: "Rare Immersive Engineering Loot Box"
+					title: "稀有沉浸工程战利品箱"
 					type: "command"
 				}
 			]
@@ -599,20 +599,20 @@
 				id: "68D5D441C57AF2A7"
 				type: "advancement"
 			}]
-			title: "Metal Press"
+			title: "金属冲压机"
 			x: 0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2E14B84D1594EBE0"]
 			description: [
-				"A powerful furnace that helps maintain the specific heat requirements for smelting Steel. "
+				"一台可以维持特定温度以熔炼某些材料的强大熔炉。"
 				""
-				"Both fuel and input items go into the top, while the results come out the front and back. It may be sped up significantly by adding Blast Furnace Preheaters to the sides and powering them."
+				"燃料和输入物品都从顶部进入强化高炉，而产物则从高炉的正面和背面出来。可以在强化高炉的两边放置高炉预热器并为其供能，以大大提高熔炼速度。"
 				""
-				"Outputs will be automatically inserted into adjacent inventories or onto adjacent Conveyor Belts."
+				"输出将会自动进入相邻的容器中或传送带上。"
 				""
-				"Note: The Crude Blast Furnace is disabled for Enigmatica 9. "
+				"注：高炉在Enigmatica 9中被禁用了。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:advanced_blast_furnace"
@@ -622,7 +622,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "0000000000000620"
-					title: "Epic Immersive Engineering Loot Box"
+					title: "史诗沉浸工程战利品箱"
 					type: "command"
 				}
 				{
@@ -637,19 +637,19 @@
 				id: "40B68AA204AA3B9B"
 				type: "advancement"
 			}]
-			title: "Improved Blast Furnace"
-			x: 0.5d
-			y: -3.0d
+			title: "强化高炉"
+			x: 1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7215DE7DCCEA0835"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Thanks to the intense heat generated within by electricity arcing between electrodes, the Arc Furnace makes short work of alloying and other metalworking tasks. It draws a fair amount of energy to do so, however."
+				"由于内部电极之间的电弧产生的高温，电弧炉可以快速完成冶炼合金和其他金属加工的任务。然而，它也会消耗相当多的能量。"
 				""
-				"Items are input through the two slots in the top, with each corresponding to one of the two inventories in the GUI. Items are automatically output from the front and rear slots, with slag coming out the rear exclusively."
+				"物品从其顶部的两个槽位输入，分别对应界面中的两个物品栏。电弧炉的正面和背面会自动输出物品，而矿渣则从背面单独输出。"
 				""
-				"While the electrodes must be inserted manually, they do tend to last a very long time, and may even be monitored via a Comparator to alert nearby engineers when the electrodes are getting worn out. "
+				"虽然电极必须手动插入，但它们往往能够持续很长时间不坏，甚至可以通过比较器进行监测，并在电极快要损坏时提醒附近的工程师。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:arc_furnace"
@@ -659,14 +659,14 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "0000000000000622"
-					title: "Epic Immersive Engineering Loot Box"
+					title: "史诗沉浸工程战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "0000000000000623"
-					title: "Epic Immersive Engineering Loot Box"
+					title: "史诗沉浸工程战利品箱"
 					type: "command"
 				}
 			]
@@ -676,20 +676,20 @@
 				id: "765A2861DA4F973F"
 				type: "advancement"
 			}]
-			title: "Arc Furnace"
+			title: "电弧炉"
 			x: 0.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["687C9701A98F050B"]
-			description: ["The External Heater is a simple machine that, when powered, will heat adjacent furnaces. This allows the furnaces to smelt more quickly, without using fuel."]
+			description: ["外置加热器是一个简单的机器，供电后会加热相邻的熔炉。它可以使熔炉不消耗燃料并更快地熔炼物品。"]
 			hide_dependency_lines: true
 			id: "0000000000000034"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "0000000000000616"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -702,7 +702,7 @@
 		}
 		{
 			dependencies: ["0C5F307C84EECADF"]
-			description: ["Though the effect is quite small, a heat differential can be harnessed for a reliable source of energy that won’t break down as it relies on no moving parts. "]
+			description: ["它可以利用温差作为可靠的能源，尽管产出很小，但是因为它不依赖移动部件，所以不会发生故障。"]
 			hide_dependency_lines: true
 			id: "0000000000000036"
 			rewards: [
@@ -710,7 +710,7 @@
 					count: 4
 					id: "0000000000000618"
 					item: "minecraft:blue_ice"
-					title: "Blue Ice"
+					title: "蓝冰"
 					type: "item"
 				}
 				{
@@ -733,11 +733,9 @@
 			dependencies: ["2E14B84D1594EBE0"]
 			dependency_requirement: "one_completed"
 			description: [
-				"A large mill for efficiently processing logs into planks. Without a blade installed, it will only strip bark from logs. However, with a blade installed it will also cut those stripped logs down into planks."
+				"一台能高效地将原木加工成木板的大型锯木机。如果不安装锯条，它只能为原木去皮。然而，安装锯条后，它还会将那些去皮的原木切成木板。"
 				""
-				"Items are fed into the mill via the built-in conveyor belts and the resulting blocks will carry on along the belt, while any by-products such as sawdust will be inserted into a conveyor or inventory in the front."
-				""
-				"Sawblades have limited durability and must be periodically replaced. A new blade may be installed by Right-Clicking it anywhere on the machine.  "
+				"物品通过内置的传送带送入锯木机，产物方块将沿着传送带继续运输，而锯末等所有副产品将被送入锯木机正面的传送带或容器中。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:sawmill"
@@ -746,7 +744,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "000000000000061D"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [
@@ -768,13 +766,13 @@
 					type: "advancement"
 				}
 			]
-			title: "Sawmill"
+			title: "锯木机"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7215DE7DCCEA0835"]
-			description: ["Large Squeezers such as this have been used widely to extract fluids from materials or to compact dry goods into a more solid form. It’s an invaluable tool for any Engineer."]
+			description: ["像这样的大型挤压机已经被广泛运用于从材料中提取流体或将干货压缩成更致密的形式。这对任何工程师来说都是一个无价之宝。"]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:squeezer"
 			id: "000000000000003A"
@@ -783,14 +781,14 @@
 					count: 24
 					id: "0000000000000619"
 					item: "immersiveengineering:seed"
-					title: "Industrial Hemp Seeds"
+					title: "工业大麻种子"
 					type: "item"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "7FF68906D9C40250"
-					title: "Epic Immersive Engineering Loot Box"
+					title: "史诗沉浸工程战利品箱"
 					type: "command"
 				}
 			]
@@ -800,7 +798,7 @@
 				id: "3432F8205B18C255"
 				type: "advancement"
 			}]
-			title: "Industrial Squeezer"
+			title: "工业挤压机"
 			x: -0.5d
 			y: 1.5d
 		}
@@ -808,15 +806,15 @@
 			dependencies: ["0C5F307C84EECADF"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Sometimes the best way to get things done is to blow it up. "
+				"有时候，爆炸是解决事情的最好方法。"
 				""
-				"Well, in a manner of speaking, anyway. "
+				"好吧，至少从某种意义上来说它是。"
 				""
-				"Diesel Generators are notoriously loud, what with all that internal combustion happening, but they’re also reliable, effective, and don’t care too much about what’s burning inside them. "
+				"柴油发电机的噪音是出了名的大，因为所有的内燃都在其中发生。但它可靠、有效，并且不需要对里面燃烧的东西考虑太多。"
 				""
-				"The Diesel Generator accepts all the same fuels as the Thermal Compression Dynamo at roughly the same rates."
+				"柴油发电机可以接受所有热力的压缩能源炉消耗的燃料，其燃烧速率也相似。"
 				""
-				"It does not always burn clean, however, and it is possible to have an unburnable amount of fuel remaining inside the tank, preventing a different fuel from entering and working. It is therefore recommended to either dedicate the generator to a single fuel or break and re-form the multi-block whenever the fuel changes. "
+				"然而，柴油发电机并不总是将燃料燃烧干净，而且可能会有大量未燃烧的燃料留在油箱内，从而阻止不同的燃料进入油箱并燃烧。因此，建议让发电机专门燃烧单一燃料，或在燃料发生变化时破坏发电机并重新形成多方块。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:diesel_generator"
@@ -826,7 +824,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "0000000000000624"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "circle"
@@ -836,16 +834,16 @@
 				id: "65D6B7BEBDB3E283"
 				type: "advancement"
 			}]
-			title: "Diesel Generator"
+			title: "柴油发电机"
 			x: -7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0000000000000061"]
 			description: [
-				"Once a node has been located, an Excavator should be built atop it. Resources will be scooped up and automatically output out the back of the machine. Be mindful to provide enough storage or some of it may well be lost!"
+				"一旦你决定了一个节点，你就可以在那里建造挖掘机。资源会被自动挖掘并从机器的背面输出。请注意提供足够的存储空间，否则可能会丢失部分物品！"
 				""
-				"There are a lot of different types of mineral veins, so be sure to check in the Engineer’s Manual under “Overview and Resources” for a full list of Mineral Deposits and where to find them!"
+				"矿脉的种类繁多，因此请务必查看工程师手册中的“概述与资源”以了解完整的矿脉列表，以及它们的位置！"
 			]
 			icon: "immersiveengineering:bucket_wheel"
 			id: "0000000000000040"
@@ -853,7 +851,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "000000000000061C"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -862,18 +860,18 @@
 				id: "69411BDD259E4AD7"
 				type: "advancement"
 			}]
-			title: "Excavator"
+			title: "挖掘机"
 			x: -7.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["687C9701A98F050B"]
 			description: [
-				"As described in the \"Minerals\" section of the Engineer’s Manual, massive mineral veins exist below bedrock that are inaccessible without the proper equipment. "
+				"如手册中“矿脉”一章所描述，基岩的下方存在有巨型矿脉，没有合适的设备就没办法开采它们。"
 				""
-				"The first step towards tapping these veins is locating them with Survey Tools and a Core Sample Drill. Survey Tools will help triangulate the minerals in a large area, while the Core Sample Drill will get an exact read on what’s available. "
+				"开采这些矿脉的第一步是使用矿物探测器和岩芯钻井来找出区块中的矿脉是什么。矿物探测器会对矿物进行大面积的三角测量，而岩芯钻井可以获得矿物的准确数据。"
 				""
-				"Use the Survey Tools to find a node and get close to the center, then the Drill to home in on the center where the minerals are at their richest."
+				"使用矿物探测器找到一个节点并靠近中心，然后用矿物探测器找到矿物最富集的中心。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:sample_drill"
@@ -888,14 +886,14 @@
 							Damage: 0
 						}
 					}
-					title: "Mineral Survey Tools"
+					title: "矿物探测器"
 					type: "item"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/miners_delight"
 					icon: "kubejs:miners_delight"
 					id: "35731B5937BBF8EB"
-					title: "Miner's Delight"
+					title: "矿工乐事包"
 					type: "command"
 				}
 			]
@@ -904,23 +902,23 @@
 				item: "immersiveengineering:sample_drill"
 				type: "item"
 			}]
-			title: "Mineral Veins"
+			title: "矿脉"
 			x: -7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["687C9701A98F050B"]
-			description: ["The Garden Cloche takes power, water, and optionally fertilizer to grow plants at an accelerated rate."]
+			description: ["园艺玻璃罩消耗能量、水和可选的肥料，使所种的植物加速生长。"]
 			hide_dependency_lines: true
 			id: "0000000000000241"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "0000000000000611"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
-			subtitle: "Getting Clocher"
+			subtitle: "步步笼罩"
 			tasks: [{
 				id: "0000000000000242"
 				item: "immersiveengineering:cloche"
@@ -932,9 +930,9 @@
 		{
 			dependencies: ["687C9701A98F050B"]
 			description: [
-				"They don’t take much energy to run, but they’re well worth the effort. Powered Lanterns will supress mob spawning in an area out to about 32-blocks even though they only light the same area as a normal Lantern. Wires attach directly to them, and they effectively double as Wire Relays."
+				"它们不需要太多能量就能运行，且非常值回票价。虽然电灯只能只照亮与普通红石灯相同大小的区域，但是它可以阻止大约32格范围内的怪物生成。将线缆直接与电灯连接，它还能当作线缆继电器，有效延长两倍距离。"
 				""
-				"Floodlights will brighten up a much larger area and may be angled up or down with an Engineer’s Hammer to get them shining on exactly the right spot. Like Powered Lanterns, wires are attached directly to them without the need of a Wire Connector."
+				"泛光灯将照亮更大的区域，并可以用工程师锤调整为向上或向下倾斜，使其准确地照射在想要的位置。和电灯一样，线缆可以直接与其连接，而不需要接线器。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:electric_lantern"
@@ -944,7 +942,7 @@
 				count: 4
 				id: "0000000000000610"
 				item: "minecraft:glowstone"
-				title: "Glowstone"
+				title: "荧石"
 				type: "item"
 			}]
 			tasks: [
@@ -959,16 +957,16 @@
 					type: "item"
 				}
 			]
-			title: "Engineered Lighting"
+			title: "工程照明"
 			x: -7.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7215DE7DCCEA0835"]
 			description: [
-				"The Automated Workbench is a powered multiblock that may be configured to automatically process a given type of Engineer's Workbench recipe. Handy!"
+				"自动化工程师装配台是一台电力驱动的多方块结构，为其提供蓝图后可自动处理给定的工程师装配台配方。真方便！"
 				""
-				"Supply it with the appropriate Blueprint, select the item it should craft, and provide the materials, it’ll take care of the rest."
+				"给它提供合适的蓝图，并选择想要合成的物品，并提供材料，它会处理剩下的事情。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:auto_workbench"
@@ -977,7 +975,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "0000000000000612"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -986,13 +984,13 @@
 				id: "3FAF24D1DCC07BB6"
 				type: "advancement"
 			}]
-			title: "Workbench Automation"
+			title: "工作台自动化"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7215DE7DCCEA0835"]
-			description: ["Through management of heat and careful exploitation of density differentials, Refineries break down fluids into other useful materials. These Refineries can handle a few different transformations. "]
+			description: ["通过加热处理和对密度差的巧妙利用，炼油厂可以将流体分解成其他有用的材料。炼油厂可以处理几种不同的转换。"]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:refinery"
 			id: "09AEE48CED288DD1"
@@ -1000,7 +998,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "7B4485A51E367C74"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1009,13 +1007,13 @@
 				id: "5D798D395DAC8BEA"
 				type: "advancement"
 			}]
-			title: "Refinery"
+			title: "炼油厂"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7215DE7DCCEA0835"]
-			description: ["A large crafting machine, the Assembler is capable of sequentially processing up to three recipes. It also boasts three internal fluid tanks that may be drawn from to substitute for filled buckets used in recipes. "]
+			description: ["装配机是一种大型的合成机器，它可以序列加工至多三个配方。它还拥有三个内置的流体储罐，其中的流体用于代替配方中的流体桶。 "]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:assembler"
 			id: "3B3D37BAC8E40971"
@@ -1023,7 +1021,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "7C2DDDC233064BCB"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1032,13 +1030,13 @@
 				id: "7FC67309F04DF281"
 				type: "advancement"
 			}]
-			title: "Assembler"
+			title: "装配机"
 			x: 1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7215DE7DCCEA0835"]
-			description: ["Through vigorous agitation, the Mixer dissolves solids into fluids. Though often used for such mundane tasks as mixing concrete, they’re also quite good at making potions."]
+			description: ["通过剧烈搅拌，混合器可以将固体溶解成液体。虽然它们经常用于执行搅拌混凝土这样的普通任务，但它们也非常擅长制作药水。"]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:mixer"
 			id: "37F3086A687795FB"
@@ -1046,7 +1044,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "5D70006C425BF1CE"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1055,14 +1053,14 @@
 				id: "16DEFFC91A0B7748"
 				type: "advancement"
 			}]
-			title: "Mixer"
+			title: "混合器"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7215DE7DCCEA0835"]
 			dependency_requirement: "one_completed"
-			description: ["More than simply filling buckets, the Bottling Machine may be used to craft with a number of fluids, such as etching Copper or forming Duroplast."]
+			description: ["灌装机的用途不止简单地灌装桶，它还可以使用多种流体进行合成，如氧化铜或成型工程塑胶。"]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:bottling_machine"
 			id: "6AC625E4D6F5AAFB"
@@ -1071,7 +1069,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "19DF31EC00072D95"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1080,22 +1078,22 @@
 				id: "6B414E90192B3B2A"
 				type: "advancement"
 			}]
-			title: "Bottling Machine"
+			title: "灌装机"
 			x: 1.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["000000000000001E"]
 			description: [
-				"Item Batcher is an advanced filter block made specifically for use with conveyor belts and creating batches of items for machines."
+				"计量分配器是一种专门用于传送带并为机器分配物品批次的高级过滤方块。"
 				""
-				"For example, if one were interested in being as efficient with fuel as possible, an Item Batcher could be configured to only output a single Coal whenever it has eight Raw Beef, thus ensuring that the coal will be fully used in cooking all eight Steaks."
+				"比方说，如果你想要尽可能高效的利用燃料，可以将计量分配器设置成仅当熔炉中有八块生牛肉时才会输出一块煤炭，以确保该煤炭能被充分利用于烧制全部八块牛排。"
 				""
-				"It has applications in crafting as well, to ensure a machine is getting the exact ratio of items it needs to complete a craft. No more, no less. "
+				"计量分配器还可以应用于合成。它可以用来确保物品以确切的比例输入至机器中来完成合成。不多，也不少。"
 				""
-				"Attaching a Redstone Interface Connector to a side allows the Batcher to communicate the status of its filters to a Redstone Wire network as well."
+				"将红石接口连接器与计量分配器的其中一面相连，可以使分配器向红石线缆网络传递其过滤器的状态。"
 				""
-				"Refer to the Engineer’s Manual for more information and other use cases. "
+				"查阅工程师手册以获取更多信息和使用样例。"
 			]
 			hide_dependency_lines: true
 			id: "215AD1198A1BF8D0"
@@ -1104,7 +1102,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "70A61D684AF8B5FF"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1118,11 +1116,11 @@
 		{
 			dependencies: ["000000000000001E"]
 			description: [
-				"The Item Router is an advanced item sorter made to work with Conveyor Belts."
+				"物品分配器是一种用于传送带的高级物品分拣器。"
 				""
-				"Items inserted on a side will be output into any inventory or belt on the side matching the filter. If an item doesn't match any filter, it will be redirected to a non-filtered side."
+				"物品可以从任意面输入，并从与过滤器匹配的面输出到任意容器或传送带中。如果物品与任何过滤器都不匹配，那么它就会被分配到一个没有过滤器的面。"
 				""
-				"Item Routers support filtering by item type as well as by NBT, Damage, and Tag."
+				"物品分配器支持按物品种类、NBT、耐久损耗和标签过滤。"
 			]
 			hide_dependency_lines: true
 			id: "0EBE89982E3C95BB"
@@ -1154,9 +1152,9 @@
 		{
 			dependencies: ["000000000000001E"]
 			description: [
-				"Simple bulk item storage. Items are input through the top and extracted through the bottom."
+				"简单的大批量物品存储。物品从其顶部输入，并从其底部输出。"
 				""
-				"Applying a Redstone signal to the bottom block will allow it to output automatically. "
+				"对其底部方块施加一个红石信号可使其自动输出。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:silo"
@@ -1165,7 +1163,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "5DA0CBAF1FE1884D"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1174,16 +1172,16 @@
 				id: "2295398074D77345"
 				type: "advancement"
 			}]
-			title: "Item Silo"
+			title: "储物筒仓"
 			x: -5.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1848E59BC6D42342"]
 			description: [
-				"Simple bulk fluid storage. Fluids are input through the top and extracted through the bottom."
+				"简单的大批量流体存储。流体从其顶部输入，并从其底部输出。"
 				""
-				"Applying a Redstone signal to the bottom block will allow it to output automatically. "
+				"对其底部方块施加一个红石信号可使其自动输出。"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:tank"
@@ -1192,7 +1190,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "2AD421A3854D9018"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1201,20 +1199,20 @@
 				id: "30798057C7E1C152"
 				type: "advancement"
 			}]
-			title: "Fluid Tank"
+			title: "流体储罐"
 			x: -4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7215DE7DCCEA0835"]
-			description: ["Fermentation has been going on in one form or another for millennia. Once upon a time fruits may have been left to ferment naturally over the course of days, now through industrial magic the process takes considerably less time.  "]
+			description: ["发酵这种工艺已经以各种形式传承了数千年。从前，水果可能需要经过几天才能自然发酵，现在通过工业的力量，发酵这一过程所需的时间变得少得多。"]
 			hide_dependency_lines: true
 			id: "6D185DB13F466B7C"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "2F46FE420C944733"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1223,18 +1221,18 @@
 				id: "5B25806696BE0AF3"
 				type: "advancement"
 			}]
-			title: "Fermenter"
+			title: "工业发酵机"
 			x: 0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0000000000000007"]
 			description: [
-				"Simple Fluid Pipes to get fluids moving around the factory. These pipes do not pull from attached inventories on their own. For anything that doesn’t automatically push fluid outputs, a Fluid Pump will be required."
+				"可以在工厂中运输流体的简单流体管道。这些管道不会自己从相连的容器中提取流体。因此对任何不会自动输出流体的装置，你都需要一个流体泵。"
 				""
-				"Even for those times when a pump isn’t required, using one greatly increases the flow rate of Fluid Pipes. Power is required and an Engineer’s Hammer will be needed to set sides to Input (blue) or Output (orange). It also requires a Redstone signal to turn on.  "
+				"即使是在不需要流体泵的时候，使用流体泵可以大幅提升流体管道的传输速率。流体泵需要能量，且需要使用工程师锤来设置输入（蓝色）或输出（橙色）面。"
 				""
-				"The pipes themselves may be covered with Steel or Treated Wood Scaffolding blocks, as well as dyed by Right-Clicking with a dye piece. Dyed pipes will not connect to pipes of another color. "
+				"流体管道可以被钢脚手架或防腐木脚手架覆盖，你也可以用染料右击管道进行染色。染色过后的管道不会与其他颜色的管道相连。"
 			]
 			icon: "immersiveengineering:fluid_pipe"
 			id: "1848E59BC6D42342"
@@ -1243,7 +1241,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "5BD3CDFF61F6D406"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [
@@ -1263,14 +1261,14 @@
 		}
 		{
 			dependencies: ["1848E59BC6D42342"]
-			description: ["When an area needs to be flooded, large or small, a Fluid Outlet makes the perfect tool for the job. Simply place it and pipe fluids into it via any means; it will begin placing that fluid in the area below it, filling from bottom to top. "]
+			description: ["当需要淹没一片区域时，无论区域的大小，流体阀都是这项工作的完美选择。只需放置流体阀并通过任何方式将流体输送到其中；它就会开始将液体放置在其下面的区域，填充方式为从下到上。"]
 			hide_dependency_lines: true
 			id: "78D19FEABD21BC6F"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "631502F52A0FC583"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1284,9 +1282,9 @@
 		{
 			dependencies: ["1848E59BC6D42342"]
 			description: [
-				"The Fluid Router is an advanced item sorter made to work with Fluid Pipes."
+				"流体分配器是一种用于流体管道的高级流体分拣器。"
 				""
-				"Fluids inserted on a side will be output into any tank or Fluid Pipe on the side matching the filter. If a fluid doesn't match any filter, it will be redirected to a non-filtered side."
+				"流体可以从任意面输入，并从与过滤器匹配的面输出到任意储罐或流体管道中。如果流体与任何过滤器都不匹配，那么它就会被分配到一个没有过滤器的面。"
 			]
 			hide_dependency_lines: true
 			id: "6FF4F047D8267A50"
@@ -1294,7 +1292,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "49F3E5B6240975FB"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1308,11 +1306,11 @@
 		{
 			dependencies: ["687C9701A98F050B"]
 			description: [
-				"A handheld saw perfect for chopping down trees or chopping through zombies. "
+				"一把非常适合用于砍树和僵尸的手持式锯子。"
 				""
-				"This tool runs on biodiesel, though the internal tank is on the smaller side. Consider carrying a tank with you for refueling in the field. Simply place it in the input slot of the tank to fill it up. "
+				"这把工具使用生物柴油作为燃料，但是其内置储罐很小。外出时可以考虑携带一个储罐为其补充燃料。只需将机械锯放置在储罐的输入栏位中即可将其充满。"
 				""
-				"Place it in an Engineer’s Workbench to add or remove augments. "
+				"将其放置在工程师装配台内以添加或移除升级组件。"
 			]
 			hide_dependency_lines: true
 			id: "1487479CFA348530"
@@ -1334,7 +1332,7 @@
 							}
 						}
 					}
-					title: "Advanced Fluid Tank"
+					title: "高级流体储罐"
 					type: "item"
 				}
 				{
@@ -1347,7 +1345,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Goes Brrr"
+			subtitle: "噗噗噗"
 			tasks: [{
 				id: "716019716B2915F9"
 				item: {
@@ -1368,9 +1366,11 @@
 		{
 			dependencies: ["687C9701A98F050B"]
 			description: [
-				"A trusty side-arm suitable for any Gunslinger."
+				"适合所有枪侠的可靠副武器。"
 				""
-				"Place it in an Engineer’s Workbench to add or remove augments. "
+				"将其放置在工程师装配台内以添加或移除升级组件。"
+				""
+				"译者注：副标题中的句子出自斯蒂芬·金笔下的小说《黑暗塔1：枪侠》。"
 			]
 			hide_dependency_lines: true
 			id: "52DFEA36FFFBCDD5"
@@ -1379,18 +1379,18 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "098BE70A0BFCDBDC"
-					title: "Rare Immersive Engineering Loot Box"
+					title: "稀有沉浸工程战利品箱"
 					type: "command"
 				}
 				{
 					count: 64
 					id: "02E988D98405DAFB"
 					item: "immersiveengineering:casull"
-					title: "Casull Cartridge"
+					title: "卡苏尔弹"
 					type: "item"
 				}
 			]
-			subtitle: "First comes smiles, then lies. Last is gunfire."
+			subtitle: "首先有笑声，然后是谎言。最后是枪声。"
 			tasks: [{
 				id: "54E76BD7C4FB9D97"
 				item: {
@@ -1411,11 +1411,14 @@
 		{
 			dependencies: ["687C9701A98F050B"]
 			description: [
-				"A handheld tunnel bore capable of quickly digging through the toughest rocks. "
+				"一把能够迅速凿穿最坚硬的岩石的手持式盾构机。"
 				""
-				"This tool runs on biodiesel, though the internal tank is on the smaller side. Consider carrying a tank with you for refueling in the field. Simply place it in the input slot of the tank to fill it up. "
+				"这把工具使用生物柴油作为燃料，但是其内置储罐很小。外出时可以考虑携带一个储罐为其补充燃料。只需将机械锯放置在储罐的输入栏位中即可将其充满。"
 				""
-				"Place it in an Engineer’s Workbench to add or remove augments. "
+				"将其放置在工程师装配台内以添加或移除升级组件。"
+				""
+				"译者注：副标题中的歌词出自Lee Dorsey演唱"
+				"的歌曲《Working in the Coal Mine》。"
 			]
 			hide_dependency_lines: true
 			id: "0A476C6332EB6477"
@@ -1437,7 +1440,7 @@
 							}
 						}
 					}
-					title: "Advanced Fluid Tank"
+					title: "高级流体储罐"
 					type: "item"
 				}
 				{
@@ -1450,7 +1453,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Workin' in a coal mine. Oops, about to slip down."
+			subtitle: "在煤矿井里劳作。唔，差点儿滑倒。"
 			tasks: [{
 				id: "5B3CC19ED97DFA26"
 				item: {
@@ -1471,11 +1474,13 @@
 		{
 			dependencies: ["687C9701A98F050B"]
 			description: [
-				"Capable of launching projectiles at immense velocities and ripping through targets with impunity, the Railgun is a fierce weapon. "
+				"磁轨炮是一把凶猛的武器，能够以极快的速度发射弹射物并撕裂目标，使其免受痛苦。"
 				""
-				"Suitable ammunition includes Iron and Steel Rods, as well as Graphite Electrodes and many others. "
+				"适合的弹药有铁杆和钢杆，以及石墨电极等等。"
 				""
-				"Place it in an Engineer’s Workbench to add or remove augments. "
+				"将其放置在工程师装配台内以添加或移除升级组件。"
+				""
+				"译者注：副标题中的句子出自史蒂芬·金笔下的小说《黑暗塔3：荒原》。"
 			]
 			hide_dependency_lines: true
 			id: "69C4E9422B0C695A"
@@ -1484,18 +1489,18 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "57BCCB513CA91D6B"
-					title: "Rare Immersive Engineering Loot Box"
+					title: "稀有沉浸工程战利品箱"
 					type: "command"
 				}
 				{
 					count: 16
 					id: "6BCA8B2194807B4D"
 					item: "emendatusenigmatica:iron_rod"
-					title: "Iron Rod"
+					title: "铁杆"
 					type: "item"
 				}
 			]
-			subtitle: "See the TURTLE, ain't he keen?"
+			subtitle: "那看个乌龟，多勤恳啊！"
 			tasks: [{
 				id: "404F5C421F8FFFD5"
 				item: {
@@ -1516,22 +1521,24 @@
 		{
 			dependencies: ["52DFEA36FFFBCDD5"]
 			description: [
-				"The Speedloader will automatically reload the Revolver when it runs out of ammo, making it a great way to continue the fight. "
+				"快速装弹器会自动在弹药耗尽时为左轮手枪重新装弹，因此它非常适合用于持续战斗。"
 				""
-				"To refill it on the go, simply right click and place your cartridges in it. However, it can also be filled in a 3x3 crafting grid by surrounding it with ammo. "
+				"想让它持续装填，只需要右击并将你的子弹放进去。不过，它也可以放在3x3的合成网格中间，四周围上弹药以进行装填。"
 				""
-				"It is possible to automate refilling Speed Loaders inside of an Immersive Engineering Assembler. With a little ingenuity, it’s more than possible to automatically pull empty Speedloaders from one’s inventory, fill them, and send them back. "
+				"你可以在沉浸工程装配机中自动填充快速装弹器。只需要发挥一点创造力，就完全可以自动从玩家物品栏中取出空的快速装弹器，装满后再送回玩家身上。"
+				""
+				"译者注：副标题中的歌词出自Small Arms Dealer演唱的歌曲《The Small Arms Psalms Dealer Suite》。"
 			]
 			id: "3FC9C9BA6C4B9597"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "24A27D154F9FB236"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "When the shooting starts, we kill what moves."
+			subtitle: "枪战开始后，只要动的都要杀死。"
 			tasks: [{
 				id: "46FB2138D39F9238"
 				item: {
@@ -1551,17 +1558,21 @@
 		}
 		{
 			dependencies: ["52DFEA36FFFBCDD5"]
-			description: ["For those times when the beasts get too close, or the ammo runs dry. "]
+			description: [
+				"为野兽靠得太近，或者弹药耗尽时准备的武器。"
+				""
+				"译者注：副标题中的句子出自斯蒂芬·金笔下的小说《黑暗塔1：枪侠》。"
+			]
 			id: "3C6A4FF4F12DCAB2"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "1EE1E0D6A82D9B90"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "The man in black fled across the desert..."
+			subtitle: "黑衣人逃进了茫茫沙漠……"
 			tasks: [{
 				id: "4E1995B3908BE0A1"
 				item: "immersiveengineering:toolupgrade_revolver_bayonet"
@@ -1572,17 +1583,21 @@
 		}
 		{
 			dependencies: ["69C4E9422B0C695A"]
-			description: ["Heatsinks allow the Railgun to recharge faster for more rapid-fire destruction. "]
+			description: [
+				"附加电容使磁轨炮能够更快地充能，以摧毁一切。"
+				""
+				"译者注：副标题中的句子出自斯蒂芬·金笔下的小说《黑暗塔5：卡拉之狼》。"
+			]
 			id: "4AEF4EECF33AAD14"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "388801C14A6A9916"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "The wheel turns and the world moves on."
+			subtitle: "历史车轮滚滚，世界不断前进。"
 			tasks: [{
 				id: "1722BA00297D1CD5"
 				item: "immersiveengineering:toolupgrade_railgun_capacitors"
@@ -1593,17 +1608,21 @@
 		}
 		{
 			dependencies: ["69C4E9422B0C695A"]
-			description: ["The Middle Mouse button will enable the scope when installed and scrolling will adjust the magnification level. Great for picking off a target at a distance. "]
+			description: [
+				"安装该升级后按下鼠标中键可以开启瞄准镜，使用鼠标滚轮可以调整放大等级。非常适合远距离瞄准目标。"
+				""
+				"译者注：副标题中的句子出自史蒂芬·金笔下的小说《黑暗塔3：荒原》。"
+			]
 			id: "375C292687CF5637"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "231932437B4E9839"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "All things serve the beam."
+			subtitle: "一切都为光束服务。"
 			tasks: [{
 				id: "258019F9C44FA366"
 				item: "immersiveengineering:toolupgrade_railgun_scope"
@@ -1615,20 +1634,20 @@
 		{
 			dependencies: ["69C4E9422B0C695A"]
 			description: [
-				"The Railgun, mighty as it is, holds relatively little energy. A Capacitor Backpack is an excellent way to extend the battery life."
+				"虽然磁轨炮很强大，但其能量储量相对较低。电容背包是延长其电池寿命的绝佳方法。"
 				""
-				"While it can go in a Curios slot, the Capacitor Backpack is perhaps better combined with a chest armor in a crafting grid."
+				"虽然电容背包可以放在饰品栏中，但最好还是把它和胸甲在合成网格中进行合并。"
 			]
 			id: "149EC37E85BC39BB"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "41D458AFA503BEE3"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "Pain is a tool, after all. Sometimes it's the best tool."
+			subtitle: "毕竟，疼痛是一种工具。有时它是最好的工具。"
 			tasks: [{
 				id: "0946F869835964E3"
 				item: {
@@ -1646,24 +1665,26 @@
 		{
 			dependencies: ["52DFEA36FFFBCDD5"]
 			description: [
-				"Casull Cartridges are the cheapest, most basic ammo; however, they still pack quite a punch. "
+				"卡苏尔弹是最便宜、最基础的弹药；不过，它们仍然有不小的杀伤力。"
 				""
-				"Armor-Piercing Cartridges will quickly dispatch a well armored foe and Silver Cartridges are potent against the Undead. "
+				"穿甲弹可以快速击穿敌方的护甲，而银弹对付亡灵生物时很强大。"
 				""
-				"For controlling large crowds, consider something a little more potent, like Buckshot or Dragon’s Breath Cartridges which fire a short-range conical burst. And if your aim is simply terrible, consider the Wolfpack Cartridge, which bursts on impact launching homing shrapnel in all directions, quickly dispatching anything they encounter. "
+				"如果想要控制数量较大的群体，可以考虑更强力的子弹，如短程锥型爆破的鹿弹或龙息弹。如果单纯是你的准头十分差劲，则可以考虑狼群弹，它们会在撞击后爆炸，向各个方向发射追踪的弹片, 可以迅速摧毁任何它们遇到的东西。"
 				""
-				"Explore your options and read more in the Engineer’s Manual."
+				"尝试不同的选择，并在工程师手册中阅读更多信息。"
+				""
+				"译者注：副标题中的句子出自斯蒂芬·金笔下的小说《黑暗塔1：枪侠》。"
 			]
 			id: "7EA4E88D7230D94D"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "673B7ECE0BDE897E"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "...and the gunslinger followed."
+			subtitle: "……枪侠也跟着进入了沙漠。"
 			tasks: [{
 				count: 24L
 				id: "3E8BA9F57E3C4452"
@@ -1719,26 +1740,26 @@
 						]
 					}
 				}
-				title: "Ammo Cartridges"
+				title: "子弹"
 				type: "item"
 			}]
-			title: "Ammo Cartridges"
+			title: "子弹"
 			x: -5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["1487479CFA348530"]
-			description: ["An exceptional cutting implement that can cleanly carve out blocks of Stone, Ice, or Glass, effectively acting as a tool with Silk Touch. "]
+			description: ["一把特殊的切割工具，可以干净地切割出石头、冰或玻璃等方块，实际上可以当作是一把有精准采集的工具。"]
 			id: "650F8ED52289B8AC"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "541EA45AC0E8D7CF"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "A Clean Job"
+			subtitle: "干净利落"
 			tasks: [{
 				id: "07CF70C497212059"
 				item: {
@@ -1755,17 +1776,17 @@
 		}
 		{
 			dependencies: ["0A476C6332EB6477"]
-			description: ["The Mining Drill’s engine is not normally capable of operating under water. However, with the addition of a Pressurized Air Tank it can be kept running at full speed."]
+			description: ["采矿机械钻的发动机通常不能在水下工作。不过，增加压缩空气罐后，它就可以在水下保持全速运行。"]
 			id: "322F7E60078AC6F6"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "5691DD3285ADB605"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "Don't Burst It"
+			subtitle: "别弄炸了"
 			tasks: [{
 				id: "4D1F4C0716B593B9"
 				item: "immersiveengineering:toolupgrade_drill_waterproof"
@@ -1777,11 +1798,14 @@
 		{
 			dependencies: ["0A476C6332EB6477"]
 			description: [
-				"Drill heads do wear out over time, though they can be removed from the drill and repaired in an Anvil. "
+				"钻头会随着时间的推移而磨损，不过它们可以从机械钻上拆卸下来并在铁砧中修复。"
 				""
-				"Upgrading to a steel drill head not only increases the durability, but also allows mining Obsidian without wasting your precious shiny blue rocks. "
+				"钢钻头不仅提高了耐久度，而且还可以开采黑曜石，从而使你不用浪费那珍贵的闪闪发光的蓝色石头。"
 				""
-				"Up to three Additional Augers may be added to a drill, each one speeding up the mining speed and even improving the damage dealt to anything unlucky enough to be standing in front of it."
+				"一把机械钻最多可以添加三个附加螺旋钻，每个附加螺旋钻都可以加快挖掘速度，甚至可以提升对任何机械钻前方的倒霉生物的伤害。"
+				""
+				"译者注：副标题中的歌词出自Wind Rose演唱的"
+				"歌曲《Diggy Diggy Hole》。"
 			]
 			icon: "immersiveengineering:drillhead_steel"
 			id: "13AA0065B8167EF4"
@@ -1789,11 +1813,11 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "39097B6C7B38506A"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "Diggy Diggy Hole"
+			subtitle: "挖啊，挖着洞"
 			tasks: [
 				{
 					id: "6A6D387D221FEC38"
@@ -1815,14 +1839,14 @@
 				"1487479CFA348530"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Adding some lubricant to a Drill or Saw destined for rugged digging and cutting tough material can greatly extend the lifetime of the tool. "]
+			description: ["在挖掘岩石的钻头和切割坚硬材料的锯子上添加一些润滑油可以大大延长工具的使用寿命。"]
 			hide_dependency_lines: true
 			id: "546222019B6470BA"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "713B059CB5DBEBCA"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
@@ -1836,17 +1860,17 @@
 		}
 		{
 			dependencies: ["1487479CFA348530"]
-			description: ["The Blade Quiver may be attached to the Buzzsaw in the Engineer’s Workbench, holds additional blades, and allows you to swap between them on-the-fly in the field. Sneak + Scroll Wheel to change blades. "]
+			description: ["你可以在工程师装配台中将刀片盒子加装到机械锯上，使其携带额外的锯条，且可以使你在机械锯运行时切换它们。潜行并使用鼠标滚轮来切换锯条。"]
 			id: "283516E560D1D20E"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "36142E0E21AC2474"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "So Wait, Instead of Arrows..."
+			subtitle: "等等，里面装的不是箭……"
 			tasks: [{
 				id: "59195DC2ADAA355B"
 				item: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
@@ -1858,16 +1882,16 @@
 		{
 			dependencies: ["000000000000000F"]
 			description: [
-				"Transformers allow stepping down from a higher tier to a lower tier. "
+				"变压器可以将高电压降至更低的电压。"
 				""
-				"For example, one might have a single HV line running through an area where several machines need power. Rather than running dangerous HV lines down directly to each machine, a Transformer could be used to step down to MV, allowing an insulated wire to be run to each machine instead. "
+				"比方说，你可以用一条高压输电线缆穿过用电机器的区域。与其将危险的高压线缆直接与每台机器连接，你可以使用变压器将其降压到中压，从而使用绝缘线缆连接每一台机器。"
 			]
 			id: "0C38206737A0C56B"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "764755F9CD548D84"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1888,7 +1912,7 @@
 						]
 					}
 				}
-				title: "Transformers"
+				title: "变压器"
 				type: "item"
 			}]
 			x: -3.0d
@@ -1897,11 +1921,11 @@
 		{
 			dependencies: ["0C5F307C84EECADF"]
 			description: [
-				"Nothing says “Mad Scientist” like harnessing lightning for energy. "
+				"没有什么比从闪电中获得能量更能代表“疯狂科学家”的了。"
 				""
-				"Lightning Rods require a structure of Steel Fences to be built atop them as well, to channel the actual lightning. These structures tend to be large but may be shared by more than one base. Between natural thunderstorms and other means of manipulating the weather, these can generate quite an enormous amount of energy."
+				"避雷针需要在其顶部建造钢栅栏结构，以引导闪电。这些结构往往很大，但可以被多个底座共享。在自然雷暴和其他控制天气的手段下，这些避雷针可以产生相当大的能量。"
 				""
-				"Note: For technical reasons, Lightning Rods don’t generate energy when struck by lightning, quite the opposite, in fact. When conditions are right, they’ll simply generate their energy and summon a lightning bolt down as a visual indicator. "
+				"注：实际上，由于技术原因，避雷针不会在被闪电击中时产生能量。当条件符合时，避雷针会直接产生能量并召唤闪电作为视觉指示。"
 			]
 			hide_dependency_lines: true
 			id: "1217074CE717781D"
@@ -1910,7 +1934,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "23A03D539DC422B8"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1919,20 +1943,20 @@
 				id: "3F6EDEBB4A1E6F0F"
 				type: "advancement"
 			}]
-			title: "Lightning Rod"
+			title: "避雷针"
 			x: -7.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0000000000000004"]
-			description: ["Bricks, Treated Wood, and Steel; these are what an Immersive Factory is built from, and the focus of early efforts in the mod. "]
+			description: ["红砖、防腐木和钢；这些是建造沉浸工厂所需的材料，也是该模组前期发展的核心资源。"]
 			hide_dependency_lines: true
 			id: "2E14B84D1594EBE0"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "1316D0601A8173BA"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -1946,16 +1970,16 @@
 						value: "forge:raw_materials/iron"
 					}
 				}
-				title: "Raw Iron"
+				title: "粗铁"
 				type: "item"
 			}]
-			title: "Getting Started: Material Processing"
+			title: "入门：材料加工"
 			x: 0.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["0000000000000004"]
-			description: ["Hear that hum? That’s the sound of industry waiting to happen. It’s time to unleash its potential. "]
+			description: ["听到那嗡嗡声了吗？那是工业化进程等待发生的声音。是时候释放它的潜能了。"]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:voltmeter"
 			id: "0C5F307C84EECADF"
@@ -1963,7 +1987,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "5290F7C5440ABBF7"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -1977,23 +2001,23 @@
 						value: "forge:raw_materials/copper"
 					}
 				}
-				title: "Raw Copper"
+				title: "粗铜"
 				type: "item"
 			}]
-			title: "Getting Started: Power Generation"
+			title: "入门：发电"
 			x: -7.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["0000000000000004"]
-			description: ["From high-powered lights and excavation tools to revolvers and railguns, Immersive Engineering offers a tool for nearly any job."]
+			description: ["从高功率的照明灯和采掘工具到左轮手枪和磁轨炮，沉浸工程为几乎任何工作都提供了一种工具。"]
 			hide_dependency_lines: true
 			id: "687C9701A98F050B"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "021D071CC21AB50B"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -2008,8 +2032,8 @@
 				}
 				type: "item"
 			}]
-			title: "Tools and Utility"
-			x: -7.5d
+			title: "工具和道具"
+			x: -3.5d
 			y: -0.5d
 		}
 		{
@@ -2017,14 +2041,14 @@
 				"0A476C6332EB6477"
 				"1487479CFA348530"
 			]
-			description: ["An extended Fuel Tank that works in the Mining Drill and Buzzsaw. Well worth the cost."]
+			description: ["适用于机械钻和机械锯的拓展燃料缸。非常值得造一个。"]
 			hide_dependency_lines: true
 			id: "34A1207AFB990E5F"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "062364A690B278A3"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
@@ -2038,7 +2062,7 @@
 		}
 		{
 			dependencies: ["0000000000000004"]
-			description: ["With better materials come larger, more capable machines. Prepare to get dirty!"]
+			description: ["有了更好的材料，也就有了更大、更能干的机器。做好弄脏自己的准备！"]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:storage_steel"
 			id: "7215DE7DCCEA0835"
@@ -2046,7 +2070,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "10CEE819901CA9C6"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -2060,25 +2084,25 @@
 						value: "forge:ingots/steel"
 					}
 				}
-				title: "Steel"
+				title: "钢"
 				type: "item"
 			}]
-			title: "Heavy Machinery"
+			title: "重型机器"
 			x: 0.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["0000000000000007"]
 			description: [
-				"Redstone Wiring represents an advancement in Redstone technology, allowing a dedicated Engineer to build complex logic circuits that are less prone to the failings of traditional Redstone Dust. A color-coded channel system also allows a single small network to interact with multiple independent machines. "
+				"红石线材代表着红石技术领域的一大进步。专职工程师通过它可以建造复杂的逻辑电路，这些电路很少出现传统红石粉中的缺陷。颜色编码的频道系统使得单个小型网络可以与多个独立的机器进行交互。"
 				""
-				"Redstone Wires may be stretched between Redstone Wire Connectors, Probe Connectors, or Interface Connectors. These carry the Redstone signal without the signal decaying. "
+				"红石线缆可以搭设在红石接线器、红石探测接线器红石接口连接器之间。红石线缆承载的红石信号不会有信号衰减。"
 				""
-				"Redstone Wire Connectors act as Input and Output points for a signal and may be placed directly on a block. They must have their mode and color channel set by using a Screwdriver on them."
+				"红石接线器充当了信号的输入点和输出点，且可以直接放置在方块上。对着它们使用螺丝刀来修改模式和颜色频道。"
 				""
-				"Redstone Probe Connectors act very much like Comparators with a few extra built-in features. Most Immersive Engineering machines will output special comparator signals that may also be read by this Connector. Refer to the Engineer’s Manual for specifics about each machine."
+				"红石探测接线器和比较器的功能非常相似，但是多了一些额外的内置功能。大多数沉浸工程的机器会输出特别的比较器信号，红石探测接线器可以读取这些信号。查阅工程师手册以了解每种机器的特性。"
 				""
-				"Redstone Interface Connectors are used in conjunction with special blocks like Item Batchers and Logic Units, allowing the signals used by those blocks to be read."
+				"红石接口连接器用于连接计量分配器和逻辑单元一类的特殊方块，它能读取这些方块使用的信号。"
 			]
 			icon: "immersiveengineering:wirecoil_redstone"
 			id: "0E74E2DD26D0CED0"
@@ -2087,7 +2111,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "66C37DAE605D6CC9"
-				title: "Rare Immersive Engineering Loot Box"
+				title: "稀有沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [
@@ -2112,18 +2136,22 @@
 					type: "item"
 				}
 			]
-			title: "Redstone Wiring"
+			title: "红石线材"
 			x: -2.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["3B554ECB7BEADD2E"]
 			description: [
-				"Logic Circuits themselves are crafted in the Engineer’s Circuit Table. "
+				"逻辑电路板在工程师电路台上合成而得。"
 				""
-				"This workbench requires power, which is input from the back, as well as some quantity of Circuit Backplanes, Lead Wire, and Vacuum Tubes. Different logic operations will require different quantities. "
+				"工程师电路台需要在其背部输入能量，还需要一些电路板、铅线和真空管。不同的逻辑运算需要的物品数量不同。"
 				""
-				"Circuits are programmed with an operator as well as Input and Output colors. When ready, the completed circuit is withdrawn from the right side of the GUI. Circuits may have their Inputs and Outputs reprogrammed by placing them back in the upper slot, but the operator is locked in upon first creation. "
+				"电路板将会通过运算符和输入输出颜色进行编程。"
+				""
+				"编程完毕后，在界面的右边取出做好的逻辑电路板。"
+				""
+				"将逻辑电路板放入上方的栏位可以重编程它的输入和输出，但运算符会在第一次合成时锁死。"
 			]
 			icon: "immersiveengineering:logic_circuit"
 			id: "450E3698E39CC0A1"
@@ -2131,7 +2159,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "012A851509C81D0B"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [
@@ -2162,16 +2190,16 @@
 		{
 			dependencies: ["0E74E2DD26D0CED0"]
 			description: [
-				"The Logic Unit represents a compact and potentially very complex Redstone Logic computer. Up to ten Logic Circuits must be programmed and placed within and a Redstone Interface Connector attached to the outside. "
+				"逻辑单元是一台紧凑并且能够变得非常复杂的红石逻辑电脑。其内部可以容纳十个编程好的逻辑电路板，外部则需要红石接口连接器与其相连。"
 				""
-				"Whenever the inbound signal changes, the Unit will cycle through each of the installed circuits once, performing each operation, allowing multiple logic gates to be applied to a signal, or even multiple color codes to be used as Input and Output signals. "
+				"每当其输入信号变化，逻辑单元就会循环执行安装在其内部的所有电路板一次。逻辑单元可以在一个信号上应用多个逻辑门，甚至可以将多种颜色编码当作输入和输出信号。"
 			]
 			id: "3B554ECB7BEADD2E"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/immersive_engineering/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "59AE772A27F7132F"
-				title: "Epic Immersive Engineering Loot Box"
+				title: "史诗沉浸工程战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -2183,5 +2211,5 @@
 			y: -4.0d
 		}
 	]
-	title: "Immersive Engineering"
+	title: "沉浸工程"
 }
