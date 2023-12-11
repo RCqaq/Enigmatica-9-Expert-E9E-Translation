@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["2CCCDD05AED3153F"]
-			description: ["Industrial Foregoing provides a wide range of machines to automate various farming related tasks. From growing plants and breeding animals, to duplicating mobs and drilling for resources."]
+			description: ["从植物种植到动物繁殖，从复制生物到钻取资源，工业先锋为自动化收集资源相关的作业提供了各式各样的机器。"]
 			hide: true
 			icon: "industrialforegoing:plastic"
 			id: "7F5A622EA197C0FE"
@@ -30,19 +30,19 @@
 						value: "forge:raw_materials"
 					}
 				}
-				title: "Industrial Foregoing"
+				title: "工业先锋"
 				type: "item"
 			}]
-			title: "Industrial Foregoing"
+			title: "工业先锋"
 			x: 3.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["3A4F484FD23B29BA"]
 			description: [
-				"Dissolving solids in liquids is certainly a common task, in the home as much as in industry. "
+				"无论是在家还是在工业制造中，将固体溶解成液体都是一种非常常见的操作。"
 				""
-				"The Dissolution Chamber takes this process somewhat further, by dissolving the materials together and then systematically rebuilding something entirely new from the soup. "
+				"化学溶解室更进一步，将材料溶解在一起，并从溶液中按照部署重组全新的物品。"
 			]
 			hide_dependency_lines: true
 			id: "3E89C56A496461D9"
@@ -50,10 +50,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "379E1DF360B71C28"
-				title: "Rare Industrial Foregoing Loot Box"
+				title: "稀有工业先锋战利品箱"
 				type: "command"
 			}]
-			subtitle: "Extreme Measures"
+			subtitle: "非常手段"
 			tasks: [{
 				id: "4DE2685012E5A8D2"
 				item: "industrialforegoing:dissolution_chamber"
@@ -65,17 +65,17 @@
 		{
 			dependencies: ["3A4F484FD23B29BA"]
 			description: [
-				"Machine Addons break down into four categories: speed, efficiency, processing, and range."
+				"机器插件分为四个种类：速度、效率、处理和范围。"
 				""
-				"Speed: Increases the operating speed of the machine"
+				"速度：提升机器的运作速度"
 				""
-				"Efficiency: Reduces the energy requirements of the machine"
+				"效率：降低机器的能量消耗"
 				""
-				"Processing: Allows the machine to perform multiple operations per process"
+				"处理：使机器可以一次处理多个同种配方"
 				""
-				"Range: Increases the working area of the machine"
+				"范围：扩大机器的工作区域"
 				""
-				"Not all machines can accept all addons. "
+				"并非所有的机器都能安装所有种类的插件。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -93,10 +93,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "6719F2C0C0E7FB2B"
-				title: "Rare Industrial Foregoing Loot Box"
+				title: "稀有工业先锋战利品箱"
 				type: "command"
 			}]
-			subtitle: "In the Cards"
+			subtitle: "“插”翅难逃"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -115,21 +115,23 @@
 						value: "industrialforegoing:.*_addon"
 					}
 				}
-				title: "Any Addon"
+				title: "任意插件"
 				type: "item"
 			}]
-			title: "Addons"
+			title: "插件"
 			x: 3.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3A4F484FD23B29BA"]
 			description: [
-				"This machine is a one-stop shop for cobblestone processing. "
+				"这台机器是一个关于圆石加工的一站式商店。"
 				""
-				"It can generate cobblestone from lava and water, then perform up to four sequential operations, either Smelting, Crushing, 2x2 Crafting, or 3x3 Crafting, to produce a variety of final outputs. "
+				"它可以用熔岩和水生成圆石，并能够执行至多四个序列操作以产出多种最终产物。这些操作可以是熔炼、粉碎，也可以是2x2或3x3合成。"
 				""
-				"For example, Cobble could be crushed to Gravel, then Sand, and finally smelted into Glass. "
+				"比方说，圆石可以被粉碎成沙砾，再被粉碎成沙子，最后熔炼成沙子。"
+				""
+				"译者注：副标题《岩石与浅滩》是美国联合科幻电视连续剧《星际迷航：深空九号》的第126集。"
 			]
 			hide_dependency_lines: true
 			id: "74A44328C7E9FAF8"
@@ -137,10 +139,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "3EF8435392E86386"
-				title: "Epic Industrial Foregoing Loot Box"
+				title: "史诗工业先锋战利品箱"
 				type: "command"
 			}]
-			subtitle: "Rocks and Shoals"
+			subtitle: "岩石与浅滩"
 			tasks: [{
 				id: "23694575C3ECC943"
 				item: "industrialforegoing:material_stonework_factory"
@@ -152,11 +154,11 @@
 		{
 			dependencies: ["3A4F484FD23B29BA"]
 			description: [
-				"A drill capable of mining out very large areas, perfect for extended mining sessions."
+				"一把可以一下挖掘非常大一片区域的钻头，非常适合用于长时间采矿时使用。"
 				""
-				"Sneak Right-Click to set its options. "
+				"潜行右击以设定其选项。"
 				""
-				"Right-Click on a tank of Abyssaline to fill it. "
+				"用钻头右击装有渊晶油的储罐为其填充燃料。"
 			]
 			hide_dependency_lines: true
 			id: "41E4A38DBA6DE6A7"
@@ -164,7 +166,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "35FD9DE9C1AE9790"
-				title: "Epic Industrial Foregoing Loot Box"
+				title: "史诗工业先锋战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -205,7 +207,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "076765969F37C975"
-					title: "Rare Industrial Foregoing Loot Box"
+					title: "稀有工业先锋战利品箱"
 					type: "command"
 				}
 			]
@@ -233,7 +235,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "5C407B1EF44A000F"
-				title: "Epic Industrial Foregoing Loot Box"
+				title: "史诗工业先锋战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -275,7 +277,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "55819A4D04CED075"
-				title: "Epic Industrial Foregoing Loot Box"
+				title: "史诗工业先锋战利品箱"
 				type: "command"
 			}]
 			subtitle: "I'm Still Worthy!"
@@ -314,7 +316,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "6C27923990829FB4"
-				title: "Rare Industrial Foregoing Loot Box"
+				title: "稀有工业先锋战利品箱"
 				type: "command"
 			}]
 			subtitle: "A Blight Upon the Land"
@@ -387,7 +389,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "2CF35E56988649E5"
-				title: "Rare Industrial Foregoing Loot Box"
+				title: "稀有工业先锋战利品箱"
 				type: "command"
 			}]
 			subtitle: "The Darkness and the Light"
@@ -426,7 +428,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "131B8F1A1F1FE1FC"
-				title: "Rare Industrial Foregoing Loot Box"
+				title: "稀有工业先锋战利品箱"
 				type: "command"
 			}]
 			subtitle: "What You Leave Behind"
@@ -447,7 +449,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "58FC0103111007F7"
-				title: "Rare Industrial Foregoing Loot Box"
+				title: "稀有工业先锋战利品箱"
 				type: "command"
 			}]
 			subtitle: "A Matter of Perspective"
@@ -474,7 +476,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "0DB5BF86FD75C324"
-				title: "Rare Industrial Foregoing Loot Box"
+				title: "稀有工业先锋战利品箱"
 				type: "command"
 			}]
 			subtitle: "Reaping the Rewards"
@@ -499,7 +501,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "56424275050ABFF4"
-				title: "Rare Industrial Foregoing Loot Box"
+				title: "稀有工业先锋战利品箱"
 				type: "command"
 			}]
 			subtitle: "Sow Many Plants, Sow Little Time"
@@ -526,7 +528,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "3463EB949B33CDA9"
-				title: "Rare Industrial Foregoing Loot Box"
+				title: "稀有工业先锋战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -546,7 +548,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "788C3E2A822F3CD0"
-				title: "Rare Industrial Foregoing Loot Box"
+				title: "稀有工业先锋战利品箱"
 				type: "command"
 			}]
 			subtitle: "The Plot Thickens..."
@@ -567,7 +569,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "356398A4898C5D98"
-				title: "Epic Industrial Foregoing Loot Box"
+				title: "史诗工业先锋战利品箱"
 				type: "command"
 			}]
 			subtitle: "If Memory Serves"
@@ -625,7 +627,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "770DD847637FC248"
-				title: "Epic Industrial Foregoing Loot Box"
+				title: "史诗工业先锋战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -664,7 +666,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "5C632F4FB5098CA3"
-				title: "Epic Industrial Foregoing Loot Box"
+				title: "史诗工业先锋战利品箱"
 				type: "command"
 			}]
 			tasks: [{
