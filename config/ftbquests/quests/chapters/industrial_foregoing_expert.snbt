@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["2CCCDD05AED3153F"]
-			description: ["从植物种植到动物繁殖，从复制生物到钻取资源，工业先锋为自动化收集资源相关的作业提供了各式各样的机器。"]
+			description: ["从植物种植到动物繁殖，再到复制生物和钻取资源，工业先锋为自动化收集资源相关的作业提供了各式各样的机器。"]
 			hide: true
 			icon: "industrialforegoing:plastic"
 			id: "7F5A622EA197C0FE"
@@ -43,6 +43,8 @@
 				"无论是在家还是在工业制造中，将固体溶解成液体都是一种非常常见的操作。"
 				""
 				"化学溶解室更进一步，将材料溶解在一起，并从溶液中按照部署重组全新的物品。"
+				""
+				"译者注：副标题《非常手段》是科幻电视连续剧《星际迷航：深空九号》第七季第24集的标题。"
 			]
 			hide_dependency_lines: true
 			id: "3E89C56A496461D9"
@@ -76,6 +78,8 @@
 				"范围：扩大机器的工作区域"
 				""
 				"并非所有的机器都能安装所有种类的插件。"
+				""
+				"译者注：副标题《卡牌轶事》是科幻电视连续剧《星际迷航：深空九号》第五季第25集的标题。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -96,7 +100,7 @@
 				title: "稀有工业先锋战利品箱"
 				type: "command"
 			}]
-			subtitle: "“插”翅难逃"
+			subtitle: "卡牌轶事"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -131,7 +135,7 @@
 				""
 				"比方说，圆石可以被粉碎成沙砾，再被粉碎成沙子，最后熔炼成沙子。"
 				""
-				"译者注：副标题《岩石与浅滩》是美国联合科幻电视连续剧《星际迷航：深空九号》的第126集。"
+				"译者注：副标题《岩石与浅滩》是科幻电视连续剧《星际迷航：深空九号》第六季第2集的标题。"
 			]
 			hide_dependency_lines: true
 			id: "74A44328C7E9FAF8"
@@ -192,7 +196,11 @@
 		}
 		{
 			dependencies: ["10C9F0F84BF69D0A"]
-			description: ["施肥机通过自动施用肥料或骨粉，大大加快了其工作区域的作物的生长。"]
+			description: [
+				"施肥机通过自动施用肥料或骨粉，大大加快了其工作区域的作物的生长。"
+				""
+				"译者注：副标题《第二次机会》是科幻电视连续剧《星际迷航：下一代》第六季第24集的标题。"
+			]
 			hide_dependency_lines: true
 			id: "08142040D5D8815C"
 			rewards: [
@@ -211,7 +219,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "二次机会"
+			subtitle: "第二次机会"
 			tasks: [{
 				id: "5BC241B5CA44B54C"
 				item: "industrialforegoing:plant_fertilizer"
@@ -384,6 +392,8 @@
 				"运输器是可以在相邻容器间传输物品或流体的小型模块。它们的范围有限，但是速度可以非常快。并且由于可以在单个方块空间内放置多个运输器，它们可以用于分离或整理机器的输出到其他容器的机器产物。"
 				""
 				"速度插件可以让传输器运作地更快，而效率插件可以让传输器一次移动更多物品。"
+				""
+				"译者注：副标题《黑暗与光明》是科幻电视连续剧《星际迷航：深空九号》第五季第11集的标题。"
 			]
 			hide_dependency_lines: true
 			id: "230C4DBDBA945EF5"
@@ -423,6 +433,8 @@
 				"动物排污器是任何被动式动物农场的绝佳补充，它可以缓慢地从工作区域的动物中产生污水。"
 				""
 				"动物排污器也可以收集经验球并将它们直接转换成精华液。"
+				""
+				"译者注：副标题《何事身后留》是科幻电视连续剧《星际迷航：深空九号》第七季第26集的标题。"
 			]
 			hide_dependency_lines: true
 			id: "0D2046CE317CC921"
@@ -433,7 +445,7 @@
 				title: "稀有工业先锋战利品箱"
 				type: "command"
 			}]
-			subtitle: "身后留下了什么"
+			subtitle: "何事身后留"
 			tasks: [{
 				id: "0A39421A5A792EFA"
 				item: "industrialforegoing:sewer"
@@ -444,7 +456,11 @@
 		}
 		{
 			dependencies: ["10C9F0F84BF69D0A"]
-			description: ["一台可以将污水变成更加有用的肥料的简单装置。"]
+			description: [
+				"一台可以将污水变成更加有用的肥料的简单装置。"
+				""
+				"译者注：副标题《观点问题》是科幻电视连续剧《星际迷航：下一代》第三季第14集的标题。"
+			]
 			hide_dependency_lines: true
 			id: "52764EBC333BE812"
 			rewards: [{
@@ -454,7 +470,7 @@
 				title: "稀有工业先锋战利品箱"
 				type: "command"
 			}]
-			subtitle: "变废为宝"
+			subtitle: "观点问题"
 			tasks: [{
 				id: "18186923CB301AAB"
 				item: "industrialforegoing:sewage_composter"
@@ -564,6 +580,7 @@
 		}
 		{
 			dependencies: ["3A4F484FD23B29BA"]
+			description: ["译者注：副标题《如果记忆不负我》是科幻电视连续剧《星际迷航：发现号》第二季第8集的标题。"]
 			hide_dependency_lines: true
 			icon: "industrialforegoing:fluid_laser_base"
 			id: "56A313EA5C3D6A59"
@@ -574,7 +591,7 @@
 				title: "史诗工业先锋战利品箱"
 				type: "command"
 			}]
-			subtitle: "如果记忆无误"
+			subtitle: "如果记忆不负我"
 			tasks: [
 				{
 					id: "695ABC9BF36D0A72"
