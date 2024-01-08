@@ -11,9 +11,9 @@
 		{
 			dependencies: ["2F22D2DB89CB9225"]
 			description: [
-				"As noted, Mekanism maintains a strong focus on efficiencies throughout the mod. As machines are upgraded and more systems put in place, they become more efficient, more productive, and cheaper to run."
+				"如前所述，通用机械从始至终都保持着对效率的高度关注。随着机器的升级和更多系统的到位，它们会变得更加高效、高产，运行成本也更低。"
 				""
-				"Focusing on being efficient from the very start will ultimately pay off in the long run."
+				"在一开始就注重效率，从长远来看终究会有回报。"
 			]
 			hide_dependency_lines: true
 			icon: "mekanism:alloy_infused"
@@ -22,23 +22,23 @@
 			tasks: [{
 				id: "7FB5DB1D16235D02"
 				item: "kubejs:crude_iron_ingot"
-				title: "Material Processing"
+				title: "材料加工"
 				type: "item"
 			}]
-			title: "Getting Started: Material Processing"
+			title: "入门：材料加工"
 			x: 6.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["094FAB57D8E3D2F6"]
 			description: [
-				"Once some basic power infrastructure is settled, the next most important machine will be the Metallurgic Infuser."
+				"一旦基本的电力设施得到解决，下一个最重要的机器就是冶金灌注机。"
 				""
-				"Take notice of the color coding in Mekanism GUIs, as they’ll indicate where materials go. The Yellow box on the left is where the infusion matter goes. It’ll be absorbed into an internal buffer and then consumed during the actual craft."
+				"请注意通用机械界面中的颜色编码，它们指示了材料将去向哪里。材料将会被吸收进一个内置缓存区并在实际合成中被消耗。"
 				""
-				"These colors also correspond to the colors in the Side Config panel. By default, this machine expects the infusion material to be inserted from the bottom of the machine. That’s all configurable, however, so set them however they’re most convenient."
+				"这些颜色还与侧边的设置面板相对应。默认情况下，这台机器期望灌注材料从其底部输入。不过，这些都是可配置的，因此可以将其设为最方便的配置。"
 				""
-				"Automation Note: Since the two required input materials use two different channels, red and yellow, there’s no way to feed both items in from the same face. As a result, it’s often easiest to make multiple machines, each dedicated to their own infusion material."
+				"关于自动化的注释：由于所需的两种输入材料采用了两个不同的频道，红色和黄色，因此没有办法在机器的同一面同时输入这两种物品。所以，最简单的办法是制作多台机器，每一台有着自己专门的灌注材料。"
 			]
 			hide_dependency_lines: true
 			id: "13762022DEE4BEC5"
@@ -47,10 +47,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "03D6AC51756CA1AD"
-				title: "Rare Mekanism Loot Box"
+				title: "稀有通用机械战利品箱"
 				type: "command"
 			}]
-			subtitle: "Advanced Metallurgy"
+			subtitle: "高级冶金学"
 			tasks: [{
 				id: "367A53ACB8A3AECB"
 				item: {
@@ -81,7 +81,7 @@
 						]
 					}
 				}
-				title: "Metallurgic Infuser"
+				title: "冶金灌注机"
 				type: "item"
 			}]
 			x: 5.5d
@@ -90,11 +90,13 @@
 		{
 			dependencies: ["094FAB57D8E3D2F6"]
 			description: [
-				"Alloys will be needed commonly for more advanced machinery. They can be quite costly to make, however, as infusion materials don’t go very far."
+				"更高级的机器通常需要合金。然而，它们的制作成本可能相当高，因为灌注材料的上限不高。"
 				""
-				"They can be stretched quite a bit further by enriching them in an Enrichment Chamber, however."
+				"然而，通过在富集仓中进行富集，它们的上限可以进一步提高。"
 				""
-				"For example, a single Redstone will make a single Infused Alloy, however a single Enriched Redstone will make eight Alloys. It is therefore well worth the effort to enrich these items.  "
+				"比方说，一个红石粉可以制作一个灌注合金，而一个富集红石可以制作八个合金。因此，花精力富集这些物品是非常值得的。"
+				""
+				"译者注：副标题“子弹上膛”中的膛与“富集仓”中的仓英文一致，同为“chamber”。"
 			]
 			hide_dependency_lines: true
 			id: "5EC7CA1A86435B30"
@@ -102,10 +104,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "131BF3970989B404"
-				title: "Rare Mekanism Loot Box"
+				title: "稀有通用机械战利品箱"
 				type: "command"
 			}]
-			subtitle: "Put One In The Chamber"
+			subtitle: "子弹上膛"
 			tasks: [{
 				id: "5F5EE2F551F7913B"
 				item: {
@@ -136,7 +138,7 @@
 						]
 					}
 				}
-				title: "Enrichment Chamber"
+				title: "富集仓"
 				type: "item"
 			}]
 			x: 7.5d
@@ -144,17 +146,21 @@
 		}
 		{
 			dependencies: ["094FAB57D8E3D2F6"]
-			description: ["Certain chemical reactions only occur at greater pressures and the PRC can be used to facilitate them."]
+			description: [
+				"某些化学反应只在更大的压力下发生，而加压反应室可以促进这些反应产生。"
+				""
+				"译者注：副标题中的歌词出自Queen和David Bowie共同创作并演唱的歌曲《压力之下》。"
+			]
 			hide_dependency_lines: true
 			id: "4427B8F3C87DDF02"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "1958B307B1019C34"
-				title: "Rare Mekanism Loot Box"
+				title: "稀有通用机械战利品箱"
 				type: "command"
 			}]
-			subtitle: "Pushing Down On Me, Pressing Down On You"
+			subtitle: "把我推倒，把你压迫"
 			tasks: [{
 				id: "0E9481BE3E52363E"
 				item: "mekanism:pressurized_reaction_chamber"
@@ -168,11 +174,13 @@
 			description: [
 				"By infusing Pandemonium with incredible amounts of magical energies, it may be refined into a material with potent transmutational properties: Aetherium."
 				""
-				"Two ports with Supercharged Coils will accept power input. The other two ports will be used for inputting waste and outputting antimatter."
+				"装有增压线圈的两个端口用于接收能量输入。而另外两个端口则用于输入废料和输出反物质。"
 				""
-				"Adding more Ports with Supercharged Ports attached to them will allow the machine to run faster, assuming of course that sufficient power and waste can be supplied."
+				"在能量和废料充足的前提下，添加更多装有增压线圈的端口可使机器运行得更快。"
 				""
-				"{\"text\":\"Mekanism Wiki: Supercritical Phase Shifter\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com/wiki/Supercritical_Phase_Shifter\"}}"
+				"{\"text\":\"通用机械Wiki：超临界移相器\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com/wiki/Supercritical_Phase_Shifter\"}}"
+				""
+				"译者注：副标题中的句子是科幻影视系列《星际迷航》中企业号飞船总工程师斯科特的一句经典台词。"
 			]
 			hide_dependency_lines: true
 			icon: "mekanism:sps_casing"
@@ -182,10 +190,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "2A335028425C54BC"
-				title: "Legendary Mekanism Loot Box"
+				title: "传奇通用机械战利品箱"
 				type: "command"
 			}]
-			subtitle: "I've Giv'n Her All We've Got, Captain"
+			subtitle: "我已经让她全速运转了，舰长"
 			tasks: [
 				{
 					count: 60L
@@ -211,16 +219,16 @@
 					type: "item"
 				}
 			]
-			title: "Supercritical Phase Shifter"
+			title: "超临界移相器"
 			x: 6.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["094FAB57D8E3D2F6"]
 			description: [
-				"Alchemists of yore were correct in believing that elemental substances could be transmuted."
+				"古代的炼金术士相信基本的物质可以进行转化，他们是正确的。"
 				""
-				"What they failed to understand was the vast amount of energy that would be required to do so."
+				"但他们未能理解的是，这样做需要大量的能量。"
 			]
 			hide_dependency_lines: true
 			id: "2D91422DA1C8E72A"
@@ -228,10 +236,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "5A38C9C7570957F9"
-				title: "Legendary Mekanism Loot Box"
+				title: "传奇通用机械战利品箱"
 				type: "command"
 			}]
-			subtitle: "Indistinguishable from Magic"
+			subtitle: "与魔法无异"
 			tasks: [{
 				id: "0F4DBE31B74978E5"
 				item: "mekanism:antiprotonic_nucleosynthesizer"
@@ -243,11 +251,11 @@
 		{
 			dependencies: ["01E97C3D888A1677"]
 			description: [
-				"It’s bound to happen. With pipes and cables running everywhere, who knows what’s going to get into that machine when it’s plonked down. Water? Hydrogen? And once things are in, often times it’s not clear how to get them out."
+				"事故总会发生。到处都是管道和电缆，谁知道当机器放下时会有什么东西进入机器呢。水？氢气？一旦它们进入了机器，玩家通常不清楚如何把它们弄出来。"
 				""
-				"This is where the Gauge Dropper comes in. This small tool will help extract unwanted inputs from various machines. Clicking on an input inside the GUI of a machine with the Dropper will extract a small amount of the input, allowing it to be easily transported to another machine. Sneak + Left-Click will instead void the material."
+				"这就是滴管的用武之地。这个小工具可以从各种机器中提取玩家不想要的输入流体。用滴管点击机器界面内的输入流体可以提取少量该流体，从而将其轻松地运输到另一台机器中。潜行+左击将会销毁机器中的材料。"
 				""
-				"Similarly, Sneak + Right-Clicking the air with the gauge dropper will void whatever is currently stored."
+				"类似地，用滴管潜行+右击空气将销毁当前滴管存储的任何东西。"
 			]
 			hide_dependency_lines: true
 			id: "06C3D5F78BA710C4"
@@ -256,10 +264,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "469F014669D8372A"
-				title: "Rare Mekanism Loot Box"
+				title: "稀有通用机械战利品箱"
 				type: "command"
 			}]
-			subtitle: "Better Than a Stick in the Eye"
+			subtitle: "聊胜于无"
 			tasks: [{
 				id: "68D52990792852FA"
 				item: "mekanism:gauge_dropper"
@@ -271,11 +279,13 @@
 		{
 			dependencies: ["094FAB57D8E3D2F6"]
 			description: [
-				"There are limits to the number of speed upgrades that can go in machines. After that, expanding sideways is the only option to speeding things up. Thankfully, Tier Installers make this somewhat easier than simply tossing down nine more machines full of upgrades. Remember, it’s all about being efficient!"
+				"机器可以加装的速度升级数量是有限的。在升级满之后，横向扩展是加快速度的唯一选择。值得庆幸的是，工厂安装器比直接多加九台装满升级的机器要便宜一些。记住，这些都是为了效率！"
 				""
-				"Each Tier Installer will add a number of input and output slots to the machine, allowing it to run that many items in parallel. Each slot shares the other Upgrades in the machine, reducing the number of Upgrades that would need to be crafted."
+				"每级工厂安装器都会为机器添加一定的输入和输出栏位，使机器能够并行处理栏位数量的物品。每个栏位共享机器中的其他升级，从而减少需要合成的升级的数量。"
 				""
-				"To apply a Tier Installer, simply Sneak + Right-Click on a machine place in-world. Tiers must be installed in order, no skipping tiers!"
+				"要应用工厂安装器，只需用其潜行右击放置在世界中的机器即可。必须按等级顺序使用工厂安装器，不能跳级！"
+				""
+				"译者注：副标题中的句子改编自国外的一个网络梗，其句式为“Yo Dawg, Heard You Liked...”。"
 			]
 			hide_dependency_lines: true
 			id: "5A47B6B53BADF585"
@@ -284,10 +294,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "5D6190F7A86AA552"
-				title: "Rare Mekanism Loot Box"
+				title: "稀有通用机械战利品箱"
 				type: "command"
 			}]
-			subtitle: "Yo Dawg, Heard You Liked Machines..."
+			subtitle: "哟，老兄，听说你喜欢机器……"
 			tasks: [{
 				id: "1841697C3D1FDFAE"
 				item: {
@@ -314,7 +324,7 @@
 						]
 					}
 				}
-				title: "Tier Installers"
+				title: "工厂安装器"
 				type: "item"
 			}]
 			x: 6.5d
@@ -323,9 +333,11 @@
 		{
 			dependencies: ["01E97C3D888A1677"]
 			description: [
-				"Got somewhere to be and no time to get there? Well, start walking. And next time, bring a teleporter to set up when you get there to avoid going the long way again."
+				"有地方想去，但是没有空去？那么，现在就出发吧。下一次你到达那里时，建造一个传送机来避免再次长途跋涉。"
 				""
-				"Teleporter Frames are Optional."
+				"传送框架是可选的。"
+				""
+				"译者注：副标题中的句子出自科幻电视剧《神秘博士》第二季。"
 			]
 			hide_dependency_lines: true
 			id: "4A9E737597297689"
@@ -333,10 +345,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "418966840E6DECD6"
-				title: "Rare Mekanism Loot Box"
+				title: "稀有通用机械战利品箱"
 				type: "command"
 			}]
-			subtitle: "Guests are reminded that Platform One forbids the use of weapons, teleportation, and religion."
+			subtitle: "旅客请注意，第一站台禁止使用武器、远程传送和宗教信仰。"
 			tasks: [{
 				id: "11AFA218FE7BA802"
 				item: {
@@ -359,13 +371,13 @@
 		{
 			dependencies: ["2F22D2DB89CB9225"]
 			description: [
-				"Mekanism deals in Energy, Fluid, Gas, Item, and Heat transfer, and has a matching pipe to assist in the transfer of each."
+				"通用机械可以实现能量、流体、气体、物品和热量的传输，且每个类型都有一种对应的管道来协助传输。"
 				""
-				"Configuring them is done with the Configurator, which itself has several modes. Use Sneak + Scroll Wheel to change the current mode."
+				"配置器有几种不同的模式，通过它可以配置管道。使用潜行+鼠标滚轮来切换当前的模式。"
 				""
-				"When in Wrench mode, a Sneak + Right Click will immediately pick up any Mekanism machine or pipe."
+				"当处于扳手模式时，潜行右击可以立即捡起任何通用机械的机器和管道。"
 				""
-				"When in any of the ‘Configurate’ modes, the Configurator will toggle different aspects of the pipe. See the following sections for more information. "
+				"当处于任意“配置”模式时，配置器可以开启或关闭管道不同的属性。请查阅后续任务以了解更多信息。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -386,7 +398,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "4E6A4987E188A34D"
-				title: "Rare Mekanism Loot Box"
+				title: "稀有通用机械战利品箱"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -395,18 +407,18 @@
 				item: "mekanism:configurator"
 				type: "item"
 			}]
-			title: "Getting Started: Logistics and Storage"
+			title: "入门：物流和存储"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["094FAB57D8E3D2F6"]
 			description: [
-				"By placing objects under great pressure, they may be infused with other materials."
+				"当物品置于巨大的压力下时，它们可以被注入进其他材料内。"
 				""
-				"The Chemical Injection Chamber, while often found as a step in larger processing chains, is also a very handy tool for automating more tedious tasks, such as setting concrete or getting those Copper Stairs to just the right level of oxidation before using them in a roof."
+				"化学压射室，虽然经常出现在大型加工产线的一环，但同样也是一个可以用于自动化更多繁琐处理的非常方便地工具，比如固化混凝土或在用铜楼梯建造屋顶之前将它们氧化到合适的程度。"
 				""
-				"Remember to install Gas Upgrades to make the gas inputs more efficient!"
+				"记得安装气体升级使输入的气体更加高效！"
 			]
 			hide_dependency_lines: true
 			id: "2A029FF13CC8072B"
@@ -420,7 +432,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "3F9BD229E827C77F"
-					title: "Epic Mekanism Loot Box"
+					title: "史诗通用机械战利品箱"
 					type: "command"
 				}
 			]
@@ -454,7 +466,7 @@
 						]
 					}
 				}
-				title: "Chemical Injection Chamber"
+				title: "化学压射室"
 				type: "item"
 			}]
 			x: 6.0d
@@ -463,34 +475,36 @@
 		{
 			dependencies: ["01E97C3D888A1677"]
 			description: [
-				"All pieces may be upgraded to enhance the energy shield and add radiation shielding."
+				"所有的盔甲都可以通过升级来强化能量护盾和辐射防护。"
 				""
-				"Other Notable Upgrades: "
+				"其他值得注意的升级："
 				""
-				"Helmet"
+				"头盔"
 				""
-				"● Auto Feeding"
-				"● Night Vision"
-				"● Solar Charging"
-				"● Underwater Breathing"
-				"● Magic Damage Protection"
-				"● Status Effect Protection"
+				"● 自动喂食"
+				"● 夜视"
+				"● 太阳能充电"
+				"● 水下呼吸"
+				"● 魔法伤害保护"
+				"● 状态效果保护"
 				""
-				"Bodyarmor"
+				"护甲"
 				""
-				"● Creative Flight"
-				"● Elytra Flight"
-				"● Radiation Tracking"
-				"● Energy Distribution"
+				"● 创造飞行"
+				"● 鞘翅飞行"
+				"● 辐射追踪"
+				"● 能量分配"
 				""
-				"Pants"
+				"裤子"
 				""
-				"● Run Speed Enhancement"
+				"● 疾跑速度强化"
 				""
-				"Boots"
+				"靴子"
 				""
-				"● Jump Height Enhancement"
-				"● Magnet Upgrade"
+				"● 跳跃高度强化"
+				"● 磁铁升级"
+				""
+				"译者注：副标题是游戏毁灭战士：永恒原声音乐《The Only Thing They Fear Is You》的中文译名。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -511,32 +525,32 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/legendary"
 					icon: "kubejs:legendary_lootbox"
 					id: "3CB100DC1C534B42"
-					title: "Legendary Mekanism Loot Box"
+					title: "传奇通用机械战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/legendary"
 					icon: "kubejs:legendary_lootbox"
 					id: "222D45DF4BF00BC2"
-					title: "Legendary Mekanism Loot Box"
+					title: "传奇通用机械战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/legendary"
 					icon: "kubejs:legendary_lootbox"
 					id: "1B429878EA149C2F"
-					title: "Legendary Mekanism Loot Box"
+					title: "传奇通用机械战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/legendary"
 					icon: "kubejs:legendary_lootbox"
 					id: "48E391547CA0B9FE"
-					title: "Legendary Mekanism Loot Box"
+					title: "传奇通用机械战利品箱"
 					type: "command"
 				}
 			]
-			subtitle: "The Only Thing They Fear... Is You."
+			subtitle: "他们唯一害怕的是……是你。"
 			tasks: [
 				{
 					id: "52DEDB7389CF027D"
@@ -565,18 +579,18 @@
 		{
 			dependencies: ["06ABB5AAF6BEDC06"]
 			description: [
-				"Basic Chemical storage, these will hold any non-radioactive gas, slurry, infusion type, or pigment."
+				"基础的化学品存储，可以容纳任何非放射性的气体、浆液、灌注材料和颜料。"
 				""
-				"They can be directly inserted into machines to provide their materials or be configured to auto output to adjacent machines."
+				"它们可以直接放入机器中来为机器提供材料，也可以被配置成自动输出至相邻机器。"
 				""
-				"They’ll also function as an over-flow trash by setting them to “Dump Excess”."
+				"将其设置为“排出过量”，它们还能作为溢流垃圾桶使用。"
 			]
 			id: "7471BAAE8A81DBA2"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "3237A18C32BE6F14"
-				title: "Rare Mekanism Loot Box"
+				title: "稀有通用机械战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -589,13 +603,13 @@
 		}
 		{
 			dependencies: ["06ABB5AAF6BEDC06"]
-			description: ["Basic Fluid storage, these can auto-output to the bottom by Sneak + Right-Clicking the bottom face with a Configurator."]
+			description: ["基础的流体存储，它们可以通过使用配置器潜行+右击其底面使其自动对底部方块进行输出。"]
 			id: "10371E1C04CA6673"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "7F95A852BA445BB5"
-				title: "Rare Mekanism Loot Box"
+				title: "稀有通用机械战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -610,16 +624,16 @@
 			dependencies: ["06ABB5AAF6BEDC06"]
 			dependency_requirement: "one_started"
 			description: [
-				"Large scale Gas or Fluid storage, Dynamic Tanks may be any size from 3x3x3 to 18x18x18. Structural Glass may be used in place of Dynamic Tank blocks anywhere but the edges and corners."
+				"动态储罐是一种大型的气体或液体存储，其大小可以从3x3x3至18x18x18任意变化。除其棱角之外，你可以用结构玻璃来替代任何位置的动态储罐方块。"
 				""
-				"{\"text\":\"Mekanism Wiki: Dynamic Tank\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com/wiki/Dynamic_Tank\"}}"
+				"{\"text\":\"通用机械Wiki：动态储罐\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com/wiki/Dynamic_Tank\"}}"
 			]
 			id: "684B120D89102381"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "65A247D76D57636D"
-				title: "Rare Mekanism Loot Box"
+				title: "稀有通用机械战利品箱"
 				type: "command"
 			}]
 			tasks: [
@@ -639,7 +653,7 @@
 		}
 		{
 			dependencies: ["01E97C3D888A1677"]
-			description: ["All your essential vitamins, minerals, and amino acids, neatly condensed into a convenient chewy paste. Yum."]
+			description: ["所有你必需的维生素、矿物质和氨基酸，都整齐地浓缩成一种方便咀嚼的糊状物。真好吃。"]
 			hide_dependency_lines: true
 			id: "52B63C31B6522EBF"
 			rewards: [
@@ -652,7 +666,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "6D14EA132AC6D0B8"
-					title: "Epic Mekanism Loot Box"
+					title: "史诗通用机械战利品箱"
 					type: "command"
 				}
 			]
@@ -666,14 +680,14 @@
 		}
 		{
 			dependencies: ["2F22D2DB89CB9225"]
-			description: ["Mekanism offers a number of very useful tools, armor, and utility devices."]
+			description: ["通用机械提供了许多非常有用的工具、盔甲和功能性设备。"]
 			hide_dependency_lines: true
 			id: "01E97C3D888A1677"
 			shape: "hexagon"
 			tasks: [{
 				id: "5E370E815E04D56C"
 				item: "mekanism:cardboard_box"
-				title: "Tools and Utility"
+				title: "工具和道具"
 				type: "item"
 			}]
 			x: -3.0d
@@ -682,16 +696,16 @@
 		{
 			dependencies: ["01E97C3D888A1677"]
 			description: [
-				"A powerful all in one tool capable of accepting several upgrades."
+				"一把强大的一体式工具，可接受数种升级。"
 				""
-				"Notable Upgrades"
+				"值得注意的升级"
 				""
-				"● Attack Amplification Unit"
-				"● Excavation Escalation Unit"
-				"● Vein Mining Unit"
-				"● Silk Touch Unit"
-				"● Teleportation Unit"
-				"● Farming Unit"
+				"● 攻击增强单元"
+				"● 挖掘升级单元"
+				"● 矿脉挖掘单元"
+				"● 精准采集单元"
+				"● 传送单元"
+				"● 耕种单元"
 			]
 			hide_dependency_lines: true
 			id: "3B271D8FF74A7F73"
@@ -699,10 +713,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/mekanism/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "6646042C11EB98C5"
-				title: "Legendary Mekanism Loot Box"
+				title: "传奇通用机械战利品箱"
 				type: "command"
 			}]
-			subtitle: "Rip and Tear"
+			subtitle: "开膛破肚"
 			tasks: [{
 				id: "0290DC2A227A55BA"
 				item: "mekanism:meka_tool"
@@ -714,13 +728,13 @@
 		{
 			dependencies: ["2CCCDD05AED3153F"]
 			description: [
-				"A Sci-Fi themed technology mod with an emphasis on the extreme, Mekanism focuses on creating efficiencies, whether in the form of increased output from ores to advanced fusion reactors to power your base."
+				"通用机械是一款以科幻为主题的技术模组，强调极限，它专注于生产效率，无论是以增加矿石产量，还是以先进的聚变反应堆为基地提供动力为形式。"
 				""
-				"Its systems do aim towards a certain amount of realism with certain concessions along the way for better game play. Within the context of the mod, the player will need to master power generation, manage heat and radiation, all while seeking the most efficient path."
+				"该模组的系统旨在实现一定程度的现实主义的同时，为了更好的游戏体验而做出一定的让步。在该模组的背景下，玩家需要掌握发电、管理热量与辐射，同时寻找最高效率的生产方式。"
 				""
-				"Beyond these quests, there is no in game guide to Mekanism. However a very thorough official wiki can be found here: "
+				"除了这些任务之外，游戏中没有关于通用机械的指南。然而，你可以在这里找到一个非常全面的官方Wiki："
 				""
-				"{\"text\":\"Mekanism Wiki\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com\"}}"
+				"{\"text\":\"通用机械Wiki\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com\"}}"
 			]
 			hide: true
 			icon: "mekanism:teleportation_core"
@@ -752,13 +766,13 @@
 						value: "forge:raw_materials"
 					}
 				}
-				title: "Mekanism"
+				title: "通用机械"
 				type: "item"
 			}]
-			title: "Mekanism"
+			title: "通用机械"
 			x: 1.5d
 			y: -3.0d
 		}
 	]
-	title: "Mekanism"
+	title: "通用机械"
 }
