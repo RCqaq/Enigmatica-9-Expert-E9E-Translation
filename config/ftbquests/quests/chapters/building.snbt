@@ -662,7 +662,7 @@
 				""
 				"想要了解更多关于夸克模组能够在建筑方面为你提供的东西，请访问它的官方网站。"
 				""
-				"{\"text\":\"夸克维基\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://quarkmod.net/#features\"}}"
+				"{\"text\":\"夸克Wiki\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://quarkmod.net/#features\"}}"
 			]
 			icon: {
 				Count: 1b
@@ -753,7 +753,7 @@
 				"调整该面。"
 				"3) 右击蓝图以命名并保存蓝图。"
 				""
-				"机械动力的GitHub维基上有保存蓝图的示例："
+				"机械动力的GitHub Wiki上有保存蓝图的示例："
 				""
 				"{\"text\":\"保存蓝图\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Saving-a-Schematic\"}}"
 			]
@@ -786,7 +786,7 @@
 				""
 				"手持蓝图并右击可以将其放置在世界中。屏幕上的HUD提供了用于调整蓝图的选项——移动、旋转或翻转。按住Shift键并在蓝图上右击，还可以编辑放置和旋转/镜像。你可以将其用作搭建指引，但它有更好的用途……"
 				""
-				"机械动力的GitHub维基上有加载蓝图的示例："
+				"机械动力的GitHub Wiki上有加载蓝图的示例："
 				""
 				"{\"text\":\"加载蓝图\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Loading-a-Schematic\"}}"
 			]
@@ -819,7 +819,7 @@
 				""
 				"注：加农炮的速度不是很快，但可以在多个加农炮之间分配工作负荷。时间之瓶与其相性极佳！"
 				""
-				"机械动力的GitHub维基上有打印蓝图的示例："
+				"机械动力的GitHub Wiki上有打印蓝图的示例："
 				""
 				"{\"text\":\"打印蓝图\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Printing-a-Schematic\"}}"
 			]
