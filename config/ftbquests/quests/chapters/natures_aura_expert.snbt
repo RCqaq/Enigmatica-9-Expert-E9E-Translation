@@ -49,11 +49,11 @@
 		{
 			dependencies: ["2CCCDD05AED3153F"]
 			description: [
-				"Nature's Aura is a druidic themed magi-tech mod that uses the omnipresent 'aura' to derive its power. "
+				"自然灵气是一个以德鲁伊为主题的魔法科技模组，该模组使用无所不在的“灵气”来引导其力量。"
 				""
-				"Be warned, Aura is a limited resource which must be managed and replenished lest the natural order be disturbed. Draining too much can cause dire consequences."
+				"请小心，灵气是一种有限的资源，必须加以管理和补充以免扰乱自然秩序。消耗过多灵气可能导致可怕的后果。"
 				""
-				"These quests will guide you through the mod, but be sure to refer back to the manual regularly for extra information. Chapters will unlock as you complete these quests and their associated achievements."
+				"这些任务将会指引你游玩该模组，但一定要经常翻阅手册以了解更多信息。当你完成这些任务及其相关成就时，手册中的章节就会解锁。"
 			]
 			hide: true
 			icon: "naturesaura:aura_bloom"
@@ -80,23 +80,25 @@
 						value: "minecraft:saplings"
 					}
 				}
-				title: "Nature's Aura"
+				title: "自然灵气"
 				type: "item"
 			}]
-			title: "Nature's Aura"
+			title: "自然灵气"
 			x: -2.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["2735E47A2A965FEE"]
 			description: [
-				"The Ritual of the Forest is the basis for all magic to come. A tree is sacrificed in the center to provide the energy for the ritual. "
+				"森林仪式是接下来所有魔法的基础。在仪式的中心献祭一棵树，来为仪式提供能量。"
 				""
-				"The items around the outside of the recipe should each be placed into a Wooden Stand; the order is of no consequence and items may be placed manually or by automation. "
+				"配方外围的物品应当分别放置在木基座上；顺序并不重要，且可以手动或自动放置物品。"
 				""
-				"Once the reagents are ready, place and grow the required sapling. The Gold Powder will be consumed along with the items and tree when the ritual completes. "
+				"材料准备好之后，放置要求的树苗并使其成长。金叶粉会和物品还有树一同在仪式完成时被消耗。"
 				""
-				"Refer to the Book of Natural Aura for specific instructions on building the ritual."
+				"查阅《自然灵气之书》以获得建造仪式的专门指导。"
+				""
+				"译者注：副标题原文是一句加拿大魁北克的方言，大致意思是拿高度合适的木头来充当椅子，加入集体的活动。"
 			]
 			hide_dependency_lines: true
 			id: "699BC5534C19FC5E"
@@ -105,7 +107,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "36808DD105A48BCC"
-					title: "Rare Nature's Aura Loot Box"
+					title: "稀有自然灵气战利品箱"
 					type: "command"
 				}
 				{
@@ -115,7 +117,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tire-toi une bûche"
+			subtitle: "拿根木头过来坐"
 			tasks: [{
 				icon: "naturesaura:wood_stand"
 				id: "05714B3C0C99E55B"
@@ -125,18 +127,18 @@
 				to_observe: "naturesaura:wood_stand"
 				type: "observation"
 			}]
-			title: "Ritual of the Forest"
+			title: "森林仪式"
 			x: -4.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["2DED8E4FA6DCD410"]
 			description: [
-				"To begin upon the naturalist's path, Brilliant Fiber should be woven into the leaves of trees. There, they’ll transform the leaves to a beautiful golden hue."
+				"要想踏入自然法师的行列，首先需要把闪耀纤维编织到树上的树叶中去。在那里，闪耀纤维会将叶子转变成美丽的金色。"
 				""
-				"Craft one or more Brilliant Fibers and Right-Click them onto any leaves. The effect will spread to nearby leaves, so with careful management, crafting more Brilliant Fibers should not be necessary. "
+				"合成一个或更多的闪耀纤维，然后手持它们右击任意树叶。它们会传播至附近的树叶中，因此只要细心管理，就没有必要合成更多的闪耀纤维。"
 				""
-				"Golden Leaf will drop whenever the fully transformed leaves are broken. Place fresh leaves near the remaining transformed leaves to begin converting them as well. "
+				"当树叶完全转化并被破坏，黄金叶就会掉落。在剩下的被转换的树叶旁边放置新的树叶，使它们开始转换。"
 			]
 			hide_dependency_lines: true
 			icon: "naturesaura:gold_fiber"
@@ -146,19 +148,19 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "1B3CC9578B9BF05D"
-					title: "Rare Nature's Aura Loot Box"
+					title: "稀有自然灵气战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 					icon: "kubejs:farmers_delight"
 					id: "4D3CDE28F69D202C"
-					title: "Farmer's Delight"
+					title: "农夫乐事包"
 					type: "command"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "The threads that bind us"
+			subtitle: "牵引我们的命运之线"
 			tasks: [
 				{
 					id: "0E8F119E16CC852B"
@@ -171,16 +173,19 @@
 					type: "item"
 				}
 			]
-			title: "Getting Started: Rituals"
+			title: "入门：仪式"
 			x: -4.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["2735E47A2A965FEE"]
 			description: [
-				"Upon reaching a high enough skill level, Naturalists may commune directly with the gods, asking boons in exchange for offerings. Do be mindful, however, as the gods are petty at times, no matter what the offering."
+				"达到足够高的法术水平后，自然法师就可以直接与神交流，以祭品换取恩惠。然而要注意，因为无论你供奉什么，神有时都会很小气。"
 				""
-				"Place the offerings in the bowl and then toss down a Spirit of Calling to complete the ritual. The bowl will hold multiple items, with only a single Spirit required for the full batch. "
+				"把祭品放在盆中，然后抛下呼唤之魂来完成仪式。祭祀台可以容纳多个物品，且一整批物品只需要一个呼唤之魂。"
+				""
+				"译者注：副标题中的歌词出自Pink Floyd演唱的"
+				"歌曲《Comfortably Numb》。"
 			]
 			hide_dependency_lines: true
 			icon: "naturesaura:offering_table"
@@ -189,10 +194,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "366B1FFE22EBE4E5"
-				title: "Rare Nature's Aura Loot Box"
+				title: "稀有自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "Just nod if you can hear me"
+			subtitle: "如果你听到的话就点个头"
 			tasks: [{
 				id: "061AD10825E1993F"
 				item: "naturesaura:offering_table"
@@ -205,11 +210,11 @@
 			dependencies: ["2DED8E4FA6DCD410"]
 			dependency_requirement: "all_started"
 			description: [
-				"The Natural Altar is the heart of two ritual practices; one to infuse life into objects and another to infuse death. "
+				"自然祭坛是两种仪式习俗的核心；一种习俗要求在物品中注入生命，而另一种则要求注入死亡。"
 				""
-				"Refer to the Book of Natural Aura's section on the Natural Altar and the Crimson Altar for a preview of the required structure. "
+				"请查阅《自然灵气之书》中关于自然祭坛和猩红祭坛的部分，以预览所需结构。"
 				""
-				"Any type of plank may be used in its construction. "
+				"任何种类的木板都可以用于建造它。"
 			]
 			hide_dependency_lines: true
 			icon: "naturesaura:nature_altar"
@@ -219,11 +224,11 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "097F8CAD66BB44FC"
-				title: "Rare Nature's Aura Loot Box"
+				title: "稀有自然灵气战利品箱"
 				type: "command"
 			}]
 			shape: "hexagon"
-			subtitle: "The duality of life and death"
+			subtitle: "生即是死，死即是生"
 			tasks: [
 				{
 					id: "7EBAAE8549A91C6D"
@@ -240,7 +245,7 @@
 							value: "minecraft:planks"
 						}
 					}
-					title: "Any #minecraft:planks"
+					title: "任意#minecraft:planks"
 					type: "item"
 				}
 				{
@@ -262,22 +267,22 @@
 					type: "item"
 				}
 			]
-			title: "Harnessing Aura: Automation"
+			title: "灵气利用：自动化"
 			x: -2.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["2DED8E4FA6DCD410"]
 			description: [
-				"The earliest Naturalists are said to have discovered Aura by observing these Ancient Trees. They found their roots grew deep, drawing Aura up from the depths and dispersing it into the environment. "
+				"据说，最早的自然法师就是通过观察这些远古树木发现的灵气。他们发现这种树的根长得很深，可以将灵气从地底深处汲取上来，并将其散布到环境中。"
 				""
-				"Upon realizing the Aura could be renewed, they set about devising ever more elaborate ways to use and replenish it. Those who pushed it too far, however, paid dearly. "
+				"在意识到灵气可以再生后，他们开始设计更复杂的方法来使用和补充灵气。然而，那些做的太过头的人，付出了沉重的代价。"
 				""
-				"The trees grown from Ancient Saplings serve two primary purposes:"
+				"由远古树苗长成的树木有两个主要的用途："
 				""
-				"First, they’ll help replenish Aura in the area they’re planted, albeit slowly. As they do, the leaves will die and decay.  Worry not, more effective methods of replenishing the Aura exist."
+				"首先，它们可以补充其种植区域的灵气，尽管速度较慢。在补充灵气时，它们的树叶会死亡和腐烂。不过不用担心，我们有更有效的方法来补充灵气。"
 				""
-				"Second, the wood is particularly useful when it comes to the arcane as it is steeped in the magical energies of Aura. It makes a fine base for many an arcane implement. "
+				"其次，因为浸泡在灵气的魔法能量中，它们的木材对于奥术特别有用。它可以作为许多奥术器具的基底。"
 			]
 			hide_dependency_lines: true
 			id: "58438574716487D7"
@@ -287,44 +292,44 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "5C2B4E261DE782E4"
-					title: "Rare Nature's Aura Loot Box"
+					title: "稀有自然灵气战利品箱"
 					type: "command"
 				}
 				{
 					count: 32
 					id: "1A4E4A4713072598"
 					item: "naturesaura:ancient_log"
-					title: "Ancient Log"
+					title: "远古原木"
 					type: "item"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Give And Take"
+			subtitle: "有借有还"
 			tasks: [{
 				id: "6EF9F130AE0F37FD"
 				item: "naturesaura:ancient_sapling"
 				type: "item"
 			}]
-			title: "Getting Started: Generating Aura"
+			title: "入门：产生灵气"
 			x: 0.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"The Transmutation Catalyst augments the Natural and Crimson Altars to allow them to perform further transformations. "
+				"嬗变催化剂增强了自然和猩红祭坛，使它们能够进行更深层次的转化。"
 				""
-				"Place it on any of the four short pillars surrounding the Altar itself to activate it."
+				"将其放置在祭坛周围四根矮柱子中任意一根上来激活它。"
 			]
 			id: "2D92C208DD310E86"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "7B473B34257E6C77"
-				title: "Epic Nature's Aura Loot Box"
+				title: "史诗自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "To obtain, something equal must be lost"
+			subtitle: "有得必有失"
 			tasks: [{
 				id: "431A924319567586"
 				item: "naturesaura:conversion_catalyst"
@@ -336,9 +341,11 @@
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"The Crumbling Catalyst augments the Natural and Crimson Altars to allow them to perform further transformations. "
+				"崩坏催化剂增强了自然和猩红祭坛，使它们能够进行更深层次的转化。"
 				""
-				"Place it on any of the four short pillars surrounding the Altar itself to activate it."
+				"将其放置在祭坛周围四根矮柱子中任意一根上来激活它。"
+				""
+				"译者注：副标题中的句子出自英国诗人菲利普‧贝利笔下。"
 			]
 			id: "37B44865CE6DEB8E"
 			rewards: [{
@@ -348,7 +355,7 @@
 				title: "Gold Leaf"
 				type: "item"
 			}]
-			subtitle: "For ivy climbs the crumbling hall"
+			subtitle: "常春藤爬满了大殿的残垣断壁"
 			tasks: [{
 				id: "6420AC075A3ECCBF"
 				item: "naturesaura:crushing_catalyst"
@@ -360,19 +367,19 @@
 		{
 			dependencies: ["25AA7A1A041FAA0C"]
 			description: [
-				"Each Aura generating device is limited to the extent it can replenish Aura. It is possible, however, to push this boundary and flood an area with an over-abundance of Aura. "
+				"每个灵气产生装置都有其可以补充的灵气的数量的限制。然而，突破这一界限，用过剩的灵气淹没一片区域是可能的。"
 				""
-				"Place the Creational Catalyst beneath any Aura Generator to remove its generation cap and attain such lushness as has not been observed since the early days of creation."
+				"将制造催化剂放置在任何灵气产生装置的下方，以移除装置的产生上限并实现自创世初期以来从未观察到过的繁茂。"
 			]
 			id: "6C1C63E372ECFEDC"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "7459B50D34DCEBD6"
-				title: "Epic Nature's Aura Loot Box"
+				title: "史诗自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "An explosion of life to match the primordial age"
+			subtitle: "史前时代的生命大爆炸"
 			tasks: [{
 				id: "5157C6BD4F309FF4"
 				item: "naturesaura:generator_limit_remover"
@@ -383,17 +390,22 @@
 		}
 		{
 			dependencies: ["465085DE51A72E73"]
-			description: ["Many devices have a specific range that can only be seen by Right-Clicking on them with a Mystical Magnifier. It's a valuable tool to any natural botanist."]
+			description: [
+				"许多装置都有特定的范围，这些范围只有用奥秘放大镜右击才能看到。对任何一位自然法师来说，这都是一个很有价值的工具。"
+				""
+				"译者注：副标题中的歌词出自Pink Floyd演唱的"
+				"歌曲《Comfortably Numb》。"
+			]
 			hide_dependency_lines: true
 			id: "11556E9D40C6EC4C"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "3CFF3CA727552A59"
-				title: "Rare Nature's Aura Loot Box"
+				title: "稀有自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "Relax, I'll need some information first"
+			subtitle: "放轻松，我得先了解一下情况"
 			tasks: [{
 				id: "73A094D6919E1D91"
 				item: "naturesaura:range_visualizer"
@@ -405,11 +417,13 @@
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"Untrained eyes may notice the more overt signs of Aura in an area, subtle glowing lights and lush plant growth."
+				"未经训练的人可以用肉眼在灵气迹象明显的区域发现微弱的光芒和茂盛的植物生长。"
 				""
-				"The Environmental Eye further hones the Naturalist’s vision to grant deeper insights into the Aura infusing the landscape. "
+				"环境之眼可以进一步增强自然法师的视野，使你能够深入洞察弥漫在这片大地上的灵气。"
 				""
-				"Finding an area with higher-than-normal Aura at this stage may be helpful, as some Aura will be consumed in order to create the apparatuses needed to help renew it. "
+				"发现一片高于正常灵气浓度的区域对当前阶段可能会很有帮助，因为制造补充灵气的装置将会消耗一些灵气。"
+				""
+				"译者注：副标题中的句子出自英国著名幻想小说家特里·普拉切特笔下的系列作品“碟形世界”中第三十二本小说《帽子里的天空》。"
 			]
 			hide_dependency_lines: true
 			id: "111065FF35D1189F"
@@ -417,10 +431,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "1E7F02A4791EFC1D"
-				title: "Rare Nature's Aura Loot Box"
+				title: "稀有自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "It's still magic even if you know how it's done"
+			subtitle: "尽管你知道原理，但它依然是魔法"
 			tasks: [{
 				id: "4A0A71CAE8332012"
 				item: "naturesaura:eye"
@@ -432,9 +446,11 @@
 		{
 			dependencies: ["2DED8E4FA6DCD410"]
 			description: [
-				"A portable source of Aura that can be be put to good use with a variety of tools. "
+				"一个便携式的灵气源，可与多种工具配合使用。"
 				""
-				"Refer to the Book of Natural Aura's section on Natural Tools for potential uses."
+				"请查阅《自然灵气之书》的自然工具部分，以了解其潜在的用途。"
+				""
+				"译者注：副标题“地理藏宝”（Geocaching）是近几年来流行于欧美国家的户外藏宝游戏，玩家利用手机等设备去藏匿、标记和寻找宝物。"
 			]
 			hide_dependency_lines: true
 			id: "4081F393EAB01CBE"
@@ -442,32 +458,36 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "11F0298FC3689734"
-				title: "Rare Nature's Aura Loot Box"
+				title: "稀有自然灵气战利品箱"
 				type: "command"
 			}]
 			shape: "hexagon"
-			subtitle: "Geo-caching 101"
+			subtitle: "地理藏宝101"
 			tasks: [{
 				id: "588C80AFF089BC0A"
 				item: "naturesaura:aura_cache"
 				type: "item"
 			}]
-			title: "Harnessing Aura: Tools of the Trade"
+			title: "灵气利用：标配工具"
 			x: -2.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["111065FF35D1189F"]
-			description: ["An advanced version of the Natural Eye which grants its owner the ability to see ever more precise details of the Aura around them."]
+			description: [
+				"自然之眼的高级版本，使拥有者能够看到附近灵气的更准确的细节。"
+				""
+				"译者注：副标题中的句子出自英国著名幻想小说家特里·普拉切特笔下的系列作品“碟形世界”中第三十本小说《小小自由人》。"
+			]
 			id: "6B065FDF3EA4EB78"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "49064FB70F4C89F2"
-				title: "Epic Nature's Aura Loot Box"
+				title: "史诗自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "Open your eyes, then open your eyes again"
+			subtitle: "睁开你的双眼，然后再睁开一次"
 			tasks: [{
 				id: "3F9F4B01BE056CDC"
 				item: "naturesaura:eye_improved"
@@ -479,21 +499,21 @@
 		{
 			dependencies: ["4081F393EAB01CBE"]
 			description: [
-				"Higher capacity than the Aura Cache."
+				"容量高于灵气缓存。"
 				""
-				"Refer to the Book of Natural Aura's section on Natural Tools for potential uses."
+				"请查阅《自然灵气之书》的自然工具部分，以了解其潜在的用途。"
 				""
-				"Note: These may not fill completely when worn. To get a full charge, or to even automate filling them, they may be placed in a Natural Altar to their maximum capacity."
+				"注：穿戴在身上时可能无法完全充满。为了充满灵气，或者甚至自动补充灵气，你可以将其放在自然祭坛中以获得最大容量。"
 			]
 			id: "3DB84F7840BACBFF"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "4E8906F53D1A0AB0"
-				title: "Epic Nature's Aura Loot Box"
+				title: "史诗自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "Thy cup runneth over"
+			subtitle: "福杯满溢"
 			tasks: [{
 				id: "1F1ED271AC9302C6"
 				item: "naturesaura:aura_trove"
@@ -505,9 +525,9 @@
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"The most powerful of Naturalists have found that when combined with a rare catalyst, the passage of time itself may be manipulated. "
+				"最强大那些的自然法师们发现，当与稀有催化剂结合时，时间的流逝就可以被控制。"
 				""
-				"This process will rapidly advance time at a great cost of Aura. Be wary not to allow Aura to drop too far!"
+				"该过程将以极大量的灵气为代价快速推进时间。请小心，不要让灵气消耗得太多！"
 			]
 			hide_dependency_lines: true
 			icon: "naturesaura:time_changer"
@@ -516,10 +536,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "30A356076A18628A"
-				title: "Epic Nature's Aura Loot Box"
+				title: "史诗自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "From dusk, to dawn"
+			subtitle: "从黄昏，到黎明"
 			tasks: [
 				{
 					id: "5349956ADF68A295"
@@ -532,18 +552,20 @@
 					type: "item"
 				}
 			]
-			title: "Shifting Sundial"
+			title: "移时日晷"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"A simple apparatus that helps contain livestock and other animals. Creatures within the range of this block will be unable to step beyond its boundaries. "
+				"一个可以帮助容纳牲畜和其他动物的简单的设备。该方块范围内的生物无法超越其边界。"
 				""
-				"No Aura is consumed to produce this effect."
+				"制造该效果不需要消耗灵气。"
 				""
-				"The range depends upon strength of the redstone signal it is provided. "
+				"范围取决于提供的红石信号强度。"
+				""
+				"译者注：副标题中的歌词出自林肯公园演唱的同名歌曲《A Line In The Sand》。"
 			]
 			hide_dependency_lines: true
 			id: "454A0F0E48005FFE"
@@ -557,11 +579,11 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "1979E756D0AF7475"
-					title: "Rare Nature's Aura Loot Box"
+					title: "稀有自然灵气战利品箱"
 					type: "command"
 				}
 			]
-			subtitle: "A line in the sand"
+			subtitle: "沙地的平行线"
 			tasks: [{
 				id: "56626DE3C9E9BE87"
 				item: "naturesaura:animal_container"
@@ -573,11 +595,11 @@
 		{
 			dependencies: ["2735E47A2A965FEE"]
 			description: [
-				"A ritual that harnesses the powers of creation itself, allowing its user to bring forth new life from the barest traces of material."
+				"一种利用造物的力量，使召唤者从材料上最明显的迹象中创造新生命的仪式。"
 				""
-				"Once built, simply throw down the reagents atop the altar. If there's enough Aura, the ritual will proceed automatically."
+				"仪式建造完成后，只需将试剂投掷到祭坛上即可。如果有足够的灵气，仪式将会自动进行。"
 				""
-				"Refer to the Book of Natural Aura for specific instructions on building the ritual."
+				"请查阅《自然灵气之书》以获取有关建造仪式的具体说明。"
 			]
 			hide_dependency_lines: true
 			icon: "naturesaura:animal_spawner"
@@ -588,7 +610,7 @@
 				item: "naturesaura:pet_reviver"
 				type: "item"
 			}]
-			subtitle: "Crossing the threshold"
+			subtitle: "突破瓶颈"
 			tasks: [
 				{
 					id: "1773B426491B9FCE"
@@ -620,11 +642,11 @@
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"The Imperceptible Builder assists in complicated automation tasks, taking blocks from nearby inventories and placing them down. "
+				"无感知建造器可以帮助完成复杂的自动化任务，比如从附近的容器中拿取方块并放置。"
 				""
-				"Specify where it should place blocks by placing an example in an Item Frame on the Builder itself. "
+				"在建造器上放置物品展示框，并放入示例，就可以指定其放置方块的位置。"
 				""
-				"Refer to the Book of Natural Aura for specific instructions."
+				"请查阅《自然灵气之书》以获取其具体说明。"
 			]
 			hide_dependency_lines: true
 			id: "1AE73DC4CC5A7C6F"
@@ -632,17 +654,17 @@
 				{
 					id: "3CB75006420EC5A1"
 					item: "minecraft:item_frame"
-					title: "Item Frame"
+					title: "物品展示框"
 					type: "item"
 				}
 				{
 					id: "577AB47A801DB8DA"
 					item: "naturesaura:farming_stencil"
-					title: "Farming Stencil"
+					title: "耕作模板"
 					type: "item"
 				}
 			]
-			subtitle: "Constructive interference"
+			subtitle: "相长干涉"
 			tasks: [{
 				id: "15ABF90EC87A9A88"
 				item: "naturesaura:placer"
@@ -654,13 +676,13 @@
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"When two Aura Field Creators are linked together, they form a destructive zone between them that rapidly breaks blocks at the cost of some Aura. "
+				"当两个灵气场生成器连接在一起时，它们之间就会形成一个破坏区域，其中的方块会被破坏，并消耗一些灵气。"
 				""
-				"To link them, simply Right-Click one, and then the other. Supply a Redstone signal to either of them to enable the system. They'll begin drawing Aura and breaking blocks after a short delay."
+				"只需右击其中一个生成器，然后再右击另一个，即可将它们连接。你可以为任意一个生成器提供红石信号来启用它们。短暂的延迟过后，它们就会开始汲取灵气并破坏方块。"
 				""
-				"An Item Frame can be used to alter their behavior as well: "
+				"同样的，物品展示框可以用于改变生成器的行为："
 				""
-				"Note: The Aura Field Creator will use any tool provided in the frame including any enchants or special break properties of the tool. Shears shear leaves, shovels collect snow, Fortune and Silk Touch are respected. "
+				"注：灵气场生成器将使用展示框中的任何工具，包括任何该工具的魔咒或特殊破坏属性。剪刀剪树叶、锹铲雪、时运和精准采集都会生效。"
 			]
 			hide_dependency_lines: true
 			id: "1EA9C29C8955827D"
@@ -668,26 +690,26 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "230DB717CFF25F0B"
-				title: "Rare Nature's Aura Loot Box"
+				title: "稀有自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "Destructive interference"
+			subtitle: "相消干涉"
 			tasks: [{
 				count: 2L
 				id: "4AF95515F94B8839"
 				item: "naturesaura:field_creator"
 				type: "item"
 			}]
-			title: "Aura Field Creators"
+			title: "灵气场生成器"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"When placed upon a Furnace, Blast Furnace, or Smoker, the Extraneous Firestarter will draw in nearby Aura, converting it into heat for smelting and cooking. "
+				"当外置燃火器放置在熔炉、高炉或烟熏炉上方时，它会汲取附近的灵气，并将其转换成热量用于熔炼或烹饪。"
 				""
-				"While this process is much quicker than burning Coal or other combustible materials, it does come with the drawback that it can drain Aura into dangerous levels. Multiple may even be installed to enhance the effect. "
+				"虽然这一过程比燃烧煤炭或其他可燃材料快得多，但它的缺点是会将灵气消耗到非常危险的水平。你甚至可以安装多个外置燃火器以增强其效果。"
 			]
 			hide_dependency_lines: true
 			id: "4D68B5141952C6A6"
@@ -695,10 +717,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "563C2C460079661B"
-				title: "Rare Nature's Aura Loot Box"
+				title: "稀有自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "Maxwell's demon, hard at work"
+			subtitle: "兢兢业业的麦克斯韦妖"
 			tasks: [{
 				id: "0F892FF01C192955"
 				item: "naturesaura:furnace_heater"
@@ -710,13 +732,15 @@
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"The entire Aura field appears to be connected in some fashion, even across dimensions. Though the measurable effects tend to be more localized, some brilliant Naturalist was able to deduce a way to use the subtle ripples in the weave to transfer matter unimaginable distance. "
+				"整个灵气场似乎以某种方式连接在一起，这种连接甚至可以跨越维度。尽管测量出的效果往往呈现出更多的局限性，但一些才华横溢的自然法师推论出了一种利用连接中的细微的波纹，将物质转移到难以想象的距离处的方法。"
 				""
-				"Ender Crates can be assigned to a channel in an Anvil by simultaneously renaming them and combining them with an Eye of Ender. More Crates can be assigned to the same channel at any time by giving them the same name. "
+				"通过同时在铁砧中重命名末影板条箱并将其与末影之眼合并，可以将末影板条箱分配至一个频道。通过将更多板条箱命名为相同的名称，可以随时将它们分配至同一个通道。"
 				""
-				"Similarly, Ender Oculars may be assigned a channel to allow personal access to the same inventory. Perfect for dropping off the spoils of exploration while far from home."
+				"类似地，末影目镜也可以被分配通道，使玩家可以访问同一个的容器。非常适合用于在离家很远时存放探险获得的战利品。"
 				""
-				"A small amount of Aura is used every time an item is moved in or out of the crate. Therefore, it is vital that Aura is generated on both sides of the connection. "
+				"每次从板条箱中搬进或搬出物品时都会使用少量灵气。因此，在连接的两侧都产生灵气是非常重要的。"
+				""
+				"译者注：副标题《阿巴登之门》是詹姆斯·S·A·科里笔下的一本科幻小说。"
 			]
 			hide_dependency_lines: true
 			id: "6B336E008C4B58C5"
@@ -724,18 +748,18 @@
 				{
 					id: "0F8D483E6F7371A5"
 					item: "naturesaura:ender_access"
-					title: "Ender Ocular"
+					title: "末影目镜"
 					type: "item"
 				}
 				{
 					count: 2
 					id: "2AFDC4D29F3C05D5"
 					item: "minecraft:ender_eye"
-					title: "Eye of Ender"
+					title: "末影之眼"
 					type: "item"
 				}
 			]
-			subtitle: "Abaddon's gate"
+			subtitle: "阿巴登之门"
 			tasks: [{
 				id: "4515752CE8CF34B4"
 				item: "naturesaura:ender_crate"
@@ -747,19 +771,21 @@
 		{
 			dependencies: ["385927686A412EA6"]
 			description: [
-				"When placed atop an Adept’s Hopper or a Vanilla Hopper, the Hopper Enhancement allows the collection of blocks up to seven blocks away. A very useful tool to have in any automated apparatus."
+				"将漏斗增强器放置在专家型漏斗或原版漏斗上时，它可以收集半径七格内物品。一个可以在任何自动化装置中使用的实用工具。"
 				""
-				"If used with an Adept’s Hopper, any filter set will be respected by the Hopper Enhancement. "
+				"如果与专家型漏斗一起使用，漏斗增强器将会遵守任何过滤器的规则。"
+				""
+				"译者注：副标题中的句子出自詹姆斯·S·A·科里笔下的科幻小说《苍穹浩瀚4：燃烧的西伯拉》。"
 			]
 			id: "1D37E396D04A74AD"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "023260B9B7374F59"
-				title: "Rare Nature's Aura Loot Box"
+				title: "稀有自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "It reaches out nothing answers and it reaches out"
+			subtitle: "它呼唤着，无人回应，它呼唤着"
 			tasks: [{
 				id: "6DE026A64A7BEFF3"
 				item: "naturesaura:hopper_upgrade"
@@ -771,9 +797,9 @@
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"One of the few Natural devices that do not consume Aura to function, Adept’s Hoppers are a filterable hopper that moves items slightly faster than a vanilla hopper. "
+				"专家型漏斗是少数几个不消耗灵气就可以运作的自然装置之一。它是一种可过滤的漏斗，移动物品的速度比原版漏斗稍快一些。"
 				""
-				"Place an Item Frame on the side and insert any item or block in the frame to set the filter. "
+				"在其侧面放置一个物品展示框并在展示框中插入任意物品或方块来设置过滤器。"
 			]
 			hide_dependency_lines: true
 			id: "385927686A412EA6"
@@ -782,18 +808,18 @@
 					count: 4
 					id: "1877981636A0F2C0"
 					item: "minecraft:item_frame"
-					title: "Item Frame"
+					title: "物品展示框"
 					type: "item"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "470293D0FB403EA6"
-					title: "Rare Nature's Aura Loot Box"
+					title: "稀有自然灵气战利品箱"
 					type: "command"
 				}
 			]
-			subtitle: "Filtering through the morass"
+			subtitle: "层层筛选"
 			tasks: [{
 				id: "25F9A4238632D661"
 				item: "naturesaura:grated_chute"
@@ -805,43 +831,43 @@
 		{
 			dependencies: ["58438574716487D7"]
 			description: [
-				"The act of brewing Potions distills the magical energies found in all life down into a compact and portable form. Those same energies may be released again as Aura with the proper apparatus. "
+				"酿造药水这一行为将在一切生命中发现的魔法能量提炼成一种紧凑而便携的形式。这些能量可以通过适当的仪器再次释放为灵气。"
 				""
-				"The Lingering Absorber will draw in these energies, re-dispersing them as Aura. Simply smash Lingering Potions on the central block and it will take care of the rest. "
+				"滞留型吸收器可以汲取这些能量，将它们重新分解成灵气。只需要把滞留型药水投掷在中央的方块上，它就会处理好剩下的工作。"
 				""
-				"Potions may be dispensed with a Dispenser, among other things. "
+				"此外，药水还可以通过发射器发射。"
 			]
 			id: "25AA7A1A041FAA0C"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "139066FD1275A723"
-				title: "Rare Nature's Aura Loot Box"
+				title: "稀有自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "Do. Or do not. There is no try."
+			subtitle: "要么去做，要么放手。没有尝试一说。"
 			tasks: [{
 				id: "4C6D3095E8F582DF"
 				item: "naturesaura:potion_generator"
 				title: "Lingering Absorber"
 				type: "item"
 			}]
-			title: "Esoteric Ecology"
+			title: "神秘生态学"
 			x: 0.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["699BC5534C19FC5E"]
 			description: [
-				"Lush Aura has a variety of side effects which may or may not be desirable at any given time. Powders exist to control when and where these effects occur."
+				"充裕的灵气有着许多不同的副作用，它们有好有坏。各种粉末的存在是为了控制这些影响在何时何地发生。"
 				""
-				"● Barrens - Prevent the formation of grass on Netherrack."
+				"● 荒芜——防止下界岩上长草。"
 				""
-				"● Steady Growth - The growth of crops, plants, and flowers will no longer be boosted by Aura."
+				"● 稳生——作物、植物和花朵的生长将不再受到灵气的促进。"
 				""
-				"● Fertility - Passive Animals will breed when able."
+				"● 繁殖——被动型动物在可繁殖的时候会自动繁殖。"
 				""
-				"● No Storage - Your Aura Cache or Trove will not charge in the area."
+				"● 无储——你的灵气缓存或秘宝不再在该区域中补充灵气。"
 			]
 			hide_dependency_lines: true
 			id: "578B0B5E74FEAC97"
@@ -850,18 +876,18 @@
 				{
 					id: "1626124D88199034"
 					item: "naturesaura:powder_placer"
-					title: "Powder Manipulator"
+					title: "粉末操纵器"
 					type: "item"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "1E29E1E01DA699F1"
-					title: "Epic Nature's Aura Loot Box"
+					title: "史诗自然灵气战利品箱"
 					type: "command"
 				}
 			]
-			subtitle: "Dust in the wind"
+			subtitle: "风中之尘"
 			tasks: [
 				{
 					id: "0139B77473805166"
@@ -908,23 +934,23 @@
 					type: "item"
 				}
 			]
-			title: "Effect Powders"
+			title: "效果粉末"
 			x: 1.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["465085DE51A72E73"]
-			description: ["When Aura is drawn through this device, it causes the heat in the area to rapidly disperse, dropping localized temperatures and causing snow and ice to form. "]
+			description: ["当该装置汲取灵气时，它会使所在区域的热量迅速消散，降低局部温度，并形成冰和雪。"]
 			hide_dependency_lines: true
 			id: "228F799A45B48D70"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "7A33E6109905AF66"
-				title: "Epic Nature's Aura Loot Box"
+				title: "史诗自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "She sounds like she's in a flurry"
+			subtitle: "听起来她很慌张，就像一场小雪"
 			tasks: [{
 				id: "5E4F851471B1F091"
 				item: "naturesaura:snow_creator"
@@ -936,13 +962,13 @@
 		{
 			dependencies: ["4081F393EAB01CBE"]
 			description: [
-				"Just as Ender Eyes may assist in the location of Strongholds, these assist in the location of other important structures."
+				"正如末影之眼可以帮助确定要塞的位置一样，这些物品可以帮助定位其他重要结构的位置。"
 				""
-				"● Eye of the Pillager will locate Pillager Outposts."
+				"● 灾厄村民之眼可以定位掠夺者前哨站。"
 				""
-				"● Eye of the Blaze will locate Nether Fortresses."
+				"● 烈焰之眼可以定位下界要塞。"
 				""
-				"● Eye of the Shulker will locate End Cities."
+				"● 潜影之眼可以定位末地城。"
 			]
 			hide_dependency_lines: true
 			id: "033BE52CE2FD3347"
@@ -950,10 +976,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "455236A2B705B554"
-				title: "Rare Nature's Aura Loot Box"
+				title: "稀有自然灵气战利品箱"
 				type: "command"
 			}]
-			subtitle: "The eyes have it"
+			subtitle: "眼见为实"
 			tasks: [{
 				id: "2595740F68610F84"
 				item: {
@@ -976,7 +1002,7 @@
 						]
 					}
 				}
-				title: "Eyes in the Dark"
+				title: "黑暗中的眼睛"
 				type: "item"
 			}]
 			x: 0.0d
@@ -985,11 +1011,11 @@
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"A closed system which prevents any loss of Aura, this small device serves as an excellent timer, releasing a Redstone pulse whenever the Aura within fully evaporates and re-condenses. The more Aura, the longer this process takes."
+				"这个小型装置是一个封闭的系统，可以防止任何的灵气损失。它还是一个很棒的计时器，每当灵气完全蒸发和重新凝结时，它就会释放红石脉冲。灵气越多，这个过程需要的时间就越长。"
 				""
-				"Right-Click the Aura Vaporizer with bottled Aura to define the time of the clock. Right-Click with an empty hand to retrieve whatever has been previously installed. "
+				"用瓶装灵气右击的灵气蒸发器以定义时钟的时间。用空手右击以取回之前存放的内容。"
 				""
-				"Each bottle of sunlight equates to one second of time. One bottle of ghosts, one minute. One bottle of darkness, one hour. "
+				"每瓶瓶装阳光相当于一秒钟的时间。一瓶瓶装鬼魂，等于一分钟。一瓶瓶装黑暗，等于一个小时。 "
 			]
 			hide_dependency_lines: true
 			id: "59ECE9FF654CA492"
@@ -997,7 +1023,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "4429099A540470BF"
-				title: "Rare Nature's Aura Loot Box"
+				title: "稀有自然灵气战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1011,9 +1037,9 @@
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"While true that Water is easily obtained through other means, an Everlasting Spring provides a convenient place to connect a pipe to supply other machinery. "
+				"虽然水很容易通过其他方式获得，但永恒之泉为连接向其他机器供水的管道提供了一个方便的地方。"
 				""
-				"The Spring provides water at the cost of a small amount of Aura. "
+				"永恒之泉以消耗少量灵气为代价提供水源。"
 			]
 			hide_dependency_lines: true
 			id: "24F34D3F5B186B51"
@@ -1021,7 +1047,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "20B45C4EAD3FE4CA"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1035,9 +1061,9 @@
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"Keeping hostile creatures away from sensitive contraptions can be quite vital. The last thing anyone needs is a surprise Creeper visit. "
+				"让敌对生物远离敏感的装置非常重要。任何人最不想要看到的就是一次突然的苦力怕来访。"
 				""
-				"For a miniscule upkeep cost, the Lamp of Sanctuary will inhibit natural mob spawns in its area of influence, the range of which is determined by the strength of the Redstone signal it is receiving. "
+				"只需很小的维护成本，圣域之灯就可以抑制其影响区域内的自然生物生成，其范围由其接收到的红石信号强度决定。"
 			]
 			hide_dependency_lines: true
 			id: "7829AB43D56BA11F"
@@ -1045,7 +1071,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "691D2626544B7801"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1058,13 +1084,13 @@
 		}
 		{
 			dependencies: ["385927686A412EA6"]
-			description: ["Quite the simple device, but powerful, nonetheless. The Item distributor moves items from the inventory above it and evenly distributes them to the inventories adjacent. "]
+			description: ["这是一个非常简单的设备，但功能非常强大。物品分配器将物品从其上方的容器中取出，并将它们均匀地分配到相邻的容器中。"]
 			id: "67EDDAD97465EEF0"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "7212F8AC7AC84191"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1077,14 +1103,14 @@
 		}
 		{
 			dependencies: ["4081F393EAB01CBE"]
-			description: ["A true marvel for anyone who’s spent any time toiling in the earth to extract resources. With Eir’s Token attached to a tool, it will simply stop working rather than break at low durability. "]
+			description: ["对于那些花时间在大地中辛勤开采资源的人来说，这是一个真正的奇迹。将埃尔的标记与工具结合，工具会在低耐久时直接无法使用，而不会损坏。"]
 			hide_dependency_lines: true
 			id: "712E3B21060DB19C"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "28CC27FC10BC0B9B"
-				title: "Rare Nature's Aura Loot Box"
+				title: "稀有自然灵气战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1097,14 +1123,14 @@
 		}
 		{
 			dependencies: ["4081F393EAB01CBE"]
-			description: ["When held anywhere in one’s inventory, the Ring of Last Chance prevents a killing blow, shattering itself rather than allow its bearer to slip off this mortal coil. "]
+			description: ["当最后机会之指环被放置在玩家物品栏的任意位置时，它可以防止致命一击。指环会破碎，但是它的持有者则可以免于离开这个尘世。"]
 			hide_dependency_lines: true
 			id: "127A0B252CBF60C1"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
 				icon: "kubejs:alchemists_delight"
 				id: "1B9403D8A20F2898"
-				title: "Alchemist's Delight"
+				title: "炼金术士乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1118,21 +1144,24 @@
 		{
 			dependencies: ["4081F393EAB01CBE"]
 			description: [
-				"Botanist’s equipment offers several unique benefits to its user beyond the basic uses for armor and tools of each type. "
+				"植物学家的装备的每种类型的盔甲和工具除了基本用途外，还为使用者提供了几点独特的好处。"
 				""
-				"● All pieces may be repaired with Aura simply by sneaking with an Aura Cache or Aura Trove equipped. "
+				"● 所有装备都可以用灵气修复，只需装备灵气缓存"
+				"或灵气秘宝后潜行即可。"
 				""
-				"● Botanist’s Pickaxe: May be used to infuse materials with Aura by Right-Clicking."
+				"● 植物学家之镐：可以右击为材料注入灵气。"
 				""
-				"● Botanist’s Handaxe: Cleaves through leaves very rapidly."
+				"● 植物学家之斧：可以非常迅速地切开树叶。"
 				""
-				"● Botanist’s Shovel: Converts Dirt to Grass and creates 3x3 Dirt Paths in Grass."
+				"● 植物学家之锹：将泥土转化为草方块，并在草方"
+				"块上创建3x3大小的土径。"
 				""
-				"● Botanist’s Hoe: Randomly produces seeds when tilling Farmland."
+				"● 植物学家之锄：耕种农田时随机产生种子。"
 				""
-				"● Botanist’s Blade: Inflicts Slow on its target."
+				"● 植物学家之剑：对命中的目标施加缓慢效果。"
 				""
-				"● Botanist’s Armor: When wearing a full set, inflicts Withering on attacking enemies."
+				"● 植物学家盔甲：当穿戴全套盔甲时，对攻击的敌"
+				"人造成凋零效果。"
 			]
 			icon: {
 				Count: 1b
@@ -1146,7 +1175,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "44955606B0E1C7B5"
-				title: "Rare Nature's Aura Loot Box"
+				title: "稀有自然灵气战利品箱"
 				type: "command"
 			}]
 			tasks: [
@@ -1195,7 +1224,7 @@
 							]
 						}
 					}
-					title: "Botanist's Tools"
+					title: "植物学家工具"
 					type: "item"
 				}
 				{
@@ -1236,32 +1265,37 @@
 							]
 						}
 					}
-					title: "Botanist's Armor"
+					title: "植物学家盔甲"
 					type: "item"
 				}
 			]
-			title: "Botanist's Equipment"
+			title: "植物学家装备"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4081F393EAB01CBE"]
 			description: [
-				"Skyseeker’s equipment offers several unique benefits to its user beyond the basic uses for armor and tools of each type. "
+				"探天者装备的每种类型的盔甲和工具除了基本用途外，还为使用者提供了几点独特的好处。"
 				""
-				"● All pieces may be repaired with Aura simply by sneaking with an Aura Cache or Aura Trove equipped. "
+				"● 所有装备都可以用灵气修复，只需装备灵气缓存"
+				"或灵气秘宝后潜行即可。"
 				""
-				"● Skyseeker’s Pickaxe: Instantly teleports mined blocks into the user’s inventory."
+				"● 探天者之镐：将挖掘的方块瞬间传送至使用者的"
+				"物品栏中。"
 				""
-				"● Skyseeker’s Handaxe: Capable of chopping entire trees in a single action."
+				"● 探天者之斧：可以一次就砍下一整棵树。"
 				""
-				"● Skyseeker’s Shovel: Upon Right-Click, replaces the target block with whatever block is held in the off-hand."
+				"● 探天者之锹：右击时，将目标方块替换成副手持"
+				"有的方块。"
 				""
-				"● Skyseeker’s Hoe: Tills a larger area of land, destroying tall grass and other vegetation in the process."
+				"● 探天者之锄：耕种更大面积的土地，在此过程中"
+				"会破坏高草丛和其他植物。"
 				""
-				"● Skyseeker’s Blade: Inflicts Levitation on its target."
+				"● 探天者之剑：对命中的目标施加飘浮效果。"
 				""
-				"● Skyseeker’s Armor: When wearing a full set, grants a speed bonus and the ability to step up one block."
+				"● 探天者盔甲：当穿戴全套盔甲时，可以获得速度"
+				"奖励和直接走上一格方块的能力。"
 			]
 			icon: {
 				Count: 1b
@@ -1275,7 +1309,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "2927D64D54B5FDD6"
-				title: "Epic Nature's Aura Loot Box"
+				title: "史诗自然灵气战利品箱"
 				type: "command"
 			}]
 			tasks: [
@@ -1324,7 +1358,7 @@
 							]
 						}
 					}
-					title: "Skyseeker's Tools"
+					title: "探天者工具"
 					type: "item"
 				}
 				{
@@ -1365,24 +1399,24 @@
 							]
 						}
 					}
-					title: "Skyseeker's Armor"
+					title: "探天者盔甲"
 					type: "item"
 				}
 			]
-			title: "Skyseeker's Equipment"
+			title: "探天者装备"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4081F393EAB01CBE"]
-			description: ["Drawing Aura from a worn Cache or Trove, these staves aid in locating various objects; they can be quite useful both at home and while adventuring abroad. "]
+			description: ["这些权杖可以从玩家穿戴的缓存或秘宝中汲取灵气，并用于帮助定位各种物体；无论是在家中还是在外探险，它们都非常有用。"]
 			hide_dependency_lines: true
 			id: "0F179A3EBF0587B8"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "38D4D46D3976D5D6"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1411,7 +1445,7 @@
 						]
 					}
 				}
-				title: "Staves of Power"
+				title: "力量之杖"
 				type: "item"
 			}]
 			x: -4.0d
@@ -1420,9 +1454,9 @@
 		{
 			dependencies: ["465085DE51A72E73"]
 			description: [
-				"Used in crafting several objects of power, creating Bottled Aura itself is easily automated with a Dispenser. "
+				"瓶装灵气用于合成几样强大的物品，可以通过发射器轻松自动化获得它。"
 				""
-				"Simply place a Bottle and Cork in the dispenser and provide a Redstone Pulse. Provided there is sufficient Aura in the area, a bottle of the local Aura type will be produced. "
+				"只需在发射器中放置一个瓶与塞，并提供红石脉冲即可。如果当前区域有足够的灵气，发射器中就会产生一瓶当地灵气类型的瓶装灵气。"
 			]
 			hide_dependency_lines: true
 			id: "2F618EF3A3976CD3"
@@ -1430,7 +1464,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "0CC83443C0E4A90D"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1464,21 +1498,21 @@
 						]
 					}
 				}
-				title: "Bottled Aura"
+				title: "瓶装灵气"
 				type: "item"
 			}]
-			title: "Bottled Aura"
+			title: "瓶装灵气"
 			x: -5.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["4081F393EAB01CBE"]
 			description: [
-				"Once thought to be entirely separate, the magical energies know as Source, Aura, and FE are in fact all facets of the same energy. By making use of special crystals, it becomes possible to convert between them with ease. "
+				"曾经魔源、灵气和FE被认为是互不相干的，但它们实际上是同一种能量的不同方面。利用特制的水晶，就可以轻松地互相转换它们。"
 				""
-				"Pulsating Crystals work by absorbing Source from nearby Source Jars and converting it into usable FE. Should the area contain sufficient Aura, it will also be consumed, greatly enhancing the FE generated. "
+				"脉冲水晶会从附近的魔源罐中吸收魔源并转换为可用的FE。如果该区域还含有足够的灵气，那么产生的FE就会大大增加。"
 				""
-				"Resonating Crystals, on the other hand, set up an internal resonance with FE, converting it back into Source or Aura. If a Source Jar is near enough, it will send it there. If there is no jar, or if it is 100% full, the Resonating Crystal will instead convert the incoming FE to Aura and diffuse it into the atmosphere. "
+				"共振水晶则恰恰相反，它的内部能与FE产生共振，将其转换回魔源或灵气。如果附近有魔源罐，它就会将魔源送至魔源罐。如果附近没有魔源罐，或魔源罐已完全装满，共振水晶就会将FE转换为灵气并释放到空气中。"
 			]
 			hide_dependency_lines: true
 			id: "7C701D8BF9539E0C"
@@ -1487,7 +1521,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/natures_aura/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "7FE6DA1A9A33BC3F"
-				title: "Epic Nature's Aura Loot Box"
+				title: "史诗自然灵气战利品箱"
 				type: "command"
 			}]
 			tasks: [
@@ -1513,7 +1547,7 @@
 							]
 						}
 					}
-					title: "Pulsating Crystals"
+					title: "脉冲水晶"
 					type: "item"
 				}
 				{
@@ -1538,22 +1572,22 @@
 							]
 						}
 					}
-					title: "Resonating Crystals"
+					title: "共振水晶"
 					type: "item"
 				}
 			]
-			title: "Energy Conversion"
+			title: "能量转换"
 			x: -2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4081F393EAB01CBE"]
 			description: [
-				"Though often thought of in terms of gases, it isn’t quite accurate. "
+				"尽管人们通常认为它是以气体的形式存在的，但这并不完全准确。"
 				""
-				"In truth, Aura has an attractive force of its own, leading it to clump into regions instead of fully dispersing. This can be exploited by creating a stronger attractive force and dragging large clumps of it from one place to another, effectively moving the Aura to wherever it is needed. "
+				"事实上，灵气有着对自身的吸引力，导致它们会聚集成多个区域，而不是完全分散。运用这一点，可以通过创造更强的吸引力，将大块的灵气从一个地方迁移到另一个地方来利用，有效地将灵气移动到需要的地方。"
 				""
-				"The process isn’t perfect by any means, and Aura will be left behind as the cart moves, reintegrating into the region. Some would even look at this as a positive, as it allows the Aura to be spread out over a large area without necessarily depositing it in a single spot. "
+				"无论如何，这个过程并不完美，随着矿车的移动，灵气将会被甩在后面，重新融入该当前的区域。有些人甚至将这认为是积极的一面，因为它可以让灵气分布大面积散布，而不是沉积在一个地方。"
 			]
 			hide_dependency_lines: true
 			id: "06BAE98B1543EBFC"
@@ -1586,5 +1620,5 @@
 			y: -1.5d
 		}
 	]
-	title: "Nature's Aura"
+	title: "自然灵气"
 }
