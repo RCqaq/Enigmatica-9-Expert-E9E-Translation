@@ -1490,7 +1490,7 @@
 				item: "create:rope_pulley"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 11.0d
 		}
 		{
