@@ -18,9 +18,9 @@
 		{
 			dependencies: ["2CCCDD05AED3153F"]
 			description: [
-				"With Occultism, the Otherworld and its denizens are at your beck and call. From the simple Familiars to grant a variety of combat bonuses, to Ore Crushing Spirits for early ore processing and powerful Djinni Miners to gather valuable materials at your behest, Occultism has something for everyone. "
+				"通过神秘学，你可以让异界和其中的居民听你号令。从获得各种战斗增益的简单使魔，到用于早期矿石加工的碎矿者魔灵，再到按你要求收集珍贵材料的强大的掘矿者巨灵，神秘学可以为每位玩家提供他想要的东西。"
 				""
-				"The Dictionary of Spirits has everything needed to get started on the path, and acts both as a guide and as a crafting ingredient for obtaining the names of spirits. "
+				"魔灵全典拥有帮助玩家入门所需的一切，它既是一本指南，又可以作为用于获取魔灵名字的合成原料。"
 			]
 			hide: true
 			icon: "occultism:dictionary_of_spirits"
@@ -35,27 +35,29 @@
 			tasks: [{
 				id: "3EE2A2A44A030705"
 				item: "occultism:datura_seeds"
-				title: "Occultism"
+				title: "神秘学"
 				type: "item"
 			}]
-			title: "Occultism"
+			title: "神秘学"
 			x: 13.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["53F52A1385C25A50"]
 			description: [
-				"Thought to be a native plant of the Otherworld gifted by the Spirits ages ago to initiate trade between worlds, Demon’s Dream is a potent fruit with several unique properties that have been used by practitioners throughout the ages."
+				"魔鬼之梦果被认为是异界的一种本土植物，在很久以前魔灵将其赠送给了我们的世界，用于发起世界之间的贸易。它是一种强大的果实，具有多种独特的特性，被历代神秘学法师所使用。"
 				""
-				"Eating Demon’s Dream fruit pushes back the veil separating this world and the Otherworld, allowing one to see things for what they truly are. In particular, Otherworld trees tend to present themselves as common Oak in this world but may be harvested for what they are while under the effects of the Demon’s Dream."
+				"吃下魔鬼之梦果可以揭开将该世界与异界分隔的面纱，让玩家看到事物的真实面貌。特别是，在这个世界上，异界的树木会伪装成普通的橡树，但在魔鬼之梦果的影响下，它们的本体可以被玩家采集。"
 				""
-				"Burning the fruit causes a small rift to open into the Otherworld, creating a flame that exists primarily in that Other Place, simply toss it down and light it. This flame will not burn creatures but may be used to transmute or purify certain materials. "
+				"只需将其扔下并点燃即可燃烧该果实，这会产生一个通向异界的小型裂缝，并制造一团主要存在于异界的火焰。这团火焰不会燃伤生物，但可以用来转化或净化某些材料。"
 				""
-				"Finally, Spirits from the Otherworld adore the taste of this fruit and feeding it to them will help restore their health. "
+				"最后，异界的魔灵喜欢这种水果的味道，把其喂给它们可以帮助恢复它们的生命值。"
 				""
 				"================================================="
 				""
-				"Fires can be started with Fire Charges as well as Flint and Steel."
+				"你可以用火焰弹或打火石进行点火。"
+				""
+				"译者注：副标题中的歌词出自Blue Oyster Cult演唱的同名歌曲《Burnin' for You》。"
 			]
 			hide_dependency_lines: true
 			icon: "occultism:spirit_fire"
@@ -67,41 +69,45 @@
 					count: 8
 					id: "6BDDE0CD478E45D8"
 					item: "occultism:otherstone"
-					title: "Otherstone"
+					title: "异界石"
 					type: "item"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "10F35B67ABCD0BE9"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Burnin' For You"
+			subtitle: "为你而燃烧"
 			tasks: [{
 				id: "317B6BEEED6726F7"
 				item: "occultism:datura"
 				type: "item"
 			}]
-			title: "Getting Started: Ritual Magic"
+			title: "入门：仪式魔法"
 			x: 13.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6174E9BF29FDE7FD"]
-			description: ["Candles are another item used in most ritual pentacles. Any type of candle will suffice."]
+			description: [
+				"蜡烛是另一种在大多数仪式五芒星中被使用的物品。任意种类的蜡烛都能够满足要求。"
+				""
+				"译者注：副标题中的“标准烛光”是天文学中的一个概念，指已经知道光度的天体。"
+			]
 			icon: "minecraft:purple_candle"
 			id: "2F1875D08B052109"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "419B8DDAD1F2EFA8"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
-			subtitle: "Standard Candle"
+			subtitle: "标准烛光"
 			tasks: [{
 				id: "5FB8A527B476873A"
 				item: {
@@ -130,21 +136,21 @@
 						]
 					}
 				}
-				title: "Any Candle"
+				title: "任意蜡烛"
 				type: "item"
 			}]
-			title: "Candles"
+			title: "蜡烛"
 			x: 12.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5D872437E8DA574B"]
 			description: [
-				"Communication and Trade with the Otherworld are feasible and safe for the acolyte, though some specialized materials will be required to begin. "
+				"与异界的沟通和贸易对进行这项祭典的玩家来说是可行且安全的，不过你需要一些专门的材料才能开始。"
 				""
-				"Purified Ink is the only known substance suitable for transcribing the names of Spirits for use in ritual magic. Anything else has a strange tendency to fade, as if it would rather not be involved. "
+				"纯净墨水是唯一已知的适用于抄写用于仪式魔法的魔灵名字的物质。用任何其他东西抄写时都会出现奇怪的褪色现象，就好像它不愿参与其中。"
 				""
-				"Burnt Otherstone and Otherworld Ashes may be combined and purified to form a specialized form of chalk suitable for drawing the ritual circles used in rituals. "
+				"煅烧异界石和异界灰烬可以结合并净化，形成一种专门用于绘制仪式中的仪式圆圈的粉笔。"
 			]
 			hide_dependency_lines: true
 			id: "5779806AB9F94AC5"
@@ -153,7 +159,7 @@
 					count: 4
 					id: "37F0ADD4F34ADD80"
 					item: "occultism:purified_ink"
-					title: "Purified Ink"
+					title: "纯净墨水"
 					type: "item"
 				}
 				{
@@ -165,7 +171,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 					icon: "kubejs:farmers_delight"
 					id: "3C8C800F02B1B6BE"
-					title: "Farmer's Delight"
+					title: "农夫乐事包"
 					type: "command"
 				}
 			]
@@ -186,7 +192,7 @@
 					type: "item"
 				}
 			]
-			title: "Occult Materials"
+			title: "神秘材料"
 			x: 13.0d
 			y: 5.5d
 		}
@@ -199,7 +205,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "2CC2443610E4CFF1"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 				{
@@ -220,7 +226,7 @@
 				}
 				type: "item"
 			}]
-			title: "White Chalk"
+			title: "白色粉笔"
 			x: 12.5d
 			y: 2.0d
 		}
@@ -240,7 +246,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "1E48BCBE4012B685"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 			]
@@ -542,7 +548,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "040FFFDF6D527A73"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 			]
@@ -575,7 +581,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "28C55284F9DF058D"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 			]
@@ -637,7 +643,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "2786EF02B7121DF1"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			subtitle: "Discordant Resonance"
@@ -668,7 +674,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "54B802039174BA9A"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			tasks: [
@@ -702,14 +708,14 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "09704DE74B6D0FDF"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 					icon: "kubejs:farmers_delight"
 					id: "429B8A9FC14F374D"
-					title: "Farmer's Delight"
+					title: "农夫乐事包"
 					type: "command"
 				}
 				{
@@ -754,7 +760,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "36144539BED9E23C"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 				{
@@ -970,7 +976,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "03243DB93AA2A084"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			subtitle: "My job. Toilets 'n boilers, boilers 'n toilets. Plus that one boilin' toilet. Fire me if'n you dare."
@@ -1072,7 +1078,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "244C22E3F35C9074"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -1101,7 +1107,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "2E3C0CEC5584142C"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			shape: "hexagon"
