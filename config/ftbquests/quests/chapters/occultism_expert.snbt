@@ -198,7 +198,7 @@
 		}
 		{
 			dependencies: ["6174E9BF29FDE7FD"]
-			description: ["While found in most known pentacles, White Chalk alone only has limited binding power. Still, it may be used for basic rituals until additional materials may be secured. "]
+			description: ["虽然在白色粉笔可以在大多数已知的五芒星中找到，但是仅其本身的约束力有限。尽管如此，它也可以用于基本的仪式，直到可以获得其他的材料。"]
 			id: "4388924397A374AC"
 			rewards: [
 				{
@@ -214,7 +214,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Returning to the Chalk"
+			subtitle: "重返课堂"
 			tasks: [{
 				id: "3ECECE7318EFD24D"
 				item: {
@@ -232,14 +232,14 @@
 		}
 		{
 			dependencies: ["6174E9BF29FDE7FD"]
-			description: ["Including rare and expensive materials into the Chalk allows it to create a stronger connection with the Otherworld, allowing Spirits to be bound directly into items to enhance them."]
+			description: ["在粉笔中加入稀有且昂贵的材料可以使其与异界建立更牢固的联系，使魔灵可以直接绑定到物品中以增强物品。"]
 			id: "3CA78CCDDF4B6D7F"
 			rewards: [
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "3B6224538F94ADC5"
-					title: "Occultism Epic Loot Chest"
+					title: "史诗神秘学战利品箱"
 					type: "command"
 				}
 				{
@@ -250,7 +250,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "All Chalks of Life"
+			subtitle: "五彩生活"
 			tasks: [{
 				id: "76D9E369A1D995F6"
 				item: {
@@ -262,16 +262,18 @@
 				}
 				type: "item"
 			}]
-			title: "Golden Chalk"
+			title: "金色粉笔"
 			x: 12.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["6174E9BF29FDE7FD"]
 			description: [
-				"With a strong extra-planar component, Purple Chalk helps bind increasingly powerful Spirits. "
+				"添加了强大的异界成分的紫色粉笔，可以帮助绑定越来越强大的魔灵。"
 				""
-				"Rituals that make use of Purple Chalk are not without risk, however, and some caution would be wise when dealing with some of these Spirits; not all are so amicable to being called to this realm. "
+				"然而，使用紫色粉笔的仪式并非没有风险，在处理一些魔灵时，留有谨慎是明智的；并不是所有被召唤到这个领域的魔灵都会如此友好。"
+				""
+				"译者注：副标题中的句子出自克罗格特·约翰逊笔下的儿童绘本《阿罗有只彩色笔》。"
 			]
 			id: "0A97462221C8E34C"
 			rewards: [
@@ -279,18 +281,18 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "7079CA0B9EE429C9"
-					title: "Occultism Epic Loot Chest"
+					title: "史诗神秘学战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
 					icon: "kubejs:alchemists_delight"
 					id: "2ACBBF255C72E5C5"
-					title: "Alchemist's Delight"
+					title: "炼金术士乐事包"
 					type: "command"
 				}
 			]
-			subtitle: "... And The Moon Went With Him"
+			subtitle: "……月亮也跟着他"
 			tasks: [{
 				id: "7CE825299DE46393"
 				item: {
@@ -307,25 +309,25 @@
 		}
 		{
 			dependencies: ["6174E9BF29FDE7FD"]
-			description: ["Infused with the very essence of powerful spirits, Red Chalk is used as a final layer of protection in the most powerful of summoning circles. "]
+			description: ["灌注有强大魔灵的精华的红色粉笔，被用作最强大的召唤圆圈的最后一层保护。"]
 			id: "67109DA616B29805"
 			rewards: [
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/legendary"
 					icon: "kubejs:legendary_lootbox"
 					id: "5994DD7843E5B711"
-					title: "Occultism Legendary Loot Box"
+					title: "传奇神秘学战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
 					icon: "kubejs:sorcerers_delight"
 					id: "4E22EAB060EC7145"
-					title: "Sorcerer's Delight"
+					title: "法师乐事包"
 					type: "command"
 				}
 			]
-			subtitle: "Culture Chalk"
+			subtitle: "粉笔文化"
 			tasks: [{
 				id: "546644A2AF5A7F45"
 				item: {
@@ -344,13 +346,13 @@
 			dependencies: ["79FA215631E6AB09"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Truly mind-bending magic, the Dimensional Storage Actuator claims a pocket of the Otherworld and makes it accessible from anywhere. "
+				"维度存储促动器是名副其实的烧脑魔法，它拥有一个异界口袋，并可以从任何地方访问这个口袋。"
 				""
-				"Though it starts out rather small, its capacity may be greatly expanded by adding Stabilizers. Up to six Stabilizers may be added; place them so they are facing the crystal atop the Actuator itself."
+				"虽然一开始它的容量很小，但通过添加稳定器可以大大增加它的容量。最多可添加六个稳定器；放置它们时需要使它们面向促动器顶部的水晶。"
 				""
-				"The Actuator is accessible manually and via automation such as pipes, hoppers, or an ME Storage Bus."
+				"你可以手动访问促动器，也可以通过如管道、漏斗或ME存储总线一类的自动化装置访问它。"
 				""
-				"They may be picked up and moved without concern for their contents; everything will be right where it was left when the Storage Actuator is placed back down. Anything linked to the Actuator, such as Wormholes, will need to be rebound, however. "
+				"它们可以被捡起或移动，且不会影响里面的物品；当存储促动器放回原位时，所有东西都在原来的位置。然而，任何与促动器相关的东西，如虫洞，都需要重新绑定。"
 			]
 			id: "4109C076621DECF6"
 			min_width: 300
@@ -358,27 +360,27 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "50C50A413C996365"
-				title: "Occultism Epic Loot Box"
+				title: "史诗神秘学战利品箱"
 				type: "command"
 			}]
-			subtitle: "Truly Out of This World"
+			subtitle: "三界之外"
 			tasks: [{
 				id: "2133FD24724570C5"
 				item: "occultism:storage_controller"
 				type: "item"
 			}]
-			title: "Cross-Dimensional Storage"
+			title: "跨维度存储"
 			x: 8.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["23E68C9DFD2F0ED7"]
 			description: [
-				"Storage Stabilizers are used to expand the internal storage of the Storage Actuator’s space by maintaining the integrity of the dimensional pocket. "
+				"存储稳定器可以通过维持维度口袋的完整性来扩大存储促动器空间的内部存储。"
 				""
-				"The Stabilizers themselves may be placed up to five blocks away from the Actuator on each of the cardinal directions. Only one may be active on a side, but all six sides of the Actuator may be used. Ensure they are facing the Crystal atop the Actuator, not the pedestal itself. "
+				"在每个基本方位上，离制动器五格方块内，均可以放置稳定器。每个面上只能有一个稳定器被激活，但促动器的所有六个面都可以使用稳定器。请确保稳定器面向促动器顶部的水晶，而不是基座本身。"
 				""
-				"Note: Removing a Stabilizer will not cause items in the Actuator to be lost. Instead, if the Actuator’s current storage exceeds its current capacity, it will simply refuse new items. Items may still be extracted, however. "
+				"注：移除稳定器不会导致促动器中的物品丢失。相反，如果促动器当前的存储超过其容量上线，它只会拒绝新的物品进入。不过，物品仍然可以被从中提取。"
 			]
 			hide_dependency_lines: true
 			id: "7B94F0235872AEF3"
@@ -386,18 +388,18 @@
 				{
 					id: "777167B3E03C8AE9"
 					item: "occultism:storage_stabilizer_tier1"
-					title: "Tier 1 Dimensional Storage Stabilizer"
+					title: "等级1维度存储稳定器"
 					type: "item"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "678939723BB6DEB9"
-					title: "Occultism Epic Loot Chest"
+					title: "史诗神秘学战利品箱"
 					type: "command"
 				}
 			]
-			subtitle: "Taking the broader view"
+			subtitle: "放眼全局"
 			tasks: [{
 				id: "668E89E964FFC041"
 				item: "occultism:storage_stabilizer_tier1"
@@ -408,16 +410,16 @@
 		}
 		{
 			dependencies: ["7B94F0235872AEF3"]
-			description: ["Using the resonant properties of Iesnium to strengthen the stabilization field, these Stabilizers are the most powerful known and expand the Storage Actuator to incredible capacity. "]
+			description: ["这种稳定器利用了艾瑟金属的共振特性来加强稳定场，是已知的最强大的稳定器，可以将存储促动器扩展到令人难以置信的容量。"]
 			id: "218F16DD5D21C905"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "570703F75436A72B"
-				title: "Occultism Legendary Loot Box"
+				title: "传奇神秘学战利品箱"
 				type: "command"
 			}]
-			subtitle: "Expanding horizons"
+			subtitle: "拓宽视野"
 			tasks: [{
 				id: "7249DA8073D07858"
 				item: "occultism:storage_stabilizer_tier4"
@@ -429,19 +431,19 @@
 		{
 			dependencies: ["4109C076621DECF6"]
 			description: [
-				"A small hand-held device that grants the bearer a portable link to the Storage Actuator it is bound to. "
+				"一个小型的手持设备，可为携带者提供与其绑定的存储促动器的便携式连接。"
 				""
-				"Sneak Right-Click it on an Actuator to bind them. "
+				"手持它潜行右击促动器来将它们进行绑定。"
 			]
 			id: "58AC34CCBBFAF2FF"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "3DCB985BD8CD3A83"
-				title: "Occultism Epic Loot Box"
+				title: "史诗神秘学战利品箱"
 				type: "command"
 			}]
-			subtitle: "Overstepping boundaries"
+			subtitle: "超越界限"
 			tasks: [{
 				id: "76B6B4F530956F37"
 				item: {
@@ -457,9 +459,11 @@
 		{
 			dependencies: ["4109C076621DECF6"]
 			description: [
-				"A portable hole that may be placed anywhere, granting access to the bound Storage Actuator. These are accessible by automation such as pipes or Transporter Foliots, allowing simple long-distance transport of materials."
+				"一个可以放置在任何位置的便携式虫洞，可使玩家访问与其绑定的存储促动器。它可以通过管道或魔精搬运工等自动化手段进行访问，从而实现简易的远距离材料运输。"
 				""
-				"Sneak Right-Click it on an Actuator to bind them. "
+				"手持它潜行右击促动器来将它们进行绑定。"
+				""
+				"译者注：副标题“里面比外面大”（Bigger on the inside）是科幻电视剧《神秘博士》中的一句经典台词。"
 			]
 			id: "23E68C9DFD2F0ED7"
 			rewards: [
@@ -467,7 +471,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "0375C6BE2CE4A248"
-					title: "Occultism Epic Loot Box"
+					title: "史诗神秘学战利品箱"
 					type: "command"
 				}
 				{
@@ -477,11 +481,11 @@
 						id: "occultism:stable_wormhole"
 						tag: { }
 					}
-					title: "Stable Wormhole"
+					title: "稳定虫洞"
 					type: "item"
 				}
 			]
-			subtitle: "Bigger on the inside"
+			subtitle: "里面比外面大"
 			tasks: [{
 				id: "7F8475D5752EEDEA"
 				item: {
@@ -497,21 +501,21 @@
 		{
 			dependencies: ["1A8FB7EB02DAD9C9"]
 			description: [
-				"A minor trinket with powerful implications, the Soul Gem is effectively a small gateway to the Otherworld, allowing one creature to be put into a form of stasis in the Other Place. "
+				"灵魂宝石是一个具有强大作用的小饰品，它实际上是一个通往异界的入口，可以使一个生物在异界陷入停滞状态。"
 				""
-				"Creatures held this way do not experience time and their biological needs are halted entirely. "
+				"被容纳的生物不会经历时间，它们的生理需求也会被完全停止。"
 				""
-				"Right-Click a creature to store it, and Right-Click again on a block to release it. "
+				"右击一个生物将其容纳进去，对着方块再次右击将其放出。"
 			]
 			id: "1EF97C3DDE7FDE06"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "4F87B6F409112BBE"
-				title: "Occultism Epic Loot Chest"
+				title: "史诗神秘学战利品箱"
 				type: "command"
 			}]
-			subtitle: "How Captivating"
+			subtitle: "多么有吸引力啊"
 			tasks: [{
 				id: "00F97306718FE748"
 				item: {
@@ -521,16 +525,18 @@
 				}
 				type: "item"
 			}]
-			title: "Soul Gem"
+			title: "灵魂宝石"
 			x: 18.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5D872437E8DA574B"]
 			description: [
-				"Summoning the Possessed Endermite allows the budding practitioner to easily access a rare component required for some rituals: End Stone."
+				"召唤被附身的末影螨可以让初学者轻松获得一些仪式所需的稀有材料：末地石。"
 				""
-				"True, one could simply pop off to the End to obtain it, but that gateway isn’t always readily available. Instead, a little barter with the Otherworld can have some delivered with only minor complications involved."
+				"的确，玩家可以直接跳进末地来获取它，但该途径并不总是现成的。相反，与异界进行交易，只需涉及一些小小的问题就可以获得一些末地石。"
+				""
+				"译者注：副标题中的歌词出自Glenn Miller演唱的同名歌曲《Stairway To The Stars》。"
 			]
 			hide_dependency_lines: true
 			icon: "occultism:crushed_end_stone"
@@ -541,7 +547,7 @@
 					count: 16
 					id: "6D68D32BAE5916C4"
 					item: "minecraft:end_stone"
-					title: "End Stone"
+					title: "末地石"
 					type: "item"
 				}
 				{
@@ -552,20 +558,20 @@
 					type: "command"
 				}
 			]
-			subtitle: "Stairway to the Stars"
+			subtitle: "通往星空的天梯"
 			tasks: [{
 				advancement: "occultism:occultism/possess_endermite"
 				criterion: ""
 				id: "1391952AB2665072"
 				type: "advancement"
 			}]
-			title: "Crushed End Stone"
+			title: "粉碎末地石"
 			x: 13.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5D872437E8DA574B"]
-			description: ["Skulls are used for several Ritual Pentacles and obtaining them isn’t always easy. Enlist the assistance of the Otherworld to summon forth a Skeleton with a surplus of skulls. "]
+			description: ["头颅用于几种仪式五芒星的建造，并且获得它们并不总是那么容易。寻求异界的帮助，召唤出一具有多余头颅的骷髅。"]
 			hide_dependency_lines: true
 			icon: "minecraft:skeleton_skull"
 			id: "6156EACCFCBBA9B7"
@@ -574,7 +580,7 @@
 					count: 2
 					id: "64CE30FF84E228B2"
 					item: "minecraft:skeleton_skull"
-					title: "Skeleton Skull"
+					title: "骷髅头颅"
 					type: "item"
 				}
 				{
@@ -585,25 +591,27 @@
 					type: "command"
 				}
 			]
-			subtitle: "We'll beheading off, then"
+			subtitle: "那么，我们就上路了"
 			tasks: [{
 				advancement: "occultism:occultism/possess_skeleton"
 				criterion: ""
 				id: "5FD5C297338C9493"
 				type: "advancement"
 			}]
-			title: "Skeleton Skulls"
+			title: "骷髅头颅"
 			x: 12.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["5D872437E8DA574B"]
 			description: [
-				"Enderpearls are potent objects of alchemical importance. Though they may be retrieved from the rare Enderman that finds itself in our plane, they’re not exactly guaranteed to have one."
+				"末影珍珠是炼金术中重要的有力物品。虽然它们可以从我们位面中发现的稀有的末影人身上找到，但末影人并不能保证会掉落一颗末影珍珠。"
 				""
-				"The Possessed Enderman, on the other hand, will always drop a few. "
+				"而另一方面，被附身的末影人总会掉落一些末影珍珠。"
 				""
-				"Be wary, as this particular ritual can become quite unstable and its multi-dimensional nature has been known to tear rifts in fabric of reality."
+				"要小心，因为这种特殊的仪式可能会变得非常不稳定，而且它的多维特性已经被发现会在现实中撕开裂痕。"
+				""
+				"译者注：副标题”黑色牡蛎魔法“（Black Oyster Occult）改编自美国重金属乐队蓝色牡蛎膜拜（Blue Oyster Cult）。"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:ender_pearl"
@@ -613,31 +621,31 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "26CBC35CB3182775"
-					title: "Occultism Epic Loot Box"
+					title: "史诗神秘学战利品箱"
 					type: "command"
 				}
 				{
 					count: 8
 					id: "7D5FFD9577D45999"
 					item: "minecraft:ender_pearl"
-					title: "Ender Pearl"
+					title: "末影珍珠"
 					type: "item"
 				}
 			]
-			subtitle: "Black Oyster Occult"
+			subtitle: "黑色牡蛎魔法"
 			tasks: [{
 				advancement: "occultism:occultism/possess_enderman"
 				criterion: ""
 				id: "571F5BE95F64191B"
 				type: "advancement"
 			}]
-			title: "Ender Pearls"
+			title: "末影珍珠"
 			x: 14.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["6174E9BF29FDE7FD"]
-			description: ["Resonating with Otherworldly energies, these Attuned Crystals are a simple yet effective method of stabilizing rituals, adding one more layer of protection to the practitioner. "]
+			description: ["这些同调水晶与异界的能量共振，是一种简单而有效的稳定仪式的方法，为神秘学法师多增加了一层保护。"]
 			id: "38D8C3DE5709BCD9"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
@@ -646,7 +654,7 @@
 				title: "拾荒者乐事包"
 				type: "command"
 			}]
-			subtitle: "Discordant Resonance"
+			subtitle: "不和谐调谐"
 			tasks: [{
 				id: "2BB71BED4F8DCD51"
 				item: "occultism:spirit_attuned_crystal"
@@ -658,13 +666,13 @@
 		{
 			dependencies: ["5D872437E8DA574B"]
 			description: [
-				"It is common for young practitioners to believe they’re commanding the Spirits, bending them to their will. This is misguided, however. In truth, the Spirits are long lived creatures whose very perception of time differs wildly from our own, short lived as we are. "
+				"年轻的神秘学法师通常认为是他们在命令魔灵，让它们屈从于自己的意志。然而，他们走错了方向。事实上，魔灵是长寿的生物，它们对时间的感知与我们大相径庭，因为我们是短命的。"
 				""
-				"Better to think of these interactions as trade. Giving something rare from our world in exchange for a drop from the sea of their time. Even a long-lived practitioner will, after all, perish long before the Spirits they’ve bonded with. "
+				"最好将这些互动视为贸易。用我们世界上罕见的东西，来换取它们时间中的沧海一粟。毕竟，即使是一个长寿的神秘学法师，也会比与他结合的魔灵早很长一段时间死亡。"
 				""
-				"Therefore, when performing these rituals, something of value must be exchanged. The items should be laid out in Sacrificial Bowls prior to the start of the Ritual. Ordinary Sacrificial Bowls may be placed anywhere within eight blocks of the Golden Sacrificial Bowl, even outside the Pentacle. Likewise, the items may be placed into any bowl, the order does not matter. "
+				"因此，在进行这些仪式时，必须交换一些有价值的东西。在仪式开始之前，这些物品应该放在献祭之碗中。普通的献祭之碗可以放置在黄金献祭之碗八格方块内的任何地方，甚至可以放置在五芒星之外。同样，这些物品可以放在任何献祭之碗中，顺序并不重要。"
 				""
-				"The item for the Golden Sacrificial Bowl must be placed last; this will trigger the ritual if everything else is correctly placed. If the ritual demands the sacrifice of a creature or use of an item, these actions are to be performed after the ritual is activated and must be performed within eight blocks of the Golden Sacrificial Bowl. "
+				"黄金献祭之碗的物品必须最后放置；如果其他所有东西都放置正确，在黄金献祭之碗中放置物品将会触发仪式。如果仪式需求牺牲一个生物或使用一件物品，这些动作必须在仪式启动后进行，并且必须在黄金献祭之碗的八格方块内进行。"
 			]
 			hide_dependency_lines: true
 			icon: "occultism:golden_sacrificial_bowl"
@@ -689,16 +697,18 @@
 					type: "item"
 				}
 			]
-			title: "Sacrificial Bowls"
+			title: "献祭之碗"
 			x: 13.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1A8FB7EB02DAD9C9"]
 			description: [
-				"Certain spirits have the ability to control the weather in our world."
+				"某些魔灵有控制我们世界天气的能力。"
 				""
-				"Summoning the appropriate Spirit can bring clear skies, make it rain, or even bring on a thunderstorm!"
+				"召唤合适的魔灵可以带来晴朗的天空、下雨，甚至带来雷暴！"
+				""
+				"译者注：副标题中的歌词出自著名音乐剧《Fiddler on the Roof》（屋顶上的提琴手）的插曲《Sunrise Sunset》（日出、日落）。"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:sunflower"
@@ -722,11 +732,11 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/legendary"
 					icon: "kubejs:legendary_lootbox"
 					id: "7C2EBE033EADBC95"
-					title: "Occultism Legendary Loot Box"
+					title: "传奇神秘学战利品箱"
 					type: "command"
 				}
 			]
-			subtitle: "Blossoming even as we gaze"
+			subtitle: "眼看着他们俩长大"
 			tasks: [
 				{
 					advancement: "occultism:occultism/summon_afrit_rain_weather"
@@ -741,16 +751,18 @@
 					type: "advancement"
 				}
 			]
-			title: "Weather Rituals"
+			title: "天气仪式"
 			x: 19.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1A8FB7EB02DAD9C9"]
 			description: [
-				"For timeless beings such as the Otherworld Spirits, there is little distinction between Past and Present. They are aware of our perception of time, but for them the difference is closer to our perception of Up and Down; moving to another place in time is as simple for them as for us to climb a hill. "
+				"对于永恒的存在，如异界的魔灵，过去和现在没有什么区别。它们清楚我们对时间的感知，但对它们来说，这种差异更接近于我们对上下的感知；从一个时间点移动到另一个时间点对它们来说就像我们爬山一样简单。"
 				""
-				"Summon a Djinni to advance Day to Night and Night to Day."
+				"召唤一个巨灵将白天快进到晚上，将晚上快进到白天。"
+				""
+				"译者注：副标题中的歌词出自著名音乐剧《Fiddler on the Roof》（屋顶上的提琴手）的插曲《Sunrise Sunset》（日出、日落）。"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:clock"
@@ -769,7 +781,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Swiftly flow the days"
+			subtitle: "日子飞一样"
 			tasks: [
 				{
 					advancement: "occultism:occultism/summon_djinni_night_time"
@@ -784,16 +796,18 @@
 					type: "advancement"
 				}
 			]
-			title: "Celestial Rituals"
+			title: "天体仪式"
 			x: 17.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5D872437E8DA574B"]
 			description: [
-				"A potent binding agent primarily used in the manufacture of Red Chalk, Afrit Essence may only be obtained by besting an Afrit in Combat, which requires summoning said Afrit in a broken Pentacle that leaves the practitioner unprotected and at the mercy of these powerful foes. "
+				"火灵灵髓是一种主要用于制造红色粉笔的强效黏合剂，只能通过在战斗中击败火灵来获得，这需要在一个破碎的五芒星中召唤火灵，该五芒星使神秘法师得不到保护，任由这些强大的敌人摆布。"
 				""
-				"Note: Gathering Essence from an Afrit is not always possible. A weapon enchanted with Looting is recommended to increase the odds of harvesting this potent material. "
+				"注：你并不是总能从火灵身上采集灵髓。建议使用附魔有抢夺的武器来增加获得这种强效材料的几率。"
+				""
+				"译者注：副标题“支配与臣服”（Dominance and Submission）是美国重金属乐队蓝色牡蛎膜拜（Blue Oyster Cult）演唱的一首歌曲。"
 			]
 			hide_dependency_lines: true
 			icon: "occultism:afrit_essence"
@@ -804,36 +818,36 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/legendary"
 					icon: "kubejs:legendary_lootbox"
 					id: "11289E089F55DC13"
-					title: "Occultism Legendary Loot Box"
+					title: "传奇神秘学战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/legendary"
 					icon: "kubejs:legendary_lootbox"
 					id: "205E158A8C1DBFDD"
-					title: "Occultism Legendary Loot Box"
+					title: "传奇神秘学战利品箱"
 					type: "command"
 				}
 			]
-			subtitle: "Dominance and Submission"
+			subtitle: "支配与臣服"
 			tasks: [{
 				advancement: "occultism:occultism/summon_wild_afrit"
 				criterion: ""
 				id: "68D3227B1A92A945"
 				type: "advancement"
 			}]
-			title: "Afrit Essence"
+			title: "火灵灵髓"
 			x: 13.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5D872437E8DA574B"]
 			description: [
-				"The Wild Hunt’s Horns strike fear into the hearts of most who hear its call, knowing that suffering and death soon follow in their wake. Intentionally calling them forth to do battle would be foolhardy at best."
+				"狂猎的号角让大多数听到它号令的人感到恐惧，因为他们知道痛苦和死亡很快就会随之而来。故意召唤它们，充其量也只是鲁莽之举。"
 				""
-				"The Spirits of the Otherworld are more than happy to assist in the endeavor, however, for those who believe themselves capable of surviving the onslaught. "
+				"然而，对于那些相信自己有能力在猛攻中幸存下来的人来说，异界的魔灵会非常乐意帮助他们。"
 				""
-				"This Ritual guarantees multiple Wither Skeleton Skulls and may even result in other special rewards to those who best the Hunt."
+				"该仪式可以保证获取多个凋灵骷髅头颅，甚至可以为那些能够战胜狂猎的人带来其他特殊奖励。"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:wither_skeleton_skull"
@@ -843,36 +857,38 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "5C1B16137B415C03"
-					title: "Occultism Epic Loot Box"
+					title: "史诗神秘学战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "7F8FCF3FFACD8062"
-					title: "Occultism Epic Loot Box"
+					title: "史诗神秘学战利品箱"
 					type: "command"
 				}
 			]
-			subtitle: "Getting ahead in life"
+			subtitle: "在现实中高人一头"
 			tasks: [{
 				advancement: "occultism:occultism/summon_wild_hunt"
 				criterion: ""
 				id: "6645C16E735F0A0D"
 				type: "advancement"
 			}]
-			title: "Wither Skeleton Skulls"
+			title: "凋灵骷髅头颅"
 			x: 14.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["79FA215631E6AB09"]
 			description: [
-				"Once a common sight around any practitioner’s workshop, Foliot Transporters are quick and intelligent, and will keep items stocked where needed. "
+				"魔精搬运工曾是任何神秘学法师的工坊中的常见景象，它敏捷且智慧，可以在玩家需要的地方存放物品。"
 				""
-				"Use the Book of Calling that comes with the Spirit to set where to Extract and Deposit. Sneak Right-Click the book on a Spirit to bind them. The Book of Calling may also be used to transport the Spirit."
+				"使用魔灵附带的召唤之书来设定提取和存放的位置。手持召唤之书潜行右击魔灵来将两者绑定。召唤之书也可以用来运送魔灵。"
 				""
-				"Sneak Right-Click the Spirit to access a GUI where filters may be set. "
+				"潜行右击魔灵来访问设置过滤器的界面。"
+				""
+				"译者注：副标题中的歌词出自是Steven Wright演唱的同名歌曲《Keep On Truckin'》。"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:chest_minecart"
@@ -881,28 +897,28 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "79F50D4822BFDD4D"
-				title: "Occultism Epic Loot Box"
+				title: "史诗神秘学战利品箱"
 				type: "command"
 			}]
-			subtitle: "Keep on truckin'"
+			subtitle: "继续努力"
 			tasks: [{
 				advancement: "occultism:occultism/summon_foliot_transport_items"
 				criterion: ""
 				id: "52B74303B5A6D2D0"
 				type: "advancement"
 			}]
-			title: "Summon Foliot Transporting Spirit"
+			title: "召唤魔精搬运工"
 			x: 10.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4109C076621DECF6"]
 			description: [
-				"The Djinni Machine Operator Spirit is used with the Dimensional Storage Actuator as a basic form of autocrafting."
+				"巨灵机器操作员与维度存储促动器一起使用，是自动合成的基本形式。"
 				""
-				"Use the Book of Calling to bind the Spirit to a machine, then use it again to set which side to have the Spirit push items to and pull items from. Finally, assign the Djinni to a Storage Actuator."
+				"使用召唤之书将魔灵与机器绑定，然后再次使用召唤之书来设置魔灵输出和输出物品的面。最后，为巨灵分配一个存储促动器。"
 				""
-				"In the Storage Actuator, select a stack of items for the Spirit to process and put it in the slot on the left of the GUI. This will bring up a menu where a Machine Operator may be selected. Doing so will trigger that Operator to collect the items and process them at their machine."
+				"在存储促动器中，选择一组你希望魔灵处理的物品，并将其放在界面左侧的栏位中。这将弹出一个可选择机器操作员的菜单。被选中的操作员将会收集物品并在它们的机器中进行处理。"
 			]
 			icon: "minecraft:furnace"
 			id: "1A59D971B729013C"
@@ -910,28 +926,30 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "337D8BD1DBAD5EE8"
-				title: "Occultism Epic Loot Chest"
+				title: "史诗神秘学战利品箱"
 				type: "command"
 			}]
-			subtitle: "I Better Be Gettin' Overtime For This..."
+			subtitle: "我最好为此加班……"
 			tasks: [{
 				advancement: "occultism:occultism/summon_djinni_manage_machine"
 				criterion: ""
 				id: "037CEDAB050E3E9E"
 				type: "advancement"
 			}]
-			title: "Summon Djinni Machine Operator"
+			title: "召唤巨灵机器操作员"
 			x: 9.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1A8FB7EB02DAD9C9"]
 			description: [
-				"Some Familiars lend themselves more to combat situations than others. For those that grant simple bonuses, it is sometimes preferred to keep them in a ring where they can safely provide their bonus without the risk of catching a stray arrow. "
+				"有些使魔比其他的使魔更加适合作战。对那些给予简单增益的使魔来说，有时最好将它们关在使魔之戒中，在那里它们可以安全的提供增益，不会有被流矢射中的风险。"
 				""
-				"Right-Click any Familiar to store it in the ring. Wearing it will grant any passive bonuses imparted by the Familiar."
+				"右击任意使魔将其存放在戒指中。穿戴该戒指将获得使魔提供的任何被动增益。"
 				""
-				"The ring is also useful for trading Familiars with other practitioners, as the Familiar will view whoever releases them from the ring as their new companion."
+				"该戒指也可以用于和其他神秘学法师交易使魔，因为使魔会将从戒指中释放它们的人视为它们的新伙伴。"
+				""
+				"译者注：副标题中的歌词出自碧昂丝演唱的歌曲《Single Ladies》。"
 			]
 			hide_dependency_lines: true
 			id: "117C9E6DFD48A647"
@@ -939,10 +957,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "14EB8F295FF2B7BB"
-				title: "Occultism Epic Loot Box"
+				title: "史诗神秘学战利品箱"
 				type: "command"
 			}]
-			subtitle: "Shoulda put a ring on it"
+			subtitle: "应该给我戴上戒指"
 			tasks: [{
 				id: "312AA4958730FD05"
 				item: {
@@ -963,11 +981,13 @@
 		{
 			dependencies: ["79FA215631E6AB09"]
 			description: [
-				"The Foliot Janitor pairs nicely with Crusher Spirits, or anything else that likes to dump things all over the ground. It will quickly retrieve items and deposit them into a specified inventory or Stable Wormhole."
+				"魔精清洁工和碎矿者魔灵，或任何其他会把物品倒得满地都是的东西相性极佳。它会迅速拾取物品并将它们存放到指定的容器或稳定虫洞中。"
 				""
-				"Use the Book of Calling that comes with the Spirit to set its Work Area and where to Deposit. Sneak Right-Click the book on a Spirit to bind them. The Book of Calling may also be used to transport the Spirit."
+				"使用魔灵附带的召唤之书来设置其工作区域和存放地点。手持召唤之书潜行右击魔灵来将两者绑定。召唤之书也可以用来运送魔灵。"
 				""
-				"Sneak Right-Click the Spirit to access a GUI where filters may be set. "
+				"潜行右击魔灵来访问设置过滤器的界面。"
+				""
+				"译者注：副标题中的句子出自美国喜剧动画片《飞出个未来》中的第九季第七集。"
 			]
 			hide_dependency_lines: true
 			icon: "occultism:brush"
@@ -979,14 +999,14 @@
 				title: "农夫乐事包"
 				type: "command"
 			}]
-			subtitle: "My job. Toilets 'n boilers, boilers 'n toilets. Plus that one boilin' toilet. Fire me if'n you dare."
+			subtitle: "我的工作。厕所和锅炉，锅炉和厕所。还有那个热腾腾的厕所。如果你敢，就解雇我。"
 			tasks: [{
 				advancement: "occultism:occultism/summon_foliot_cleaner"
 				criterion: ""
 				id: "6E9141A6979B6E0A"
 				type: "advancement"
 			}]
-			title: "Summon Foliot Janitor"
+			title: "召唤魔精清洁工"
 			x: 7.0d
 			y: 3.5d
 		}
@@ -994,34 +1014,33 @@
 			dependencies: ["1A8FB7EB02DAD9C9"]
 			dependency_requirement: "one_completed"
 			description: [
-				"By sacrificing a life to the Otherworld, some truly magnificent friends may be called forth, granting permanent boons or even fighting alongside their master until their corporeal form can no longer maintain itself and the Spirit slips back to the Other Place. "
+				"通过向异界牺牲生命，可以召唤出一些非常棒的伙伴，它们可以给予永久的增益，甚至与它们的主人并肩作战，直到无法维持自身形态，其中的魔灵回到异界。"
 				""
-				"Though not exhaustive, the list below highlights some of the benefits to be had by befriending the Spirits. More than one may be called forth at a time. "
+				"虽然不是详尽无遗，但下面的列表强调了一些与魔灵成为伙伴的好处。一次可以召唤多个魔灵。"
 				""
-				"For full details on these and other Familiars, refer to the Dictionary of Spirits under Familiar Rituals."
+				"有关这些和其他使魔仪式的详细信息，请参阅《魔灵全典》下的使魔仪式。"
 				""
-				"Combat"
-				"● Mummy – Fights for you."
-				"● Beholder – Shoots magical beams."
+				"战斗"
+				"● 木乃伊——为你而战。"
+				"● 眼魔——发射魔法激光。"
 				""
-				"Utility"
-				"● Guardian – A walking Totem of Undying."
-				"● Greedy – Collects items like a magnet."
-				"● Beaver – Helps break wood faster."
+				"功能"
+				"● 守护者——行走的不死图腾。"
+				"● 贪婪——像磁铁一样收集物品。"
+				"● 河狸——帮助更快的破坏木头。"
 				""
-				"Buffs"
-				"● Drikwing – Grants multi jump, jump boost, and slow fall."
-				"● Dragon – Increases XP gains."
-				"● Bat – Grants Night Vision."
-				"● Cthulhu – Grants Water Breathing."
-				"● Deer – Grants Jump Boost."
-				"● Devil – Grants Fire Resistance."
+				"增益"
+				"● 具翼——获得多段跳、跳跃提升和缓降效果。"
+				"● 龙——增加经验获取。"
+				"● 蝙蝠——获得夜视效果。"
+				"● 克苏鲁——获得水下呼吸效果。"
+				"● 小鹿——获得跳跃提升效果。"
+				"● 恶魔——获得抗火效果。"
 				""
-				"Other"
-				"● Blacksmith – Repairs equipment and applies upgrades to "
-				"  other familiars, enhancing them in a multitude of ways. "
+				"其他"
+				"● 铁匠——修复装备和将升级应用于其他使魔，以多种方式强化它们。"
 				""
-				"Note: Familiars are protected from friendly fire, and as such it is generally safe to fight near them."
+				"注：使魔免受友方伤害，因此在它们附近战斗通常是安全的。"
 			]
 			hide_dependency_lines: true
 			icon: "occultism:ritual_dummy/custom_ritual"
@@ -1031,7 +1050,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/occultism/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "1A015AA19FC395D2"
-				title: "Occultism Epic Loot Chest"
+				title: "史诗神秘学战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1040,13 +1059,13 @@
 				id: "5F5C381C9D83480E"
 				type: "advancement"
 			}]
-			title: "Familiars"
+			title: "使魔"
 			x: 18.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5D872437E8DA574B"]
-			description: ["For a creature that spends most of its time wailing, Ghast Tears are seemingly in short supply. With the assistance of the Otherworld, however, a perfectly teary eyed Ghast may be brought forth."]
+			description: ["对于一个大部分时间都在哭泣的生物来说，恶魂之泪似乎供不应求。然而，在异界的帮助下，一个泪流满面的恶魂能够被召唤出来。"]
 			hide_dependency_lines: true
 			icon: "minecraft:ghast_tear"
 			id: "05DE3EB419143626"
@@ -1054,23 +1073,23 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
 				icon: "kubejs:alchemists_delight"
 				id: "030D9B9A9ED78D12"
-				title: "Alchemist's Delight"
+				title: "炼金术士乐事包"
 				type: "command"
 			}]
-			subtitle: "The Great Ghastly"
+			subtitle: "了不起的恶魂"
 			tasks: [{
 				advancement: "occultism:occultism/possess_ghast"
 				criterion: ""
 				id: "29BD5D2D2907AE91"
 				type: "advancement"
 			}]
-			title: "Ghast Tears"
+			title: "恶魂之泪"
 			x: 12.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["53F52A1385C25A50"]
-			description: ["From material processing and automated mining to celestial manipulation, Occultism has a great deal of utility to provide. Explore some of the options in the following quests. "]
+			description: ["从材料加工、自动化采矿到天体操纵，神秘学提供了很多实用装置。在后续任务中的探索一些可选项。"]
 			hide_dependency_lines: true
 			icon: "occultism:spirit_lantern"
 			id: "1A8FB7EB02DAD9C9"
@@ -1087,13 +1106,13 @@
 				item: "occultism:otherstone"
 				type: "item"
 			}]
-			title: "Tools and Utility"
+			title: "工具和道具"
 			x: 18.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["53F52A1385C25A50"]
-			description: ["Occultism has a lot to offer in terms of storage and item logistics. The following quests will cover a few of the more notable features."]
+			description: ["神秘学在储存和物品物流方面提供了很多物品。后续任务将涵盖一些更值得一提的功能。"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -1116,10 +1135,10 @@
 				item: "occultism:otherstone"
 				type: "item"
 			}]
-			title: "Storage and Logistics"
+			title: "存储和物流"
 			x: 8.5d
 			y: 1.0d
 		}
 	]
-	title: "Occultism"
+	title: "神秘学"
 }
