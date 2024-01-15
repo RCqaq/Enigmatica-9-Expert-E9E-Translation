@@ -11,9 +11,9 @@
 		{
 			dependencies: ["2CCCDD05AED3153F"]
 			description: [
-				"PneumaticCraft: Repressurized is all about logistics, automation, and generally blowing things up for profit. Mastering pressurized air and heat will be the beginning of your journey. "
+				"气动工艺：再加压是关于物流、自动化，以及为了获得产物炸毁东西的模组。掌握加压空气和热量是你旅程的开始。"
 				""
-				"These quests will guide you through the mod, but be sure to refer back to the manual regularly for extra information. Chapters will unlock as you complete these quests and their associated achievements. "
+				"这些任务会指引你在该模组中取得进展，但务必时常查阅手册以获取额外的信息。当你完成这些任务及其相关成就时，书中的章节就会解锁。"
 			]
 			hide: true
 			icon: "pneumaticcraft:ingot_iron_compressed"
@@ -27,7 +27,7 @@
 						"pneumaticcraft:air": 30000
 					}
 				}
-				title: "Pneumatic Wrench"
+				title: "气动扳手"
 				type: "item"
 			}]
 			shape: "gear"
@@ -41,7 +41,7 @@
 						value: "forge:raw_materials"
 					}
 				}
-				title: "PneumaticCraft: Repressurized"
+				title: "气动工艺：再加压"
 				type: "item"
 			}]
 			x: -16.0d
@@ -50,19 +50,19 @@
 		{
 			dependencies: ["3BDD27D9FDC82E36"]
 			description: [
-				"Central to any Pressure Mechanic’s workshop is the Pressure Chamber, which serves as both a functional machine for crafting and a battery of Air to even out usage spikes in a system. It is built as a hollow cube, either 3x3x3, 4x4x4, or 5x5x5. Starting with a small chamber is recommended as larger ones will take far longer to fill at the start."
+				"任何压力技工工坊的核心都是压力室，它既是一台功能性的合成机器，也是一个用于平衡系统中的使用峰值的空气电池。它是一个中空的立方体，大小可以为3x3x3、4x4x4或5x5x5。建议从一个小型的压力室开始，因为较大的压力室在开始合成前需要长得多的时间来进行填充。"
 				""
-				"Pressurized Air will be input through the Valve, while items for crafting will be input through an Interface. Items may not be inserted into the Interface manually. Instead, they’ll be input via hopper or pipe. An amount of Air is used for each item transferred, meaning a stack will require 64x more air to transfer. If an item stack doesn’t want to transfer in, consider adding more Volume Upgrades."
+				"压缩空气会从气阀中输入压力室，而用于合成的物品则会从接口处输入。物品不可以被手动放进接口里。相反，它们需要通过漏斗或管道输入进去。每传输一个物品就需要消耗一定量的空气，意味着一组物品需要六十四倍的空气才能够传输。如果有一组物品无法传输进去，可以考虑添加更多的容积升级。"
 				""
 				"================================================================="
 				""
-				"Pressurized Air generally works in similar ways to real life, with Air wanting to flow from high to low pressure to form an equilibrium. This means that Air can flow both ways on a tube network, and the total air in a system is available for use by everything that’s connected. Of course, if one machine is draining all the Air, that may mean others won’t have enough to run. "
+				"压缩空气基本上与现实生活的性质相似，空气会从高压流到低压以形成平衡。这意味着空气可以在管道网络中双向流动，系统中的所有空气可供所有连接的设备使用。当然，如果一台机器吸走了所有的空气，那可能意味着其他机器将没有足够的空气运行。"
 				""
-				"Air using recipes will show the minimum Pressure they need to run. This is measured in bar. This will be displayed as a green zone on the pressure display in the recipe. Having pressure anywhere in this range is acceptable. "
+				"使用空气的配方将显示运行所需的最小压力。压力以bar为单位测量。它在配方中的压力显示表中显示为绿色区域，在这个范围内的压力是配方可以接受的。"
 				""
-				"The more volume a system has, the more Air is required to reach the same pressure. Adding Volume Upgrades to machines, or simply including more machines on a line, will raise total Air a system may hold. This may temporarily lower pressure, at least until a compressor can fill it back up. "
+				"系统的容积越大，达到相同压力所需的空气就越多。向机器添加容积升级，或者简单地在一条线上添加更多的机器，将提高系统可以容纳的总空气量。这可能会暂时降低压力，至少在压缩机能够将其充满之前是这样。"
 				""
-				"Note: Care must be taken when building a Pressure Chamber and the entire structure should avoid crossing chunk boundaries. F3+G will display chunk boundaries."
+				"注：建造压力室请小心谨慎，尽量使其结构在同一个区块内。F3+G可以显示区块边界。"
 			]
 			icon: "pneumaticcraft:pressure_chamber_wall"
 			id: "2BCEA81413D908E4"
@@ -71,7 +71,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "7364D55166238332"
-				title: "Rare PNC:R Loot Box"
+				title: "稀有气动工艺战利品箱"
 				type: "command"
 			}]
 			tasks: [
@@ -93,18 +93,21 @@
 					type: "item"
 				}
 			]
-			title: "Pressure Chamber"
+			title: "压力室"
 			x: -21.5d
 			y: -13.0d
 		}
 		{
 			dependencies: ["6E942B6AC4460725"]
 			description: [
-				"While it won’t have you being visited by danger noodles from space or irradiating the countryside for the next millennium, Pressurized Air can be dangerous in its own right as going over pressure can cause that block to burst and be lost."
+				"虽然它不会让你被危险的太空“面条”拜访，也不会在下十个世纪里辐射郊野，但压缩空气本身就很危险，超过压力限度的方块会爆炸并消失。"
 				""
-				"A simple Redstone cut-off can be built to control Air Compressors, and doing so will not only prevent accidental explosions, but it also helps with fuel efficiency. "
+				"你可以建造一个简单的红石断路器来控制空气压缩机，这样做不仅可以防止意外爆炸，还有助于提高燃料效率。"
 				""
-				"Place a Pressure Gauge Tube Module on the first Pressure Tube out of the compressor, then run a loop of exactly nine Redstone Dust back to a repeater pointing into the Compressor itself. Finally, set the Compressor to run on Low Signal in its Redstone Behaviour panel. The end result is a Compressor that will turn off at about 4.5 bar. "
+				"将一个压力表管道模块放置与压缩机相连的第一个压力管道上，然后将正好九个红石粉放置成环并与指向压缩机的中继器相连。最后，在其红石行为面板中将压缩器设置为在低红石信号下运行。最终结果是压缩机将在大约4.5bar时关闭。"
+				""
+				"译者注：副标题《压力之下》（Under Pressure）是一首Queen和David Bowie"
+				"共同创作并演唱的歌曲。"
 			]
 			hide_dependency_lines: true
 			icon: "pneumaticcraft:flux_compressor"
@@ -115,18 +118,18 @@
 					count: 9
 					id: "2CF05CB4198898DA"
 					item: "minecraft:redstone"
-					title: "Redstone Dust"
+					title: "红石粉"
 					type: "item"
 				}
 				{
 					id: "3F1E0BD337B23FF2"
 					item: "minecraft:repeater"
-					title: "Redstone Repeater"
+					title: "红石中继器"
 					type: "item"
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Under Pressure"
+			subtitle: "压力之下"
 			tasks: [
 				{
 					id: "322423F415E284D8"
@@ -136,7 +139,7 @@
 				{
 					id: "457687F0BC37E9EA"
 					item: "pneumaticcraft:flux_compressor"
-					title: "Air Compressors"
+					title: "空气压缩机"
 					type: "item"
 				}
 				{
@@ -146,44 +149,44 @@
 					type: "item"
 				}
 			]
-			title: "Getting Started: Pressure Management"
+			title: "入门：压力管理"
 			x: -21.5d
 			y: -14.0d
 		}
 		{
 			dependencies: ["2BCEA81413D908E4"]
 			description: [
-				"Even the best laid plans can be brought to ruin by unexpected events. Install security upgrades in machines to prevent rapid unscheduled disassembly."
+				"即使是最周密的计划也可能因意外事件而付诸东流。在你的压缩机和压力室中安装安全升级，以防止猝不及防的意外爆炸。"
 				""
-				"It should be stressed that Security Upgrades should be treated as backup security. A properly Redstone controlled Compressor should be the number one priority."
+				"应当强调的是，安全升级应被视为备用安全措施。正确地用红石控制压缩机应是首要任务。"
 				""
-				"Note: Sneak + Right-Click any PNC:R block with a Pneumatic Wrench to instantly pick it up while retaining the stored air and upgrades. This also works on Pressure Chamber Valves."
+				"注：用气动扳手潜行+右击任意气动工艺的方块会立即捡起该方块，并保留该方块存储的空气和升级。这对压力室气阀同样有效。"
 			]
 			id: "21E80B4F1712E3FF"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "6E8BDFC4506F6E33"
-				title: "Rare PNC:R Loot Box"
+				title: "稀有气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "Cautiously Optimistic"
+			subtitle: "谨慎的乐观"
 			tasks: [{
 				count: 2L
 				id: "1177F882F4EC6D68"
 				item: "pneumaticcraft:security_upgrade"
 				type: "item"
 			}]
-			title: "Security Upgrades"
+			title: "安全升级"
 			x: -21.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["32D56D0E1A7E8DAC"]
 			description: [
-				"Despite its name, the Kerosene Lamp can use all the same fuels as the Liquid Compressor, lighting up an area up to 30 blocks in radius. "
+				"虽然它的名字叫煤油灯，但它能够使用所有液体压缩机可使用的燃料，并且能够照亮半径为30格的区域。"
 				""
-				"Perfect for keeping the terrors at bay. "
+				"非常适合用来驱散恐惧。"
 			]
 			hide_dependency_lines: true
 			id: "64B5744F479C4279"
@@ -203,10 +206,10 @@
 						}
 					}
 				}
-				title: "Medium Fluid Tank"
+				title: "中型流体储罐"
 				type: "item"
 			}]
-			subtitle: "The Night is Dark..."
+			subtitle: "长夜黑暗……"
 			tasks: [{
 				id: "0372C21229B0B51F"
 				item: "pneumaticcraft:kerosene_lamp"
@@ -218,17 +221,17 @@
 		{
 			dependencies: ["011EE483D38C9C23"]
 			description: [
-				"Built on the principle of swirling high-pressure air in a special chamber to create a temperature differential, the Vortex Tube allows fine control of heating or cooling simply by adjusting the pressure running into it."
+				"涡流管的原理是在一个特殊的腔室中旋转高压空气以产生温差，从而能够通过控制涡流管中空气的压力来精确调节高温或低温。"
 				""
-				"The Vortex Tube has a hot and cold side which are thermally bound. How hot the hot side gets depends on the temperature of the cold side and vice versa. For example, placing a heat sink on the cold side allows the cold to dissipate into the air faster, raising the temperature of the cold side and hot side alike. "
+				"涡流管有一侧热面和一侧冷面，它们是热力相关的。热面的温度取决于冷面的温度，反之亦然。例如，在冷面放置散热片可以使低温更快地消散到空气中，从而提高冷面和热面的温度。"
 				""
-				"The Vortex Tube isn’t the only way to generate Heat, however. Looking up uses on Heat Pipes in JEI will bring up a variety of blocks and liquids that may be used for heating and cooling as well. "
+				"然而，涡流管并不是产生热量的唯一方法。在JEI中查找热管的用途，会发现有许多方块和液体也可用于加热或冷却。"
 				""
-				"Lastly, PNC:R has built in support for Mekanism’s Heat system and compatibility with Immersive Engineering. Some notable heat sources include:"
+				"最后，气动工艺内置了对通用机械热力系统的支持，并与沉浸工程兼容。一些值得注意的热源包括："
 				""
-				"● External Heater"
-				"● Resistive Heater"
-				"● Fuelwood Heater"
+				"● 外置加热器"
+				"● 电阻型加热器"
+				"● 固体燃料加热器"
 			]
 			id: "52165EC21DD8ABFB"
 			min_width: 250
@@ -236,10 +239,10 @@
 				count: 3
 				id: "4CF7E22863B404CF"
 				item: "pneumaticcraft:heat_sink"
-				title: "Heat Sink"
+				title: "散热片"
 				type: "item"
 			}]
-			subtitle: "Whirling Dervishes"
+			subtitle: "旋转舞僧"
 			tasks: [{
 				id: "6C43F51641A8BB70"
 				item: "pneumaticcraft:vortex_tube"
@@ -251,13 +254,15 @@
 		{
 			dependencies: ["6E942B6AC4460725"]
 			description: [
-				"While secondary to Pressure, Heat management is an important part of working with PNC:R machines. Some will need to be kept above certain temperatures, while others will need to be kept cool to operate properly. "
+				"热量管理是使用气动工艺机器重要的一部分，仅次于压力。一些机器需要保持在特定温度以上，而另一些则需要保持低温才能正常工作。"
 				""
-				"Heat, like pressure, will attempt to equalize across a system, spreading out across any heat sensitive machines and even dispersing into the air. Using Heat Pipe allows the Heat to be moved from one place to another without loss to the environment. "
+				"热量，和压力一样，会试图在整个系统中取得平衡，扩散到任何热敏的机器中，甚至散发到空气中。使用热管可以将热量从一个地方移动到另一个地方，而不会损失热量到环境中去。"
 				""
-				"In instances where attaining very high or low temperatures is required, some form of insulation will be needed. "
+				"在需要达到非常高或非常低的温度的情况下，你将需要某种形式的绝缘。"
 				""
-				"Insulation takes many forms. Most any block that isn’t heat sensitive counts; trap doors, pipes and glass, may all be used. Thermal Lagging, however, tends to be ideal as it still allows Right-Click access to the machine it is install upon."
+				"绝缘有多种形式。大多数非热敏的方块都很重要；活板门、管道和玻璃都可以使用。然而，隔热板往往是合适的，因为在机器安装隔热板后仍可以通过右击访问该机器。"
+				""
+				"译者注：副标题中的歌词出自电影《冰雪奇缘》的主题曲《Let It Go》。"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:blue_ice"
@@ -266,11 +271,11 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "29CC4AE5D8D278BA"
-				title: "Epic PNC:R Loot Box"
+				title: "史诗气动工艺战利品箱"
 				type: "command"
 			}]
 			shape: "hexagon"
-			subtitle: "The Cold Never Bothered Me Anyway"
+			subtitle: "严寒再也无法干扰我"
 			tasks: [
 				{
 					count: 6L
@@ -285,20 +290,20 @@
 					type: "item"
 				}
 			]
-			title: "Getting Started: Heat Management"
+			title: "入门：热量管理"
 			x: -10.5d
 			y: -14.0d
 		}
 		{
 			dependencies: ["52165EC21DD8ABFB"]
 			description: [
-				"It’s worth noting that Vortex Tube uses a lot of Air and does not respond directly to Redstone control. In order to turn it off, the air supply must be cut. A Regulator Tube Module can do exactly that."
+				"值得注意的是，涡流管会使用大量的空气，而且不会对红石控制做出直接反应。为了关闭它，必须切断空气供应。调节器管道模块可以做到这一点。"
 				""
-				"By placing it in line with a Pressure Tube and applying a Redstone signal to it, the amount of pressure it will allow through will be reduced. A full signal of 15 will completely disable the flow of Air, turning off any machines down the line. "
+				"把它放置在你的压力管道上，并向它施加红石信号，其允许通过的压力量就会减少。15强度的满强度红石信号将完全阻止空气流动，从而关闭这条管道后的所有机器。"
 				""
-				"Regulators are also perfect for stepping down from high to low pressure, and automatically regulate to 4.9 bar without any extra effort. This tends to simplify pressure tube management as high pressure can be run everywhere and then stepped down to run low pressure machines where needed."
+				"调节器也非常适合用于高压降低压，并自动将压力调节到4.9bar，且无需做任何额外的努力。这往往会简化压力管道的管理，因为这样可以将高压传输至任何地方，然后在需要的地方降压以运行低压机器。"
 				""
-				"Note: When it comes to placement, the small end is the ‘regulated’ end. As with any tube module, a Right-Click will place it pointing away from the side it was clicked on. Sneak + Right-Click will place it on the opposite side of the tube. "
+				"注：关于放置的问题，小端是“受调节”的一端。与任何管道模块一样，右击会将其放置在离右击点更远一侧的位置。潜行+右击会将其放置在管道的另一面。"
 			]
 			id: "6A0D0EE149F91408"
 			min_width: 300
@@ -306,7 +311,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "42EDFE52FEF7D948"
-				title: "Rare PNC:R Loot Box"
+				title: "稀有气动工艺战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -320,19 +325,19 @@
 		{
 			dependencies: ["011EE483D38C9C23"]
 			description: [
-				"The Heat Frame is placed on any inventory and allows the inventory to make use of heat or cold to perform crafting operations. When heated, it smelts items as a furnace would. When cooled, it can make a variety of useful items."
+				"导热框架可以放置在任何容器上，并使容器可以利用高温或低温进行合成操作。当其被加热时，容器可以像熔炉一样熔炼物品。被冷却时，容器则可以制造出各种有用的物品。"
 				""
-				"In order to cool liquids, fill a PNC:R tank or a bucket and place it inside the inventory. The cooled items will appear in the chest if there's room."
+				"要想冷却液体，需要将一个气动工艺的储罐或一个桶装满，并放在容器内。只要容器有足够的空间，被冷却的物品就会出现在其中。"
 			]
 			hide_dependency_lines: true
 			id: "47AFE9BB5B8C4655"
 			rewards: [{
 				id: "0952FFF35BFD54EE"
 				item: "pneumaticcraft:reinforced_chest"
-				title: "Reinforced Chest"
+				title: "强化箱子"
 				type: "item"
 			}]
-			subtitle: "Freeze Frame"
+			subtitle: "冻结帧"
 			tasks: [{
 				id: "598785CD3F83C151"
 				item: "pneumaticcraft:heat_frame"
@@ -344,9 +349,9 @@
 		{
 			dependencies: ["32D56D0E1A7E8DAC"]
 			description: [
-				"The Universal Sensor is a powerful block that will output a redstone signal based on various conditions, such as detecting a nearby player, when a player Right-Clicks a block, the presence of blocks, light level, or even the current heat of a block."
+				"万能传感器是一个强大的方块，它会基于各种条件输出红石信号，如检测附近的玩家、玩家右击方块时、某方块是否存在、光照等级，甚至某方块当前的热量。"
 				""
-				"When reading heat, try aiming it at a heat pipe or a PNC:R machine, rather than at an inventory with a heat frame."
+				"当读取热量时，请试着将其对准热管或气动工艺的机器，而不是对准带有导热框架的容器。"
 			]
 			hide_dependency_lines: true
 			id: "7798C42F46156ECE"
@@ -354,17 +359,17 @@
 				{
 					id: "4225A74DA201F312"
 					item: "pneumaticcraft:block_tracker_upgrade"
-					title: "Block Tracker Upgrade"
+					title: "方块追踪升级"
 					type: "item"
 				}
 				{
 					id: "2345C95FB18383C8"
 					item: "pneumaticcraft:gps_tool"
-					title: "GPS Tool"
+					title: "定位工具"
 					type: "item"
 				}
 			]
-			subtitle: "Under the Radar"
+			subtitle: "藏踪匿迹"
 			tasks: [{
 				id: "6EFE971150331862"
 				item: "pneumaticcraft:universal_sensor"
@@ -376,9 +381,9 @@
 		{
 			dependencies: ["3BDD27D9FDC82E36"]
 			description: [
-				"The Gas Lift can be used to pump up fluids from the world. And when used to pump a 3x3 area of water, will treat that as an infinite source. "
+				"气举可以用来从世界中泵出流体。并且当其用于泵取3x3面积的水时，它会将其当作无限水源。"
 				""
-				"Place it above a source block of any fluid, insert drill pipes, and provide air. The pipes will extend down to a source, breaking blocks in the way if necessary, and will attempt to pull all nearby connected source blocks."
+				"把它放在任何流体方块的上方，插入钻杆，并提供空气。管道将向下延伸直至遇见流体方块，必要时会破坏途中的方块，然后气举将尝试抽起附近所有与其相连的流体方块。"
 			]
 			hide_dependency_lines: true
 			icon: "pneumaticcraft:gas_lift"
@@ -389,7 +394,7 @@
 				item: "pneumaticcraft:volume_upgrade"
 				type: "item"
 			}]
-			subtitle: "Hands Off!"
+			subtitle: "请勿触摸！"
 			tasks: [
 				{
 					id: "278BF9D026EEEC6D"
@@ -409,9 +414,9 @@
 		{
 			dependencies: ["011EE483D38C9C23"]
 			description: [
-				"The Refinery functions purely on Heat and is built by placing the Controller and stacking two to four outputs on top of it. Be sure to insulate all the sides to prevent heat loss, as it needs to be very hot to operate. "
+				"精炼厂完全依靠热量运行，它可以通过放置控制器并将两到四个输出端堆叠在其顶部来建造。请确保其所有的面都进行了隔热以防止热量损失，因为它需要极高温才能运行。"
 				""
-				"Note: A Comparator reading from the Controller will output a signal whenever the Refinery can do work, meaning it has a valid input and has room for the outputs, making it an excellent way of controlling a Vortex Tube efficiently."
+				"注：每当精炼厂可以工作时，读取控制器的比较器就会输出红石信号，该信号意味着它的输入是有效的，并且有输出空间，这是一种很好的有效控制涡流管的方式。"
 			]
 			hide_dependency_lines: true
 			icon: "pneumaticcraft:refinery_output"
@@ -420,10 +425,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "2120D4C24F7F303D"
-				title: "Rare PNC:R Loot Box"
+				title: "稀有气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "Refined Company"
+			subtitle: "高精尖公司"
 			tasks: [
 				{
 					id: "1337A526608EDFB0"
@@ -437,18 +442,18 @@
 					type: "item"
 				}
 			]
-			title: "Oil Refinery"
+			title: "石油精炼"
 			x: -10.5d
 			y: -11.0d
 		}
 		{
 			dependencies: ["011EE483D38C9C23"]
 			description: [
-				"TPP for short, this machine uses a combination of heat and pressure to transform solids and liquids. It has even found use in the kitchen in recent years. "
+				"这台机器的简称叫TTP，它利用热量和压力的组合来转化固体和液体。近年来，它甚至在厨房里有了用武之地。"
 				""
-				"Placing the machines in a row allows them to share both heat and pressure through their sides."
+				"把机器放成一排，使它们能够通过侧面共享热量和压力。"
 				""
-				"Some recipes will require very precise control of heat, for example, being between 30° and 60°. This can be accomplished by regulating the air going into a Vortex Tube by making use of a Universal Sensor to disable the air flow when the block reaches a certain temperature. "
+				"有些配方需要非常精确地控制热量，例如，需要温度在30℃到60℃之间。这可以通过使用万能传感器来调节进入涡流管的空气来实现，当方块达到一定温度时，就禁止气流通过。"
 			]
 			hide_dependency_lines: true
 			id: "341CD0E12D534A44"
@@ -457,37 +462,37 @@
 					count: 16
 					id: "27115E85D1071701"
 					item: "pneumaticcraft:cod_n_chips"
-					title: "Cod n Chips"
+					title: "鳕鱼和薯条"
 					type: "item"
 				}
 				{
 					count: 4
 					id: "29296A9922AAC24F"
 					item: "pneumaticcraft:dispenser_upgrade"
-					title: "Dispenser Upgrade"
+					title: "发射器升级"
 					type: "item"
 				}
 			]
-			subtitle: "Thermo-new-what-now?"
+			subtitle: "热奇东，什么来着？"
 			tasks: [{
 				id: "28A39770D414504E"
 				item: "pneumaticcraft:thermopneumatic_processing_plant"
 				type: "item"
 			}]
-			title: "Thermopneumatic Processing"
+			title: "热气动加工"
 			x: -11.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["7F36F40E0465B923"]
 			description: [
-				"Logistics Frames and Modules are the primary tools used in a Logistics network. They allow for the movement of both Items and Fluids over the same tube network at the same time."
+				"物流框架和模块是物流网络中使用的主要工具。它们可以同时在同一管道网络中移动物品和流体。"
 				""
-				"The Frames themselves dictate the actions to be taken and are where filters may be set. For instance, a Requester Frame attached to a Furnace might pull Coal from an inventory with a Storage Frame attached."
+				"框架规定了要采取的行动，并且可以在它那里进行过滤器设置。例如，连接到熔炉的请求框架可以从连接了存储框架的容器中提取煤炭。"
 				""
-				"Frames can be installed on any inventory and configured with a Logistical Configurator. For larger setups, a full stack of frames may be configured in advance by Right-Clicking them in the air. Any filters set will apply to the full stack."
+				"物流框架可以安装在任何容器上，并可以通过物流配置器对其进行配置。对于规模较大的设置，你可以通过手持一组框架右击空气来提前配置它们。任何过滤器设置都会应用于整组框架。"
 				""
-				"Modules must be installed on a pressure tube pointing into the Frame. A small amount of Air is used for every operation, and a minimum of 3 bar is required to function at all. These Modules also have a color-coded channel, allowing for very complex systems over the same tube network. "
+				"模块必须安装在指向框架的压力管道上。每次操作都会使用少量的空气，并且至少需要3bar才能正常工作。这些模块还有一个彩色编码的通道，这使得你可以在同一管道网络中使用非常复杂的系统。"
 			]
 			id: "6F9B23BB2F05C9CF"
 			min_width: 300
@@ -496,28 +501,28 @@
 					count: 8
 					id: "0971F4B903BC0755"
 					item: "pneumaticcraft:logistics_frame_requester"
-					title: "Logistic Requester Frame"
+					title: "物流请求框架"
 					type: "item"
 				}
 				{
 					count: 8
 					id: "5B69B45A7A2CEB1C"
 					item: "pneumaticcraft:logistics_frame_passive_provider"
-					title: "Logistic Passive Provider Frame"
+					title: "物流被动供应框架"
 					type: "item"
 				}
 				{
 					count: 8
 					id: "3D2E76A2F71FD9F3"
 					item: "pneumaticcraft:logistics_frame_storage"
-					title: "Logistic Storage Frame"
+					title: "物流存储框架"
 					type: "item"
 				}
 				{
 					count: 8
 					id: "405F63DF3A2DA57F"
 					item: "pneumaticcraft:logistics_frame_active_provider"
-					title: "Logistic Active Provider Frame"
+					title: "物流主动供应框架"
 					type: "item"
 				}
 				{
@@ -532,30 +537,35 @@
 					type: "item"
 				}
 			]
-			subtitle: "Framing Your Request"
+			subtitle: "框定你的请求"
 			tasks: [{
 				count: 8L
 				id: "05D615B75A5D5E7E"
 				item: "pneumaticcraft:logistics_module"
 				type: "item"
 			}]
-			title: "Logistics"
+			title: "物流"
 			x: -17.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["7F36F40E0465B923"]
-			description: ["A blast resistant chest that retains its contents when broken."]
+			description: [
+				"一个防爆的箱子，被破坏后能保留里面的东西。"
+				""
+				"译者注：副标题中的歌词出自Eric Church演唱的歌"
+				"曲《Can T Take It With You》。"
+			]
 			hide_dependency_lines: true
 			id: "78AA867A347E4A37"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "620CA924053FE1B1"
-				title: "Rare PNC:R Loot Box"
+				title: "稀有气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "Who Says You Can't Take It With You?"
+			subtitle: "谁说你不能带走它？"
 			tasks: [{
 				id: "39F7DFB8722C0D56"
 				item: "pneumaticcraft:reinforced_chest"
@@ -566,7 +576,7 @@
 		}
 		{
 			dependencies: ["7F36F40E0465B923"]
-			description: ["An advanced version of the Reinforced Chest featuring a larger inventory, per slot item type and quantity filtering, ranged item collection, and the ability to push and pull items to and from nearby inventories."]
+			description: ["强化箱子的高级版本，拥有更大的容量、每个栏位的物品都能单独过滤、可以自动收集一定范围内的物品、可以向周围的容器自动输出，也可以从周围的容器抽取物品至箱子中。"]
 			hide_dependency_lines: true
 			id: "31F1D77166705C31"
 			rewards: [
@@ -574,17 +584,17 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "3621E6BD54CDE738"
-					title: "Epic PNC:R Loot Box"
+					title: "史诗气动工艺战利品箱"
 					type: "command"
 				}
 				{
 					id: "7B999E99D0741012"
 					item: "pneumaticcraft:magnet_upgrade"
-					title: "Magnet Upgrade"
+					title: "磁铁升级"
 					type: "item"
 				}
 			]
-			subtitle: "Work Smarter, Not Harder"
+			subtitle: "巧工，而非苦工"
 			tasks: [{
 				id: "559FDDE96388DC40"
 				item: "pneumaticcraft:smart_chest"
@@ -595,7 +605,7 @@
 		}
 		{
 			dependencies: ["7F36F40E0465B923"]
-			description: ["Filterable and fast, PNC:R Hoppers can be oriented however you like and accept multiple useful upgrades. Check their GUI for more info."]
+			description: ["气动工艺的漏斗可过滤，且更快速，它可以指定任何想要的方向并能够接受多种有用的升级。检查其界面以获取更多信息。"]
 			hide_dependency_lines: true
 			icon: "pneumaticcraft:omnidirectional_hopper"
 			id: "2B9F6B6CA560D326"
@@ -606,7 +616,7 @@
 				title: "Speed Upgrade"
 				type: "item"
 			}]
-			subtitle: "Weird Flex, Bro"
+			subtitle: "这你也炫耀，老兄"
 			tasks: [
 				{
 					id: "008D9C03C28B8704"
@@ -619,13 +629,13 @@
 					type: "item"
 				}
 			]
-			title: "Hoppers"
+			title: "漏斗"
 			x: -15.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["6E942B6AC4460725"]
-			description: ["Automation is the heart and soul of PNC:R, and its Logistics, Redstone, and Programming capabilities make up the majority of what it can do."]
+			description: ["自动化是气动工艺的核心和灵魂，其物流、红石和编程能力占据了它大部分的内容。"]
 			hide_dependency_lines: true
 			icon: "pneumaticcraft:logistics_core"
 			id: "7F36F40E0465B923"
@@ -633,7 +643,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "4598DFE37D84B116"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -660,23 +670,23 @@
 						]
 					}
 				}
-				title: "Logistics and Programming"
+				title: "物流和编程"
 				type: "item"
 			}]
-			title: "Logistics and Programming"
+			title: "物流和编程"
 			x: -16.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["7F36F40E0465B923"]
 			description: [
-				"Redstone Modules are used to read and output Redstone signals by transmitting them over a pipe network. Each Module may be set to a color channel, allowing up to 16 different signals over the same tube network."
+				"红石模块用于读取红石信号并将其通过管道网络进行传输。红石模块可以设置颜色频道，使得同一个管道网络可以同时传输十六种不同的红石信号。"
 				""
-				"This requires no air and signals do not degrade over distance. "
+				"传输红石信号不需要空气，信号强度也不会随距离衰减。"
 				""
-				"Installing a Module Expansion card into a Module in Receiving mode, it may be set to behave exactly like a vanilla Comparator, getting a signal from blocks that emit special values for Comparators, like the Refinery."
+				"在模块设置成接收模式时对其安装模块拓展水晶，可以将模块的行为变得和原版比较器一样，使之能够从精炼厂一类的方块中读取特殊的比较器信号。"
 				""
-				"By installing such a card into a Module in Emitting mode, several features become available. For example, by making use of the color channels, it can function as an AND gate, OR gate, compare against another channel or against a constant value, and much more. By chaining them together, some truly compact Redstone logic can be made."
+				"在模块设置成输出模式时对其安装模块拓展水晶，可以获得若干新功能。比方说，通过使用颜色频道，它可以充当与门、或门和与常信号比较等等。将它们连接在一起，就可以制造出一些真正紧凑的红石逻辑装置。"
 			]
 			id: "33C871735DD99224"
 			min_width: 300
@@ -684,34 +694,35 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "5D3612DC6DF205A4"
-				title: "Rare PNC:R Loot Box"
+				title: "稀有气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "Redstone Evolution"
+			subtitle: "红石进化"
 			tasks: [{
 				count: 2L
 				id: "25B087926548F8F0"
 				item: "pneumaticcraft:redstone_module"
 				type: "item"
 			}]
-			title: "Redstone Modules"
+			title: "红石模块"
 			x: -14.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["33C871735DD99224"]
 			description: [
-				"Module Expansion Crystals are used to add extra functionality to various Tube Modules. Simply Right-Click it on any Tube Module to add new features"
+				"模块拓展水晶用于为各种管道模块添加额外的功能。只需手持它右击任意管道模块就可以添加新的功能。"
 				""
-				"● Regulator Tube Module: Precise control of regulated pressure."
+				"● 调节器管道模块：精确控制调节的压力。"
 				""
-				"● Pressure Gauge Tube Module: Precise control of the Redstone signal."
+				"● 压力表管道模块：精确控制红石信号。"
 				""
-				"● Air Grate Module: Adds a filter for what will be affected by it."
+				"● 空气栅管道模块：添加一个用于过滤受其影响实体的过滤器。"
 				""
-				"● Redstone Module: Adds a host of logic features such as AND and OR gates, clocks, Comparator functionality, and much more."
+				"● 红石模块：添加了大量逻辑功能，如AND和OR门、时钟、比较器功能，以"
+				"及更多。"
 				""
-				"For example, the Redstone control of a Compressor can be greatly compacted by applying a Module Expansion Card to the Pressure Gauge. Set this to output a signal only when the Gauge is below 4.9 bar (or 19.9 bar for advanced), then use a short section of Redstone modules to bring that signal directly to the Compressor. This eliminates the need for the long loop of Redstone suggested earlier."
+				"比方说，通过在压力表上应用模块拓展水晶，可以极大地简化压缩机的红石控制。将其设置为仅当压力表显示数值低于4.9bar（高级压力管道为19.9bar）时输出红石信号，然后使用一小段红石模块将该信号直接带到压缩机。这消除了之前所提到的红石长环的需要。"
 			]
 			id: "600E9DF5041FA21F"
 			min_width: 300
@@ -719,10 +730,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "5600DC7079A960F8"
-				title: "Legendary PNC:R Loot Box"
+				title: "传奇气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "Raspberry Pi"
+			subtitle: "树莓派"
 			tasks: [{
 				id: "5366CD0611A2224C"
 				item: "pneumaticcraft:module_expansion_card"
@@ -733,7 +744,7 @@
 		}
 		{
 			dependencies: ["7F36F40E0465B923"]
-			description: ["Logistics Drones are handy little helpers in places where you don’t want to run a full air infrastructure. Experiment with some logistics frames and deploy a logistics drone to move the items for you."]
+			description: ["在你不想运行整套空中基础设施的地方，物流无人机是方便的小帮手。使用一些物流框架进行实验，并部署一架物流无人机为你移动物品。"]
 			hide_dependency_lines: true
 			id: "2BF0EE004239C2AC"
 			rewards: [
@@ -741,7 +752,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "312B40790B0E6AE3"
-					title: "Epic PNC:R Loot Box"
+					title: "史诗气动工艺战利品箱"
 					type: "command"
 				}
 				{
@@ -751,7 +762,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Flying Circus"
+			subtitle: "飞行表演"
 			tasks: [{
 				id: "3B8551B48F0F93A4"
 				item: {
@@ -782,7 +793,7 @@
 						]
 					}
 				}
-				title: "Simple Drones"
+				title: "简易无人机"
 				type: "item"
 			}]
 			x: -16.0d
@@ -791,11 +802,11 @@
 		{
 			dependencies: ["2BCEA81413D908E4"]
 			description: [
-				"The Charging Station is the primary way of charging Pneumatic items such as the Pneumatic Wrench, Jackhammer or Armor. It serves double duty as the means of inserting upgrades into those items as well."
+				"充气站是为气动物品，如气动扳手、凿岩锤或装甲充气的主要方式。它也起到了双重作用，它可以作为在这些物品中插入升级的手段。"
 				""
-				"By inserting a Dispenser Upgrade in the Charging Station, it will charge entities above it, recharging Drones or any equipment on a player. "
+				"通过在充气站中插入发射器升级，它将为其上方的实体充气，即为无人机或玩家身上的任何装备充气。"
 				""
-				"Nearby drones will automatically seek out such a Charging Station when they’re low on Air. "
+				"附近的无人机会在低空气储量时自动寻找充气站。"
 			]
 			id: "3730F4664875AF9E"
 			min_width: 300
@@ -803,18 +814,18 @@
 				{
 					id: "18CE044363A25CBD"
 					item: "pneumaticcraft:dispenser_upgrade"
-					title: "Dispenser Upgrade"
+					title: "发射器升级"
 					type: "item"
 				}
 				{
 					count: 4
 					id: "440B5CB8A502E3BF"
 					item: "pneumaticcraft:volume_upgrade"
-					title: "Volume Upgrade"
+					title: "容积升级"
 					type: "item"
 				}
 			]
-			subtitle: "In-Flight Refueling"
+			subtitle: "空中加油"
 			tasks: [{
 				id: "378CFDE8FC3E5363"
 				item: "pneumaticcraft:charging_station"
@@ -825,16 +836,20 @@
 		}
 		{
 			dependencies: ["2BF0EE004239C2AC"]
-			description: ["Install one or more Item Life Upgrades in a Drone to help them stay in working order. They can occasionally take damage from environmental hazards and these upgrades will cause them to self-repair at the cost of some Air."]
+			description: [
+				"在你的无人机上安装一个或多个物品寿命升级，以帮助它们保持工作状态。它们偶尔会受到环境危害的伤害，这些升级可使它们以消耗一些空气为代价自我修复。"
+				""
+				"译者注：副标题中的歌词出自Cake乐队演唱的歌曲《The Distance》。"
+			]
 			id: "694279B52360ADD9"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "09056410AC7B4F5E"
-				title: "Epic PNC:R Loot Box"
+				title: "史诗气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "In Her Time of Need"
+			subtitle: "在她需要的时候"
 			tasks: [{
 				id: "406148B6217C1944"
 				item: "pneumaticcraft:item_life_upgrade"
@@ -845,16 +860,20 @@
 		}
 		{
 			dependencies: ["2BF0EE004239C2AC"]
-			description: ["Installing a Standby Upgrade in a non-programmable Drone will let it go to sleep when there’s no work to be done. Programmable drones may be programmed to do the same without the need of an upgrade."]
+			description: [
+				"在不可编程的无人机中安装备用升级将使其在没有工作可做时进入睡眠状态。可编程无人机则可以在无需升级的情况下进行编程以达到同样效果。"
+				""
+				"译者注：副标题中的歌词出自Cake乐队演唱的歌曲《The Distance》。"
+			]
 			id: "2AF8CE856E0E9D71"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "501A756DAB89889A"
-				title: "Rare PNC:R Loot Box"
+				title: "稀有气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "She's All Alone, All Alone"
+			subtitle: "她只身一人，只身一人"
 			tasks: [{
 				id: "3D07056B2E9FE5B7"
 				item: "pneumaticcraft:standby_upgrade"
@@ -865,16 +884,20 @@
 		}
 		{
 			dependencies: ["2BF0EE004239C2AC"]
-			description: ["Install a few Range Upgrades in a non-programmable drone to increase the area it covers."]
+			description: [
+				"在不可编程的无人机上安装一些范围升级以增加其能够覆盖的区域。"
+				""
+				"译者注：副标题中的歌词出自Cake乐队演唱的歌曲《The Distance》。"
+			]
 			id: "0C0CF19495038130"
 			rewards: [{
 				count: 2
 				id: "6FD71C3AAA7C5554"
 				item: "pneumaticcraft:range_upgrade"
-				title: "Range Upgrade"
+				title: "范围升级"
 				type: "item"
 			}]
-			subtitle: "He's Going the Distance"
+			subtitle: "他渐行渐远"
 			tasks: [{
 				id: "636E74B833DE113E"
 				item: "pneumaticcraft:range_upgrade"
@@ -885,16 +908,20 @@
 		}
 		{
 			dependencies: ["2BF0EE004239C2AC"]
-			description: ["Speed things up with a few of these in a Drone. Many other blocks benefit from them as well."]
+			description: [
+				"用几个速度升级来加速你的无人机。许多其他方块也可以从中受益。"
+				""
+				"译者注：副标题中的歌词出自Cake乐队演唱的歌曲《The Distance》。"
+			]
 			id: "2CE1808F9FF6F4E6"
 			rewards: [{
 				count: 2
 				id: "0459D9273A6BCEB3"
 				item: "pneumaticcraft:speed_upgrade"
-				title: "Speed Upgrade"
+				title: "速度升级"
 				type: "item"
 			}]
-			subtitle: "He's Going for Speed"
+			subtitle: "他追求速度"
 			tasks: [{
 				id: "64F51201D174AF98"
 				item: "pneumaticcraft:speed_upgrade"
@@ -906,15 +933,15 @@
 		{
 			dependencies: ["2BF0EE004239C2AC"]
 			description: [
-				"Programmable Drones are the pinnacle of PNC:R’s automation capabilities and the options are near limitless as they can interact with blocks and entities, wield weapons and tools, and perform their actions based on complex conditions."
+				"可编程无人机是气动工艺自动化能力的巅峰，其选择几乎是无限的，因为它们可以与方块和实体互动，使用武器和工具，并根据复杂的条件执行动作。"
 				""
-				"Take a dive into this visual programming language and see what you can come up with! If you’re short of ideas, try some of these:"
+				"潜心研究这种可视化编程语言，看看你能捣鼓出什么玩意来！如果你缺乏灵感，可以试试下面这些："
 				""
-				"● Automate Powah’s Energizing Orb"
-				"● Automate Botania’s Runic Altar"
-				"● Automate PNC:R’s Biodiesel"
-				"● Create a slime farm using milk buckets and green dye"
-				"● Create a transportation network using drones to pick you up and teleport you"
+				"● 自动化Powah的充能台"
+				"● 自动化气动工艺的生物柴油"
+				"● 使用牛奶桶和绿色染料建造一个史莱姆农场"
+				"● 利用无人机建造一个交通网络，让它来接你并把"
+				"你传送走"
 			]
 			icon: "pneumaticcraft:programmer"
 			id: "4BC617E2C8CDEF24"
@@ -922,10 +949,10 @@
 				count: 64
 				id: "7BB4D8C166E01C91"
 				item: "pneumaticcraft:programming_puzzle"
-				title: "Programming Puzzle Piece"
+				title: "编程拼图"
 				type: "item"
 			}]
-			subtitle: "Doin’ It My Way"
+			subtitle: "按我的方式来办"
 			tasks: [
 				{
 					id: "241C4FF7CA84BE39"
@@ -938,22 +965,22 @@
 					type: "item"
 				}
 			]
-			title: "Programmable Drones"
+			title: "可编程无人机"
 			x: -16.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2BF0EE004239C2AC"]
-			description: ["Remotes are programmable interface devices that work by manipulating global variables. You can use these for remote redstone when combined with a Universal Sensor, or they can be used to control programmable drones."]
+			description: ["遥控器是通过操纵全局变量工作的可编程接口设备。当与万能传感器结合时，你可以将其用于遥控红石，也可以用于控制可编程无人机。"]
 			id: "60B082796E10B210"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "05534AA4AD901FDD"
-				title: "Legendary PNC:R Loot Box"
+				title: "传奇气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "Always At Arms Reach"
+			subtitle: "始终触手可及"
 			tasks: [{
 				id: "7AB632F4DB89BCE9"
 				item: "pneumaticcraft:remote"
@@ -965,11 +992,11 @@
 		{
 			dependencies: ["32D56D0E1A7E8DAC"]
 			description: [
-				"The pinnacle of stay-at-home shopping. Click a button and your order is there before you know it."
+				"居家购物的巅峰之作。只需点击一个按钮，你的订单就会在你意识到之前送达。"
 				""
-				"Begin by binding the Tablet to a chest by Sneak + Right-Clicking the inventory with it. It may additionally be bound to a tank, if desired."
+				"通过手持平板电脑潜行+右击箱子将其与箱子绑定。如果需要，它还可以额外与储罐绑定。"
 				""
-				"Place any payment items in the chest, then complete the order from the Tablet itself. Once submitted, a Drone will appear to extract the payment from the chest. A short time later, a second drone will appear to deposit the purchase in the chest. When purchasing fluids, they’ll be sent to the bound tank instead. "
+				"将任何付款物品放入箱子，然后通过平板电脑完成订单。提交订单后，一架无人机就会出现，从箱子中提取付款物品。不久后，第二架无人机将会出现，并将购买的东西存放在箱子里。购买流体时，它们将被送往与其绑定的储罐。"
 			]
 			hide_dependency_lines: true
 			id: "11D246E41A38ECDF"
@@ -977,10 +1004,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "71C74EE7350259ED"
-				title: "Epic PNC:R Loot Box"
+				title: "史诗气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "Prime Delivery"
+			subtitle: "Prime会员配送"
 			tasks: [{
 				id: "694D30A4D11B1C83"
 				item: "pneumaticcraft:amadron_tablet"
@@ -992,16 +1019,18 @@
 		{
 			dependencies: ["3BDD27D9FDC82E36"]
 			description: [
-				"The Assembly Table provides a simpler way of making circuit boards and provides access to other advanced recipes."
+				"装配台提供了一种更简单的制作电路板的方法，并提供了获得其他高级配方的途径。"
 				""
-				"Each piece has limitations on where it can be placed. Refer to the PNC:R manual for the exact placement rules."
+				"每个部件都有放置位置的限制。具体放置规则请参阅PNC:R手册。"
 				""
-				"A simple layout can be done in a 2x3 space, however:"
+				"不过，你可以在2x3的空间里完成一个简单的布局："
 				""
-				"             IO, Controller, IO"
-				"             Drill, Table, Laser"
+				"             IO、控制器、IO"
+				"             钻头、平台、激光"
 				""
-				"Note: The Drill \\& Laser program allows the Assembly Table to craft recipes that require only a drill or laser. In most cases there’s no reason to use the individual programs."
+				"注：钻头和激光程序可使装配台合成只需要钻头或激光的配方。在大多数情况下，没有理由使用单独的程序。"
+				""
+				"译者注：副标题《贾维斯和玩具工厂》是一部2014年上映的青少年情景喜剧。"
 			]
 			hide_dependency_lines: true
 			icon: "pneumaticcraft:assembly_platform"
@@ -1010,10 +1039,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "33A65EE79C654898"
-				title: "Legendary PNC:R Loot Box"
+				title: "传奇气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "Some Assembly Required"
+			subtitle: "贾维斯和玩具工厂"
 			tasks: [
 				{
 					id: "39256304C4298D2F"
@@ -1051,44 +1080,44 @@
 					type: "item"
 				}
 			]
-			title: "Assembly Table"
+			title: "装配台"
 			x: -21.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["7F36F40E0465B923"]
 			description: [
-				"Portable Fluid Storage. Also capable of filling buckets and other tanks for automation purposes."
+				"便携式流体存储。它还可以用于填充用于自动化目的的桶和其他储罐。"
 				""
-				"Stack them vertically and Right-Click with a Pneumatic Wrench to form a multiblock tank."
+				"将它们垂直堆放，并用气动扳手右击，就可以形成一个多方块储罐。"
 			]
 			hide_dependency_lines: true
 			id: "6B98810EDAC8DB0C"
 			rewards: [{
 				id: "0BFF7AA6126076FD"
 				item: "pneumaticcraft:medium_tank"
-				title: "Medium Fluid Tank"
+				title: "中型流体储罐"
 				type: "item"
 			}]
-			subtitle: "Stacking the Odds"
+			subtitle: "叠加赔率"
 			tasks: [{
 				count: 2L
 				id: "0EAB2205FB361207"
 				item: "pneumaticcraft:small_tank"
 				type: "item"
 			}]
-			title: "Fluid Tanks"
+			title: "流体储罐"
 			x: -15.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3EFFC773FB6104ED"]
 			description: [
-				"Advanced Compressors may reach up to 20 bar of pressure, powering some of the most Pressure hungry machines. However, this comes at the cost of needing to be kept cool to run efficiently."
+				"高级压缩机可以达到20bar的压力，用于为一些最能消耗压力的机器功能。不过，其代价是需要保持冷却才能高效运转。"
 				""
-				"While cooling these compressors with something like a Vortex Tube certainly works, it’s far from ideal as Vortex Tubes consume enormous amounts of Air to cool anything down. A very large percentage of Air made by the compressor would be going right back into cooling."
+				"用涡流管之类的东西冷却这些压缩机自然是有效的，但这远不理想，因为涡流管需要消耗大量的空气来冷却任何东西。压缩机产生的很大一部分空气将直接返回用于冷却。"
 				""
-				"Instead, consider cooling these with Heat Sinks and Air Grates. Three Heat Sinks in direct contact with the Compressor, and several Air Grates set up such that each is blowing at all three Heat Sinks can keep a high-speed Compressor running very cool and at a minor fraction of Air compared to Vortex Tube cooling."
+				"相反，你可以考虑用散热片和空气栅管道模块来冷却这些压缩机。让三个散热片与压缩机直接接触，并将若干个空气栅设置为对所有三片散热片吹风，这样就可以使高速运转的压缩机保持低温运行，并且与涡流管冷却相比，使用空气的比例很小。"
 			]
 			icon: "pneumaticcraft:flux_compressor"
 			id: "34334E03CA719084"
@@ -1098,10 +1127,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "14C53EBF59D4E97D"
-				title: "Legendary PNC:R Loot Box"
+				title: "传奇气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "Super Laminar Flow"
+			subtitle: "超层流"
 			tasks: [{
 				id: "04E4EB4FC3EA866B"
 				item: "pneumaticcraft:flux_compressor"
@@ -1114,11 +1143,11 @@
 			dependencies: ["2BCEA81413D908E4"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Though most things will require high pressure to operate, some machines will require a vacuum to do what they do. The Vacuum Pump may be used for just this purpose. "
+				"虽然大多数机器都需要高压才能运作，但有些机器则需要真空。真空泵正是用于此目的。"
 				""
-				"Run pressure into the side of the machine with a green plus sign, then run a Tube out of the side with the red minus sign. Anything down the line will be put under vacuum."
+				"向机器带有绿色加号的一侧提供压缩空气，然后从带有红色减号的一侧连出一条管道。与这条管道相连的任何东西都将被置于真空中。R"
 				""
-				"Tip: Having a second Pressure Chamber under permanent vacuum can be enormously helpful as the Vacuum Chamber can be used to transfer Enchantments from items to books. Likewise, the books may be re-applied to items in a regular Pressure Chamber for a minor expenditure of Air."
+				"小贴士：拥有一个永久真空的副压力室可能会非常有帮助，因为真空室能够将物品的魔咒转移到书上。同样，这些书可以在常规的压力室中重新应用于物品，只需消耗少量的空气。"
 			]
 			id: "19F79435C6D185E3"
 			min_width: 300
@@ -1126,7 +1155,7 @@
 				{
 					id: "46B99CC6A928D067"
 					item: "pneumaticcraft:memory_stick"
-					title: "Memory Stick"
+					title: "记忆棒"
 					type: "item"
 				}
 				{
@@ -1136,7 +1165,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Full Reverse!"
+			subtitle: "全面反转！"
 			tasks: [{
 				id: "543D0169C84EBE30"
 				item: "pneumaticcraft:vacuum_pump"
@@ -1148,19 +1177,19 @@
 		{
 			dependencies: ["19F79435C6D185E3"]
 			description: [
-				"Your gateway to custom spawning."
+				"一扇通往自定义刷怪的大门。"
 				""
-				"Not every mob is readily available from natural spawners. Thankfully, there is a way of recreating the magic of the Spawner Core: The Vacuum Trap."
+				"并不是每一种怪物都能从自然生成刷怪笼中轻易获得。幸运的是，有一种方法可以重现刷怪笼核心的魔力：真空陷阱。"
 				""
-				"The process begins similarly to the Spawner Extractor, hook the Vacuum Trap up to a Vacuum Pump and pull out all of the air. Volume upgrades are recommended and a Spawner Core is required. Sneak + Right-Click the charged Trap with a Pneumatic Wrench to pick it up. Now place it down near most any mob and Sneak + Right-Click it with an empty hand to open it. Nearby mobs will be sucked in and be added to the Core."
+				"真空陷阱的使用方式一开始与刷怪笼抽取器类似，将真空陷阱与真空泵相连，并抽出其中所有的空气。推荐为其安装容积升级，并且你需要一个刷怪笼核心。用气动扳手潜行+右击负压的真空陷阱，将其捡起。现在把它放在任何生物的附近，然后空手潜行+右击它来打开它。附近的生物会被吸进去，并被加入到刷怪笼核心中。"
 				""
-				"Multiple mob types can be stored in a Core, making mixed spawners possible. "
+				"一个刷怪笼核心可以储存多种生物类型，使混合刷怪笼成为可能。"
 				""
-				"A Spawner Core with only one mob in it is still valid for use in a Pressurized Spawner; very useful for hard to capture or rare mobs."
+				"一个只有含有一种生物的刷怪笼核心仍然可以在气动刷怪笼中使用；这对于难以捕捉的或稀有的生物来说非常有用。"
 				""
-				"The Trap works more efficiently if it has Memory Essence in the internal tank, meaning it takes fewer mobs to completely fill it. "
+				"如果真空陷阱的内部储罐中存放有记忆源质，那么它的工作效率会更高，这意味着需要更少的生物就可以完全填充它。"
 				""
-				"Random mobs may be released from a core by Sneak + Right-Clicking it on the ground, allowing easier transportation of mobs even before the Pressurized Spawner is available. "
+				"通过将刷怪笼核心放在地上并潜行右击，可以从其中随机释放生物，在加压刷怪笼可用之前，你也可以用它更轻松地运输生物。"
 			]
 			icon: "pneumaticcraft:vacuum_trap"
 			id: "40BD357818C3FC4B"
@@ -1169,10 +1198,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "71E7B2F1A0C4BCF2"
-				title: "Legendary PNC:R Loot Box"
+				title: "传奇气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "Who Ya Gonna Call?"
+			subtitle: "你要向谁求救？"
 			tasks: [
 				{
 					id: "20D3B02690AA1ED2"
@@ -1190,7 +1219,11 @@
 		}
 		{
 			dependencies: ["6E942B6AC4460725"]
-			description: ["Beyond machines and logistics, PNC:R offers a number of very useful tools, armor, and utility devices. "]
+			description: [
+				"除了机器和物流之外，气动工艺还提供了非常多有用的工具、盔甲和功能性装置。"
+				""
+				"译者注：副标题中的歌词出自丹麦乐团Aqua演唱的一首歌曲《Barbie Girl》。"
+			]
 			hide_dependency_lines: true
 			icon: "pneumaticcraft:plastic"
 			id: "32D56D0E1A7E8DAC"
@@ -1206,7 +1239,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "You Can Touch, You Can Play"
+			subtitle: "你可以爱抚我，你可以跟我玩"
 			tasks: [{
 				icon: "pneumaticcraft:pressure_tube"
 				id: "3812A5C0C325C4CA"
@@ -1230,21 +1263,21 @@
 						]
 					}
 				}
-				title: "Tools and Utility"
+				title: "工具和道具"
 				type: "item"
 			}]
-			title: "Tools and Utility"
+			title: "工具和道具"
 			x: -16.0d
 			y: -14.0d
 		}
 		{
 			dependencies: ["011EE483D38C9C23"]
 			description: [
-				"Heat Sinks will passively increase the rate at which Heat is transferred into the air, helping to cool things back down to ambient temperatures quickly and efficiently."
+				"散热片可以被动地增加热量传递到空气中的速率，有助于快速有效地将东西冷却回环境温度。"
 				""
-				"Heat Sinks in the area of effect of an active Air Grate will operate even faster. This is one of the most efficient ways to cool machines, when the Air Grates are regulated down to just enough pressure to operate. "
+				"被激活的空气栅作用范围内的散热片将运作得更快。当空气栅被调节到刚好有足够的压力来运行时，这就是冷却机器的最有效方法之一。"
 				""
-				"When connected to a pressure line in a vacuum, the Air Grate also doubles as an item collector, pulling items and other entities towards it. Items pulled all the way to it will be inserted into any adjacent inventories. "
+				"当与真空的压力管道相连时，空气栅还可以兼作物品收集器，将物品和其他实体吸向它。被吸取的物品会被一路吸到任何与之相邻的容器中。"
 			]
 			icon: "pneumaticcraft:heat_sink"
 			id: "3EFFC773FB6104ED"
@@ -1278,31 +1311,33 @@
 		{
 			dependencies: ["32D56D0E1A7E8DAC"]
 			description: [
-				"All pieces may be upgraded to enhance their armor, self-repair, or gilded to prevent Piglin attacks."
+				"所有盔甲都可以被升级以强化它们的盔甲值、自我修复，或镀金以防止猪灵的攻击。"
 				""
-				"Other Notable Upgrades:"
+				"其他值得注意的升级："
 				""
-				"Helmet"
-				"● Night Vision"
-				"● Entity and Block Tracking"
-				"● Entity and Block Hacking"
-				"● S.C.U.B.A. Gear"
+				"头盔"
+				"● 夜视"
+				"● 实体和方块追踪"
+				"● 实体和方块侵入"
+				"● 水肺套装"
 				""
-				"Chestplate"
-				"● Magnet Upgrade"
-				"● Auto Tool Charging"
-				"● Block Launcher"
-				"● Elytra"
+				"胸甲"
+				"● 磁铁升级"
+				"● 工具自动充气"
+				"● 方块发射器"
+				"● 鞘翅"
 				""
-				"Leggings"
-				"● Run Speed"
-				"● Jump Height"
+				"护腿"
+				"● 疾跑速度"
+				"● 跳跃高度"
 				""
-				"Boots"
-				"● Built in Step Assist"
-				"● Built in Fall Damage Negation"
-				"● Swim Speed"
-				"● Creative Flight"
+				"靴子"
+				"● 内置步行辅助"
+				"● 内置摔落保护"
+				"● 游泳速度"
+				"● 创造飞行"
+				""
+				"译者注：副标题中的歌词出自电影《海洋奇缘》的插曲《Shiny》。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1318,32 +1353,32 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "45F1066AD1B2C401"
-					title: "Epic PNC:R Loot Box"
+					title: "史诗气动工艺战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "0C55EECDCDE4C01C"
-					title: "Epic PNC:R Loot Box"
+					title: "史诗气动工艺战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "320E3090BF091078"
-					title: "Epic PNC:R Loot Box"
+					title: "史诗气动工艺战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "0CE417ED326B8137"
-					title: "Epic PNC:R Loot Box"
+					title: "史诗气动工艺战利品箱"
 					type: "command"
 				}
 			]
-			subtitle: "Send Your Armies But They'll Never Be Enough, My Shell's Too Tough"
+			subtitle: "尽管出招吧，我决不退缩，我的外壳坚硬无比"
 			tasks: [
 				{
 					id: "54F6FEA6017FA1A3"
@@ -1396,9 +1431,9 @@
 		{
 			dependencies: ["32D56D0E1A7E8DAC"]
 			description: [
-				"A versatile multi-tool capable of clearing large areas with ease. Sneak Right-Click to access the GUI where Drill Bits and Enchanted Books can be installed as well as changing the drill mode."
+				"一种用途广泛的多工具，可轻松夷平大片区域。潜行右击以打开安装钻头和附魔书以及切换钻机模式的界面。"
 				""
-				"Accepts Fortune or Silk Touch books."
+				"可接受时运或精准采集的附魔书。"
 			]
 			hide_dependency_lines: true
 			id: "4DB935C9023BE022"
@@ -1407,7 +1442,7 @@
 				item: "pneumaticcraft:magnet_upgrade"
 				type: "item"
 			}]
-			subtitle: "Swiss-Army… Hammer"
+			subtitle: "瑞士军……锤"
 			tasks: [{
 				id: "215DF4ECB6072D79"
 				item: "pneumaticcraft:jackhammer"
@@ -1418,7 +1453,11 @@
 		}
 		{
 			dependencies: ["32D56D0E1A7E8DAC"]
-			description: ["A smart turret that can be filtered to attack only certain creatures. For instance, only adult animals. "]
+			description: [
+				"一个可以添加过滤来让其只攻击特定生物的智能炮台。例如，只攻击成年的动物。"
+				""
+				"译者注：副标题《为人师表》是主要讲述以南美移民子女为主的洛杉矶加菲莆高中为背景的故事的剧情电影。"
+			]
 			hide_dependency_lines: true
 			id: "738C5B461AAEBDA7"
 			rewards: [{
@@ -1434,10 +1473,10 @@
 						}]
 					}
 				}
-				title: "Armor-Piercing Minigun Ammo"
+				title: "破甲型加特林机枪弹药"
 				type: "item"
 			}]
-			subtitle: "Stand and Deliver"
+			subtitle: "为人师表"
 			tasks: [{
 				id: "158359A805347117"
 				item: "pneumaticcraft:sentry_turret"
@@ -1449,9 +1488,9 @@
 		{
 			dependencies: ["32D56D0E1A7E8DAC"]
 			description: [
-				"A modern solution to monster slaying. Pet friendly too!"
+				"杀死怪物的现代解决方案。对你的宠物也很友好！"
 				""
-				"Add a Security Upgrade to prevent it from harming tamed creatures and fellow players."
+				"添加一个安全升级，以防止它伤害被驯服的生物和其他玩家。"
 			]
 			hide_dependency_lines: true
 			id: "6E6FC569FE823C92"
@@ -1468,10 +1507,10 @@
 						}]
 					}
 				}
-				title: "Minigun Ammo"
+				title: "加特林机枪弹药"
 				type: "item"
 			}]
-			subtitle: "Leveling the Playing Field"
+			subtitle: "公平竞技"
 			tasks: [{
 				id: "1551C0D6DB15C9E7"
 				item: "pneumaticcraft:minigun"
@@ -1483,9 +1522,9 @@
 		{
 			dependencies: ["32D56D0E1A7E8DAC"]
 			description: [
-				"Bats. The greatest enemy of them all. Now behold, their doom is in your hands."
+				"蝙蝠。最讨厌的敌人。现在看好了，它们的小命在你的手掌心里。"
 				""
-				"Micromissiles are target seeking explosives. They do no damage to the terrain and can be configured for varying degrees of explosive damage, travel speed, and turn speed. Sneak Right-Click to configure."
+				"微型导弹是目标追踪的爆炸物。它们不会对地形造成破坏，并且可以设置不同的爆炸范围、移动速度和转向速度。潜行右击可以进行设置。"
 			]
 			hide_dependency_lines: true
 			id: "7228CB144D83D28F"
@@ -1493,10 +1532,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "0AF178227D43E923"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
-			subtitle: "Target Acquired"
+			subtitle: "目标已锁定"
 			tasks: [{
 				id: "5A9880172381AF71"
 				item: {
@@ -1513,17 +1552,17 @@
 		}
 		{
 			dependencies: ["32D56D0E1A7E8DAC"]
-			description: ["Crop Supports promote healthy plant growth, increasing how quickly they grow. "]
+			description: ["作物架可以促进植物健康生长，并提高它们的生长速度。"]
 			hide_dependency_lines: true
 			id: "318DFB6006EB5CC5"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "624B43310C57D3AF"
-				title: "Rare PNC:R Loot Box"
+				title: "稀有气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "Reach for the sky!"
+			subtitle: "伸向天空！"
 			tasks: [{
 				id: "7DBBDF18FF73F327"
 				item: "pneumaticcraft:crop_support"
@@ -1535,11 +1574,11 @@
 		{
 			dependencies: ["32D56D0E1A7E8DAC"]
 			description: [
-				"The perfect addition to any vertical base of operations, PNC:R Elevators feature an easy to use Elevator Caller which will take the user directly to the requested floor. "
+				"气动工艺电梯是任何基于垂直活动的完美补充，它拥有易于使用的电梯呼叫器，可将使用者直接带到请求的楼层。"
 				""
-				"Each Elevator Base has a limit to how high it can go but stacking them atop each other will increase that height additively. Elevator Frames must be placed on top of the Base up to the maximum desired height. "
+				"每个电梯基座可上升的高度都有限制，但将它们叠放在一起会额外增加高度。电梯框架必须放置在基座顶部，知道所需的最大高度。"
 				""
-				"For more information, refer to the PNC:R manual."
+				"查阅PNC:R手册以了解更多信息。"
 			]
 			hide_dependency_lines: true
 			icon: "pneumaticcraft:elevator_base"
@@ -1548,10 +1587,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "1C96B75BC65D3936"
-				title: "Epic PNC:R Loot Box"
+				title: "史诗气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "Uplifting News"
+			subtitle: "蒸蒸日上的新闻"
 			tasks: [
 				{
 					id: "0D40D8A30E373F43"
@@ -1569,20 +1608,20 @@
 					type: "item"
 				}
 			]
-			title: "Elevators"
+			title: "电梯"
 			x: -14.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["7F36F40E0465B923"]
-			description: ["While capable of doing damage with launched TNT or Arrows, perhaps more interestingly, the Air Cannon can be used for transporting items, mobs, or simply tossing things on the ground for in-world crafting with a flair. "]
+			description: ["虽然能够用发射的TNT或箭造成伤害，但也许更有趣的是，空气炮天生就适合用来运输物品、生物，或者单纯的把东西扔在地上，以便进行世界中合成。"]
 			hide_dependency_lines: true
 			id: "2F2DFDE1AF2C7CC2"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "03A761B743DDD4FD"
-				title: "Rare PNC:R Loot Box"
+				title: "稀有气动工艺战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1595,14 +1634,14 @@
 		}
 		{
 			dependencies: ["7F36F40E0465B923"]
-			description: ["When placed on the side of an inventory or a tank, the Transfer Gadget facilitates the transfer of items and fluids into any adjacent tank. It is a bit slow, but has the benefit of not requiring a block space. "]
+			description: ["当紧贴容器或储罐的一面放置时，传输装置可以帮助将物品和流体转移到任何相邻的储罐中。它有点慢，但好处是不需要占用一格空间。"]
 			hide_dependency_lines: true
 			id: "357E818321B68CEE"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "15748F8C017B2B45"
-				title: "Rare PNC:R Loot Box"
+				title: "稀有气动工艺战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1616,11 +1655,11 @@
 		{
 			dependencies: ["32D56D0E1A7E8DAC"]
 			description: [
-				"The Aerial Interface is a powerful personal automation tool. Its sides may be configured to expose the player inventory to automation, allowing for automatic restocking of ammo and other items remotely."
+				"空气接口是一个强大的个人自动化工具。它的侧面可以配置以对玩家物品栏进行自动管理，可以自动远程补充弹药和其他物品。"
 				""
-				"Since it treats the player’s inventory as any other, it also permits remotely charging any Pneumatic equipment. For example, configure a side to access the armor slots, then point a tube with a Charging Module at that side. This will keep Pneumatic Armor always topped off."
+				"由于它将玩家的物品栏和任何其他物品栏同等看待，因此它还可以为任何气动设备远程充气。例如，将其一个面配置为访问盔甲栏位，然后将带有充气模块的管道指向该面。这将使气动装甲始终处于充满气的状态。"
 				""
-				"In addition to this, with a Dispenser Upgrade installed it can automatically feed the player, or interface with their XP, allowing it to be piped in and out as Memory Essence. "
+				"除此之外，安装了发射器升级后，它可以自动喂食玩家，或作为他们的经验值的接口，使经验能够以记忆源质的形态通过管道输入和输出。"
 			]
 			hide_dependency_lines: true
 			id: "2861AD0EB02F37A2"
@@ -1628,10 +1667,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/legendary"
 				icon: "kubejs:legendary_lootbox"
 				id: "3A10D0CC45A7D514"
-				title: "Legendary PNC:R Loot Box"
+				title: "传奇气动工艺战利品箱"
 				type: "command"
 			}]
-			subtitle: "It's Over! I Have the High Ground!"
+			subtitle: "游戏结束！我占领了制高点！"
 			tasks: [{
 				id: "4A701F7EA5F5A104"
 				item: "pneumaticcraft:aerial_interface"
@@ -1643,13 +1682,13 @@
 		{
 			dependencies: ["6F9B23BB2F05C9CF"]
 			description: [
-				"Frames themselves have robust filtering options built in, but they don’t cover all use cases. "
+				"框架本身内置了强大的过滤选项，但它们并不能涵盖所有用例。"
 				""
-				"In order to filter by tags, a Tag Filter must be created in a Tag Workbench and inserted into the filter in place of an item. Place an item in the left-hand slot and some paper into the slot to the left of the Book icon. A list of tags will appear under the item which may be selected and sent to the right-hand side. "
+				"为了按标签进行过滤，必须在标签工作台中创建标签过滤器，并将其插入过滤器中以代替物品。将一个物品放入左侧的栏位，并将一些纸放入“书”图标左侧的栏位。在可被选中并发送到右侧的物品下将会出现一个标签列表。"
 				""
-				"Once the Book icon Is pressed, all tags on the right will be encoded into the Tag Filter. A single Tag Filter may contain tags from multiple item types. "
+				"按下“书”图标后，右侧的所有标签都将被编码到标签过滤器中。单个标签过滤器可以包含来自多个物品类型的标记。"
 				""
-				"A Classify Filter may also be used for filtering broad categories of items. For instance, all furnace fuel, all unstackable items, all enchanted items, or anything that may be cooked in a furnace."
+				"分类过滤器也可用于过滤广泛类别的物品。例如，所有的熔炉燃料，所有不可堆叠的物品，所有的附魔物品，或任何可以在熔炉中烹饪的东西。"
 			]
 			icon: {
 				Count: 1b
@@ -1684,16 +1723,16 @@
 					type: "item"
 				}
 			]
-			title: "Filters"
+			title: "过滤器"
 			x: -17.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["52165EC21DD8ABFB"]
 			description: [
-				"A very handy tube module to have, the Thermostat Module will read the temperature of the block it is facing, outputting a Redstone signal along the tube that may be used to control a Vortex Tube or any other contraption.  "
+				"温控模块是一个非常方便的管道模块，它可以读取其面向的方块的温度，并沿着管道输出红石信号，该信号可用于控制涡流管或任何其他装置。"
 				""
-				"This allows for a very simple, and very compact way of meeting specific heat thresholds for crafting! "
+				"这使得你可以用一种非常简单、非常紧凑的方式来满足合成所需的特定热量阈值！"
 			]
 			id: "697B1DC7E396FEA6"
 			rewards: [{
@@ -1710,5 +1749,5 @@
 			y: -12.0d
 		}
 	]
-	title: "PneumaticCraft: Repressurized"
+	title: "气动工艺：再加压"
 }
