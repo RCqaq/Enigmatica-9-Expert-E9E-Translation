@@ -564,8 +564,6 @@
 				"制造该效果不需要消耗灵气。"
 				""
 				"范围取决于提供的红石信号强度。"
-				""
-				"译者注：副标题中的歌词出自林肯公园演唱的同名歌曲《A Line In The Sand》。"
 			]
 			hide_dependency_lines: true
 			id: "454A0F0E48005FFE"
@@ -583,7 +581,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "沙地的平行线"
+			subtitle: "划清界限"
 			tasks: [{
 				id: "56626DE3C9E9BE87"
 				item: "naturesaura:animal_container"
