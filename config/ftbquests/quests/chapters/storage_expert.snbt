@@ -11,9 +11,9 @@
 		{
 			dependencies: ["2CCCDD05AED3153F"]
 			description: [
-				"Finding a place to store stuff is always a bit complicated, and keeping organized can be quite a task at times. Thankfully, a few mods exist to assist in this endeavor. The following quests will help you discover these mods."
+				"想找到一个能够存储东西的地方常常会有点麻烦，而且有时保持井然有序是一项相当艰巨的任务。值得庆幸的是，有一些模组可以帮助你完成这项工作。接下来的任务将会帮助你发现这些模组。"
 				""
-				"Note: Most blocks that are useful as a storage block have been Tagged for search in EMI. Search for the following categories:"
+				"注：大多数可以用作存储方块的方块已经被贴上标签，你可以在JEI中搜索以下类别："
 				""
 				"● #containers"
 				"● #containers/basic"
@@ -41,19 +41,19 @@
 						value: "enigmatica:containers/basic"
 					}
 				}
-				title: "Storage"
+				title: "存储"
 				type: "item"
 			}]
-			title: "Storage"
+			title: "存储"
 			x: -0.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["49596454693937AC"]
 			description: [
-				"Extra-large storage in the same space as a chest. Sophisticated Storage adds advanced Chests, Barrels, and Shulker Boxes in with multiple tiers of capacity. They even accept various upgrades to add additional functionality."
+				"与箱子占用空间相同的超大储物空间。精妙存储添加了拥有多个储量等级的高级箱子、桶和潜影盒。它们甚至可以接受各种升级以添加额外功能。"
 				""
-				"Those may be upgraded in place by using the appropriate tier upgrade item on them."
+				"你还可以使用对应的等级升级物品对它们进行升级。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -71,7 +71,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 					icon: "kubejs:farmers_delight"
 					id: "5A22CB734A0F4FE3"
-					title: "Farmer's Delight"
+					title: "农夫乐事包"
 					type: "command"
 				}
 				{
@@ -81,7 +81,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A very fancy chest"
+			subtitle: "一个非常精妙的箱子"
 			tasks: [{
 				id: "3BB261BC2DE2CD85"
 				item: {
@@ -91,16 +91,16 @@
 						value: "sophisticatedstorage:storage_wooden"
 					}
 				}
-				title: "Any Wooden Tier Storage"
+				title: "任意木质等级存储"
 				type: "item"
 			}]
-			title: "Sophisticated Storage"
+			title: "精妙存储"
 			x: -4.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["49596454693937AC"]
-			description: ["Forgot where you left your precious diorite? Mouse over some in your inventory or JEI and press Y to locate it in nearby inventories. "]
+			description: ["忘了把你珍贵的闪长岩放在哪里了？将鼠标悬停在物品栏或JEI中的某些物品上，然后按Y键就可以在附近的容器中找到它。"]
 			hide_dependency_lines: true
 			icon: "naturesaura:range_visualizer"
 			id: "0C77E760CE4035D5"
@@ -113,16 +113,16 @@
 				id: "29A24395B22DE4C7"
 				type: "checkmark"
 			}]
-			title: "Find Me"
+			title: "东寻西觅"
 			x: -1.5d
 			y: -10.0d
 		}
 		{
 			dependencies: ["49596454693937AC"]
 			description: [
-				"Looking for a handy place to store your hammer at the forge? Tired of rummaging through chest after chest for that gear press? Place them in world instead!"
+				"想在锻造锤旁找个方便的地方放锤子吗？厌倦了一箱箱地翻找齿轮冲压模具了吗？把它们放在世界里吧！"
 				""
-				"Plonk allows you to place up to four stacks of items in any block space. Simply hold the item, point at a block, and press P to place. Right click to pick the items back up. "
+				"Plonk可以让你在任何方块空间中放置至多四组物品。只需手持物品，指向一个方块，然后按P键即可放置。右击可将物品捡起。"
 			]
 			hide_dependency_lines: true
 			icon: "create:brass_hand"
@@ -136,7 +136,7 @@
 				id: "28EE47300CAC20CF"
 				type: "checkmark"
 			}]
-			title: "Plonk"
+			title: "世界内物品放置"
 			x: 0.5d
 			y: -10.0d
 		}
@@ -144,18 +144,18 @@
 			dependencies: ["5F17797B15355AE8"]
 			dependency_requirement: "one_completed"
 			description: [
-				"The Functional Storage Controller acts as a central hub for automation. Any linked drawers are accessible through it by things such as pipes, hoppers, or an ME Storage Bus. "
+				"功能性存储的存储控制器充当着用于自动化的中央枢纽。任何与之连接的抽屉都可以通过管道、漏斗或ME存储总线等设备进行访问。"
 				""
-				"Drawers need not be in contact with the Controller, nor each other. They simply need to be selected and bound to the Controller by way of a Linking Tool. "
+				"抽屉不需要与控制器接触，也不需要彼此之间接触。它们只需通过连接工具选择并绑定到控制器即可。"
 				""
-				"To begin, select a Drawer Controller by Right-Clicking it with a Linking Tool. The selected Controller is highlighted while the Linking Tool is in hand. "
+				"首先，使用连接工具右击存储控制器，选择该控制器。手持连接工具时，选中的控制器将高亮显示。"
 				""
-				"The tool itself has several linking modes and linking actions that may be swapped at any time:"
+				"该工具有几种可以随时切换的连接模式和连接操作："
 				""
-				"● Toggle between the Single and Multiple linking modes by Sneak + Right Clicking the air. "
-				"● Toggle between the Add and Remove linking actions by Right Clicking the air. "
+				"● 对空气潜行+右击在单选和复选连接模式中切换。"
+				"● 对空气右击在添加和移除连接操作中切换。"
 				""
-				"Once in the desired mode, simply Right Click the target drawer to bind or unbind it. If in Multiple Linking Mode, Right Click a Start and End drawer. Every drawer in the selected area will be linked at once. Every drawer linked to the selected Controller will be highlighted as well while the Linking Tool is in hand. "
+				"切换到所需模式后，只需右击目标抽屉即可进行绑定或取消绑定。如果处于复选连接模式，则右击起始抽屉和结束抽屉进行绑定。所选区域中的每个抽屉都将同时与控制器连接。手持连接工具时，所有连接到选定控制器的抽屉都将高亮显示。"
 			]
 			id: "5EE97698D0E8C037"
 			min_width: 300
@@ -164,7 +164,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
 					icon: "kubejs:sorcerers_delight"
 					id: "0F9CC40473CE9836"
-					title: "Sorcerer's Delight"
+					title: "法师乐事包"
 					type: "command"
 				}
 				{
@@ -190,7 +190,7 @@
 		}
 		{
 			dependencies: ["2A0CD26353B9E8C2"]
-			description: ["Each tier of storage offers both more upgrade slots and more storage slots. "]
+			description: ["每级的存储提供了更多升级栏位和更多存储栏位。"]
 			icon: {
 				Count: 1b
 				id: "sophisticatedstorage:gold_chest"
@@ -203,10 +203,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
 				icon: "kubejs:sorcerers_delight"
 				id: "4F1BD7539F45DA81"
-				title: "Sorcerer's Delight"
+				title: "法师乐事包"
 				type: "command"
 			}]
-			subtitle: "Bedazzled Chests"
+			subtitle: "炫丽的箱子"
 			tasks: [{
 				id: "451AEE39361F598E"
 				item: {
@@ -233,22 +233,22 @@
 						]
 					}
 				}
-				title: "Any Gold Tier Storage"
+				title: "任意金等级存储"
 				type: "item"
 			}]
-			title: "Upgraded Storage"
+			title: "存储升级"
 			x: -4.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["49596454693937AC"]
 			description: [
-				"Looking for a place to store those ten thousand Iron Ingots? Look no further. Functional Drawers has drawers that hold a very large quantity of a given item. They offer a number of useful upgrades as well to assist in both Storage and Automation endeavors. "
+				"想找个地方存放那一万块铁锭吗？不用再寻找了。功能性存储拥有可容纳大量指定物品的抽屉。它还提供了许多有用的升级，以帮助进行存储和自动化工作。"
 				""
-				"A Configuration Tool may be used to lock a drawer, hide or show the stored item and quantity, or disable rendering for any installed upgrades. "
-				""
-				"● Toggle between modes by Sneak + Right Clicking in the air."
-				"● Right Click a drawer to change settings in chosen mode."
+				"配置工具可以用于锁定抽屉，隐藏或显示存储的物品和数量，或取消渲染任何安装的升级。"
+				"" 
+				"● 对空气潜行+右击在模式之间切换。"
+				"● 右击抽屉以改变所选模式的设置。"
 			]
 			hide_dependency_lines: true
 			icon: "functionalstorage:oak_4"
@@ -264,7 +264,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Drawing a line in the sand"
+			subtitle: "屉格分明"
 			tasks: [{
 				id: "4853A98459747A30"
 				item: {
@@ -274,26 +274,26 @@
 						value: "functionalstorage:drawer"
 					}
 				}
-				title: "Storage Drawers"
+				title: "存储抽屉"
 				type: "item"
 			}]
-			title: "Functional Storage"
+			title: "功能性存储"
 			x: -0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5F17797B15355AE8"]
 			description: [
-				"Thirty-two stacks aren't enough? There is a solution!"
+				"三十二组的空间还不够大？有办法！"
 				""
-				"Each drawer has four upgrade slots that may be used to enhance storage, stacking up to truly monumental capacities. "
+				"每个抽屉都有四个可以用于强化存储的升级栏位，堆叠升级后的容量非常巨大。"
 			]
 			id: "786439A425EBFF62"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/miners_delight"
 				icon: "kubejs:miners_delight"
 				id: "5C3EB77537E1FA62"
-				title: "Miner's Delight"
+				title: "矿工乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -323,7 +323,7 @@
 						]
 					}
 				}
-				title: "Storage Upgrades"
+				title: "存储升级"
 				type: "item"
 			}]
 			x: 0.5d
@@ -331,13 +331,13 @@
 		}
 		{
 			dependencies: ["5F17797B15355AE8"]
-			description: ["Bigger is not always better. A storage downgrade can be useful for light stock-keeping situations."]
+			description: ["越大并不总是越好。存储降级对于保持少量物品的情况非常有用。"]
 			id: "02901672C6C78D96"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "1805FB9F3284DB60"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -350,13 +350,13 @@
 		}
 		{
 			dependencies: ["5F17797B15355AE8"]
-			description: ["Excess items will be automatically voided."]
+			description: ["多余的物品将被自动销毁。"]
 			id: "7FE743C24F4CE9C7"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "31DE6DB08C5E70BE"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -370,11 +370,11 @@
 		{
 			dependencies: ["49596454693937AC"]
 			description: [
-				"Sophisticated backpacks is the backpack mod you never knew you were missing. "
+				"精妙背包是一个你从未意识到你缺少它的背包模组。"
 				""
-				"The backpacks themselves may be worn in a curio slot and accessed via keybind, as well as be placed in world and interacted with via pipes or hoppers. "
+				"背包可以穿戴在饰品栏内，并通过快捷键打开，也可以放置在世界中，通过管道或漏斗进行交互。"
 				""
-				"Beyond these already excellent features, they can also host a number of very useful upgrades."
+				"除了这些已经很出色的功能，它们还可以承载一些非常有用的升级。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -406,13 +406,13 @@
 		}
 		{
 			dependencies: ["1CCF4A4FD41751B9"]
-			description: ["A filterable upgrade that pulls items from afar, straight into your backpack."]
+			description: ["一个可过滤的升级，可以吸引远处的物品，并将其直接放入你的背包。"]
 			id: "5566E2FA4B215399"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "75698ED44FA2B1F8"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -425,21 +425,21 @@
 		}
 		{
 			dependencies: ["1CCF4A4FD41751B9"]
-			description: ["Never lose your precious goods again!"]
+			description: ["再也不会失去你的贵重物品了！"]
 			id: "6DC1E5210FAAF68A"
 			rewards: [
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
 					icon: "kubejs:sorcerers_delight"
 					id: "789F5E46C45B0EB3"
-					title: "Sorcerer's Delight"
+					title: "法师乐事包"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
 					icon: "kubejs:alchemists_delight"
 					id: "6B9146F763943FE8"
-					title: "Alchemist's Delight"
+					title: "炼金术士乐事包"
 					type: "command"
 				}
 			]
@@ -453,13 +453,13 @@
 		}
 		{
 			dependencies: ["1CCF4A4FD41751B9"]
-			description: ["A filterable upgrade that lets items pass directly into the backpack when picked up by the player. "]
+			description: ["一个可过滤的升级，让物品被玩家捡起后直接进入背包。"]
 			id: "559DC2E27C42D8A0"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "183D87B447FBD8BB"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -473,11 +473,11 @@
 		{
 			dependencies: ["49596454693937AC"]
 			description: [
-				"The Personal Shrinking Device can shrink one right out of sight and into the nooks and crannies of special machines. "
+				"个人缩放设备就可以把人直接缩小到看不见的地方，缩到特殊机器的犄角旮旯里。"
 				""
-				"Build your own contraption within them to suit your needs, complete with custom input and output sides. "
+				"在里面建立你自己的装置，以满足你的需要，完成定制的输入和输出面。"
 				""
-				"Simply Right-Click a Compact Machine with the Personal Shrinking Device to warp inside."
+				"只需用个人缩放设备右击压缩空间机械，就可以传送进它内部的空间。"
 			]
 			hide_dependency_lines: true
 			id: "715C67FD33E85847"
@@ -498,11 +498,14 @@
 		{
 			dependencies: ["715C67FD33E85847"]
 			description: [
-				"Gather the materials for your first Compact Machine!"
+				"为你的第一台压缩空间机械收集材料！"
 				""
-				"Compact Machines range in size from 3x3x3 to 13x13x13 blocks of internal space. "
+				"压缩空间机械内部空间大小为3x3x3至13x13x13可变。"
 				""
-				"Choose the size that best fits your needs and build away!"
+				"选择最适合你的需求的大小并开始建造！"
+				""
+				"译者注：副标题中的歌词出自The Lonely Island演唱的恶"
+				"搞歌曲《Dick In A Box》。"
 			]
 			icon: "compactmachines:machine_tiny"
 			id: "10DD2B405F79F5E5"
@@ -511,10 +514,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "122F76B341A51635"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
-			subtitle: "One, cut a hole in a box"
+			subtitle: "第一步，在盒子上开一个洞"
 			tasks: [{
 				icon: "compactmachines:machine_small"
 				id: "29C9FB2EF47B57B7"
@@ -550,7 +553,7 @@
 						]
 					}
 				}
-				title: "Compact Machines"
+				title: "压缩空间机械"
 				type: "item"
 			}]
 			x: -2.0d
@@ -559,21 +562,24 @@
 		{
 			dependencies: ["10DD2B405F79F5E5"]
 			description: [
-				"Placed on the walls inside Compact Machines, Tunnels permit a connection to the outside world. "
+				"接口可以放置在压缩空间机械内部的墙壁上，使空间内部能够与外部世界连接。"
 				""
-				"For example, place a Tunnel on a wall and right click it until it reports it is configured to the up position, then place a chest against it. Warp back outside and place a Hopper on the top of the machine and feed in a few items. They’ll be whisked away into that chest inside. Use this concept to feed items into or out of the machine, as necessary. "
+				"比方说，将一个接口放在墙上，并右击它直到它反馈位置已配置为顶面，然后将一个箱子紧贴它放置。传送出去，将一个漏斗放在机器顶部，并放入一些物品。它们会被迅速带到里面的箱子里。根据需要，可以使用此方法将物品送入或送出机械。"
 				""
-				"Of course, many other options exist for getting stuff in and out as well."
+				"当然，还有许多其他的选择让东西进出压缩空间机械。"
+				""
+				"译者注：副标题中的歌词出自The Lonely Island"
+				"演唱的恶搞歌曲《Dick In A Box》。"
 			]
 			id: "39464A091BDC7850"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "648F5FCF7685D6B0"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
-			subtitle: "Two, stick your junk in that box"
+			subtitle: "第二步，把你那玩意放进盒子"
 			tasks: [{
 				id: "775491502E20C096"
 				item: {
@@ -611,7 +617,7 @@
 						]
 					}
 				}
-				title: "Tunnels"
+				title: "接口"
 				type: "item"
 			}]
 			x: -1.5d
@@ -619,16 +625,16 @@
 		}
 		{
 			dependencies: ["1CCF4A4FD41751B9"]
-			description: ["Each tier of backpack offers both more upgrade slots and more storage slots. "]
+			description: ["每级的背包提供了提供了更多升级栏位和更多存储栏位。"]
 			id: "061564D8A1EC2E9B"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
 				icon: "kubejs:sorcerers_delight"
 				id: "5A289B5F3E0313BF"
-				title: "Sorcerer's Delight"
+				title: "法师乐事包"
 				type: "command"
 			}]
-			subtitle: "Haversack, will travel"
+			subtitle: "有背包，就会旅行"
 			tasks: [{
 				id: "2260E7A722EF4918"
 				item: {
@@ -695,21 +701,23 @@
 						]
 					}
 				}
-				title: "Upgraded Backpacks"
+				title: "背包升级"
 				type: "item"
 			}]
-			title: "Upgraded Backpacks"
+			title: "背包升级"
 			x: 4.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["49596454693937AC"]
 			description: [
-				"Got more gadgets and gizmos than one cavern can hold? More whozits and whatzits than you know what to do with? Then its time to shove it in another dimension and hire someone to sort it for you. Just read the fine print of any contracts you sign."
+				"小工具和小发明多的一个洞穴装不下？各种各样的东西多到你不知道该怎么处理？那么是时候把它们放进另一个维度，雇人来为你分类了。只要阅读你所签署的任何合同的细则就行。"
 				""
-				"Occultism offers extensive storage capabilities with cross-dimensional access both manually and via automation such as pipes, hoppers, or an ME Storage Bus."
+				"神秘学提供了超大存储的能力，你可以通过手动或如管道、漏斗或ME存储总线一类的自动化方式跨维度地访问它们。"
 				""
-				"Check out the Occultism chapter for more details on the process."
+				"此过程的详细内容请查阅关于神秘学的任务章节。"
+				""
+				"译者注：副标题中的歌词出自动画电影《小美人鱼》的插曲《Part of Your World》。"
 			]
 			hide_dependency_lines: true
 			id: "012B3D83DF5E9A82"
@@ -718,25 +726,25 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "7346B1D805621D89"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
-			subtitle: "Wouldn't you think my collection's complete?"
+			subtitle: "你不觉的我的收藏品很完全吗？"
 			tasks: [{
 				id: "2417FB0E5E79DDB7"
 				item: "occultism:storage_controller"
 				type: "item"
 			}]
-			title: "Dimensional Storage"
+			title: "维度存储"
 			x: 1.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["5F17797B15355AE8"]
 			description: [
-				"A Collector Upgrade allows the drawer to pick up items from the world. "
+				"收集升级可使抽屉捡起世界中的物品。"
 				""
-				"Set the pickup direction in the drawer’s GUI. "
+				"在抽屉的界面中设置捡起方向。"
 			]
 			id: "7C702D301C22AA11"
 			rewards: [
@@ -775,9 +783,9 @@
 		{
 			dependencies: ["5F17797B15355AE8"]
 			description: [
-				"Puller and Pusher upgrades allow the drawer to pull items from or push items to adjacent inventories."
+				"抽取和输出升级可使抽屉从相邻容器中抽取物品或向其中输出物品。"
 				""
-				"Set the direction in the drawer’s GUI. "
+				"在抽屉的界面中设置方向。"
 			]
 			id: "160E8C35F4FB6CBA"
 			rewards: [
@@ -836,9 +844,9 @@
 		{
 			dependencies: ["5F17797B15355AE8"]
 			description: [
-				"Ender drawers, as the name might imply, allow their contents to be accessed from multiple locations. "
+				"末影抽屉，顾名思义，你可以从多个位置访问其中的内容。"
 				""
-				"Each drawer is given a unique frequency when placed which may be copied by Left Clicking it with a Linking Tool. Right Clicking another Ender Drawer copies the frequency to it, effectively making the two drawers act as one."
+				"每个抽屉被放置时都会被分配一个唯一的频率，该频率可以通过连接工具左击抽屉进行复制。右击另一个末影抽屉会将频率复制到该抽屉，将两个抽屉等效为一个抽屉。"
 			]
 			icon: "functionalstorage:ender_drawer"
 			id: "336CA09DC12AF609"
@@ -847,7 +855,7 @@
 				item: "functionalstorage:ender_drawer"
 				type: "item"
 			}]
-			subtitle: "Getting your drawers in a knot"
+			subtitle: "抽屉乱成麻"
 			tasks: [
 				{
 					id: "1B8B509979B93D6F"
@@ -873,9 +881,9 @@
 		{
 			dependencies: ["5F17797B15355AE8"]
 			description: [
-				"Compacting drawers automatically change form of item stored."
+				"压缩抽屉会自动改变存储在其中的物品的形态。"
 				""
-				"From block to ingots, ingots to nuggets. Vice versa and everything at once."
+				"从块到锭，锭到粒。反之亦然，一步到位。"
 			]
 			id: "7638487E1EB65790"
 			rewards: [
@@ -908,11 +916,14 @@
 		{
 			dependencies: ["5F17797B15355AE8"]
 			description: [
-				"A hoarder’s dream come true. Now nothing from that mob farm will go to waste! "
+				"囤积者的梦想成真了。现在，刷怪场的一切都不会被浪费！"
 				""
-				"The Armory Cabinet will hold a very substantial amount of armor, weapons, tools, and other un-stackable items. "
+				"军械柜可以容纳大量的盔甲、武器、工具和其他不可堆叠的物品。"
 				""
-				"The block has no manual interface, items must be accessed through automation. "
+				"该方块没有手动接口，物品必须通过自动化传输。"
+				""
+				"译者注：副标题中的句子改编自Sir Mix-A-Lot"
+				"演唱的歌曲《Baby Got Back》中的歌词。"
 			]
 			id: "504F1F877605A96F"
 			rewards: [{
@@ -921,7 +932,7 @@
 				item: "minecraft:hopper"
 				type: "item"
 			}]
-			subtitle: "Oh my god Becky, look at that trunk"
+			subtitle: "我的天啊，Becky，看那个柜子"
 			tasks: [{
 				id: "5B5845395AA43A32"
 				item: "functionalstorage:armory_cabinet"
@@ -933,9 +944,9 @@
 		{
 			dependencies: ["49596454693937AC"]
 			description: [
-				"Far more than a simple storage solution, Applied Energetics 2 offers a full range of automation and cross dimensional transport capabilities. "
+				"应用能源2远不止是一个简单的存储解决方案，它还提供了全方位的自动化和跨维度运输功能。"
 				""
-				"Check out the dedicated AE2 chapter for more information. "
+				"查看专门的AE2任务章节以了解更多信息。"
 			]
 			hide_dependency_lines: true
 			id: "0E7B68F691009EE7"
@@ -970,25 +981,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "Digital Age for Experts"
+			subtitle: "为专家准备的数字时代"
 			tasks: [{
 				id: "20CD361A244875B4"
 				item: "ae2:controller"
 				type: "item"
 			}]
-			title: "Applied Energetics 2"
+			title: "应用能源2"
 			x: 0.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["1CCF4A4FD41751B9"]
-			description: ["Stack upgrades allow each slot to hold more than usual, with their effect stacking with each other as well. A single Tier 1 upgrade will double a slot to 128, and another Tier 1 upgrade will double that again to 256!"]
+			description: ["堆叠升级使每个栏位都能容纳比平时更多的东西，它们的效果也会相互堆叠。一个一阶升级将使栏位容量翻倍，达到128个物品，而第二个一阶升级将使容量再次翻倍，达到256个物品！"]
 			id: "403F66157A48A8B1"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "15459A42ED6498D9"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1017,7 +1028,7 @@
 						]
 					}
 				}
-				title: "Stack Upgrades"
+				title: "堆叠升级"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1025,13 +1036,13 @@
 		}
 		{
 			dependencies: ["1CCF4A4FD41751B9"]
-			description: ["Add some extra features to your backpack, like the ability to craft or use a stonecutter without leaving the interface. "]
+			description: ["为你的背包添加一些额外的功能，比如在不离开界面的情况下合成或使用切石机。"]
 			id: "22B16439EF48FCF9"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "1EF64BA8385C9633"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1052,7 +1063,7 @@
 						]
 					}
 				}
-				title: "Functional Upgrades"
+				title: "功能性升级"
 				type: "item"
 			}]
 			x: 2.5d
@@ -1060,13 +1071,13 @@
 		}
 		{
 			dependencies: ["2A0CD26353B9E8C2"]
-			description: ["Stack upgrades allow each slot to hold more than usual, with their effect stacking with each other as well. A single Tier 1 upgrade will double a slot to 128, and another Tier 1 upgrade will double that again to 256!"]
+			description: ["堆叠升级使每个栏位都能容纳比平时更多的东西，它们的效果也会相互堆叠。一个一阶升级将使栏位容量翻倍，达到128个物品，而第二个一阶升级将使容量再次翻倍，达到256个物品！"]
 			id: "7F91EB6B1C6419A4"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "6C7BFEA25666ABD1"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1095,7 +1106,7 @@
 						]
 					}
 				}
-				title: "Stack Upgrades"
+				title: "堆叠升级"
 				type: "item"
 			}]
 			x: -4.0d
@@ -1103,13 +1114,13 @@
 		}
 		{
 			dependencies: ["2A0CD26353B9E8C2"]
-			description: ["Add some extra features to your storage, like the ability to craft or use a stonecutter without leaving the interface. "]
+			description: ["为你的背包添加一些额外的功能，比如在不离开界面的情况下合成或使用切石机。"]
 			id: "7D8D1C51AED92742"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "6785C99A281DEC37"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1130,7 +1141,7 @@
 						]
 					}
 				}
-				title: "Functional Upgrades"
+				title: "功能性升级"
 				type: "item"
 			}]
 			x: -5.0d
@@ -1138,13 +1149,13 @@
 		}
 		{
 			dependencies: ["2A0CD26353B9E8C2"]
-			description: ["Any item that comes in direct contact with the storage will be picked up automatically. "]
+			description: ["任何与该存储直接接触的物品都将被自动捡起。"]
 			id: "0EBAE28D89D7BA19"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "70EF1FE697ED75CB"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1157,13 +1168,13 @@
 		}
 		{
 			dependencies: ["2A0CD26353B9E8C2"]
-			description: ["Picks up items in the area, inserting them into the storage. "]
+			description: ["捡起范围内的物品，并将它们放入存储。"]
 			id: "16A9C609B6771A6A"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "0C9548C7E92427CD"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -1178,17 +1189,17 @@
 			dependencies: ["2A0CD26353B9E8C2"]
 			dependency_requirement: "one_completed"
 			description: [
-				"The Sophisticated Storage Controller acts as a central hub for automation. Any linked containers are accessible through it by things such as pipes, hoppers, or an ME Storage Bus."
+				"精妙存储的存储控制器充当着用于自动化的中央枢纽。任何与之连接的抽屉都可以通过管道、漏斗或ME存储总线等设备进行访问。"
 				""
-				"To connect a Sophisticated Storage container to the Controller, simply place it down next to the Controller. More containers may be added, so long as everything is touching. Chaining in this way works out to 12 blocks from the Controller.  "
+				"要想将精妙存储的容器与控制器相连，只需将其放在控制器旁边即可。只要所有方块都相连，就可以添加更多的容器。以这种方式进行连接的容器最远可以离控制器12格方块。"
 				""
-				"Otherwise, remote containers may be linked with the help of a Storage Link. This will work in much the same way as a Controller in that a single Link can be used to connect a chained series of containers.  "
+				"否则，你就需要在存储链接的帮助下连接远程容器。它与控制器的工作方式大致相同，一个链接就可以连接一连串的容器。"
 				""
-				"First, place a Storage Link against the block in question. "
+				"首先，将存储链接紧贴相关方块放置。"
 				""
-				"Next, Sneak + Right Click the Controller with a Storage Tool to select it."
+				"接下来，用存储工具潜行+右击控制器来将其选中。"
 				""
-				"Finally, Right Click one or more Storage Links to create the connection. Each successful link will render a line between the Controller and the Storage Link."
+				"最后，右击一个或多个存储链接以创建连接。每个连接成功的链接都将在控制器和存储链接之间显示一条直线。"
 			]
 			id: "0777EE2C3BDB1F2D"
 			min_width: 300
@@ -1216,15 +1227,17 @@
 		{
 			dependencies: ["49596454693937AC"]
 			description: [
-				"While not really storage on its own, the Entangled Block enables remote access to the block or machine it is bound to, extending the block’s capabilities to the Entangled Block. "
+				"虽然纠缠方块本身并不是真正的存储，但它可以远程访问与其绑定的方块或机器，从而将方块的功能扩展到纠缠方块。"
 				""
-				"What does this mean, exactly? Well, if the target block accepts power, power can now be fed to it through the Entangled Block. Likewise for other things such as Fluids, Items, Mekanism Gases, PNC Air and Heat, and possibly more. "
+				"这到底意味着什么？好吧，如果目标方块接收能量，那么你就可以通过纠缠方块向其供能。这同样适用于流体、物品、通用机械气体、PNC空气和热量，以及更多的东西。"
 				""
-				"The uses for these blocks are practically endless, from hiding pesky wiring out of sight, to improving throughput to a machine by exposing more faces to insert through."
+				"该方块的用途实际上是无穷无尽的，从将讨厌的布线隐藏在视线之外，到通过暴露更多的输入面以提高机器的吞吐量。"
 				""
-				"Bear in mind that the Entangled Block itself is still passive. If the bound machine is set to push items out to an adjacent chest, for instance, the Entangled Block will not do this. "
+				"请记住，纠缠方块本身始终是被动的。举个例子，如果其绑定的机器被设置为将物品输出至相邻的箱子，那么纠缠方块不会这样做。"
 				""
-				"To bind a block to the Entangled Block, Sneak Right-Click the target block with the Entangled Binder. Then simply Right-Click a placed Entangled Block. The target block will render inside of the Entangled Block when properly bound. "
+				"若要方块绑定到纠缠方块，用纠缠绑定器潜行右击目标方块。然后直接右击一个放置的纠缠方块。当正确绑定时，纠缠方块将在其内部显示目标方块。"
+				""
+				"译者注：副标题《颠倒乾坤》是一部于1983年上映的喜剧片。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1238,10 +1251,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
 				icon: "kubejs:sorcerers_delight"
 				id: "3D6BE8CBC0A1EB4E"
-				title: "Sorcerer's Delight"
+				title: "法师乐事包"
 				type: "command"
 			}]
-			subtitle: "Trading Places"
+			subtitle: "颠倒乾坤"
 			tasks: [
 				{
 					id: "4FA4C17BDD538120"
@@ -1268,21 +1281,21 @@
 		{
 			dependencies: ["49596454693937AC"]
 			description: [
-				"Let wanderlust take you where the wind blows and bring your home along with you for the journey. "
+				"让流浪的欲望带你去风吹过的地方，带着你的家一起旅行。"
 				""
-				"Nomadic Tents provide a small area to keep your essentials. Build a small storage system inside with some basic machinery. Keep your bed there too if you wish; sleeping is allowed!"
+				"游牧者帐篷为你提供了一个小区域来存放你的必需品。用一些基本的机器在里面建立一个小型存储系统。如果你愿意，也把你的床放在那里；你可以在里面睡觉！"
 				""
-				"Craft any sized tent, then Right-Click and Hold on the ground to place the frame. Right-Click each Frame block with a Tent Mallet to form the tent. Using a Golden Tent Mallet will frame out the entire tent instantly!"
+				"合成任意大小的帐篷，然后用其对着地面按住右键以放置框架。用帐篷锤右击每个的框架方块以形成帐篷。使用金色帐篷锤可以立即搭建整个帐篷！"
 				""
-				"To pick the tent back up, Right-Click the door once with any Tent Mallet."
+				"用任意帐篷锤右击一次门以捡起帐篷。"
 				""
-				"To enter or exit the tent, simply Right-Click or walk through the door. Enjoy your cozy new living space!"
+				"只需右击或走进门就可以进入或离开帐篷。享受你全新且舒适的生活空间！"
 				""
 				"========================================"
 				""
-				"Note: Normally this mod has Tent Shovels that are used to increase the floor depth of a tent. These have been intentionally disabled, and all tents come with the floor depth maximized by default."
+				"注：正常情况下，该模组有把帐篷铲，可以用来增加帐篷的地板深度。它被故意禁用了，并且默认情况下，所有帐篷都具有最大的地板深度。"
 				""
-				"Already have a Mega sized tent but didn’t upgrade the floor layers? Craft it together with a Wooden Shovel to max out the layers. "
+				"已经有了一个极巨帐篷，但并没有升级地板深度？将其与木铲一起合成，将其深度提升到最大。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1296,7 +1309,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "3E7B38F35C3CE978"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [
@@ -1314,7 +1327,7 @@
 							value: "^nomadictents:(tiny|small|medium|large|giant|mega)"
 						}
 					}
-					title: "Nomadic Tents"
+					title: "游牧者帐篷"
 					type: "item"
 				}
 				{
@@ -1348,11 +1361,11 @@
 							]
 						}
 					}
-					title: "Mallet"
+					title: "帐篷锤"
 					type: "item"
 				}
 			]
-			title: "Nomadic Tents"
+			title: "游牧者帐篷"
 			x: 0.5d
 			y: -8.5d
 		}
@@ -1363,21 +1376,21 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"There’s nothing quite so frustrating as falling into the void and dying due to a bug."
+				"没有什么比掉进虚空并因bug而死更令人沮丧的事情了。"
 				""
-				"Things happen. Sometimes players get outside of the bounds of a Compact Machine or a Tent and end up in an awkward situation of being unable to get back again. "
+				"这种事时有发生。有时玩家出现在压缩空间机械帐篷的范围外，最终陷入无法再次返回的尴尬境地。"
 				""
-				"Enigmatica has implemented special precautions for these situations. "
+				"Enigmatica已针对这些情况采取了特别的预防措施。"
 				""
-				"Just jump into the void to be teleported to your spawn point. "
+				"只要跳进虚空，就可以传送到你的出生点。"
 				""
 				"================================="
 				""
-				"Valid Dimensions"
+				"有效的维度"
 				""
-				"● &3Compact Machines&r"
-				"● &6Nomadic Tents&r"
-				"● &5The End&r"
+				"● &3压缩空间机械&r"
+				"● &6游牧者帐篷&r"
+				"● &5末地&r"
 			]
 			icon: "pneumaticcraft:bandage"
 			id: "129BF92C5CFFF20E"
@@ -1387,10 +1400,10 @@
 				type: "item"
 			}]
 			shape: "heart"
-			subtitle: "Don't Panic!"
+			subtitle: "不要惊慌！"
 			tasks: [{
 				id: "45B51A9D01B1FA14"
-				title: "Safety First!"
+				title: "安全第一！"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -1399,11 +1412,11 @@
 		{
 			dependencies: ["49596454693937AC"]
 			description: [
-				"Keeping things organized through the power of friendship!"
+				"通过友谊的力量使物品井然有序！"
 				""
-				"Storage Lecterns act as the central access point for a storage system offered by Ars Nouveau. It connects multiple storage blocks together by way of Bookwyrms and offers some limited automation capabilities as well!"
+				"存储讲台是新生魔艺提供的存储系统的中央访问点。它通过书龙将多个存储方块连接在一起，并提供了一些有限的自动化功能！"
 				""
-				"Read more about setting it up in the Ars Nouveau quest section. "
+				"在新生魔艺任务章节阅读更多关于建造它的信息。"
 			]
 			hide_dependency_lines: true
 			id: "673EBA3E6B2B8DA9"
@@ -1422,5 +1435,5 @@
 			y: -6.0d
 		}
 	]
-	title: "Storage"
+	title: "存储"
 }
