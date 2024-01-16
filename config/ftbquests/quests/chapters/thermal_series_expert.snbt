@@ -11,9 +11,9 @@
 		{
 			dependencies: ["2CCCDD05AED3153F"]
 			description: [
-				"The Thermal Series is a suite of mods that has been a staple of Modded Minecraft for years. Time has brought many changes to it, but it's kept its overall theme of slightly magical tech throughout. "
+				"热力系列是模组Minecraft多年以来的主流模组系列之一。时间给它带来了很多变化，但它始终保持着一种略带魔法的科技主题。"
 				""
-				"The Thermalpedia goes into greater detail on many of the tools and machines in the Thermal Series. Refer to it often to learn more. "
+				"《热力百科》详细地介绍了热力系列中的许多工具和机器。多多翻阅，以学习更多的知识。"
 			]
 			hide: true
 			id: "7CF7DC42CB9FA741"
@@ -39,19 +39,19 @@
 						value: "forge:raw_materials"
 					}
 				}
-				title: "Thermal Series"
+				title: "热力系列"
 				type: "item"
 			}]
-			title: "Thermal Series"
+			title: "热力系列"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["47F7760AAA4EC64E"]
 			description: [
-				"While nothing is without cost, the source of energy isn't always immediately obvious. The Arboreal Extractor uses a combination of gravity and the trees own capillary action to collect the fluids available in the tree. "
+				"虽然天下没有免费的午餐，但是能量的来源也不是拨开云就能见天日的。树汁提取器结合了重力和树木自身的毛细管作用来收集树木中可用的流体。"
 				""
-				"This is a non-destructive process, but a living tree is required. Supplying some bone meal or other fertilizer can help replenish the tree's reserves faster, thus boosting production."
+				"这是一个非破坏性的过程，但需要一棵活树。提供一些骨粉或其他肥料可以帮助更快地补充树木的储备，从而提高产量。"
 			]
 			hide_dependency_lines: true
 			id: "2CE73D496CB08387"
@@ -60,14 +60,14 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "6A5A5500DDD853A4"
-					title: "Rare Thermal Series Loot Box"
+					title: "稀有热力系列战利品箱"
 					type: "command"
 				}
 				{
 					count: 4
 					id: "66E91730D4FDB1E8"
 					item: "minecraft:acacia_sapling"
-					title: "Acacia Sapling"
+					title: "金合欢树苗"
 					type: "item"
 				}
 				{
@@ -77,7 +77,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Trickle-Down Economics"
+			subtitle: "下渗经济学"
 			tasks: [{
 				id: "43BC686F93E08955"
 				item: "thermal:device_tree_extractor"
@@ -88,7 +88,7 @@
 		}
 		{
 			dependencies: ["3C0866A9BBD5EBD9"]
-			description: ["With a little bit of energy input, the Fractionating Still can refine Resin into Tree Oil, a fine renewable fuel that burns more efficiently than coal."]
+			description: ["输入一点能量，流体精炼机就可以将树脂精炼成树油，一种比煤炭燃烧效率更高的优质可再生燃料。"]
 			hide_dependency_lines: true
 			icon: "thermal:machine_refinery"
 			id: "0D4784EAEBEE933B"
@@ -96,10 +96,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "3E31589A406DBA63"
-				title: "Epic Thermal Series Loot Box"
+				title: "史诗热力系列战利品箱"
 				type: "command"
 			}]
-			subtitle: "Whiskey Business"
+			subtitle: "威士忌生意"
 			tasks: [{
 				id: "72CD088EF24F5B9E"
 				item: "thermal:machine_refinery"
@@ -111,9 +111,9 @@
 		{
 			dependencies: ["6DDBC0C21F8B534B"]
 			description: [
-				"Some materials are more abundant than they seem at first glance, they're simply locked up in different forms that require a touch more work to release."
+				"有些材料比你想的更加充裕，它们只是被锁在了不同的形态，需要稍许的加工来释放它们。"
 				""
-				"A Pulverizer can help extract these extras, extracting more material from ores. Be sure to check out the available Catalysts to get the most out of this machine. "
+				"磨粉机可以帮助提取这些额外产出，从矿石中提取更多的材料。请确保查看可用的催化剂以充分利用这台机器。"
 			]
 			hide_dependency_lines: true
 			id: "768186F5E866720E"
@@ -121,10 +121,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "517403840766CE9B"
-				title: "Rare Thermal Series Loot Box"
+				title: "稀有热力系列战利品箱"
 				type: "command"
 			}]
-			subtitle: "Between a Rock and a Hard Place"
+			subtitle: "左右为难"
 			tasks: [{
 				id: "4DF9D33DA2CDC537"
 				item: "thermal:machine_pulverizer"
@@ -135,17 +135,17 @@
 		}
 		{
 			dependencies: ["6DDBC0C21F8B534B"]
-			description: ["An advanced furnace used for making alloys directly, as well as many other useful materials, such as hardened glass."]
+			description: ["一台用于直接制作合金的高级熔炉，它还可以用于制作许多其它有用的材料，如硬化玻璃。"]
 			hide_dependency_lines: true
 			id: "4913E2EA46179131"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "5BBE973CF92A9780"
-				title: "Epic Thermal Series Loot Box"
+				title: "史诗热力系列战利品箱"
 				type: "command"
 			}]
-			subtitle: "Support the Resistance!"
+			subtitle: "支持电阻！"
 			tasks: [{
 				id: "353DB78D9C4702BC"
 				item: "thermal:machine_smelter"
@@ -156,7 +156,12 @@
 		}
 		{
 			dependencies: ["6DDBC0C21F8B534B"]
-			description: ["A simple furnace, like a standard coal burning furnace except faster and more efficient."]
+			description: [
+				"一个简易熔炉，和标准的燃煤熔炉一样，只不过更快、更高效。"
+				""
+				"译者注：副标题“卡普森38 II型”是科幻冒险电"
+				"影《冲出宁静号》中的一种型号的飞船引擎。"
+			]
 			hide_dependency_lines: true
 			id: "150CB3F927300A08"
 			rewards: [
@@ -164,18 +169,18 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "467638FBBBBA1129"
-					title: "Rare Thermal Series Loot Box"
+					title: "稀有热力系列战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "239A690985090125"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 			]
-			subtitle: "Capissen 38 Mark II"
+			subtitle: "卡普森38 II型"
 			tasks: [{
 				id: "4FC24E015777B7B3"
 				item: "thermal:machine_furnace"
@@ -186,7 +191,12 @@
 		}
 		{
 			dependencies: ["6DDBC0C21F8B534B"]
-			description: ["Precision machining typically means greater efficiencies, either in terms of time spent doing a task or materials used. The MultiServo Press is one such machine that makes pressing plates faster and gears cheaper, as well as opening the door to other processing techniques."]
+			description: [
+				"精密加工通常意味着更高的效率，无论是在完成任务的时间还是在使用的材料上。多驱冲压机就是这样一台机器，它冲压板更快、齿轮更便宜，同时也打开了其他加工技术的大门。"
+				""
+				"译者注：副标题中的句子改编自Polo G演唱的歌"
+				"曲《Bop It》中的歌词。"
+			]
 			hide_dependency_lines: true
 			id: "00CF7C0CE6E7CF7B"
 			rewards: [
@@ -199,11 +209,11 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "193EDF78A3E04D53"
-					title: "Epic Thermal Series Loot Box"
+					title: "史诗热力系列战利品箱"
 					type: "command"
 				}
 			]
-			subtitle: "Bop It, Pull It, Twist It"
+			subtitle: "敲一敲、拉一拉、扭一扭"
 			tasks: [{
 				id: "0E0ACFBD09AD81BE"
 				item: "thermal:machine_press"
@@ -215,9 +225,9 @@
 		{
 			dependencies: ["6DDBC0C21F8B534B"]
 			description: [
-				"A precision machine that can quickly assemble components, simplifying automation. It features an internal fluid tank as well which can automatically provide liquids to crafts that need them. "
+				"一台可以快速组装部件，简化自动化的精密机器。它还拥有一个内部流体储罐，可以自动向需要的合成提供液体。"
 				""
-				"Set a recipe, press the green check to validate it, and then supply the ingredients."
+				"设定一个配方，按下绿色对勾进行确认，然后提供原料。"
 			]
 			hide_dependency_lines: true
 			id: "0A4C2B0EF5B5B6D6"
@@ -225,10 +235,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "4210E54DDC394058"
-				title: "Rare Thermal Series Loot Box"
+				title: "稀有热力系列战利品箱"
 				type: "command"
 			}]
-			subtitle: "Insert Tab A Into Slot B"
+			subtitle: "你凹我凸"
 			tasks: [{
 				id: "17F56C23C83E3254"
 				item: "thermal:machine_crafter"
@@ -240,13 +250,13 @@
 		{
 			dependencies: ["76735D51B1CCA2E0"]
 			dependency_requirement: "one_started"
-			description: ["A handheld 'explosive' that releases the charged energy of elemental Blitz, causing lightning to strike spontaneously."]
+			description: ["一种手持“爆炸物”，可以释放元素狂风人的雷电能量，使闪电自发地击下。"]
 			id: "5DC3E6D8DB5FD89F"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "23ABDE84C87F5211"
-				title: "Epic Thermal Series Loot Box"
+				title: "史诗热力系列战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -260,13 +270,13 @@
 		{
 			dependencies: ["76735D51B1CCA2E0"]
 			dependency_requirement: "one_started"
-			description: ["A handheld 'explosive' that releases the chilling power of elemental Blizz, freezing water and blanketing the area in snow."]
+			description: ["一种手持“爆炸物”，可以释放元素暴雪人的寒冷能量，将水冰冻并在一定范围内覆盖大雪。"]
 			id: "1B992BA3B449C863"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "14971E1A5495EB6B"
-				title: "Epic Thermal Series Loot Box"
+				title: "史诗热力系列战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -280,13 +290,13 @@
 		{
 			dependencies: ["76735D51B1CCA2E0"]
 			dependency_requirement: "one_started"
-			description: ["A handheld 'explosive' that releases the latent power of elemental Basalz, causing the earth to shift and crack."]
+			description: ["一种手持“爆炸物”，可以释放元素岩石人的潜在能量，使地崩山摇。"]
 			id: "15DF4DFB35D80CD2"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "51BC909489C10C92"
-				title: "Epic Thermal Series Loot Box"
+				title: "史诗热力系列战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -300,13 +310,13 @@
 		{
 			dependencies: ["76735D51B1CCA2E0"]
 			dependency_requirement: "one_started"
-			description: ["A handheld 'explosive' that releases the smoldering energy of elemental Blaze, lighting the surroundings on fire."]
+			description: ["一种手持“爆炸物”，可以释放元素烈焰人的阴燃能量，使熊熊火光照亮周围。"]
 			id: "531655B2E609BFD1"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "578306D91A22C541"
-				title: "Epic Thermal Series Loot Box"
+				title: "史诗热力系列战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -320,19 +330,24 @@
 		{
 			dependencies: ["7CF7DC42CB9FA741"]
 			description: [
-				"Simple metallurgy can only go so far. At a certain point, more exotic materials are required. Seek out the elemental creatures that make their homes in the world's most extreme environments."
+				"简单的冶金学已经走到了尽头。在这个节点上，你需要更多奇异的材料。寻找在世界最极端环境下居住的元素生物吧。"
 				""
-				"● Blaze may be found naturally just about anywhere in the Nether, though Nether Fortresses are certainly a hot spot for them."
+				"● 烈焰人可以在下界的任何地方被找到，不过下界要塞是它们频繁现身的"
+				"地方。"
 				""
-				"● Basalz may similarly be found in the Nether such as in Basalt Deltas. They’ll appear in the Overworld as well in Barren or Mountainous Biomes."
+				"● 岩石人也可以在下界中被找到，如玄武岩三角洲。它们还会出现在主世"
+				"界的荒地或山地群系中。"
 				""
-				"● Blitz may be found in Warm and Dry biomes such as Deserts, Savannas, or Badlands; places with no rainfall."
+				"● 狂风人可以在温暖或干燥的群系中被找到，如沙漠、热带草原或恶地；"
+				"那些不会降雨的地方。"
 				""
-				"● Blizz may be found in Cold biomes; anywhere that might see snow fall. "
+				"● 暴雪人可以在寒冷的群系中找到；任何那些可能会降雪的地方。"
 				""
-				"A Nature’s Compass is useful for locating Biomes by their properties. Use the Temperature or Tag sorting options to display a list of Biomes and their Tags. For instance, Frozen Peaks count as a Cold Biome and will spawn Blizz. "
+				"自然指南针可以很好的根据特性寻找对应的生物群系。选择按温度或标签排序来显示一系列生物群系和它们的标签。例如，冰封山峰算作寒冷的群系，会生成暴雪人。"
 				""
-				"If these mobs prove difficult to find, they may be summoned via the Elemental Gate Pearls. Watch out, they’ll come in droves."
+				"如果你在寻找这些怪物时遇到了困难，你可以通过元素召唤它们。请小心，它们会成群结队地出现。"
+				""
+				"译者注：副标题中的句子改编自动画电视系列集片《降世神通：最后的气宗》中的台词。"
 			]
 			hide_dependency_lines: true
 			id: "76735D51B1CCA2E0"
@@ -341,11 +356,11 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "43F101BC77A8673B"
-				title: "Epic Thermal Series Loot Box"
+				title: "史诗热力系列战利品箱"
 				type: "command"
 			}]
 			shape: "hexagon"
-			subtitle: "Everything changed when the Fire Elementals attacked"
+			subtitle: "当火元素发动进攻时，一切都改变了"
 			tasks: [
 				{
 					id: "404FBE07F405F1A5"
@@ -368,16 +383,16 @@
 					type: "item"
 				}
 			]
-			title: "Exotic Elements"
+			title: "奇异元素"
 			x: -2.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["13A6AFA79C2B1B4D"]
 			description: [
-				"Better storage or faster discharge? "
+				"更大的存储还是更快的传输？"
 				""
-				"Consider the application carefully when choosing between these augments. "
+				"请仔细考虑如何选择这些增强。"
 			]
 			id: "42F51BFD24324A0A"
 			rewards: [
@@ -385,14 +400,14 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "2A324B87D3B4F56D"
-					title: "Rare Thermal Series Loot Box"
+					title: "稀有热力系列战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "100656C2D1AFB4A9"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 			]
@@ -418,21 +433,21 @@
 						]
 					}
 				}
-				title: "RF Capacity/Upgrade Augments"
+				title: "RF容量/升级增强"
 				type: "item"
 			}]
-			title: "RF Capacity and Transfer Augments"
+			title: "RF容量和传输增强"
 			x: 6.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["7CF7DC42CB9FA741"]
 			description: [
-				"Integral Components represent a generic upgrade that may be installed in any upgradable Thermal Series machine, device, or dynamo. They offer a straight multiplier of most stats, applied after other Augments, so they’re always worth using."
+				"整合组件代表着通用升级，它可以安装在任何可升级的热力系列机器、装置或发电机中。它对大部分的数据直接做乘法修正，并该修正在其他增强之后，所以它们总是值得使用的。"
 				""
-				"Only one may be used at a time and only the highest tier counts, so be sure to spread them around."
+				"一次只能使用一个整合组件，并且只有最高级别的组件生效，所以一定要将它们分散开来使用。"
 				""
-				"Augments serve many roles, sometimes changing functionality slightly depending on where they’re installed. Not all Augments may be used in every Machine or Device, so be sure to check the Thermalpedia for specifics."
+				"增强的作用很多，有时它会根据安装的机器略微更改功能。并非所有的增强都可以用于每台机器或装置，因此请务必查看《热力百科》以了解详细信息。"
 			]
 			hide_dependency_lines: true
 			icon: "thermal:upgrade_augment_1"
@@ -442,7 +457,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "01AC3F6CE73D538E"
-				title: "Rare Thermal Series Loot Box"
+				title: "稀有热力系列战利品箱"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -468,19 +483,19 @@
 						]
 					}
 				}
-				title: "Integral Components"
+				title: "整合组件"
 				type: "item"
 			}]
-			title: "Machine and Device Augments"
+			title: "机器和装置增强"
 			x: 6.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["3C0866A9BBD5EBD9"]
 			description: [
-				"Based on the ancient art of spinning things until they fly apart, Centrifuges are a vital part of industry, allowing for efficient separation of materials. "
+				"离心分离机是工业的重要组成部分，它以旋转物体直至其分离的古老工艺为原理，可以有效地分离材料。"
 				""
-				"Useful for a variety of purposes, its also the first step in creating a versatile and energy dense liquid fuel."
+				"它的功能多样，它同时也是创造多用途、高能量密度的液体燃料的第一步。"
 			]
 			hide_dependency_lines: true
 			id: "720489AD2582B673"
@@ -488,10 +503,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "221872CEB5FA2D12"
-				title: "Rare Thermal Series Loot Box"
+				title: "稀有热力系列战利品箱"
 				type: "command"
 			}]
-			subtitle: "Up Against a Wall"
+			subtitle: "到处碰壁"
 			tasks: [{
 				id: "13BFFA431A27DB79"
 				item: "thermal:machine_centrifuge"
@@ -502,16 +517,16 @@
 		}
 		{
 			dependencies: ["3C0866A9BBD5EBD9"]
-			description: ["Expandable, upgradable, portable. An excellent first choice for gathering liquids in the field.  "]
+			description: ["可扩展、可升级、可便携。外出时收集液体的不二之选。"]
 			hide_dependency_lines: true
 			id: "467C4F43E87A2646"
 			rewards: [{
 				id: "7A91E36A92C43C8B"
 				item: "thermal:fluid_tank_augment"
-				title: "Expanded Tank Construction"
+				title: "液槽扩容升级"
 				type: "item"
 			}]
-			subtitle: "Can't Help But Feeling a Bit Sloshed"
+			subtitle: "忍不住地流口水"
 			tasks: [{
 				id: "5DF2B525BED0B305"
 				item: {
@@ -536,9 +551,9 @@
 		{
 			dependencies: ["13A6AFA79C2B1B4D"]
 			description: [
-				"A lot of material can be lost in a system that would otherwise be recovered by slowing down to check again. "
+				"机器运转时可能会丢失大量材料，这些材料可以通过减慢运行速度并进行再次确认来收回。"
 				""
-				"The Auxiliary Process Sieve trades speed for extra materials in applicable machines."
+				"辅助筛选升级在适用机器中以牺牲速度换取额外材料。"
 			]
 			id: "628D18771EE4CF1B"
 			rewards: [
@@ -546,14 +561,14 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "2C91810C41B2D338"
-					title: "Rare Thermal Series Loot Box"
+					title: "稀有热力系列战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "4144491203F58E75"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 			]
@@ -568,9 +583,9 @@
 		{
 			dependencies: ["13A6AFA79C2B1B4D"]
 			description: [
-				"Sometimes a job just needs to get done now and damn the costs. "
+				"有时，你只想尽快把活干完，管它什么该死的成本。"
 				""
-				"Flux Linkage Amplifiers greatly enhance the speed of machines though they reduce energy efficiency in turn."
+				"通量磁链升级大大提高了机器的速度，虽然它们会反过来降低能量效率。"
 			]
 			id: "619659BC2BE29D9A"
 			rewards: [
@@ -578,14 +593,14 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "29D6B666AEAC5267"
-					title: "Rare Thermal Series Loot Box"
+					title: "稀有热力系列战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "590E5DE244DFC01D"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 			]
@@ -600,9 +615,11 @@
 		{
 			dependencies: ["4A3199826CFBB9F3"]
 			description: [
-				"Feeling a bit peckish? How ‘bout a nice cold one, fresh from the tap?"
+				"感觉有点饿？来一杯新鲜、冰凉的自来水怎么样？"
 				""
-				"Place water sources on each side to produce infinite water that can be extracted by any fluid pipe. Perfect for automation!"
+				"在它的每一面放置水源以制造无限水，该无限水可以通过任何流体管道提取。非常适合自动化！"
+				""
+				"译者注：副标题中的句子出自动画电视系列集片《降世神通：最后的气宗》中的台词。"
 			]
 			hide_dependency_lines: true
 			id: "2DFDFD7D2DA62BDA"
@@ -611,18 +628,18 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "778AEA217C7C8A2C"
-					title: "Rare Thermal Series Loot Box"
+					title: "稀有热力系列战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "1B476CCA9B8E06EB"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 			]
-			subtitle: "Sick of Tea? That's like being sick of breathing. "
+			subtitle: "讨厌喝茶？这简直和讨厌呼吸无异。"
 			tasks: [{
 				id: "783D401DFB507EF3"
 				item: "thermal:device_water_gen"
@@ -634,9 +651,9 @@
 		{
 			dependencies: ["4A3199826CFBB9F3"]
 			description: [
-				"A bit of lava, a bit of water. Boom, box of rocks. "
+				"一点点熔岩和一点点水。轰隆隆，一箱石头。"
 				""
-				"The type of stone output by the Igneous Extruder is controlled by the block placed beneath it. "
+				"造石机输出的石头类型由放置在其下方的方块控制。"
 			]
 			hide_dependency_lines: true
 			id: "0EB49A8F15330F96"
@@ -644,10 +661,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "0774B29E91A76C00"
-				title: "Rare Thermal Series Loot Box"
+				title: "稀有热力系列战利品箱"
 				type: "command"
 			}]
-			subtitle: "Igneous is Bliss"
+			subtitle: "无知“石”福"
 			tasks: [{
 				id: "05E5510BE283C849"
 				item: "thermal:device_rock_gen"
@@ -658,7 +675,11 @@
 		}
 		{
 			dependencies: ["4A3199826CFBB9F3"]
-			description: ["A handy device for picking up that mess those zombies left. Such inconsiderate house-guests. "]
+			description: [
+				"一台用来收拾那些僵尸留下的烂摊子的方便装置。真是没礼貌的客人。"
+				""
+				"译者注：副标题中的句子出自动画电视系列集片《降世神通：最后的气宗》中的台词。"
+			]
 			hide_dependency_lines: true
 			id: "78B413889E6EBDF2"
 			rewards: [
@@ -666,18 +687,18 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "4AA02718DC4D5540"
-					title: "Rare Thermal Series Loot Box"
+					title: "稀有热力系列战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "4EE5F9B2065D91C7"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 			]
-			subtitle: "I laugh at gravity all the time. Hahaha, gravity!"
+			subtitle: "我总是嘲笑重力。哈哈哈，重力！"
 			tasks: [{
 				id: "70768D1978124950"
 				item: "thermal:device_collector"
@@ -689,9 +710,9 @@
 		{
 			dependencies: ["7CF7DC42CB9FA741"]
 			description: [
-				"A multi-purpose workbench which may be used to charge items, fill tanks with fluid, and alter the augments of any Thermal machines, devices, or tools. "
+				"一个多功能的工作台，可用于为物品充电、向储罐中填充流体以及更改任何热力机器、装置或工具的增强。"
 				""
-				"While the augments in blocks may be swapped out in their own GUI, the Tinker’s Workbench is the only way to install or change augments in hand-held tools. "
+				"虽然方块中的增强可以在其自己的界面中安装，但工匠工作台是唯一在手持工具中安装或更改增强的方法。"
 			]
 			hide_dependency_lines: true
 			id: "4A3199826CFBB9F3"
@@ -699,7 +720,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "5AB560A303B8E2C9"
-				title: "Rare Thermal Series Loot Box"
+				title: "稀有热力系列战利品箱"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -708,20 +729,20 @@
 				item: "thermal:tinker_bench"
 				type: "item"
 			}]
-			title: "Tools and Utility"
+			title: "工具和道具"
 			x: 2.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["4A3199826CFBB9F3"]
 			description: [
-				"A portable potion vial that may be used on oneself or on another target. It will inject the target with whatever potion it contains and may be used to automatically re-apply potions to the bearer."
+				"一个可用于玩家自身或其他目标的便携式药水瓶。它可以为目标注射它所含的任何药水，并可以为携带者自动延长药水时间。"
 				""
-				"Notable Augments:"
-				"● Integral Components"
-				"● Expanded Tank Construction"
-				"● Alchemical Amplifier"
-				"● Alchemical Extender"
+				"值得注意的增强："
+				"● 整合组件"
+				"● 液槽扩容升级"
+				"● 强效炼药升级"
+				"● 长效炼药升级"
 			]
 			hide_dependency_lines: true
 			id: "500C8D8F35A3F55E"
@@ -730,14 +751,14 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "1C185A11F23DF778"
-					title: "Epic Thermal Series Loot Box"
+					title: "史诗热力系列战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
 					icon: "kubejs:alchemists_delight"
 					id: "5CC3E27F1EC7040C"
-					title: "Alchemist's Delight"
+					title: "炼金术士乐事包"
 					type: "command"
 				}
 			]
@@ -757,12 +778,12 @@
 		{
 			dependencies: ["4A3199826CFBB9F3"]
 			description: [
-				"When filled, this Watering Can may be used to water plants in a wide area. Watering plants will greatly enhance growth rates.  "
+				"当洒水壶装满水时，它可以用来给大面积的植物浇水。为植物浇水将大大提高它们的生长速度。"
 				""
-				"Notable Augments:"
-				"● Integral Components"
-				"● Expanded Tank Construction"
-				"● Radial Enhancement"
+				"值得注意的增强："
+				"● 整合组件"
+				"● 液槽扩容升级"
+				"● 径向范围拓展"
 			]
 			hide_dependency_lines: true
 			id: "41A5D8DF27A4B3DF"
@@ -770,7 +791,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "4BAEBA54F4FE9A0E"
-				title: "Rare Thermal Series Loot Box"
+				title: "稀有热力系列战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
@@ -789,11 +810,11 @@
 		{
 			dependencies: ["4A3199826CFBB9F3"]
 			description: [
-				"A handheld Fluid Reservoir that will provide its fluids to any other held or worn equipment. On switching modes, it may also be used to pick up or place fluids in the world. "
+				"一个手持式贮液器，可以将其流体提供给其他任何手持或穿戴的装备。切换模式后，它还可以用于在世界中拾取或放置流体。"
 				""
-				"Notable Augments:"
-				"● Integral Components"
-				"● Expanded Tank Construction"
+				"值得注意的增强："
+				"● 整合组件"
+				"● 液槽扩容升级"
 			]
 			hide_dependency_lines: true
 			id: "1DA41FA5A60D74EE"
@@ -801,7 +822,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "2FC0A699D3902DD1"
-				title: "Rare Thermal Series Loot Box"
+				title: "稀有热力系列战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
@@ -820,13 +841,13 @@
 		{
 			dependencies: ["4A3199826CFBB9F3"]
 			description: [
-				"A magical quiver capable of holding an enormous number of arrows when upgraded which automatically tips any arrows with liquid potions as they’re drawn and shot."
+				"一个神奇的箭袋，升级后可以容纳大量的箭，当箭被抽出和射出时，它会自动为箭附上液体药水。"
 				""
-				"Notable Augments:"
-				"● Integral Components"
-				"● Expanded Tank Construction"
-				"● Alchemical Amplifier"
-				"● Alchemical Extender"
+				"值得注意的增强："
+				"● 整合组件"
+				"● 液槽扩容升级"
+				"● 强效炼药升级"
+				"● 长效炼药升级"
 			]
 			hide_dependency_lines: true
 			id: "7ECE50B3FC16A30A"
@@ -835,14 +856,14 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "7591C5EA445D189B"
-					title: "Epic Thermal Series Loot Box"
+					title: "史诗热力系列战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
 					icon: "kubejs:alchemists_delight"
 					id: "0D033F01D1648B58"
-					title: "Alchemist's Delight"
+					title: "炼金术士乐事包"
 					type: "command"
 				}
 			]
@@ -861,7 +882,7 @@
 		}
 		{
 			dependencies: ["47F7760AAA4EC64E"]
-			description: ["Good soil can be hard to come by, but with modern composting methods, waste food can be easily converted into compost. From there, a little mixing with other substrates results in some fine soil for planting."]
+			description: ["好的土壤也许很难获得，但通过现代的堆肥方法，废弃的食物可以很容易地转化为堆肥。从堆肥开始，与其他基质稍微混合，就可以形成一些用于种植的优质土壤。"]
 			hide_dependency_lines: true
 			id: "06F51ACDB4A04D6E"
 			rewards: [
@@ -887,7 +908,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 					icon: "kubejs:farmers_delight"
 					id: "095F545D37921A44"
-					title: "Farmer's Delight"
+					title: "农夫乐事包"
 					type: "command"
 				}
 			]
@@ -902,9 +923,9 @@
 		{
 			dependencies: ["47F7760AAA4EC64E"]
 			description: [
-				"Phyto-Soil is already a marvel of modern farming techniques, but it can be activated with a gentle energetic field to further enhance its growing potential. "
+				"通量植育土已经是现代农业技术的奇迹，但它还可以被温和的能量场激活，以进一步提高其生长潜力。"
 				""
-				"The Phyto-Soil Infuser does just this, supplying energy to Phyto-Soil at the same level as the device, as well as to soil one block above or below. The radius of effect may be expanded with Radial Enhancement Augments. "
+				"植育土注能机就是干这个的，为与装置同水平以及为上或下一格方块高度的通量植育土提供能量。作用半径可以用径向范围拓展扩大。"
 			]
 			hide_dependency_lines: true
 			icon: "thermal:device_soil_infuser"
@@ -920,14 +941,14 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "6FAAE1D7A1B0EF62"
-					title: "Rare Thermal Series Loot Box"
+					title: "稀有热力系列战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 					icon: "kubejs:farmers_delight"
 					id: "3590AC607FB5E76A"
-					title: "Farmer's Delight"
+					title: "农夫乐事包"
 					type: "command"
 				}
 			]
@@ -942,15 +963,17 @@
 		{
 			dependencies: ["47F7760AAA4EC64E"]
 			description: [
-				"While many find fishing to be a calm, relaxing pastime, others find it well… tedious. To those, the Aquatic Entangler is the answer to obtaining fish and other goodies from the seas. "
+				"虽然许多人觉得钓鱼是一种平静、放松的消遣，但也有人觉得它很……乏味。对这些人来说，水产捕捞器是从海洋中获取鱼类和其他好东西的答案。"
 				""
-				"Place the device facing a pool of water, its working area is out in front of it. Bait isn’t a requirement, but it will certainly help. By default, it captures fish from the Fishing loot table, without the Treasure or Junk tables. "
+				"将该装置面向水池放置，其工作区域在其正面。饵料不是必须的，但肯定会提供帮助。默认情况下，它将从钓鱼战利品表中捕获鱼，不会捕获宝藏或垃圾战利品表中的东西。"
 				""
-				"● Junk Nets will capture loot from the standard Junk fishing table, things like Leather Boots, String, and Leather."
+				"● 垃圾捕捞网会从标准的垃圾钓鱼战利品表中捕获战利品，如皮革靴子、"
+				"线和皮革。"
 				""
-				"● Aqua-Chow will simply increase the rates of catching standard drops from the Fishing table."
+				"● 水产饲料会单纯的增加从钓鱼战利品表中捕获标准掉落的概率。"
 				""
-				"● Benthic Aqua-Chow, on the other hand, will capture special treasures, such as Sponge, Prismarine, elusive Nautilus Shells, and even Tridents. Obtaining the best loot requires placing it in Ocean and Deep Ocean biomes. "
+				"● 底栖水产饲料，则会捕获特殊的宝藏，如海绵、海晶石、稀有的鹦鹉螺"
+				"壳，甚至还有三叉戟。需要将装置放置在海洋和深海群系才能够获得最好的战利品。"
 			]
 			hide_dependency_lines: true
 			id: "288B2E19C95FA005"
@@ -960,7 +983,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "67C2F821185E408C"
-					title: "Rare Thermal Series Loot Box"
+					title: "稀有热力系列战利品箱"
 					type: "command"
 				}
 				{
@@ -981,11 +1004,11 @@
 		{
 			dependencies: ["47F7760AAA4EC64E"]
 			description: [
-				"Bees really don’t care much for the more traditional methods of harvesting honey from their hives as it has a tendency towards being somewhat disruptive. "
+				"蜜蜂真的不太喜欢从蜂巢中采集蜂蜜这种非常传统的方法，因为它具有不少破坏性。"
 				""
-				"Flow Hives are a more recent invention that allows easy harvesting of honey without disturbing the bees, ensuring they remain healthy and happy, while still being able to enjoy their golden goodness."
+				"流动蜂房是最近的一项发明，它可以在不干扰蜜蜂的情况下轻松收获蜂蜜，确保蜜蜂保持健康和快乐，并仍然能够享受它们金灿灿的美好家园。"
 				""
-				"Simply place the Hive Hopper below a Beehive to begin!"
+				"只需将蜂巢漏斗放置在蜂巢下方即可开始采蜜！"
 			]
 			hide_dependency_lines: true
 			id: "6A8DE6D3DE4B0EB6"
@@ -994,7 +1017,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 					icon: "kubejs:rare_lootbox"
 					id: "7FD1EB8CA612CC76"
-					title: "Rare Thermal Series Loot Box"
+					title: "稀有热力系列战利品箱"
 					type: "command"
 				}
 				{
@@ -1004,7 +1027,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Don't Worry, Bee Happy!"
+			subtitle: "别伤心，保持甜蜜！"
 			tasks: [{
 				id: "4D00385853CBF5A6"
 				item: "thermal:device_hive_extractor"
@@ -1016,9 +1039,11 @@
 		{
 			dependencies: ["4A3199826CFBB9F3"]
 			description: [
-				"Pack overloaded with junk? "
+				"垃圾堆积过多？"
 				""
-				"The Nullifier is a simple trash can for both items and fluids."
+				"销毁器是一个即可以用于销毁物品，也可以销毁流体的简易垃圾桶。"
+				""
+				"译者注：副标题中的句子出自动画电视系列集片《降世神通：最后的气宗》中的台词。"
 			]
 			hide_dependency_lines: true
 			id: "6D61E59D79D5A505"
@@ -1026,10 +1051,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "368ACCCF678EEB95"
-				title: "Rare Thermal Series Loot Box"
+				title: "稀有热力系列战利品箱"
 				type: "command"
 			}]
-			subtitle: "I know you're not supposed to cry over spilled tea, but... it's just so sad."
+			subtitle: "我知道你不应该因为洒了的茶而哭泣，但是……这确实太令人难过了。"
 			tasks: [{
 				id: "3CB9BCA88ED8C70B"
 				item: "thermal:device_nullifier"
@@ -1041,9 +1066,9 @@
 		{
 			dependencies: ["3C0866A9BBD5EBD9"]
 			description: [
-				"Growing crystals is typically just a matter of getting all the right ingredients into the right environment. Like making a cake, forget one ingredient and the whole thing is ruined. "
+				"培育晶体通常只是将所有合适的成分放入合适的环境中。就像做蛋糕一样，忘记一种配料，整个东西就毁了。"
 				""
-				"The Crystallizer handles the majority of this, just give it the raw materials and I’ll get thing growing in no time. "
+				"结晶器可以处理培育晶体中的大部分事项，只要给它原材料，晶体很快就可以生长出来。"
 			]
 			hide_dependency_lines: true
 			id: "0E12FFBC8407F8D6"
@@ -1051,10 +1076,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "1A82EF559B0FEEC6"
-				title: "Epic Thermal Series Loot Box"
+				title: "史诗热力系列战利品箱"
 				type: "command"
 			}]
-			subtitle: "You Rock, Let's Facet!"
+			subtitle: "酷毙了，面对宝石吧！"
 			tasks: [{
 				id: "026846BAD898EAD7"
 				item: "thermal:machine_crystallizer"
@@ -1065,14 +1090,14 @@
 		}
 		{
 			dependencies: ["6DDBC0C21F8B534B"]
-			description: ["With a blade guaranteed for life, this Sawmill will get any cutting job done in no time. "]
+			description: ["这台锯木机的刀片终身质保，并且很快就能完成任何切割工作。 "]
 			hide_dependency_lines: true
 			id: "3B76594E254C2FF8"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/rare"
 				icon: "kubejs:rare_lootbox"
 				id: "4AFCDF29F832CA61"
-				title: "Rare Thermal Series Loot Box"
+				title: "稀有热力系列战利品箱"
 				type: "command"
 			}]
 			tasks: [{
@@ -1086,9 +1111,9 @@
 		{
 			dependencies: ["3C0866A9BBD5EBD9"]
 			description: [
-				"Burning or heating things to change their characteristics is nothing new, of course, but how one goes about it is just as important as the heat itself. In the case of pyrolysis, objects are heated in the absence of oxygen, resulting in an entirely different sort of reaction as compared to simply burning it. "
+				"燃烧或加热东西以改变它们的特性并不是什么新鲜事，但如何加热和热量本身一样重要。以热解为例，物体在缺氧的情况下被加热，与简单燃烧相比，它会产生完全不同的反应。"
 				""
-				"Mostly used for obtaining Coal Coke, the byproducts of its use can also be quite useful. "
+				"主要用于获得焦煤，其产出的副产品也非常有用。"
 			]
 			hide_dependency_lines: true
 			id: "7EBA7185437C3FBB"
@@ -1097,7 +1122,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "2BDFD25054F99E1D"
-					title: "Epic Thermal Series Loot Box"
+					title: "史诗热力系列战利品箱"
 					type: "command"
 				}
 				{
@@ -1107,7 +1132,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "We Flame to Please"
+			subtitle: "我们的目标是“热”你满意"
 			tasks: [{
 				id: "61D6406BA33B9BF7"
 				item: "thermal:machine_pyrolyzer"
@@ -1118,14 +1143,14 @@
 		}
 		{
 			dependencies: ["7CF7DC42CB9FA741"]
-			description: ["Better materials are critical to any industrial endeavor but getting them will require a bit of setup and equipment first. "]
+			description: ["更好的材料对任何工业目标都至关重要，但首先需要一些设备和装备才能获得它们。"]
 			hide_dependency_lines: true
 			id: "6DDBC0C21F8B534B"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "55810C2ED14BD748"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -1139,16 +1164,20 @@
 						value: "forge:raw_materials"
 					}
 				}
-				title: "Material Processing"
+				title: "材料加工"
 				type: "item"
 			}]
-			title: "Getting Started: Material Processing"
+			title: "入门：材料加工"
 			x: 2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4A3199826CFBB9F3"]
-			description: ["Sturdy protection against many of the world's hazards, such as fire and very sharp booshes."]
+			description: [
+				"对世界上的许多危险，如火焰和尖锐的嘘声提供坚实的保护。"
+				""
+				"译者注：副标题中的歌词出自Barenaked Ladies演唱的歌曲《One Week》。"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -1162,11 +1191,11 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "1EC0922E897E05ED"
-				title: "Epic Thermal Series Loot Box"
+				title: "史诗热力系列战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "So Dangerous, You'll Have to Sign a Waiver"
+			subtitle: "因为这很危险，你必须签署放弃申明"
 			tasks: [
 				{
 					id: "001BC673CAE2DC56"
@@ -1213,13 +1242,17 @@
 					type: "item"
 				}
 			]
-			title: "Hazmat Suit"
+			title: "防化套装"
 			x: 1.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["4A3199826CFBB9F3"]
-			description: ["A technological marvel that allows the wearer to remain productive for longer under water."]
+			description: [
+				"一个允许佩戴者在水下保持更长时间生产力的科学奇迹。"
+				""
+				"译者注：副标题中的歌词出自Barenaked Ladies演唱的歌曲《One Week》。"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -1233,11 +1266,11 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "62823A34E4BDAC3E"
-				title: "Epic Thermal Series Loot Box"
+				title: "史诗热力系列战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "You'll Think You're Looking at Aquaman"
+			subtitle: "你会觉得你是在看着水行侠"
 			tasks: [
 				{
 					id: "48AFDC29A70A108E"
@@ -1284,19 +1317,19 @@
 					type: "item"
 				}
 			]
-			title: "Diving Suit"
+			title: "潜泳套装"
 			x: 1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4A3199826CFBB9F3"]
 			description: [
-				"A powered magnet, perfect for keeping your precious items from falling into lava."
+				"一个电力磁铁，非常适合于保护你的贵重物品免于落入熔岩。"
 				""
-				"Notable Augments:"
-				"● Integral Components"
-				"● RF Coils"
-				"● Radial Enhancement"
+				"值得注意的增强："
+				"● 整合组件"
+				"● 通量线圈"
+				"● 径向范围拓展"
 			]
 			hide_dependency_lines: true
 			id: "1D2A4DEF21E2C735"
@@ -1304,7 +1337,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "1C648F07E6E0123D"
-				title: "Epic Thermal Series Loot Box"
+				title: "史诗热力系列战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
@@ -1318,7 +1351,7 @@
 		}
 		{
 			dependencies: ["13A6AFA79C2B1B4D"]
-			description: ["Radial Enhancements generally increase the area a device works in, such as drilling a 3x3 or larger area in the Fluxbore or spreading potion effects further in a Decoctive Diffuser. "]
+			description: ["径向范围拓展通常会增加装置工作的范围，例如使通量电钻能够钻取3x3或更大的区域，或使药水雾化器散布药水效果的范围更远。"]
 			hide: false
 			id: "0EC060D956E42B39"
 			rewards: [
@@ -1326,14 +1359,14 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "1BA84461BB55E265"
-					title: "Epic Thermal Series Loot Box"
+					title: "史诗热力系列战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "0B75D7FF01D5F371"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 			]
@@ -1347,7 +1380,7 @@
 		}
 		{
 			dependencies: ["7CF7DC42CB9FA741"]
-			description: ["Though metals and gems from deep in the ground are certainly important, one must not overlook the importance of renewable resources from the land and sea. Thermal offers a number of devices to assist in these agrarian endeavors."]
+			description: ["来自地下深处的金属和宝石固然重要，但我们决不能忽视来自陆地和海洋的可再生资源的重要性。热力系列提供了许多装置来帮助进行这些农业伟业。"]
 			hide_dependency_lines: true
 			icon: "minecraft:oak_sapling"
 			id: "47F7760AAA4EC64E"
@@ -1355,7 +1388,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
 				icon: "kubejs:farmers_delight"
 				id: "663D39875F054628"
-				title: "Farmer's Delight"
+				title: "农夫乐事包"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -1368,19 +1401,21 @@
 						value: "forge:sapling"
 					}
 				}
-				title: "Any Sapling"
+				title: "任意树苗"
 				type: "item"
 			}]
-			title: "Agricultural Devices"
+			title: "农业装置"
 			x: -2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4A3199826CFBB9F3"]
 			description: [
-				"In some parts of the world, when any major events happen within a family, the news is traditionally shared with the bees. "
+				"传说在世界的一些地方，当一个家庭发生任何重大事件时，他们都会与蜜蜂分享这个消息。"
 				""
-				"A suit such as this may be prudent to wear when bringing bad news to the hive."
+				"当给蜂巢带来坏消息时，穿上该套装是明智的。"
+				""
+				"译者注：副标题中的歌词出自Barenaked Ladies演唱的歌曲《One Week》。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1395,11 +1430,11 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 				icon: "kubejs:epic_lootbox"
 				id: "75FB2CB390074E86"
-				title: "Epic Thermal Series Loot Box"
+				title: "史诗热力系列战利品箱"
 				type: "command"
 			}]
 			shape: "diamond"
-			subtitle: "You Realized It's Not My Fault Not a Moment Too Soon"
+			subtitle: "你意识到了，我没做错什么，几乎为时已晚了"
 			tasks: [
 				{
 					id: "445AD639F6365461"
@@ -1451,7 +1486,7 @@
 		}
 		{
 			dependencies: ["7CF7DC42CB9FA741"]
-			description: ["Alloys and Cured Rubber unlock access to even more interesting machines. Of note, machines for refining better fuels and growing crystals. "]
+			description: ["合金和硫化橡胶解锁了更有趣的机器。值得注意的是，其中包括了用于精炼更好的燃料和培育晶体的机器。"]
 			hide_dependency_lines: true
 			icon: "thermal:cured_rubber_block"
 			id: "3C0866A9BBD5EBD9"
@@ -1459,7 +1494,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/miners_delight"
 				icon: "kubejs:miners_delight"
 				id: "3C93FC3B56BDC758"
-				title: "Miner's Delight"
+				title: "矿工乐事包"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -1473,7 +1508,7 @@
 							value: "forge:ingots/invar"
 						}
 					}
-					title: "Invar"
+					title: "殷钢"
 					type: "item"
 				}
 				{
@@ -1482,18 +1517,20 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Materials"
+			title: "高级材料"
 			x: 6.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3C0866A9BBD5EBD9"]
 			description: [
-				"An upgrade to the antiquated Brewing Stand, with better heating and larger storage. "
+				"一个相比过时的酿造台的升级版本，拥有更好的加热和更大的存储空间。"
 				""
-				"Liquid Potions may be used in several devices, such Alchemical Quivers or Decoctive Diffusers. "
+				"液体药水可以用于多种设备中，如药水箭袋或药水雾化器。"
 				""
-				"The fluid may also be bottled in a Fluid Encapsulator if needed. "
+				"如果需要，液体药水还可以在流体灌装机中进行装瓶。"
+				""
+				"译者注：副标题中的句子出自动画电视系列集片《降世神通：最后的气宗》中的台词。"
 			]
 			hide_dependency_lines: true
 			id: "2BA3B89956E6690E"
@@ -1502,18 +1539,18 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/thermal_series/epic"
 					icon: "kubejs:epic_lootbox"
 					id: "537C61EA3760C79B"
-					title: "Epic Thermal Series Loot Box"
+					title: "史诗热力系列战利品箱"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
 					icon: "kubejs:alchemists_delight"
 					id: "76EBD00E27FA6F5B"
-					title: "Alchemist's Delight"
+					title: "炼金术士乐事包"
 					type: "command"
 				}
 			]
-			subtitle: "Why is it that every time you play with magic water, I get soaked?"
+			subtitle: "为什么每当你玩魔法水时，我都会浸湿？"
 			tasks: [{
 				id: "58BE3024F03ACC49"
 				item: "thermal:machine_brewer"
@@ -1523,5 +1560,5 @@
 			y: 3.5d
 		}
 	]
-	title: "Thermal Series"
+	title: "热力系列"
 }
