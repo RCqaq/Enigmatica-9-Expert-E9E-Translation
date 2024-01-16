@@ -17,9 +17,9 @@
 		{
 			dependencies: ["2CCCDD05AED3153F"]
 			description: [
-				"Many mods add a variety of very useful tools that can be easy to overlook. These quests won't cover everything, but will serve to highlight some of the more notable options not otherwise covered in other quest chapters."
+				"许多模组添加了各种非常有用的工具，这些工具很容易被忽视。这些任务不会涵盖所有内容，但会突出一些其他任务章节中没有涵盖的更值得注意的那些可选工具。"
 				""
-				"Note: Most tools and armor have been Tagged for easier search in EMI. Search for the following categories to discover more:"
+				"注：大多数工具和盔甲已经被贴上标签用于EMI搜索。试着搜索以下类别以发现更多工具："
 				""
 				"● #armor"
 				"● #armor/helm"
@@ -58,28 +58,28 @@
 						value: "forge:tools"
 					}
 				}
-				title: "Any Tool"
+				title: "任意工具"
 				type: "item"
 			}]
-			title: "Tools and Armor"
+			title: "工具和盔甲"
 			x: -10.0d
 			y: -14.5d
 		}
 		{
 			dependencies: ["4650EB4575965AAD"]
 			description: [
-				"A powered tool capable of mining blocks from a distance."
+				"一把能够远距离挖掘方块的电动工具。"
 				""
-				"Danger: Class 4 Laser Device. Avoid eye or skin exposure."
+				"危险：四类激光装置。请避免眼睛或皮肤的接触。"
 				""
-				"Notable Upgrades"
+				"值得注意的升级"
 				""
-				"● Torch Placer"
-				"● Area Mining"
-				"● Silk Touch"
-				"● Fortune"
-				"● Filterable Void Upgrade"
-				"● Magnet Upgrade"
+				"● 火把放置器"
+				"● 范围采掘"
+				"● 精准采集h"
+				"● 时运"
+				"● 可过滤虚空升级"
+				"● 磁铁升级"
 			]
 			icon: {
 				Count: 1b
@@ -93,7 +93,7 @@
 				{
 					id: "00DFFC8DE1F504C3"
 					item: "mininggadgets:upgrade_light_placer"
-					title: "Upgrade: Light Placer"
+					title: "升级：光源放置器"
 					type: "item"
 				}
 				{
@@ -102,7 +102,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Frickin' Laser Beams"
+			subtitle: "该死的激光束"
 			tasks: [
 				{
 					id: "2570BAAA2D7D8317"
@@ -129,7 +129,7 @@
 							]
 						}
 					}
-					title: "Mining Gadget"
+					title: "采掘小帮手"
 					type: "item"
 				}
 				{
@@ -144,11 +144,11 @@
 		{
 			dependencies: ["291E5727DD1ADDF4"]
 			description: [
-				"Ever wish you could start building a platform in the sky without having to nerd-pole your way up there? "
+				"你曾梦想过不用搭擎天柱就能在空中建造一个平台吗？"
 				""
-				"Well, if you can't fly you may still need that nerd-pole. If you can, however, grab a bottle of cloud to act as a starting point for the platform. "
+				"好吧，如果你不会飞，你可能还需要那根擎天柱。不过，如果你会飞的话，就可以装一瓶云来充当平台的起点。"
 				""
-				"Using a glass bottle between y192 and y196 will get you a Bottled Cloud. Right-Clicking the air again will place the cloud, allowing other blocks to be placed against it. It will disappear after a few moments, but will go back into your bottle on it's own if another block is placed against it in time. "
+				"在y192至y196之间使用玻璃瓶你会获得瓶中云。再次右击空气将会放置这朵云，其他方块就能够放在它的旁边。一会儿后它就会消失，但如果有另外一块方块及时的放置在它的旁边，它就会自己回到你的瓶中。"
 			]
 			hide_dependency_lines: true
 			id: "7C80BF770471D535"
@@ -156,10 +156,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "7B241F0433CB46B4"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
-			subtitle: "Head in the Clouds"
+			subtitle: "生活在云上"
 			tasks: [{
 				id: "36B52599415F3A77"
 				item: "quark:bottled_cloud"
@@ -171,9 +171,9 @@
 		{
 			dependencies: ["291E5727DD1ADDF4"]
 			description: [
-				"Save every day like a treasure and spend them on whatever you like."
+				"如珍宝般存下每一天，挥霍在任何你喜欢的事上。"
 				""
-				"Sneak Right-Click most machines to spend stored time on them, speeding them up briefly. "
+				"潜行右击大多数机器可以消耗存储在其中的时间，并短暂的将它们加速。"
 			]
 			hide_dependency_lines: true
 			id: "49E1BA11BF18AC10"
@@ -181,10 +181,10 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
 				icon: "kubejs:sorcerers_delight"
 				id: "7878D3C0A8B1AE6D"
-				title: "Sorcerer's Delight"
+				title: "法师乐事包"
 				type: "command"
 			}]
-			subtitle: "Just to Spend it With You..."
+			subtitle: "只愿和你一起享受这时光……"
 			tasks: [{
 				id: "0862CF8273A2BA78"
 				item: {
@@ -200,11 +200,11 @@
 		{
 			dependencies: ["291E5727DD1ADDF4"]
 			description: [
-				"There is no dedicated vein miner mod in Enigmatica 9 since we’ve got a variety of very cool tools that offer the same features and more."
+				"Enigmatica 9中没有专门的连锁挖掘模组，因为我们有各种非常酷的工具，可以提供相同以及更多的功能。"
 				""
-				"AoE Mining? Vein Mining? Spooky Mining at a Distance? Yeah, we’ve got that. "
+				"范围挖掘？矿脉挖掘？远程幽灵挖掘？是的，这些我们都有。"
 				""
-				"The following quests will help highlight some of the more notable options. Enjoy!"
+				"以下任务将突出一些更值得注意的可选工具。祝你阅读愉快！"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -229,19 +229,19 @@
 						value: "forge:tools"
 					}
 				}
-				title: "Any Tool"
+				title: "任意工具"
 				type: "item"
 			}]
-			title: "Vein Miner?"
+			title: "连锁挖掘？"
 			x: -10.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["4650EB4575965AAD"]
 			description: [
-				"Starting at the Diamond tier of drill bit, the Pneumatic Jackhammer is capable of vein mining ores and wood. It’s got a number of other modes as well to help with clearing an area in a more controlled fashion. "
+				"气动凿岩锤从钻石等级的钻头开始，就可以连锁挖掘矿石和木头。它还拥有几种其他模式，用于以更可控的方式清理区域。"
 				""
-				"At the Netherite tier, it gains the ability vein mine any block, if desired. "
+				"在下界合金等级下，如果需要的话，它可以连锁挖掘任何方块。"
 			]
 			icon: {
 				Count: 1b
@@ -302,7 +302,7 @@
 							]
 						}
 					}
-					title: "Drill Bits"
+					title: "钻头"
 					type: "item"
 				}
 			]
@@ -312,9 +312,9 @@
 		{
 			dependencies: ["4650EB4575965AAD"]
 			description: [
-				"With Vein Mining Units installed, the Meka-Tool gains the ability to vein mine ores and logs. It may optionally be toggled to apply to any block."
+				"在安装矿脉挖掘单元后，meka工具就获得了连锁挖掘矿石和原木的能力。它还可以被切换成连锁挖掘任意方块。"
 				""
-				"Additionally, the Blasting Unit allows it to mine a large area up to 9x9, with the radius and all other options configured in the Module Tweaker menu."
+				"此外，爆炸单元可以使其挖掘至多9x9的区域，你可以在模块调节器菜单中配置半径和所有其他选项。"
 			]
 			icon: {
 				Count: 1b
@@ -366,7 +366,7 @@
 							]
 						}
 					}
-					title: "Mining Modules"
+					title: "挖掘模块"
 					type: "item"
 				}
 			]
@@ -376,16 +376,16 @@
 		{
 			dependencies: ["4650EB4575965AAD"]
 			description: [
-				"When applied to an Axe, the Chainsaw enchantment will cause the axe to fell entire trees, rather than a single block at a time. "
+				"当电锯魔咒应用于斧时，它可以使斧一次砍下整棵树木，而不是一个方块。"
 				""
-				"Crafted Steeleaf Axes even come pre-enchanted!"
+				"合成的钢叶斧甚至自带魔咒！"
 			]
 			id: "1EA2524632247041"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
 				icon: "kubejs:sorcerers_delight"
 				id: "0074A49DCD3DD188"
-				title: "Sorcerer's Delight"
+				title: "法师乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -410,19 +410,19 @@
 				}
 				type: "item"
 			}]
-			title: "Chainsaw"
+			title: "电锯"
 			x: -9.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["4650EB4575965AAD"]
-			description: ["The Skyseeker’s Handaxe natively has the ability to chop whole trees, making short work of any logging operation. "]
+			description: ["探天者之斧天生就具有砍下整棵树的能力，可以在短时间内完成任何伐木作业。"]
 			id: "24FA5629BEE5681B"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "3570B6A36168655F"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -442,14 +442,14 @@
 		{
 			dependencies: ["4650EB4575965AAD"]
 			description: [
-				"Included with the Novice’s Spellbook is the Glyph of Fell, which acts on Trees, Mushrooms, Cactus, or any other vegetation, cutting them down in one swift action. "
+				"初学者法术书中包括了魔符：砍伐，它可以作用于树木、蘑菇、仙人掌或任何其他植被，一次即可将它们全部砍倒。"
 				""
-				"Available at Tier 2, the Glyph of Break is used for any sort of block breaking. "
+				"在二级时你可以获得魔符：破坏，它能够用于破坏任意种类的方块。"
 				""
 				""
-				"Apply the Glyph of AOE after either of these glyphs to increase the number of blocks they will break. "
+				"在这些魔符之后应用魔符：范围效果可以增加它们破坏方块的数量。"
 				""
-				"Example: Touch > Fell or Break > AOE x8"
+				"例子：触摸 > 砍伐或破坏 > 范围效果 x8"
 			]
 			icon: {
 				Count: 1b
@@ -719,7 +719,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
 				icon: "kubejs:sorcerers_delight"
 				id: "26D391BE317C1493"
-				title: "Sorcerer's Delight"
+				title: "法师乐事包"
 				type: "command"
 			}]
 			tasks: [
@@ -745,7 +745,7 @@
 							]
 						}
 					}
-					title: "Spellbooks"
+					title: "法术书"
 					type: "item"
 				}
 				{
@@ -767,20 +767,20 @@
 						}
 					}
 					optional_task: true
-					title: "Glyph of Fell or Break"
+					title: "魔符：砍伐或破坏"
 					type: "item"
 				}
 			]
-			title: "Spells"
+			title: "法术"
 			x: -11.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["4650EB4575965AAD"]
 			description: [
-				"Upgrades to basic Shovels and Hammers, these tools mine a 3x3 area. "
+				"这些工具是基础的锹和锤的升级，可以挖掘3x3的区域。"
 				""
-				"Apply Power of the Depth to them to increase the depth of mining. Each level of the enchant will cause the tool to mine another block deep."
+				"为它们应用深度之力来增加其挖掘深度。每一级魔咒都会使工具挖掘更深一格。"
 			]
 			icon: {
 				Count: 1b
@@ -829,7 +829,7 @@
 						]
 					}
 				}
-				title: "Excavators"
+				title: "开掘铲"
 				type: "item"
 			}]
 			x: -10.0d
@@ -837,7 +837,7 @@
 		}
 		{
 			dependencies: ["4650EB4575965AAD"]
-			description: ["With each level of charge, the Infinity Drill and Infinity Saw work in ever increasing areas. The Drill works in a simple radius around the point of mining, while the Saw cuts trees from the top down in a large area. "]
+			description: ["随着充能等级的增加，无限钻头和无限电锯的工作范围会越来越大。钻头的挖掘范围是挖掘点周围的一个圆，而电锯则会从上到下大面积砍伐树木。"]
 			icon: {
 				Count: 1b
 				id: "industrialforegoing:infinity_drill"
@@ -857,7 +857,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "52510292FF8D040C"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -944,7 +944,7 @@
 						]
 					}
 				}
-				title: "Infinity Tools"
+				title: "无限工具   "
 				type: "item"
 			}]
 			x: -12.0d
@@ -953,9 +953,9 @@
 		{
 			dependencies: ["4650EB4575965AAD"]
 			description: [
-				"The Mining Drill and Buzzsaw both operate with liquid fuels, accepting most liquid fuels in the pack. "
+				"采矿机械钻和伐木机械锯都使用液体燃料，可接受模组包中的大多数液体燃料。"
 				""
-				"The Drill itself is capable of up to a 3x3 mining area, while the Buzzsaw will attempt to cut down whole trees. "
+				"机械钻可以3x3范围挖掘，而机械锯会试图砍伐整棵树木。"
 			]
 			icon: {
 				Count: 1b
@@ -1022,7 +1022,7 @@
 							]
 						}
 					}
-					title: "Engineer's Tools"
+					title: "工程师工具"
 					type: "item"
 				}
 				{
@@ -1057,7 +1057,7 @@
 							]
 						}
 					}
-					title: "Drills and Sawblades"
+					title: "钻头和锯条"
 					type: "item"
 				}
 			]
@@ -1068,24 +1068,24 @@
 			dependencies: ["291E5727DD1ADDF4"]
 			dependency_requirement: "all_started"
 			description: [
-				"Creeping Creepers got you down? Zealous Zombies getting all up in your face? Salacious Skeletons just won’t let you mine in peace?"
+				"阴暗的苦力怕把你炸趴下了？热情的僵尸将你包围了？猥琐的骷髅无法让你安静的采矿？"
 				""
-				"Get a shield! But not just any shield, Superior Shields are worn in Curio slots and protect their wearer automatically, even from dastardly attacks from behind. "
+				"弄一面护盾吧！卓越护盾可不是随随便便的护盾，它可以穿戴在饰品栏位中，并自动保护穿戴者，甚至让其免受来自背后的卑鄙攻击。"
 				""
-				"Superior Shields have three important stats that determine how well they protect:"
+				"卓越护盾有三个重要的数据来决定它们的保护效果："
 				""
-				"● Hit Points"
-				"The number of hearts of damage they’re capable of blocking before needing to recharge."
+				"● 护盾容量"
+				"在需要充能前，护盾能够阻挡多少颗心的伤害。"
 				""
-				"● Recharge Rate"
-				"The number of seconds it takes to recharge half a shield. "
+				"● 充能速度"
+				"充能半个护盾所需的时间（秒）。"
 				""
-				"● Recharge Delay"
-				"Time in seconds without taking damage before the shield begins to recharge."
+				"● 充能延迟"
+				"护盾开始充能前不受伤害的时间（秒）。"
 				""
-				"All together, these stats mean that a shield will only be effective in situations where the bearer is not under constant assault, once the Hit Points are diminished, the bearer needs to move away from danger to allow them to recharge. So, they’re excellent for those unexpected attacks, but won’t keep you alive forever. "
+				"总之，这些数据意味着护盾只有在持有者没有受到持续攻击的情况下才有效，一旦护盾容量减少，持有者需要远离危险护盾才能充能。所以，它们非常适合抵挡那些意想不到的攻击，但不会保证你永远活着。"
 				""
-				"In addition to their basic stats, they may also be enchanted with a number of interesting effects, such as curing the bearer of all potion effects when the shield is depleted or applying Poison to anything that damages the shield. "
+				"除了基本属性外，它们还可能附魔一些有趣的效果，比如在盾牌耗尽时清楚持有者的所有药水效果，或者对任何伤害护盾的生物施加中毒效果。"
 			]
 			hide_dependency_lines: true
 			id: "121CF33BFAEF6205"
@@ -1109,7 +1109,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "2FCA3B2C9ABB9D73"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 			]
@@ -1179,7 +1179,7 @@
 						]
 					}
 				}
-				title: "Superior Shields"
+				title: "卓越护盾"
 				type: "item"
 			}]
 			x: -8.0d
@@ -1188,11 +1188,11 @@
 		{
 			dependencies: ["291E5727DD1ADDF4"]
 			description: [
-				"Need help juggling all those tools? Craft a Tool Belt!"
+				"需要帮忙整理所有这些工具吗？合成一个工具腰带吧！"
 				""
-				"The Tool Belt holds two tools by default but may be expanded to up to nine slots by adding Belt Pouches in an Anvil. "
+				"工具腰带默认可以容纳两个工具，但可以通过在铁砧中添加腰带包使其扩展到至多九个栏位。"
 				""
-				"While worn in a curio slot, the belt allows quick swapping between any of the tools stored in it. Check the Key Binds menu for options. By default, opening the tool swap menu is on R and opening the belt’s inventory to add or remove tools is on V."
+				"当佩戴在饰品栏位中时，工具腰带可以使你在快速切换其中的任何工具。前往按键绑定菜单以查看选项。默认情况下，按R键可以打开工具切换菜单，而按V键可以打开腰带物品栏以添加或移除工具。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1220,7 +1220,7 @@
 		}
 		{
 			dependencies: ["4650EB4575965AAD"]
-			description: ["Great for quickly dismantling leaves on trees, the humble Hoe is also a workhorse out in the fields, scything down grass in large swaths with ease. "]
+			description: ["不起眼的锄头非常适合快速破坏树上的树叶，它也是农田里的主力，可以轻松地割下大片的草。"]
 			id: "04EC298DE2818F2A"
 			rewards: [{
 				count: 8
@@ -1243,5 +1243,5 @@
 			y: -7.5d
 		}
 	]
-	title: "Equipment"
+	title: "装备"
 }
