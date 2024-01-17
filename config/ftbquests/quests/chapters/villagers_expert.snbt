@@ -313,7 +313,7 @@
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["饲养员会购买你那些闲置的、各种各样的蘑菇。"]
+			description: ["采集者会购买你那些闲置的、各种各样的蘑菇。"]
 			id: "747A1D6FC136658A"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
