@@ -10,13 +10,13 @@
 	quests: [
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Armorers provide a variety of enchanted armor which can be quite useful early on. They can also be a convenient source of Bells."]
+			description: ["盔甲匠提供了各种各样的附魔盔甲，这些盔甲在早期非常有用。他们也是获取钟的一个便捷来源。"]
 			id: "1522FAB5B707F508"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "0C95B6DC07AD0BE9"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -24,19 +24,19 @@
 				item: "minecraft:blast_furnace"
 				type: "item"
 			}]
-			title: "Armorer"
+			title: "盔甲匠"
 			x: -3.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Butchers mostly buy raw meats and sell cooked meats. To the lucky few, however, they might have a Rabbit’s Foot available to trade."]
+			description: ["屠夫大多购买生肉和出售熟肉。然而，对于少数幸运的玩家来说，屠夫可能会交易兔子脚。"]
 			id: "5666C8219D9DA337"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "5CC67A2426602997"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -44,19 +44,19 @@
 				item: "minecraft:smoker"
 				type: "item"
 			}]
-			title: "Butcher"
+			title: "屠夫"
 			x: -1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Perhaps best known for their maps to nearby treasures and monuments, Cartographers also provide a number of interesting items such as banner patterns or Antique Ink, which gives maps a fancy faded look for decorative purposes."]
+			description: ["制图师最出名的可能是他们绘制的藏有附近宝藏和遗迹的地图，他们还提供了一些有趣的物品，如旗帜图案或可以使地图看起来褪色的装饰用途的古式墨水。"]
 			id: "5597FAE499274F10"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "03E298EA8E6067CD"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -64,19 +64,19 @@
 				item: "minecraft:cartography_table"
 				type: "item"
 			}]
-			title: "Cartographer"
+			title: "制图师"
 			x: -0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Clerics buy and sell a many precious materials such as Gold and Lapis. They can be an excellent source of Ender Pearls as well, however, with no combat required. "]
+			description: ["牧师买卖许多珍贵的材料，如金和青金石。然而，它们也是末影珍珠的绝佳来源，不需要战斗即可获取。"]
 			id: "20957365FD15F4C2"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "2A6758B68600AC1F"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -84,19 +84,19 @@
 				item: "minecraft:brewing_stand"
 				type: "item"
 			}]
-			title: "Cleric"
+			title: "牧师"
 			x: -5.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Farmers will buy and sell a variety of crops. They can also sell Suspicious Stews and other treats. "]
+			description: ["农民买卖各种作物。他们还会出售谜之炖菜和其他美食。"]
 			id: "2AFF5C846A39C507"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "394BB50E84096B55"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -104,19 +104,19 @@
 				item: "minecraft:composter"
 				type: "item"
 			}]
-			title: "Farmer"
+			title: "农民"
 			x: -5.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Have some spare fish to sell? Fishermen will buy raw fish and sell cooked fish. They’ll also offer enchanted Fishing Rods."]
+			description: ["有多余的鱼要卖吗？渔夫会买生鱼，并卖熟鱼。他们还会提供附魔钓鱼竿。"]
 			id: "5821CEBA23FD498C"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "6236F2A8BC341526"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -124,19 +124,19 @@
 				item: "minecraft:barrel"
 				type: "item"
 			}]
-			title: "Fisherman"
+			title: "渔夫"
 			x: -6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Need a Bow or Crossbow? Perhaps just some arrows without the hassle of killing Chickens? Fletchers are the answer. They’ll even sell enchanted equipment occasionally."]
+			description: ["需要弓还是十字弩？也许只是想要一些箭，但又不想杀死小鸡？制箭师就是你的答案。他们甚至会偶尔出售附魔装备。"]
 			id: "3DB47F7AF2D042A1"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "470AF5F4392838E4"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -144,19 +144,19 @@
 				item: "minecraft:fletching_table"
 				type: "item"
 			}]
-			title: "Fletcher"
+			title: "制箭师"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Leatherworkers are an excellent source for leather goods such as armor or Saddles."]
+			description: ["皮匠是皮革制品（如盔甲或鞍）的绝佳来源。"]
 			id: "31E9C3B2671938D0"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "511EDDF455805A19"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -164,42 +164,42 @@
 				item: "minecraft:cauldron"
 				type: "item"
 			}]
-			title: "Leatherworker"
+			title: "皮匠"
 			x: -1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
 			description: [
-				"Always a classic, Librarians are well known for their propensity of selling Enchanted Books, among other things. It should be noted that some efforts have been taken to reduce the number of enchants that will appear in their trades to avoid the need to constantly re-roll to get a desirable enchant. "
+				"图书管理员永远是最经典的，他们以销售附魔书等物品的倾向而闻名。需要注意的是，我们已经采取了一些措施来减少交易中出现的魔咒数量，以避免需要不断地重新刷新以获得理想的魔咒。"
 				""
-				"Available Enchants: "
+				"可获得的魔咒："
 				""
-				"● Protection"
-				"● Fire Protection"
-				"● Blast Protection"
-				"● Projectile Protection"
-				"● Feather Falling"
-				"● Reflective Defenses"
-				"● Bane of Illagers"
-				"● Smite"
-				"● Obliteration"
-				"● Splitting"
-				"● Soulbound"
-				"● Holding"
-				"● Capacity"
-				"● Infinity"
-				"● Nature's Mend"
-				"● Comb Cutter"
-				"● Temptation"
-				"● Lure"
+				"● 保护"
+				"● 火焰保护"
+				"● 爆炸保护"
+				"● 弹射物保护"
+				"● 摔落保护"
+				"● 盾反"
+				"● 灾厄村民杀手"
+				"● 亡灵杀手"
+				"● 分裂"
+				"● 拆分"
+				"● 灵魂绑定"
+				"● 扩容（热力系列）"
+				"● 扩容（机械动力）"
+				"● 无限"
+				"● 自然修补"
+				"● 蜜脾割具"
+				"● 引诱"
+				"● 饵钓"
 			]
 			id: "6D6A23DEDB0707CD"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "2C6369052E2F9461"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -207,19 +207,19 @@
 				item: "minecraft:lectern"
 				type: "item"
 			}]
-			title: "Librarian"
+			title: "图书管理员"
 			x: -6.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Buying and selling various stones and bricks, Stone Masons are particularly useful as a source of Quartz blocks."]
+			description: ["石匠买卖各种石头和砖块，是石英方块的极佳来源。"]
 			id: "6BE789B38242042B"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "6886A183E6C3283E"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -227,19 +227,19 @@
 				item: "minecraft:stonecutter"
 				type: "item"
 			}]
-			title: "Stone Mason"
+			title: "石匠"
 			x: -4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Primarily trading in wools and dyes, Shepherds have an artistic side and will occasionally sell paintings as well. "]
+			description: ["牧羊人主要从事羊毛和染料交易，他也有艺术的一面，偶尔会出售画。"]
 			id: "3E5C78302D1DB75E"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "0538883C54775B33"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -247,19 +247,19 @@
 				item: "minecraft:loom"
 				type: "item"
 			}]
-			title: "Shepherd"
+			title: "牧羊人"
 			x: -2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Toolsmiths provide a variety of enchanted tools which can be quite useful early on. They can also be a convenient source of Bells."]
+			description: ["工具匠提供了各种各样的附魔工具，这些工具在早期非常有用。他们也是获取钟的一个便捷来源。"]
 			id: "6C9DE0A1D4C72117"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "7EF42B6A98D6340B"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -267,19 +267,19 @@
 				item: "minecraft:smithing_table"
 				type: "item"
 			}]
-			title: "Toolsmith"
+			title: "工具匠"
 			x: -4.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Weaponsmiths provide a variety of enchanted weapons which can be quite useful early on. They can also be a convenient source of Bells."]
+			description: ["武器匠提供了各种各样的附魔武器，这些武器在早期非常有用。他们也是获取钟的一个便捷来源。"]
 			id: "7F61E2C24268FA98"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "5B2649A6081434D9"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -287,19 +287,19 @@
 				item: "minecraft:grindstone"
 				type: "item"
 			}]
-			title: "Weaponsmith"
+			title: "武器匠"
 			x: -2.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Pressure Mechanics sell a wide variety of Pneumatic devices, specialized ammo for Miniguns, and even circuit boards. "]
+			description: ["压力技工卖各种各样的气动装置、M134型速射机枪的专用弹药，甚至还有电路板。"]
 			id: "18A0D921EEF7FE7F"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "4A7C2F412652EE4C"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -307,19 +307,19 @@
 				item: "pneumaticcraft:charging_station"
 				type: "item"
 			}]
-			title: "Pressure Mechanic"
+			title: "压力技工"
 			x: -2.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Foragers will purchase a variety of spare mushrooms that you may have lying about."]
+			description: ["饲养员会购买你那些闲置的、各种各样的蘑菇。"]
 			id: "747A1D6FC136658A"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "6579CF88E0968397"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -327,19 +327,19 @@
 				item: "byg:foragers_table"
 				type: "item"
 			}]
-			title: "Forager"
+			title: "采集者"
 			x: -4.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Trading in all manner of arcane goods, Shady Wizards are particularly useful for obtaining ritual tablets, familiar shards, and even rare Caster Tomes."]
+			description: ["暗影导师交易各种各样的奥术物品，他对于获得仪式木板、使魔碎片，甚至稀有的施法者卷册都特别有用。"]
 			id: "23ED03FE63FD2373"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "4C9C4580BCF7757B"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -347,19 +347,19 @@
 				item: "ars_nouveau:arcane_core"
 				type: "item"
 			}]
-			title: "Shady Wizard"
+			title: "暗影导师"
 			x: -3.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Engineers mostly buy and sell building materials such as concrete and scaffolding. They will, however, sell maps to Mineral Deposits at high levels."]
+			description: ["结构工程师主要买卖建筑材料，如混凝土和脚手架。然而，他们会在高等级时出售矿脉地图。"]
 			id: "553AC0B8D27BADA8"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "5259D49C49DAB5DF"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -367,19 +367,19 @@
 				item: "immersiveengineering:turntable"
 				type: "item"
 			}]
-			title: "Engineer"
+			title: "结构工程师"
 			x: -5.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Machinists are perhaps most useful for the Blueprints they provide, being one of the only reliable sources for Arc Furnace Electrode Blueprints. They also sell tools, drill heads, and various machine parts. "]
+			description: ["机械师最有用的东西可能是他们提供的蓝图，他是电弧炉电极蓝图的唯一可靠来源之一。他们还销售工具、钻头和各种机器部件。"]
 			id: "0158D296E36BB419"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "186F59EBEABC7E7C"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -387,19 +387,19 @@
 				item: "immersiveengineering:craftingtable"
 				type: "item"
 			}]
-			title: "Machinist"
+			title: "机械师"
 			x: -4.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Electricians offer a variety of wires and electrical components, as well as Faraday armor to keep you safe around exposed wires. "]
+			description: ["电工提供各种电线和电子元件，以及可以保证你在裸露电线周围的安全的法拉第盔甲。"]
 			id: "59FC61E69453FA4D"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "2E3163DF1860C162"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -407,19 +407,19 @@
 				item: "immersiveengineering:circuit_table"
 				type: "item"
 			}]
-			title: "Electrician"
+			title: "电工"
 			x: -2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["Trading in gun parts and ammo, Gunsmiths can be invaluable for creating a powerful Revolver as they offer unique parts with special properties like increased luck or firing rate."]
+			description: ["军火商交易枪支零件和弹药，他们在制造强大的左轮手枪中扮演了宝贵的角色，因为他们能够提供具有特殊特性的独特零件，如增加运气或射速。"]
 			id: "58A73376FCA9A5C6"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "5C7BB752EC3632BB"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -427,16 +427,16 @@
 				item: "immersiveengineering:workbench"
 				type: "item"
 			}]
-			title: "Gunsmith"
+			title: "军火商"
 			x: -1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
 			description: [
-				"One of the stranger Villager workstations, the Immersive Engineering Outfitter requires a Banner placed on the floor (not on a wall) with any shader applied to it. Applying a shader is as simple as right clicking the placed Banner with a Shader. "
+				"奇怪的的村民工作站点之一，沉浸工程的皮肤商需要将旗帜放在地上（而不是墙上），并应用任何皮肤。只需用皮肤右键放置的旗帜就可以应用该皮肤。"
 				""
-				"These will then sell a variety of Shader Grabbags, allowing easy access to many random shaders to apply to compatible items such as Revolvers, Mining Drills, and more."
+				"然后，他们就会出售各种皮肤奖励袋，是你可以获得许多随机皮肤，以应用于左轮手枪、采矿机械钻等兼容物品上。"
 			]
 			icon: "minecraft:white_banner"
 			id: "39BD2E415530761E"
@@ -444,7 +444,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "59EE246084CF7CDB"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [
@@ -478,7 +478,7 @@
 							]
 						}
 					}
-					title: "Any Shader"
+					title: "任意皮肤"
 					type: "item"
 				}
 				{
@@ -490,20 +490,20 @@
 							value: "minecraft:banners"
 						}
 					}
-					title: "Banner"
+					title: "旗帜"
 					type: "item"
 				}
 			]
-			title: "Outfitter"
+			title: "皮肤商"
 			x: -3.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2CCCDD05AED3153F"]
 			description: [
-				"Several mods add villagers, and it isn’t always a simple task to figure out what workstation goes with which villager. "
+				"有不少模组添加了村民，并且要弄清楚哪个工作站点对应哪种村民并不是一项简单的任务。"
 				""
-				"The following quests cover the workstations used by each villager and attempt to give a brief description of what trades might be found."
+				"后续的任务涵盖了每个村民使用的工作站点，并试图简要地描述你可能发现的交易。"
 			]
 			hide: true
 			id: "7A341C5D96C4A809"
@@ -512,14 +512,14 @@
 				icon: "minecraft:emerald_block"
 				id: "648E00887FAA8285"
 				stat: "minecraft:talked_to_villager"
-				title: "Talk to a Villager"
+				title: "与一位村民交互"
 				type: "stat"
 				value: 1
 			}]
-			title: "Villagers"
+			title: "村民"
 			x: -3.5d
 			y: -4.0d
 		}
 	]
-	title: "Villagers"
+	title: "村民"
 }
