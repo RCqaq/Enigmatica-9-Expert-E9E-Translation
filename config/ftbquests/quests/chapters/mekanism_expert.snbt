@@ -50,7 +50,7 @@
 				title: "稀有通用机械战利品箱"
 				type: "command"
 			}]
-			subtitle: "高级冶金学"
+			subtitle: "高级冶金"
 			tasks: [{
 				id: "367A53ACB8A3AECB"
 				item: {
