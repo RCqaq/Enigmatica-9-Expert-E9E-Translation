@@ -13,21 +13,21 @@
 				"714A42E9CE3C32EA"
 				"3D0B7DA1DD0A74B1"
 			]
-			description: ["After some experimentation with the Echo Shards, it appears they may be further refined into a substance known as Pandemonium; the purest form of chaos with powerful creational capabilities. "]
+			description: ["在对回响碎片进行了一些实验后，它似乎可以会被进一步提炼成一种叫做混乱气的物质；混沌的最纯粹的形式，具有强大的创造能力。"]
 			id: "73B4078AB841567A"
 			rewards: [
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "73146FCB5DE34BD0"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 					icon: "kubejs:aura_leaf"
 					id: "4A56772129E93DBD"
-					title: "Aura Infusion"
+					title: "灵气灌注"
 					type: "command"
 				}
 			]
@@ -42,20 +42,20 @@
 		{
 			dependencies: ["4410E58ED333FBCB"]
 			description: [
-				"Though found in the wild, creating a local farm for Sculk is recommended. Whenever a mob dies near a Sculk Catalyst, it will cause nearby Stone to be converted into Sculk. "
+				"虽然幽匿块可以在野外发现，但建议为其建造一个农场。每当生物在幽匿催发体附近死亡时，就会导致附近的石头变成幽匿块。"
 				""
 				"================================="
 				""
-				"Silk-Touch is required to harvest the resulting Sculk."
+				"采集产生的幽匿块需要精准采集。"
 				""
-				"Devise a way to automate harvesting this material."
+				"设计一种自动采集这种材料的方法。"
 			]
 			id: "5BAB85095E92AFD9"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "240F67E11441400B"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -69,16 +69,16 @@
 		{
 			dependencies: ["5BAB85095E92AFD9"]
 			description: [
-				"Refined from Sculk, this mineral is associated with primal chaos. "
+				"这种矿物由幽匿块提炼而成，与原初混沌有关。"
 				""
-				"Normally exceptionally rare, the ancients of this land appear to have been harvesting it for unknown purposes. "
+				"回想碎片异常罕见，但古人似乎一直出于未知的目的而采集它。"
 			]
 			id: "714A42E9CE3C32EA"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "435BC41E9248DDA9"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -92,9 +92,9 @@
 		{
 			dependencies: ["0672B242C31F4A11"]
 			description: [
-				"Thought lost to time by many magical practitioners, the creation of Aetherium has remained a closely guarded secret by Witches due to it’s raw potential. It seems likely that its use was what eventually led this civilization to its downfall, but it’s hard to be certain. "
+				"许多法师认为创造以太气的技艺已经消失在了时间长河之中，但由于其原始的潜力，该技艺一直被女巫们严密保守着。以太气的使用很可能导致了这个文明最终走向衰落，但这很难下定论。"
 				""
-				"It seems that it needs to be created once more, however, to fully restore the Tree of Life. "
+				"然而，它似乎需要再次被创造出来，才能完全复苏生命之树。"
 			]
 			hide_dependency_lines: true
 			icon: "mekanism:sps_casing"
@@ -103,7 +103,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "19B4DB02EEC8719A"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [
@@ -131,13 +131,13 @@
 					type: "item"
 				}
 			]
-			title: "Supercritical Phase Shifter"
+			title: "超临界移相器"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["10C86AC59F9FA412"]
-			description: ["With Aetherium secured, a special chamber must be crafted to contain the reaction; letting this loose could devastate the land for millennia to come…"]
+			description: ["获取以太气后，你必须合成一个特殊的装置来控制其反作用力；以太气的泄露可能会让这片土地在未来的几千年里处于毁灭状态……"]
 			id: "7674A0390C41044C"
 			rewards: [{
 				count: 32
@@ -156,9 +156,9 @@
 		{
 			dependencies: ["7674A0390C41044C"]
 			description: [
-				"This metal hums with potential and seems uniquely attuned to the shadow people known as Endermen."
+				"这种金属充满了潜力，它似乎与被称为末影人的阴影人有着独特的共鸣。"
 				""
-				"Undoubtedly, it will help anchor a teleportation ritual to wherever they call home. "
+				"毫无疑问，它可以帮助将传送仪式锚定在任何末影人称之为家的地方。"
 			]
 			icon: "powah:steel_energized"
 			id: "04B0F0BE6E54D620"
@@ -167,7 +167,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 					icon: "kubejs:scavengers_delight"
 					id: "691C3737512BE3BF"
-					title: "Scavenger's Delight"
+					title: "拾荒者乐事包"
 					type: "command"
 				}
 				{
@@ -195,14 +195,14 @@
 		{
 			dependencies: ["04B0F0BE6E54D620"]
 			description: [
-				"Travel to the home of the Endermen is risky in and of itself, and tales tell of many a practitioner who attempted the journey never to return. "
+				"前往末影人的家园的过程和其家园本身都有不小的风险，传说中的许多法师试图前往那里却再也没有回来。"
 				""
-				"By all accounts, bringing some means of flying will be critical to successfully navigating this land. "
+				"据说，携带一些飞行手段对成功穿越这片土地上至关重要。"
 				""
 				""
 				"================================="
 				""
-				"Teleportation using the Tree of Life is prone to… drift. Be sure to bring along some means to return home as well as to set up a portal on the other side. "
+				"使用生命之树进行远程传送很容易……产生偏移。一定要准备一些回家的方法，并在另一边建立一个传送门。"
 			]
 			icon: "minecraft:chorus_fruit"
 			id: "0EBE44D4C30C0E51"
@@ -210,7 +210,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 				icon: "kubejs:aura_leaf"
 				id: "0505511F544D9B32"
-				title: "Aura Infusion"
+				title: "灵气灌注"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -219,7 +219,7 @@
 					dimension: "minecraft:the_end"
 					icon: "minecraft:chorus_fruit"
 					id: "2707A505AF3BD75E"
-					title: "Visit The End"
+					title: "拜访末地"
 					type: "dimension"
 				}
 				{
@@ -235,11 +235,11 @@
 		{
 			dependencies: ["73B4078AB841567A"]
 			description: [
-				"Death follows life, and life thrives on death. Such is the circle of all things."
+				"死亡在生命之后，生命因死亡而繁荣。这就是万物的循环。"
 				""
-				"The Tree of Life is not exempt from this cycle either; an infusion of souls would likely do it wonders at this stage. "
+				"生命之树也不能免于这个循环；向其中注入灵魂可能会在这个阶段创造奇迹。"
 				""
-				"Nourish the Tree once more and prepare to travel to the home of the Endermen in search of the final reagents required to fully restore it."
+				"再一次滋养生命之树，并准备前往末影人的家园，寻找完全复苏它所需的最终材料。"
 			]
 			icon: "kubejs:tree_of_life_3"
 			id: "0672B242C31F4A11"
@@ -247,7 +247,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 				icon: "kubejs:aura_leaf"
 				id: "626DB2BAB756CD14"
-				title: "Aura Infusion"
+				title: "灵气灌注"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -264,20 +264,20 @@
 					type: "item"
 				}
 			]
-			title: "Tree of Life"
+			title: "生命之树"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0EBE44D4C30C0E51"]
 			description: [
-				"True dragons passed from our world ages ago. Finding one here in this realm is quite a surprise, though certainly welcome. The magic and knowledge it bears will be vital in the final restoration of the Tree. "
+				"真正的龙在很久以前就从我们的世界中消失了。在这个领域找到一条龙真是令人惊讶，不过这肯定是一件喜事。它所承载的魔法和知识对最终复苏生命之树至关重要。"
 				""
-				"It does seem a shame to cage such a majestic creature…"
+				"把如此雄伟的生物关在笼子里对它来说实在是羞辱……"
 				""
-				"Shame or not, it must be done. No sentient creature of this power would allow itself to be contained through lesser means. "
+				"不管羞辱与否，我们都必须这样做。任何具有这种力量的智慧生物都不会允许自己通过弱小的手段被控制。"
 				""
-				"By enchanting the dragon into a lens, we’ll be able to safely extract what we need to fully restore the Tree of Life. "
+				"通过将龙附魔至透镜之中，我们将能够安全地提取出完全复苏生命之树所需的东西。"
 			]
 			icon: "minecraft:dragon_head"
 			id: "2C30585E7A2D5EB3"
@@ -285,7 +285,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 				icon: "kubejs:aura_leaf"
 				id: "27C72A314A0835DD"
-				title: "Aura Infusion"
+				title: "灵气灌注"
 				type: "command"
 			}]
 			tasks: [{
@@ -293,16 +293,16 @@
 				item: "powah:lens_of_ender"
 				type: "item"
 			}]
-			title: "Ender Dragon"
+			title: "末影龙"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4A5EF56081E8EE6E"]
 			description: [
-				"With the final Shard obtained, the Tree of Life will finally be restored to its full glory. "
+				"随着最后一片碎片的获得，生命之树将最终恢复其往日的荣光。"
 				""
-				"May its roots delve deep as its branches reach for the sun. "
+				"愿它的根深扎大地，就如它的树枝伸向耀日。"
 			]
 			hide_dependency_lines: true
 			icon: "kubejs:tree_of_life_4"
@@ -311,7 +311,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 				icon: "kubejs:aura_leaf"
 				id: "0139AC85B01E713C"
-				title: "Aura Infusion"
+				title: "灵气灌注"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -333,7 +333,7 @@
 		}
 		{
 			dependencies: ["27AB2CF4AC1A051E"]
-			description: ["Reach deep to the vivifying waters..."]
+			description: ["潜入生机勃勃的深海……"]
 			hide: true
 			id: "522FAC34F1EC78A6"
 			rewards: [
@@ -354,7 +354,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 					icon: "kubejs:aura_leaf"
 					id: "6E801CF58CCC17F1"
-					title: "Aura Infusion"
+					title: "灵气灌注"
 					type: "command"
 				}
 			]
@@ -369,7 +369,7 @@
 		}
 		{
 			dependencies: ["27AB2CF4AC1A051E"]
-			description: ["Rock to dust, dust to loam..."]
+			description: ["岩石变为尘土，尘土变为沃土……"]
 			hide: true
 			id: "7F47E4A0E4F840B0"
 			rewards: [
@@ -390,7 +390,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 					icon: "kubejs:aura_leaf"
 					id: "79B5374F289BE361"
-					title: "Aura Infusion"
+					title: "灵气灌注"
 					type: "command"
 				}
 			]
@@ -405,7 +405,7 @@
 		}
 		{
 			dependencies: ["27AB2CF4AC1A051E"]
-			description: ["Grow tall, stretch to the sun's kiss..."]
+			description: ["茁壮成长，直至可以亲吻太阳……"]
 			hide: true
 			id: "78FA52767FE8D732"
 			rewards: [
@@ -426,7 +426,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 					icon: "kubejs:aura_leaf"
 					id: "6EC8C22079A42D8F"
-					title: "Aura Infusion"
+					title: "灵气灌注"
 					type: "command"
 				}
 			]
@@ -441,7 +441,7 @@
 		}
 		{
 			dependencies: ["27AB2CF4AC1A051E"]
-			description: ["Lean into the wind's gentle embrace..."]
+			description: ["倚靠在风的温柔怀抱里……"]
 			hide: true
 			id: "75A2DCF61048E5CE"
 			rewards: [
@@ -462,7 +462,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 					icon: "kubejs:aura_leaf"
 					id: "24D145AA7990A26D"
-					title: "Aura Infusion"
+					title: "灵气灌注"
 					type: "command"
 				}
 			]
@@ -477,7 +477,7 @@
 		}
 		{
 			dependencies: ["606F79DAEB15E85B"]
-			description: ["With greater knowledge of spatial dimensions, the Afrit is capable of carving out an even greater internal volume for use by the spirits running this apparatus, allowing them to perform more complex tasks. "]
+			description: ["凭借对空间维度更充分的了解，火灵能够雕刻出更大的内部容积，供运行该装置的魔灵使用，使它们能够执行更复杂的任务。"]
 			id: "7633AE65F02DCD1A"
 			rewards: [{
 				count: 2
@@ -495,7 +495,7 @@
 		}
 		{
 			dependencies: ["3DD1F3E561B3D06A"]
-			description: ["Though its roots dig deep, and its branches scrape the sky, the Tree of Life remains in a tenuous state. It must be bolstered by the elements to ensure it never fades again. "]
+			description: ["尽管它的根深深扎于大地，树枝抚摸着天空，但生命之树仍然处于脆弱的状态。它必须得到元素的支持，以确保它永远不会再次衰落。"]
 			hide: true
 			hide_dependency_lines: true
 			id: "27AB2CF4AC1A051E"
@@ -503,7 +503,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 				icon: "kubejs:aura_leaf"
 				id: "0FC494420DB000EC"
-				title: "Aura Infusion"
+				title: "灵气灌注"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -512,13 +512,13 @@
 				item: "kubejs:primed_aetheric_heart"
 				type: "item"
 			}]
-			title: "Final Rites"
+			title: "最后的仪式"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["356B7D1DFF632DBD"]
-			description: ["It would seem the Cult of the Ur-Ghast were up to something far more sinister than previously thought. The rift they opened with their Carminite Reactor also gave them the opportunity to obtain this strange debris.  "]
+			description: ["看来，暮色恶魂邪教做的事情比之前想象的更加险恶。砷铅铁反应堆撕开的裂隙也给了他们获取这些奇怪碎片的机会。"]
 			hide: true
 			hide_dependency_lines: true
 			id: "0CFE9B39B0643013"
@@ -526,7 +526,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "0015D006738A40B6"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -544,16 +544,16 @@
 				"606F79DAEB15E85B"
 			]
 			description: [
-				"With some research, it appears the Cult of the Ur-Ghast were preparing to summon a great evil into the land. To what purpose is still unclear. "
+				"经过一些研究，看来暮色恶魂邪教正准备召唤一股巨大的邪恶势力进入这片土地。其目的尚不清楚。"
 				""
-				"Just the same, this debris will need to be purified before being put to use."
+				"同样，这些碎片在投入使用之前需要被净化。"
 			]
 			id: "77E8DD38A379F9C7"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "2275D9F976F77BDF"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -568,7 +568,7 @@
 		}
 		{
 			dependencies: ["2D08D3CC44A509B9"]
-			description: ["Celestial Gold, blessed by the gods themselves, would ring out across the dimensions like a clear bell on a calm day. The perfect bait for summoning a great corruption into the land. "]
+			description: ["被上帝保佑的天辉金可以像平静时突然响起的清脆鸣钟一样响彻每个维度。这是一个完美的诱饵，用于引诱一股巨大的腐化势力侵入这片土地。"]
 			id: "39B2F84EBDC27AA3"
 			rewards: [
 				{
@@ -587,7 +587,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 					icon: "kubejs:aura_leaf"
 					id: "617415D046BDABDF"
-					title: "Aura Infusion"
+					title: "灵气灌注"
 					type: "command"
 				}
 			]
@@ -601,7 +601,7 @@
 						value: "forge:ingots/tainted_gold"
 					}
 				}
-				title: "Celestial Gold"
+				title: "天辉金"
 				type: "item"
 			}]
 			x: 1.5d
@@ -610,17 +610,17 @@
 		{
 			dependencies: ["39B2F84EBDC27AA3"]
 			description: [
-				"Only a well-prepared witch should ever consider summoning the Wither Council, using every trick at her disposal to defeat them in a timely manner. "
+				"只有准备充分的女巫才应该考虑召唤凋灵议会，并利用她所掌握的一切技巧及时地击败它们。"
 				""
-				"Perhaps one should be captured for further study, however… "
+				"不过，也许你应该捕捉一只凋灵进行来做进一步的研究……"
 				""
 				"========================================"
 				""
-				"The Gateway for this fight is on a short timer. "
+				"这场战斗的传送门持续时间会更短。"
 				""
-				"Capture a Wither and defeat the rest. The captured Wither will be used to mine Blighted Ichor, which may be used to produce Nether Stars. "
+				"捕获一只凋灵并击败其他敌人。被捕获的凋灵可以用于钻取制作下界之星的枯萎灵液。"
 				""
-				"Feel free to repeat this fight, but it is not intended to be needed more than once. "
+				"这场战斗可以重复进行，但它只需要进行一次。"
 			]
 			icon: {
 				Count: 1b
@@ -636,7 +636,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 					icon: "kubejs:aura_leaf"
 					id: "1D4D0A4842116B56"
-					title: "Aura Infusion"
+					title: "灵气灌注"
 					type: "command"
 				}
 				{
@@ -672,11 +672,11 @@
 		{
 			dependencies: ["4F90F6437D6CF7EC"]
 			description: [
-				"With items attuned to the destination it is now possible to travel to the Nether."
+				"有了与目的地绑定的物品，你现在就可以前往下界了。"
 				""
 				"================================="
 				""
-				"Teleportation using the Tree of Life is prone to… drift. Be sure to bring along some means to return home as well as to set up a portal on the other side. "
+				"使用生命之树进行远程传送很容易……产生偏移。一定要准备一些回家的方法，并在另一边建立一个传送门。"
 			]
 			icon: "minecraft:crimson_fungus"
 			id: "3D0B7DA1DD0A74B1"
@@ -684,7 +684,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "48DA2969D0098400"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -693,7 +693,7 @@
 					dimension: "minecraft:the_nether"
 					icon: "minecraft:crimson_fungus"
 					id: "1B464D1BB138C06B"
-					title: "Visit the Nether"
+					title: "拜访下界"
 					type: "dimension"
 				}
 				{
@@ -709,11 +709,11 @@
 		{
 			dependencies: ["356B7D1DFF632DBD"]
 			description: [
-				"It is time once more to enlist the aid of the elemental spirits, this time to bring forth materials from the depths of their environments. By focusing tight beams of focused Source through these bases, the elementals will be able to retrieve what is needed. "
+				"是时候再次寻求元素灵魂的帮助了，这一次是从它们居住环境的深处采集材料。通过将紧密的魔源光束聚焦在这些基座上，元素灵魂将能够取回它们所需的东西。"
 				""
-				"From the Earth, Soul Powder."
+				"从大地中，可以获取灵魂尘。"
 				""
-				"From the Sea, Abyssal Seawater."
+				"从大海中，可以获取深渊海水。"
 			]
 			hide: true
 			icon: "industrialforegoing:ore_laser_base"
@@ -793,7 +793,7 @@
 					type: "item"
 				}
 			]
-			title: "Laser Bases"
+			title: "镭射钻基座"
 			x: 0.0d
 			y: -7.5d
 		}
@@ -803,16 +803,16 @@
 				"6E239ECBE33DFA36"
 			]
 			description: [
-				"A magically enhanced alloy with an affinity for souls. "
+				"一种魔法强化的合金，与灵魂有极高的亲和力。"
 				""
-				"Curiously, when combined with the scraps of material found in the Ur-Ghast tower, it appears to be capable of generating a powerful anti-magic field.  "
+				"奇怪的是，将其与在暮色恶魂塔中发现的碎片结合在一起时，它似乎能够产生强大的反魔法力场。"
 			]
 			id: "606F79DAEB15E85B"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "7A03B91B11415840"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -826,16 +826,16 @@
 		{
 			dependencies: ["17F735810850C368"]
 			description: [
-				"Abyssal Seawater, water from the deepest parts of the ocean, rich in rare minerals found nowhere else. It will need to be filtered and refined in order to obtain everything it has to offer. Begin by filtering it through a Magebloom Filter."
+				"深渊海水，来自海洋最深处的水，富含无法在其他地方发现的稀有矿物。它需要经过过滤和精炼，才能获得它所能提供的一切。首先通过法师之花滤网进行过滤。"
 				""
-				"The resulting Brine may then be cooked down to obtain Lithium and Iesnium, while the saturated filters may be processed to obtain Abyssaline, a potent form of Source useful in operating tools such as the Artificer’s Mining Drill and Buzzsaw."
+				"然后，你可以将产生的盐水加热以获取锂和艾瑟金属，而饱和的滤网可以进行处理以获得渊晶油，一种强大的魔源形态，可以用于为工匠的采矿机械钻和伐木机械锯等工具提供动力。"
 			]
 			id: "6E239ECBE33DFA36"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/small"
 				icon: "kubejs:aura_leaf"
 				id: "109F6B48B5CA4221"
-				title: "Aura Infusion"
+				title: "灵气灌注"
 				type: "command"
 			}]
 			tasks: [{
@@ -849,16 +849,16 @@
 		{
 			dependencies: ["17F735810850C368"]
 			description: [
-				"A fine mineral said to be steeped with the souls of those interred in the earth. "
+				"一种据说充满埋葬死者灵魂的细小矿物。"
 				""
-				"Though common in the Nether, Soul Powder is also abundant in some spooky places in the Twilight Forest such as the Dark Forest surrounding the Ur-Ghast Tower."
+				"虽然灵魂粉在下界中很常见，但在暮色森林中一些诡异的地方，比如在暮色恶魂塔周围的黑暗森林，也存在大量的灵魂粉。"
 			]
 			id: "126F4E070F219A8B"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "43BF2A66732C89E4"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -876,7 +876,7 @@
 				"78FA52767FE8D732"
 				"7F47E4A0E4F840B0"
 			]
-			description: ["Congratulations on completing Enigmatica 9: Expert!"]
+			description: ["恭喜你通关了Enigmatica 9：专家！"]
 			hide: true
 			hide_dependency_lines: true
 			id: "26A44571C5C0F6B4"
@@ -884,7 +884,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 				icon: "kubejs:aura_leaf"
 				id: "0874E8DB1A76AE45"
-				title: "Aura Infusion"
+				title: "灵气灌注"
 				type: "command"
 			}]
 			shape: "heart"
@@ -906,7 +906,7 @@
 		}
 		{
 			dependencies: ["77E8DD38A379F9C7"]
-			description: ["Fire and Water both possess the cleansing power to remove the taint from Netherite, restoring it to its former glory. Choose one and develop an enchanting setup capable of performing the ritual. "]
+			description: ["火和水都具有净化的能力，可以去除下界合金的杂质，使其恢复往日的荣光。选择一种方式并设计一个能够举行仪式的附魔装置。"]
 			id: "2D08D3CC44A509B9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -941,7 +941,7 @@
 						]
 					}
 				}
-				title: "Ritual of Cleansing"
+				title: "净化仪式"
 				type: "item"
 			}]
 			x: 0.5d
@@ -950,15 +950,15 @@
 		{
 			dependencies: ["2D08D3CC44A509B9"]
 			description: [
-				"Long ago, the peoples of this realm attempted to call forth a great power to aid them in their time of need. This creature, known as the Warden, protected them for centuries before their civilization collapsed and their cities fell to ruin. "
+				"在很久以前，该领域的人们试图召唤一股强大的力量，并在需要时寻求其帮助。这种被称为监守者的生物在他们的文明瓦解和城市毁灭之前保护了他们几个多世纪。"
 				""
-				"It is said the Warden still wanders those ancient broken halls. Locate it and lay it to rest. "
+				"据说监守者仍徘徊在那些古老的破败殿厅之中。找到它并让其安息。"
 				""
 				"================================="
 				""
-				"Travel to a Deep Dark biome far underground in the Overworld and make enough noise to force the Warden out of hiding. "
+				"前往主世界地下深处的深暗之域生物群系，制造足够大的噪音使监守者从它藏匿的地方现行。"
 				""
-				"Slay it to obtain a Warden Tendril which may be transformed into Genius Loci, a powerful catalyst used in the creation of Elysium."
+				"杀死它以获得监守者卷须，该卷须可以转变为守护者精华，一种用于创造液态极乐的强大催化剂。"
 			]
 			icon: "apotheosis:soul_touched_sculkshelf"
 			id: "4410E58ED333FBCB"
@@ -966,7 +966,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/small"
 				icon: "kubejs:aura_leaf"
 				id: "4014F4C50BC08A30"
-				title: "Aura Infusion"
+				title: "灵气灌注"
 				type: "command"
 			}]
 			tasks: [
@@ -989,7 +989,7 @@
 							]
 						}
 					}
-					title: "Ritual of Growth"
+					title: "生长仪式"
 					type: "item"
 				}
 				{
@@ -1003,14 +1003,14 @@
 		}
 		{
 			dependencies: ["2C30585E7A2D5EB3"]
-			description: ["The ancient wisdom of the Ender Dragon, artfully distilled into a powerful material known as Enderium. "]
+			description: ["末影龙的远古智慧，被巧妙地提炼成一种被称为末影的强大材料。"]
 			hide_dependency_lines: true
 			id: "4A5EF56081E8EE6E"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 				icon: "kubejs:aura_leaf"
 				id: "6C551A3BE7841241"
-				title: "Aura Infusion"
+				title: "灵气灌注"
 				type: "command"
 			}]
 			tasks: [{
@@ -1022,5 +1022,5 @@
 			y: 0.5d
 		}
 	]
-	title: "Chapter Three"
+	title: "第三章"
 }
