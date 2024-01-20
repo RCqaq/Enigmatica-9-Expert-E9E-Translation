@@ -11,9 +11,9 @@
 		{
 			dependencies: ["55C6945D58D77AB6"]
 			description: [
-				"While the sun sets on the Wilden Grove, so too does the moon rise for your coven. "
+				"当荒野森林族所处的地方日落时，月亮也会在你集会所处的地方升起。"
 				""
-				"Embrace the night. "
+				"拥抱黑夜。"
 			]
 			id: "4C676E7D2BA75DE4"
 			rewards: [{
@@ -28,17 +28,17 @@
 				id: "7D0D0C5E4E8FF86D"
 				observe_type: 0
 				timer: 0L
-				title: "Gloaming Catalyst"
+				title: "黄昏催化剂"
 				to_observe: "kubejs:gloaming_catalyst"
 				type: "observation"
 			}]
-			title: "Gloaming Catalyst"
+			title: "黄昏催化剂"
 			x: 1.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["00B21E64DEFACB40"]
-			description: ["Capable of imparting a number of enchantments on items, this Enchanting Apparatus will no doubt be of enormous value in the endeavors to come. "]
+			description: ["此附魔装置能够在物品上赋予许多魔咒，毫无疑问它可以在未来的事业中贡献巨大的价值。"]
 			icon: "ars_nouveau:enchanting_apparatus"
 			id: "31E4C2A162D7497C"
 			rewards: [
@@ -46,7 +46,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
 					icon: "kubejs:alchemists_delight"
 					id: "4C9ACBB578AFC307"
-					title: "Alchemist's Delight"
+					title: "炼金术士乐事包"
 					type: "command"
 				}
 				{
@@ -74,19 +74,19 @@
 		{
 			dependencies: ["55C6945D58D77AB6"]
 			description: [
-				"As the Queen tells it, The Wilden Grove invoked a dangerous ritual to attempt to stop the Cult of the Ur-Ghast before it was too late. "
+				"正如蜂后所述的那样，荒野森林族召唤了一个危险的仪式，试图在为时已晚之前阻止暮色恶魂邪教。"
 				""
-				"Sadly, the ritual was too much, and they lost themselves to the Call of the Beast."
+				"遗憾的是，仪式的危险太大了，他们在野兽的召唤中失去了自我。"
 				""
-				"Send a message on the Queen’s behalf. Tell them &7“Your friendship is mourned. Rest now.”&r, then put them down."
+				"代表蜂后向他们发送一条信息。告诉他们&7“我对我们之间的友谊哀悼。现在安息吧。”&r，然后打败他们。"
 				""
 				"========================================"
 				""
-				"The Gateway for this fight is on a short timer. "
+				"这场战斗的传送门持续时间会更短。"
 				""
-				"Capture a Wilden Chimera and defeat the rest to obtain a Wilden Tribute. The captured Wilden Chimera will be used to mine Magicite, which has multiple uses. "
+				"捕获一个荒野奇美拉并击败其他敌人以获得荒野供物。被捕获的荒野奇美拉可以用于钻取拥有多种用途的魔法液。"
 				""
-				"Feel free to repeat this fight, but it is not intended to be needed more than once. "
+				"这场战斗可以重复进行，但它只需要进行一次。"
 			]
 			icon: {
 				Count: 1b
@@ -101,7 +101,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 				icon: "kubejs:aura_leaf"
 				id: "57F9A2443CFDEB47"
-				title: "Aura Infusion"
+				title: "灵气灌注"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -129,13 +129,13 @@
 		}
 		{
 			dependencies: ["0B7E9625225C8413"]
-			description: ["The Wilden Tribute, found in the aftermath of the fight with the Wilden Grove, is a mark held by those who have reached the pinnacle of magical ability. "]
+			description: ["在与荒野森林族的战斗后发现的荒野供物，是那些达到魔法能力顶峰的人所持有的标志。"]
 			id: "10238EBB9B55F67B"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 				icon: "kubejs:aura_leaf"
 				id: "2D791DABDEA4EA64"
-				title: "Aura Infusion"
+				title: "灵气灌注"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -150,9 +150,9 @@
 		{
 			dependencies: ["21C352EEFEB25365"]
 			description: [
-				"Extracting useful quantities of elemental iron from ore is no simple task and will require some specialized apparatus to work through the process. "
+				"从矿石中提取足够量的单质铁不是一项简单的任务，这需要一些专门的设备来完成整个过程。"
 				""
-				"To begin, a specially enchanted Crushing Wheel will be required to break the ore into smaller pieces. The resulting crushed ore will then need to be treated in an acid bath at high heat to begin removing impurities. "
+				"首先，你需要一个特制的附魔破碎轮来将矿石粉碎成更小的碎片。然后，粉碎的矿石需要进行高温酸浴处理，以去除杂质。"
 			]
 			id: "6044FE23384692A5"
 			rewards: [{
@@ -171,13 +171,13 @@
 		{
 			dependencies: ["33BCDA0A76E2523C"]
 			description: [
-				"Focused bursts of controlled magical energies are necessary for transmuting certain materials. As it happens, a specially prepared crystal ball acts as the perfect lens for this sort of transmutation; accepting and amplifying the energies sent in from outside. "
+				"集中、强爆发且可控的魔法能量对于转变某些材料是必要的。碰巧的是，一个特制的水晶球可以充当这种嬗变的完美透镜；它可以接受并放大来自外部的能量。"
 				""
 				"============================="
 				""
-				"Energizing Rods must be attached to a block that outputs power; they may not be placed on their own. "
+				"充能棒必须与输出能量的方块相连；它们不可以单独放置。"
 				""
-				"Placing them on the bottom of a Pulsating Crystal works but may be a little awkward. Instead, consider using an Energy Meter or a Modular Router as the block to place them against. Just configure them to output to the side the Energizing Rod will be placed on. "
+				"将它们放在脉冲水晶的底部可行，但可能会有点尴尬。相反，你可以考虑使用电能表或模块化路由器作为放置它们的方块。只需将它们配置为向放置充能棒的一面输出能量即可。"
 			]
 			hide: true
 			icon: "powah:energizing_orb"
@@ -214,9 +214,9 @@
 		{
 			dependencies: ["6044FE23384692A5"]
 			description: [
-				"Obtaining the high heat and perfect conditions required to continue purifying Iron will require the construction of yet another magical apparatus, the Enhanced Blast Furnace."
+				"要获取持续净化铁所需的高温和完美条件，还需要建造另一个魔法装置，即强化高炉。"
 				""
-				"This device uses Blazing Crystals as fuel and while it is ideal for Iron, it works well for processing many other metals as well. "
+				"该装置使用烈焰水晶作为燃料，虽然它是冶炼铁的理想选择，但它也能很好地冶炼许多其他金属。"
 			]
 			icon: "immersiveengineering:advanced_blast_furnace"
 			id: "2BA70920EA1ED0A8"
@@ -238,20 +238,20 @@
 					type: "item"
 				}
 			]
-			title: "Improved Blast Furnace"
+			title: "强化高炉"
 			x: 4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["21C352EEFEB25365"]
 			description: [
-				"The following multiblock machines may be constructed with Novice Artificing Blocks:"
+				"新手巧工方块可以用于建造以下多方块机器："
 				""
-				"● Metal Press"
-				"● Mixer"
-				"● Bottling Machine"
-				"● Assembler"
-				"● Sawmill"
+				"● 金属冲压机"
+				"● 混合器"
+				"● 灌装机"
+				"● 装配机"
+				"● 锯木机"
 			]
 			icon: "immersiveengineering:light_engineering"
 			id: "2C43443DCFFF65F4"
@@ -265,20 +265,20 @@
 				item: "immersiveengineering:light_engineering"
 				type: "item"
 			}]
-			title: "Light Machinery"
+			title: "轻型机器"
 			x: 5.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1034686D695A8A6D"]
 			description: [
-				"There exists a certain imbalance in magical energies in the realms. While some, like this world, are positively overflowing with magical potential, others have a notable lack. "
+				"各领域间的魔法能量存在一定的不平衡。虽然有些领域，比如这个世界，充满了正面的魔法潜能，但另一些位面则明显缺乏这种潜能。"
 				""
-				"With the Tree of Life partially restored, it is safe to resume the ancient bargain struck with the spirits of the Otherworld, trading Source for their labor. "
+				"随着生命之树的部分复苏，你可以安全地恢复与异界魔灵达成的古老交易，用魔源换取它们的劳动。"
 				""
-				"The Energetic Transference Matrix serves as the bridge to facilitate this exchange. When properly integrated into an arcane apparatus, materials and Source may be funneled through to the Otherworld. In exchange, the spirits residing there will transform the materials and return them, keeping the Source as payment. "
+				"能量传输矩阵是帮助这种交易的桥梁。当其正确地整合到奥术装置中时，它可以将材料和魔源传输至异界。作为交换，居住在那里的魔灵会转变材料并将其归还，保留魔源作为报酬。"
 				""
-				"Quite the fair trade, really."
+				"相当公平的交易。"
 			]
 			icon: "kubejs:energetic_transference_matrix"
 			id: "21C352EEFEB25365"
@@ -292,11 +292,11 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 					icon: "kubejs:aura_leaf"
 					id: "363F6A8483473ED2"
-					title: "Aura Infusion"
+					title: "灵气灌注"
 					type: "command"
 				}
 			]
-			subtitle: "Interdimensional Outsourcing"
+			subtitle: "跨维度外包"
 			tasks: [
 				{
 					id: "4027AFF2F762B0D1"
@@ -318,9 +318,9 @@
 				"4C676E7D2BA75DE4"
 			]
 			description: [
-				"A specialized apparatus for magically infusing materials with various substances, the Metallurgic Infuser is critical in the process of purifying elemental iron. "
+				"冶金灌注机是一台可以魔法般的将各种物质注入材料的专用装置，它在净化单质铁的过程中至关重要。"
 				""
-				"With the inclusion of elemental fire, Crude Iron may be tempered into steel, while the inclusion of elemental air will purify the metal down into malleable Iron. "
+				"加入火之精华后，粗铁可以被回火成钢，而气之精华的加入将净化金属，使其成为铁。"
 			]
 			id: "49159D9F94B7006C"
 			rewards: [
@@ -348,13 +348,13 @@
 		{
 			dependencies: ["4CC418E7200DF351"]
 			description: [
-				"The Cell Maze seems a likely a place as any to start. Locate it and search around for clues to the Queen's whereabouts.  They’re notable for their large cells partitioned off by Honey Web and contain countless Honey Cocoons."
+				"蜂巢迷宫似乎是一个很好的起点。找到那里，并在其中寻找蜂后所在之地的线索。蜂巢迷宫以无数的蜂蜜茧和将其分隔开的蜂蜜网而闻名。"
 				""
-				"Be sure to obtain the Protection of the Hive before entering!"
+				"请确保获得蜂群之护效果后再进入！"
 				""
 				"================================="
 				""
-				"While in the Bumblezone, Right-Click the Honey Compass in the air to attune it to the Cell Maze."
+				"当处于蜜蜂领域时，用蜂蜜指南针右击空气将其指向蜂巢迷宫。"
 			]
 			id: "57861ABDB35ED555"
 			rewards: [{
@@ -387,14 +387,14 @@
 		{
 			dependencies: ["57861ABDB35ED555"]
 			description: [
-				"At last, the Queen!"
+				"终于，你找到了蜂后！"
 				""
-				"Earn the boon of the Queen by completing the tasks they require, or by returning to them that which is rightfully theirs."
+				"通过完成蜂后要求的任务，或是将本该属于她的物品还给她来获得她的奖赏。"
 				""
-				"=================================="
+				"================================="
 				""
-				"Essence of the Bees is a very rare reward, indeed, so do not squander it!"
-				"Use it to first craft the Gloaming Catalyst before consuming it to receive the rest of the permanent rewards it grants. "
+				"蜂之精华是一种非常罕见的奖励，真的，所以不要浪费它！"
+				"首先使用合成黄昏催化剂，然后再食用它来获得剩余的永久奖励。"
 			]
 			icon: "the_bumblezone:essence_of_the_bees"
 			id: "55C6945D58D77AB6"
@@ -409,14 +409,14 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 					icon: "kubejs:aura_leaf"
 					id: "21E8E534E6A7EBA6"
-					title: "Aura Infusion"
+					title: "灵气灌注"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run summon the_bumblezone:beehemoth ~ ~2 ~"
 					icon: "the_bumblezone:bee_queen_spawn_egg"
 					id: "1F7EF0E9FB5A71ED"
-					title: "The Queen's Guard"
+					title: "蜂后的侍卫"
 					type: "command"
 				}
 				{
@@ -460,13 +460,13 @@
 		{
 			dependencies: ["2153EBB1D50F0039"]
 			description: [
-				"The meandering pathways in the Bumblezone are built for hive minds, and so can be difficult for others to follow. Crafting a Honey Compass will be the safest way forward."
+				"蜜蜂领域蜿蜒曲折的小路是为蜂群思维而建的，因此其他人很难寻路。合成蜂蜜指南针会是最安全的前进方式。"
 				""
-				"Remember to show the bees respect while in their home. Feed bees and Honeycomb Brood Blocks some tasty honey treats to earn the Protection of the Hive. Only honored guests are allowed in their most sacred places."
+				"记得尊重处在自己家园中的蜜蜂。给蜜蜂和蜜脾育幼块喂食一些美味的蜂蜜零食，以获得蜂群之护。只有尊贵的客人才能进入它们最神圣的地方。"
 				""
 				"================================="
 				""
-				"While in the Bumblezone, it is possible to leave at any time by mining to the roof or floor. Above or below a certain point, you’ll be teleported back to where you came from."
+				"在蜜蜂领域中，你看可以通过挖掘天花板或地板离开。高于或低于某一点时，你会被传送回你来的地方。"
 			]
 			icon: "minecraft:honeycomb"
 			id: "4CC418E7200DF351"
@@ -505,7 +505,7 @@
 							]
 						}
 					}
-					title: "Bee Treats"
+					title: "蜜蜂零食"
 					type: "item"
 				}
 			]
@@ -514,13 +514,13 @@
 		}
 		{
 			dependencies: ["60324503ED7AC4C1"]
-			description: ["Known to the ancients as mountain copper, this unique alloy is of particular use in advanced enchanting as an amplifier. "]
+			description: ["这种独特的合金被古人称为山铜，在高级附魔中可以作为增幅器使用。"]
 			id: "00B21E64DEFACB40"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "23B342C9B1B2B79C"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -534,19 +534,19 @@
 		{
 			dependencies: ["31E4C2A162D7497C"]
 			description: [
-				"In places that still keep the old ways, bees hold a privileged position in community life. From the birth of a child to the death of a friend, news of important events are shared first with the bees. "
+				"在那些仍然保持着古老生活方式的地方，蜜蜂在社会生活中占据着特殊的地位。从孩子出生到朋友去世，重要事件的消息会第一时间与蜜蜂分享。"
 				""
-				"It was widely known that the Wilden Grove were avid bee-keepers and some speculated that the bees would carry messages to them through dreams, keeping them apprised of news from far and wide. "
+				"众所周知，荒野森林族是一群狂热的养蜂人，有些人猜测蜜蜂会通过梦境向他们传递信息，让他们随时了解来自四面八方的消息。"
 				""
-				"A pretty story, but surely a simple scrying would have done the same. "
+				"一个精彩的故事，但一次简单的占卜肯定也会起到同样的作用。"
 				""
-				"Just the same, the practice never really died out, especially among the Grove. It seems likely that as the Cult of the Ur-Ghast rose in prominence in this place, the druids may have discussed the events with the bees, perhaps even seeking advice from the Queen. "
+				"同样，这样的做法从未真正消亡，尤其是在荒野一族中。似乎很有可能，随着暮色恶魂邪教在该地的崛起，德鲁伊很可能已经与蜜蜂讨论了这些事件，甚至可能寻求了蜂后的建议。"
 				""
-				"Seek out the Queen Bee to see if they have any clues to offer. "
+				"寻找蜂王，并看看她们是否有任何可以提供的线索。"
 				""
 				"================================================="
 				""
-				"In order to travel to the Bumblezone, a Teleporter must be placed directly beneath a Beehive and then an Ender Pearl thrown at the Beehive."
+				"要想前往蜜蜂领域，你必须在蜂巢的正下方放置一个传送机，然后向蜂巢投掷一颗末影珍珠。"
 			]
 			icon: "minecraft:beehive"
 			id: "2153EBB1D50F0039"
@@ -577,16 +577,16 @@
 					type: "item"
 				}
 			]
-			title: "Telling of the Bees"
+			title: "对蜜蜂的倾诉"
 			x: 2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4C676E7D2BA75DE4"]
 			description: [
-				"As a boon for services rendered, the Queen grants safe passage to a lush realm of plenty."
+				"作为对蜂后提供服务的恩惠，她将允许你安全前往一片繁茂的富饶之地。"
 				""
-				"Nourish the Tree of Life with their gifts and travel to the Overworld in search of more answers in restoring the Tree."
+				"用她们的礼物滋养生命之树，并前往主世界以寻找更多复苏生命之树的答案。"
 			]
 			hide_dependency_lines: true
 			icon: "kubejs:tree_of_life_2"
@@ -606,7 +606,7 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 					icon: "kubejs:aura_leaf"
 					id: "14AC976E409BBD66"
-					title: "Aura Infusion"
+					title: "灵气灌注"
 					type: "command"
 				}
 			]
@@ -624,18 +624,18 @@
 					type: "item"
 				}
 			]
-			title: "Tree of Life"
+			title: "生命之树"
 			x: 2.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["2759988A5B69A455"]
 			description: [
-				"With items attuned to the destination and the blessings of the Queen Bee, travel to the Overworld is now achievable."
+				"有了与目的地绑定的物品和蜂王的祝福，你现在就可以前往主世界了。"
 				""
 				"================================="
 				""
-				"Teleportation using the Tree of Life is prone to… drift. Be sure to bring along some means to return home as well as to set up a portal on the other side. "
+				"使用生命之树进行远程传送很容易……产生偏移。一定要准备一些回家的方法，并在另一边建立一个传送门。"
 			]
 			icon: "supplementaries:globe"
 			id: "356B7D1DFF632DBD"
@@ -643,7 +643,7 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
 				icon: "kubejs:scavengers_delight"
 				id: "4F02BC40CABDEFBD"
-				title: "Scavenger's Delight"
+				title: "拾荒者乐事包"
 				type: "command"
 			}]
 			shape: "hexagon"
@@ -652,7 +652,7 @@
 					dimension: "minecraft:overworld"
 					icon: "supplementaries:globe"
 					id: "38380859B691C3D0"
-					title: "Visit The Overworld"
+					title: "拜访主世界"
 					type: "dimension"
 				}
 				{
@@ -667,7 +667,7 @@
 		}
 		{
 			dependencies: ["00B21E64DEFACB40"]
-			description: ["The beating heart of a magical energy network, the elementals bound into the ME Controller direct the flow of magical energies between the various components of the network, enabling a witch to perform the most wonderous of feats imaginable. "]
+			description: ["绑定到ME控制器中的元素生物是魔法能量网络跳动的心脏，它引导着魔法能量在网络的各个组件之间流动，使女巫能够实现可以想象的最奇妙的壮举。"]
 			icon: "ae2:controller"
 			id: "330C200F0F0243FC"
 			rewards: [
@@ -675,14 +675,14 @@
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
 					icon: "kubejs:alchemists_delight"
 					id: "72393E06B7289A9F"
-					title: "Alchemist's Delight"
+					title: "炼金术士乐事包"
 					type: "command"
 				}
 				{
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/large"
 					icon: "kubejs:aura_leaf"
 					id: "5C8EE393AD050F66"
-					title: "Aura Infusion"
+					title: "灵气灌注"
 					type: "command"
 				}
 			]
@@ -713,7 +713,7 @@
 		}
 		{
 			dependencies: ["00B21E64DEFACB40"]
-			description: ["Known for their strength and endurance, Basalz will work tirelessly to power Create machinery if properly compensated with magical energies."]
+			description: ["岩石人以其力量和耐力而闻名，如果能用魔法能量作为适当的报酬，他将不懈地为机械动力的机器提供动力。"]
 			icon: "createaddition:electric_motor"
 			id: "1FDD6F9166A33F8D"
 			rewards: [{
@@ -748,7 +748,7 @@
 		}
 		{
 			dependencies: ["1D0AA79380E87E57"]
-			description: ["Runic Manifolds serve to stabilize a greater dimensional pocket, allowing more spirits to work concurrently on the required task, while requiring less physical space for the apparatus itself. Fancy!"]
+			description: ["符文复印件用于稳定更大尺寸的维度口袋，可使更多的魔灵同时执行所需任务，并减少设备本身的物理空间。真想不到！"]
 			id: "7563E41DBF4FD286"
 			rewards: [{
 				id: "616836DA3BC9596E"
@@ -766,19 +766,19 @@
 		{
 			dependencies: ["1D0AA79380E87E57"]
 			description: [
-				"The following multiblock machines may be constructed with Adept Artificing Blocks:"
+				"专家巧工方块可以用于建造以下多方块机器："
 				""
-				"● Industrial Fermenter"
-				"● Industrial Squeezer"
-				"● Refinery"
-				"● Crusher"
+				"● 工业发酵机"
+				"● 工业挤压机"
+				"● 炼油厂"
+				"● 粉碎机"
 			]
 			id: "15F56E72212629FB"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
 				icon: "kubejs:alchemists_delight"
 				id: "42238537475907E4"
-				title: "Alchemist's Delight"
+				title: "炼金术士乐事包"
 				type: "command"
 			}]
 			tasks: [{
@@ -786,22 +786,22 @@
 				item: "immersiveengineering:heavy_engineering"
 				type: "item"
 			}]
-			title: "Heavy Machinery"
+			title: "重型机器"
 			x: 3.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["49159D9F94B7006C"]
 			description: [
-				"While useful in its own right for precision artificing, Invar is better known amongst artificers for its unique ability to resist magical compression. "
+				"虽然殷钢本身对精确制造很有用，但它更为工匠所知的是它独特的抵抗魔法压缩的能力。"
 				""
 				"================================="
 				""
-				"Enchant Invar to form Spellbound Invar."
+				"附魔殷钢以形成法术殷钢。"
 				""
-				"The following spell form will crush items on the ground: "
+				"以下法术将会粉碎地面上物品："
 				""
-				"&5Projectile&r > &aCrush&r > &6Sensitive&r "
+				"&5弹射物&r > &a粉碎&r > &6敏感&r"
 			]
 			id: "1D0AA79380E87E57"
 			rewards: [{
@@ -820,11 +820,11 @@
 		{
 			dependencies: ["1034686D695A8A6D"]
 			description: [
-				"Having friends on the Other Side is proving quite advantageous, as it seems that distances mean little to them in their realm. "
+				"事实证明，在异界拥有伙伴是非常有利的，因为似乎在它们的领域里，距离对它们来说意义不大。"
 				""
-				"A Quantum Network Bridge exploits this feature quite handily, making it possible to transport items, fluids, gasses, even power over incredibly long distances and between realms. "
+				"量子网桥利用了这个非常方便的特性，使其能够在令人难以置信的遥远距离或领域之间传输物品、流体、气体，甚至能量。"
 				""
-				"Refer to the quest in the Applied Energistics 2 chapter for more information on constructing this multiblock."
+				"请查阅应用能源2章节的任务以获取有关建造该多方块的更多信息。"
 			]
 			icon: "ae2:quantum_entangled_singularity"
 			id: "206B112E5F0C1C0A"
@@ -847,13 +847,13 @@
 					type: "item"
 				}
 			]
-			title: "Quantum Network Bridge"
+			title: "量子网桥"
 			x: 3.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7563E41DBF4FD286"]
-			description: ["Machines feeling a bit slow? Just make room for some more Spirits in there with Tier Installers. Give them some help as well by installing Energy and Speed upgrades. "]
+			description: ["感觉机器运转地有点慢？只需要用工厂安装器为更多的魔灵腾出空间就好了。你也可以通过安装能量和速度升级，为它们提供一些帮助。"]
 			icon: "mekanism:basic_tier_installer"
 			id: "0945523A7F5C5494"
 			rewards: [{
@@ -889,7 +889,7 @@
 							]
 						}
 					}
-					title: "Tier Installers"
+					title: "工厂安装器"
 					type: "item"
 				}
 				{
@@ -910,7 +910,7 @@
 							]
 						}
 					}
-					title: "Upgrades"
+					title: "升级"
 					type: "item"
 				}
 			]
@@ -920,13 +920,13 @@
 		{
 			dependencies: ["7001144C71F0E0BC"]
 			description: [
-				"Though somewhat onerous by hand, it appears to be possible to chip off small shards from the Dimensional Crystal Matrix. "
+				"虽然手工操作有些繁琐，但你似乎可以从维度水晶矩阵上切下一些细小的碎片。"
 				""
-				"Shoving large amounts of material into these crystals without any form of planar stabilization appears to have collapsed the pocket-realm, forming a singularity that appears capable of linking distant places through some other space. "
+				"在没有任何形式的平面稳定的情况下，将大量材料塞入这些水晶碎片会使得这个口袋领域产生坍塌，形成了一个看起来能够通过其他空间与遥远的地方相连的奇点。"
 				""
 				"================================="
 				""
-				"A 4K Storage Component will be sufficient for crafting Singularities. "
+				"一个4K存储组件就足以合成奇点。"
 			]
 			icon: "ae2:condenser"
 			id: "1034686D695A8A6D"
@@ -953,9 +953,9 @@
 		{
 			dependencies: ["2D8D0D2EA0C2B717"]
 			description: [
-				"Though tenuous, the pocket realm contained within this Crystal Matrix should prove quite useful for storing materials. "
+				"虽然很脆弱，但容纳在这个水晶矩阵中的口袋领域应该对存储材料非常有用。"
 				""
-				"But perhaps there’s more to be discovered here as well. Perhaps with a very sharp knife…"
+				"但也许这里还有更多的东西有待发现。也许一把锋利的刀可以……"
 			]
 			id: "7001144C71F0E0BC"
 			rewards: [{
@@ -981,9 +981,9 @@
 		{
 			dependencies: ["7001144C71F0E0BC"]
 			description: [
-				"As suspected, with even a minimal amount of stabilization, the Matrix can store a wonderous quantity of items. "
+				"正如所猜测的那样，即使是最少限度的稳定，矩阵也可以存储惊人数量的物品。"
 				""
-				"More experimentation with planar stabilizers is certainly warranted. "
+				"当然，有必要对平面稳定器进行更多的实验。"
 			]
 			id: "5D2DEF2DF3C21A09"
 			rewards: [{
@@ -1002,13 +1002,13 @@
 		{
 			dependencies: ["2153EBB1D50F0039"]
 			description: [
-				"Light refracts strangely through these crystals... as if it has travelled a much greater distance. Perhaps there's some truth to those stories after all?"
+				"光线在这些水晶中奇怪地折射……就好像它已经穿过了远得多的距离。也许这些故事终究是有些道理的？"
 				""
-				"Indeed, these Glistering Honey Crystals display a very unusual topology after infusing them with Aura."
+				"的确，这些闪光蜂蜜水晶在灌注灵气后显示出非常与众不同的的拓扑结构。"
 				""
 				"================================="
 				""
-				"Dimensional Crystals may be converted into a Budding block and grown much like Amethyst, making it quite simple to obtain more. "
+				"维度碎片可以转化为母岩方块，并像紫水晶一样生长，使获取更多碎片变得非常简单。"
 			]
 			icon: "the_bumblezone:glistering_honey_crystal"
 			id: "2D8D0D2EA0C2B717"
@@ -1028,5 +1028,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Chapter Two"
+	title: "第二章"
 }
