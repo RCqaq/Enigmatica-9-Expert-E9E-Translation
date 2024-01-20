@@ -13,8 +13,8 @@ ServerEvents.genericLootTables((event) => {
             pool.addItem(
                 Item.of('ars_nouveau:enchanters_eye', {
                     display: {
-                        Name: '{"text":"Rimebound Magic Mirror","color":"aqua"}',
-                        Lore: ['{"text":"It remains cold to the touch...","color":"dark_blue","italic":true}']
+                        Name: '{"text":"霜冻魔镜","color":"aqua"}',
+                        Lore: ['{"text":"摸起来仍然很冷……","color":"dark_blue","italic":true}']
                     }
                 }),
                 1

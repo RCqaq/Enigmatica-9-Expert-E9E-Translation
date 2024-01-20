@@ -8,7 +8,7 @@ ServerEvents.genericLootTables((event) => {
             pool.addItem(
                 Item.of(
                     'ars_nouveau:novice_spell_book',
-                    '{color:12,display:{Lore:[\'{"text":"Just what sort of leather is this, anyway?","color":"dark_red"}\'],Name:\'{"text":"Tattered Spell Book","color":"dark_purple"}\'}}'
+                    '{color:12,display:{Lore:[\'{"text":"这到底是用什么品种的皮革制成的？","color":"dark_red"}\'],Name:\'{"text":"破旧的法术书","color":"dark_purple"}\'}}'
                 ),
                 1,
                 [3, 5]

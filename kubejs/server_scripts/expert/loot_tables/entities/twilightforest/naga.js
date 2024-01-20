@@ -61,8 +61,8 @@ ServerEvents.genericLootTables((event) => {
                         { id: 'byg:aloe_vera', Count: 3 }
                     ],
                     display: {
-                        Name: `{"text":"Druid's Pouch","color":"dark_green"}`,
-                        Lore: [`{"text":"It bears the mark of the Wilden Grove.","color":"gold"}`]
+                        Name: `{"text":"德鲁伊的袋子","color":"dark_green"}`,
+                        Lore: [`{"text":"上面带有荒野森林族的标志。","color":"gold"}`]
                     }
                 }),
                 1
