@@ -76,7 +76,7 @@
 			rewards: [{
 				id: "2C1B2E8F4F88AF1D"
 				item: "ars_nouveau:glyph_aoe"
-				title: "魔符：范围效果"
+				title: "范围效果之魔符"
 				type: "item"
 			}]
 			subtitle: "Pào Tǎ，炮塔"
@@ -239,7 +239,7 @@
 			rewards: [{
 				id: "514420F871FB3AD2"
 				item: "ars_nouveau:glyph_harvest"
-				title: "魔符：收获"
+				title: "收获之魔符"
 				type: "item"
 			}]
 			subtitle: "落地生根"
