@@ -1,0 +1,8 @@
+{
+	"block.industrialforegoing.ore_laser_base": "Material Laser Base",
+	"fluid_type.industrialforegoing.biofuel": "Abyssaline",
+	"block.biofuel": "Abyssaline",
+	"item.industrialforegoing.biofuel_bucket": "Abyssaline Bucket",
+	"tooltip.titanium.facing_handler.biofuel": "Abyssaline",
+	"tooltip.titanium.facing_handler.biofuel_tank": "Abyssaline Tank"
+}
