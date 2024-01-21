@@ -2,7 +2,7 @@ JEIEvents.information((event) => {
     const descriptions = [
         {
             items: ['starbunclemania:source_fluid'],
-            text: [`Use a Source Condenser to convert Source to this liquid form.`]
+            text: [`使用魔源凝聚器将魔源转换为液体形态。`]
         }
     ];
 

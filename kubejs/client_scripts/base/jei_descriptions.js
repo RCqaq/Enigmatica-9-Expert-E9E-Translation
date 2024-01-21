@@ -2,127 +2,127 @@ JEIEvents.information((event) => {
     const descriptions = [
         {
             items: ['farmersdelight:ham'],
-            text: ['Obtained by killing Pigs or Hoglins with a knife.']
+            text: ['用刀击杀猪或疣猪兽获得。']
         },
         {
             items: ['buildinggadgets:construction_paste'],
-            text: ['Obtained by breaking a Dense Construction Block with a Pickaxe.']
+            text: ['用镐破坏致密构建方块获得。']
         },
         {
             items: ['thermal:blizz_rod', 'thermal:blizz_spawn_egg'],
-            text: ['The Blizz spawns naturally in cold biomes. Mechanical Dirt works wonders for farming them.']
+            text: ['暴雪人自然生成于寒冷的生物群系中。机械诅咒之土非常适合用于生成它们。']
         },
         {
             items: ['thermal:blitz_rod', 'thermal:blitz_spawn_egg'],
-            text: ['The Blitz spawns naturally in warm, dry biomes. Mechanical Dirt works wonders for farming them.']
+            text: ['狂风人自然生成于温暖、干燥的生物群系中。机械诅咒之土非常适合用于生成它们。']
         },
         {
             items: ['thermal:basalz_rod', 'thermal:basalz_spawn_egg'],
             text: [
-                'The Basalz spawns naturally in barren biomes, such as Badlands. Mechanical Dirt works wonders for farming them.'
+                '岩石人自然生成于荒芜的生物群系中，如恶地。机械诅咒之土非常适合用于生成它们。'
             ]
         },
         {
             items: ['quark:bottled_cloud'],
-            text: ['Obtained by Right-Clicking a Glass Bottle in the air between Y Levels 192 and 196.']
+            text: ['在Y值192至y196之间用玻璃瓶右击空气获得。']
         },
         {
             items: ['naturesaura:aura_bottle'],
             text: [
-                'Obtained by Right-Clicking a Bottle and Cork in the air in the appropriate dimension. This action removes Aura from the area.',
+                '在合适的维度用瓶与塞右击空气获得。此举措会移除该区域的一定灵气。',
                 ' ',
-                `Bottled Sunlight: The Overworld, Twilight Forest, or the Everdawn`,
-                `Bottled Ghosts: Nether or Everbright`,
-                `Bottled Darkness: The End or The Bumblezone`,
+                `瓶装阳光：主世界、暮色森林`,
+                `瓶装鬼魂：下界`,
+                `瓶装黑暗：末地或蜜蜂领域`,
                 ' ',
-                `Can be automated using a Dispenser.`
+                `可以通过发射器实现自动化。`
             ]
         },
         {
             items: ['naturesaura:bottle_two_the_rebottling'],
             text: [
-                'Right-Click in the air in the appropriate dimension to obtained bottled Aura types. This action removes Aura from the area.',
+                '在合适的维度用其右击空气以获得不同种类的瓶装灵气。此举措会移除该区域的一定灵气。',
                 ' ',
-                `Bottled Sunlight: The Overworld, Twilight Forest, or the Everdawn`,
-                `Bottled Ghosts: Nether or Everbright`,
-                `Bottled Darkness: The End or The Bumblezone`,
+                `瓶装阳光：主世界、暮色森林`,
+                `瓶装鬼魂：下界`,
+                `瓶装黑暗：末地或蜜蜂领域`,
                 ' ',
-                `Can be automated using a Dispenser.`
+                `可以通过发射器实现自动化。`
             ]
         },
         {
             items: ['naturesaura:vacuum_bottle'],
             text: [
-                'Obtained by Right-Clicking a Bottle and Cork in the air in an area devoid of Aura.',
+                '在缺乏灵气的区域用瓶与塞右击空气获得。',
                 ' ',
-                `Can be automated using a Dispenser.`
+                `可以通过发射器实现自动化。`
             ]
         },
         {
             items: ['minecraft:firework_rocket'],
-            text: [`Shapeless Crafting: One paper and at least one gunpowder.`]
+            text: [`无序合成：一张纸和至少一份火药。`]
         },
         {
             items: ['minecraft:firework_rocket'],
             text: [
-                `Adding more gunpowder increases the duration of the rocket.`,
-                `Up to three gunpowder or up to seven firework stars can be added.`
+                `添加更多的火药可以增加烟花火箭的飞行时间。`,
+                `至多可以添加三份火药或七个烟火之星。`
             ]
         },
         {
             items: ['minecraft:firework_star'],
-            text: [`Shapeless Crafting: One gunpowder and at least one dye.`]
+            text: [`无序合成：一份火药和至少一种染料。`]
         },
         {
             items: ['minecraft:firework_star'],
             text: [
-                `Up to eight dyes can be added.`,
-                `One head, gold nugget, feather, or fire charge can be added to set a shape.`,
-                `A diamond and/or a glowstone dust can be added with any of the other ingredients.`
+                `至多可以添加八种染料。`,
+                `可以添加头、金粒、羽毛或火焰弹以调整烟花的形状。`,
+                `钻石或荧石可以与任何其他合成原料一起添加。`
             ]
         },
         {
             items: ['minecraft:dragon_egg'],
             text: [
-                `More eggs may be obtained by summoning the End Dragon again.`,
+                `更多龙蛋可以通过再次召唤末影龙获得。`,
                 ` `,
-                `To summon, place an End Crystal on each of the cardinal directions of the End Portal in the End.`
+                `要召唤末影龙，将末地水晶放置的末地传送门的四个基本方位上。`
             ]
         },
         {
             items: ['immersiveengineering:furnace_heater', 'mekanism:fuelwood_heater', 'mekanism:resistive_heater'],
-            text: [`May be used to provide Heat for PneumaticCraft machines.`]
+            text: [`可以用于为气动工艺的机器提供热量。`]
         },
         {
             items: ['quark:dragon_scale'],
-            text: [`Only drops from Ender Dragons after the first one has been killed.`]
+            text: [`只会从第一只击杀的末影龙身上掉落。`]
         },
         {
             items: ['quark:slime_in_a_bucket'],
-            text: [`Scoop up a small slime in an empty bucket.`]
+            text: [`将一只小史莱姆舀进空桶里获得。`]
         },
         {
             items: ['naturesaura:gold_leaf'],
-            text: [`Obtained by breaking Golden Leaves.`]
+            text: [`破坏黄金树叶获得。`]
         },
         {
             items: ['naturesaura:golden_leaves'],
-            text: [`Obtained by using Brilliant Fiber on leaves. Allow to spread for best effect.`]
+            text: [`对树叶使用闪耀纤维获得。使其传播以获得最好的效果。`]
         },
         {
             items: ['naturesaura:break_prevention'],
             text: [
-                `When applied to a tool in an anvil, the tool will stop working when durability runs out instead of being destroyed.`
+                `在铁砧中将其与工具结合，工具会在低耐久时直接无法使用，而不会损坏。`
             ]
         },
         {
             items: ['ars_nouveau:belt_of_levitation'],
-            text: [`When equipped in the belt slot, hold the sneak key while airborne to float.`]
+            text: [`当装备在腰带栏位时，在空中按住潜行键以飘浮。`]
         },
 
         {
             items: ['naturesaura:birth_spirit'],
-            text: [`Obtained by manually breeding animals in high Aura areas.`]
+            text: [`通过在高灵气浓度的区域手动繁殖动物获得。`]
         },
         {
             items: [
@@ -135,9 +135,9 @@ JEIEvents.information((event) => {
                 'quark:red_corundum'
             ],
             text: [
-                'Will grow up to four blocks tall if placed deep underground. Will emit particles while growing.',
+                '如果在地底深处放置，它将会生长至四格方块高。生长时会发出粒子效果。',
                 ' ',
-                'May sprout Corundum Clusters as well.'
+                '还可以长出刚玉簇。'
             ]
         },
         {
@@ -150,11 +150,11 @@ JEIEvents.information((event) => {
                 'quark:orange_corundum_cluster',
                 'quark:red_corundum_cluster'
             ],
-            text: ['Grows occasionally on Corundum Blocks when grown underground.']
+            text: ['会偶尔生长自地下生长的刚玉方块上。']
         },
         {
             items: ['hexerei:animal_fat'],
-            text: [`Drops from most large animals.`]
+            text: [`掉落自大多数的大型动物。`]
         },
         {
             items: [
@@ -163,9 +163,9 @@ JEIEvents.information((event) => {
                 'enigmaticunity:dim_source_producer'
             ],
             text: [
-                `Any FE fed into this device will be converted and sent to nearby Source Jars.`,
+                `任何输入进该装置的FE都会被转换并送入附近的魔源罐中。`,
                 ` `,
-                `If no Source Jars are available, or they are completely full, then the FE will instead be converted into Aura.`
+                `如果附近没有魔源罐，或魔源罐已完全装满，那么FE就会转换为灵气。`
             ]
         },
         {
@@ -175,61 +175,61 @@ JEIEvents.information((event) => {
                 'enigmaticunity:dim_source_generator'
             ],
             text: [
-                `Source from nearby Source Jars will be pulled into this device and converted to FE.`,
+                `附近魔源罐中的魔源会被提取至该装置并转换成FE。`,
                 ` `,
-                `If sufficient Aura is available in the area, it will be consumed as well, dramatically increasing the FE produced.`
+                `如果该区域有足够的灵气，它还会消耗灵气，极大地增加产生FE的量。`
             ]
         },
         {
             items: ['starbunclemania:fluid_sourcelink'],
-            text: [`Valid Fluids: Potions, Ether Gas, Liquefied Source, Bio Diesel, Sludge.`]
+            text: [`可用的流体：药水、以太气体、液化魔源、生物柴油和污泥。`]
         },
         {
             items: ['ars_nouveau:mendosteen_pod'],
             text: [
-                `Found only on naturally occuring Flourishing Archwood Trees.`,
+                `只能在自然生长的繁茂至高木上找到。`,
                 ` `,
-                `May be grown like Cocoa Beans on Flourishing Archwood Logs.`
+                `可以像可可豆一样生长在繁茂至高木原木上。`
             ]
         },
         {
             items: ['ars_nouveau:frostaya_pod'],
             text: [
-                `Found only on naturally occuring Cascading Archwood Trees.`,
+                `只能在自然生长的奔流至高木上找到。`,
                 ` `,
-                `May be grown like Cocoa Beans on Cascading Archwood Logs.`
+                `可以像可可豆一样生长在奔流至高木原木上。`
             ]
         },
         {
             items: ['ars_nouveau:bombegranate_pod'],
             text: [
-                `Found only on naturally occuring Blazing Archwood Trees.`,
+                `只能在自然生长的烈焰至高木上找到。`,
                 ` `,
-                `May be grown like Cocoa Beans on Blazing Archwood Logs.`
+                `可以像可可豆一样生长在烈焰至高木原木上。`
             ]
         },
         {
             items: ['ars_nouveau:bastion_pod'],
             text: [
-                `Found only on naturally occuring Vexing Archwood Trees.`,
+                `只能在自然生长的恼人至高木上找到。`,
                 ` `,
-                `May be grown like Cocoa Beans on Vexing Archwood Logs.`
+                `可以像可可豆一样生长在恼人至高木原木上。`
             ]
         },
         {
             items: ['ars_elemental:flashpine_pod'],
             text: [
-                `Found only on naturally occuring Flashing Archwood Trees.`,
+                `只能在自然生长的闪耀至高木上找到。`,
                 ` `,
-                `May be grown like Cocoa Beans on Flashing Archwood Logs.`
+                `可以像可可豆一样生长在闪耀至高木原木上。`
             ]
         },
         {
             items: ['ae2:name_press'],
             text: [
-                `Used to automatically rename items in an Inscriber.`,
+                `用于在压印器中自动重命名物品。`,
                 ` `,
-                `To obtain, Right-Click a Quartz Knife in the air then insert a valid ingot and provide the desired name.`
+                `用石英切割刀右击空气，放入合适的锭并输入想要的名字以获取它。`
             ]
         },
         {
@@ -255,75 +255,75 @@ JEIEvents.information((event) => {
                 'immersiveengineering:squeezer',
                 'immersiveengineering:tank'
             ],
-            text: [`This is a multi-block structure. Refer to the Engineer's Manual for instructions on building it.`]
+            text: [`这个是一个多方块结构。查阅《工程师手册》以获取建造它的指引。`]
         },
         {
             items: ['immersiveengineering:excavator'],
             text: [
-                `Digs up materials from deposits deep in the ground. Refer to the Engineer's Manual for a full listing of deposits and how to locate them.`
+                `从地下深处的矿脉中挖出材料。有关矿脉的完整列表以及如何定位矿脉，请查阅《工程师手册》。`
             ]
         },
         {
             items: ['immersiveengineering:diesel_generator'],
-            text: [`Generates FE by burning liquid fuels. Accepts the same fuels as the Thermal Compression Dynamo.`]
+            text: [`通过燃烧流体燃料产生FE。和热力系列的压缩能源炉使用的燃料相同。`]
         },
         {
             items: ['immersiveengineering:lightning_rod'],
             text: [
-                `Generates FE randomly during rainy or stormy weather. A fake lightning bolt will strike the Lightning Rod to indicate that this has happened. The chances of generating FE may be increased by building a larger Lightning Rod on this base.`
+                `在下雨或雷暴天气时随机产生FE。一道假的闪电会击中避雷针，表明FE已经产生了。在该底座上建造一个更大的避雷针可以增加产生FE的机会。`
             ]
         },
         {
             items: ['starbunclemania:source_fluid_bucket'],
-            text: [`Use a Source Condenser to convert Source to this liquid form.`]
+            text: [`使用魔源凝聚器将魔源转换为液体形态。`]
         },
         {
             items: ['starbunclemania:source_condenser'],
-            text: [`Converts Source from nearby Source Jars into Liquefied Source, placing it in any tank below it.`]
+            text: [`将附近魔源罐中的魔源转换为液态魔源，并放置在其下方的任何储罐中。`]
         },
         {
             items: ['pneumaticcraft:jet_boots_upgrade_1'],
-            text: [`● Hover Mode (Loses Altitude)`, `● Smart Hover`, `● Slowest Tier`]
+            text: [`● 悬停模式（会丢失高度）`, `● 智能悬浮`, `● 最慢的等级`]
         },
         {
             items: ['pneumaticcraft:jet_boots_upgrade_2'],
-            text: [`● Hover Mode (Loses Altitude)`, `● Smart Hover`, `● Faster than Previous Tier`]
+            text: [`● 悬停模式（会丢失高度）`, `● 智能悬浮`, `● 比上一级更快`]
         },
         {
             items: ['pneumaticcraft:jet_boots_upgrade_3'],
             text: [
-                `● Builder Mode (Loses Altitude)`,
-                `● Hover Mode (Loses Altitude)`,
-                `● Smart Hover`,
-                `● Faster than Previous Tier`
+                `● 建筑模式（会丢失高度）`,
+                `● 悬停模式（会丢失高度）`,
+                `● 智能悬浮`,
+                `● 比上一级更快`
             ]
         },
         {
             items: ['pneumaticcraft:jet_boots_upgrade_4'],
             text: [
-                `● Builder Mode (Loses Altitude)`,
-                `● Hover Mode (Loses Altitude)`,
-                `● Smart Hover`,
-                `● Flight Stabilizers`,
-                `● Faster than Previous Tier`
+                `● 建筑模式（会丢失高度）`,
+                `● 悬停模式（会丢失高度）`,
+                `● 智能悬浮`,
+                `● 飞行稳定器`,
+                `● 比上一级更快`
             ]
         },
         {
             items: ['pneumaticcraft:jet_boots_upgrade_5'],
             text: [
-                `● Builder Mode (Keeps Altitude)`,
-                `● Hover Mode (Keeps Altitude)`,
-                `● Smart Hover`,
-                `● Flight Stabilizers`,
-                `● Fastest Tier`
+                `● 建筑模式（保持高度）`,
+                `● 悬停模式（保持高度）`,
+                `● 智能悬浮`,
+                `● 飞行稳定器`,
+                `● 最快的等级`
             ]
         },
         {
             items: ['supplementaries:antique_ink'],
             text: [
-                `May be obtained very rarely through fishing, inside urns, or purchased from Cartographers.`,
+                `可以在瓮中获取，也可以从制图师处购买，或者通过钓鱼获得（非常稀有）。`,
                 ` `,
-                `For an easy supply, try an Aquatic Entangler with Junk Nets!`
+                `试试装有垃圾打捞网的水产捕捞器，以获得更方便的供应！`
             ]
         },
         {
@@ -336,35 +336,35 @@ JEIEvents.information((event) => {
                 'sushigocrafting:wasabi_seeds',
                 'sushigocrafting:sesame_seeds'
             ],
-            text: ['Purchase from the Market block.']
+            text: ['从小市场中购买获得。']
         },
         {
             items: ['starbunclemania:fluid_jar'],
-            text: [`Fluid Potions stored in this jar will be automatically inserted into a Potion Jar placed atop it.`]
+            text: [`存储在该罐中的流体药水会自动输入放置在其顶部的药水罐中。`]
         },
         {
             items: ['starbunclemania:fluid_jar'],
             text: [
-                `This allows for simple conversion from Create, Thermal, Immersive Engineeering, or Hexerei potion fluids for use in Flasks or Melding.`
+                `这使得机械动力、热力系列、沉浸工程或魔法巫师的药水流体可以轻松转换以用于烧瓶或混合。`
             ]
         },
         {
             items: ['ars_nouveau:potion_jar'],
-            text: [`Fluid Potions stored in a Fluid Containment Jar below this jar will be automatically imported.`]
+            text: [`存储在该罐下方的流体罐中的流体药水会自动被输入进该罐。`]
         },
         {
             items: ['ars_nouveau:potion_jar'],
             text: [
-                `This allows for simple conversion from Create, Thermal, Immersive Engineeering, or Hexerei potion fluids for use in Flasks or Melding.`
+                `这使得机械动力、热力系列、沉浸工程或魔法巫师的药水流体可以轻松转换以用于烧瓶或混合。`
             ]
         },
         {
             items: ['twilightforest:borer_essence'],
-            text: [`Drops from Towerwood Borers which may be found by breaking Infested Towerwood in the Dark Tower.`]
+            text: [`掉落自塔木蛀虫，破坏黑暗高塔中的虫蛀塔木可以找到它们。`]
         },
         {
             items: ['twilightforest:liveroot'],
-            text: [`Drops from Liveroots found under trees in the Twilight Forest.`]
+            text: [`掉落自暮色森林树木底下的活根。`]
         },
         {
             items: [
@@ -374,26 +374,26 @@ JEIEvents.information((event) => {
                 'ars_nouveau:allow_scroll'
             ],
             text: [
-                `To configure, place the scroll in the mainhand and an item in the offhand, then Right-Click. Sneak Right-Click to remove.`,
+                `将卷轴放在主手，物品放在右手，然后右击以进行配置。潜行右击以移除配置。`,
                 ` `,
-                `May also be configured at a Scribe's Table`
+                `也可以在抄写台进行配置。`
             ]
         },
         {
             items: ['mekanism:cardboard_box'],
             text: [
-                `The functionality of the Cardboard Box has been limited to simple Chests, Barrels, Crates, and other inventories that cannot otherwise be moved easily.`
+                `纸箱的功能被限制于搬运普通的箱子、桶、板条箱和其他不能被轻松搬运的容器。`
             ]
         },
         {
             items: ['twilightforest:red_thread'],
             text: [
-                `This string-like item can be placed on any side of a block. When held, it will glow and be visible through other blocks. Helpful for markers or finding your way back home.`
+                `这个长得像线的物品可以放置在方块的任意面上。手持时，它会发光并且你可以透过其他方块看见它。有助于标记或找到回家的路。`
             ]
         },
         {
             items: ['supplementaries:quiver'],
-            text: [`Pick up the Quiver and Right-Click it onto Arrows to load them.`]
+            text: [`在物品栏中拿起箭袋并右击箭来装入它们。`]
         }
     ];
 

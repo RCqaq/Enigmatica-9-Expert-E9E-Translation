@@ -6,60 +6,60 @@ JEIEvents.information((event) => {
     const descriptions = [
         {
             items: ['naturesaura:projectile_generator'],
-            text: [`Valid Projectiles:`, ``, `● Ender Pearls`, `● Bottles o' Enchanting`]
+            text: [`可用的弹射物：`, ``, `● 末影珍珠`, `● 附魔之瓶`]
         },
         {
             items: ['ars_nouveau:novice_spell_book'],
             text: [
-                `Obtained as a drop from the Lich in Twilight Forest. Come prepared, as they won't give it up without a fight.`
+                `掉落自暮色森林的巫妖。做好准备吧，因为它们不会不战而降。`
             ]
         },
         {
             items: ['byg:subzero_crystal_shard'],
             text: [
-                `Obtained as a drop from the Snow Queen in Twilight Forest. Come prepared, as they won't give it up without a fight.`
+                `掉落自暮色森林的冰雪女王。做好准备吧，因为她们不会不战而降。`
             ]
         },
         {
             items: ['kubejs:dream_stone'],
             text: [
-                `A powerful artifact that plainly doesn't belong where it was found. Find its rightful owner and return it.`
+                `一个强大的圣物，显然不属于发现它的地方。找到它的主人并归还它。`
             ]
         },
         {
             items: [/the_bumblezone:.*_bee_(helmet|chestplate|leggings|boots)/],
-            text: [`Grants Elytra flight when wearing a full set.`]
+            text: [`身穿全套装备时获得鞘翅飞行能力。`]
         },
         {
             items: [/twilightforest:steeleaf_(helmet|chestplate|leggings|boots)/],
-            text: [`Grants Luck when wearing a full set.`]
+            text: [`身穿全套装备时获得幸运效果。`]
         },
         {
             items: [/naturesaura:depth_(helmet|chest|pants|shoes)/],
-            text: [`Grants Shielding when wearing a full set.`]
+            text: [`身穿全套装备时获得护盾效果。 `]
         },
         {
             items: [/naturesaura:sky_(helmet|chest|pants|shoes)/],
-            text: [`Grants Elytra flight when wearing a full set.`]
+            text: [`身穿全套装备时获得鞘翅飞行能力。`]
         },
         {
             items: [/naturesaura:infused_iron_(helmet|chest|pants|shoes)/],
-            text: [`Grants Recovery when wearing a full set.`]
+            text: [`身穿全套装备时获得康复效果。`]
         },
         {
             items: [/thermal:beekeeper_(helmet|chestplate|leggings|boots)/],
-            text: [`Grants extra protection from bees when wearing a full set.`]
+            text: [`身穿全套装备时获得对蜜蜂的额外保护。`]
         },
         {
             items: [/pneumaticcraft:pneumatic_(helmet|chestplate|leggings|boots)/],
-            text: [`Grants Mana Regeneration when wearing a full set.`]
+            text: [`身穿全套装备时获得魔力再生效果。`]
         },
         {
             items: [/mekanism:mekasuit_(helmet|bodyarmor|pants|boots)/],
             text: [
-                `A powerful suit of armor that creates an anti-magic field around the wearer.`,
+                `一套强大的盔甲，会在穿戴者周围创建一圈反魔法力场。`,
                 ` `,
-                ` Users will find it very difficult to cast spells but, while properly maintained, the armor will negate all incoming damage, magic or otherwise.`
+                `穿戴它后你会发现施法变得非常困难，但只要正确地维护它，该盔甲就会抵消所有受到的伤害，无论是魔法还是其他种类的伤害。`
             ]
         },
         {
@@ -69,7 +69,7 @@ JEIEvents.information((event) => {
                 /ars_elemental:air_(hat|robes|leggings|boots)/,
                 /ars_elemental:fire_(hat|robes|leggings|boots)/
             ],
-            text: [`Grants Spell Damage when wearing a full set.`]
+            text: [`身穿全套装备时获得法术伤害提升效果。`]
         }
     ];
 
