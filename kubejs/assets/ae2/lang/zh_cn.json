@@ -1,0 +1,9 @@
+{
+	"item.ae2.printed_silicon": "符文复印板",
+	"item.ae2.printed_logic_processor": "符文复印板：巨灵",
+	"item.ae2.printed_calculation_processor": "符文复印板：火灵",
+	"item.ae2.printed_engineering_processor": "符文复印板：魔王",
+	"item.ae2.logic_processor": "符文复印板：巨灵（已绑定）",
+	"item.ae2.calculation_processor": "符文复印板：火灵（已绑定）",
+	"item.ae2.engineering_processor": "符文复印板：魔王（已绑定）"
+}

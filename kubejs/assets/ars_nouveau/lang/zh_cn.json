@@ -1,0 +1,22 @@
+{
+	"ars_nouveau.tooltip.magebloom": "从法师之花种子生长而来。",
+	"tooltip.ars_nouveau.wilden_tribute": "通过打败荒野奇美拉得到。详情见荒野森林族传送门珍珠。",
+	"tooltip.magebloom": "在混合锅中合成",
+	"effect.ars_nouveau.shielding.desc": "减少受到的伤害。",
+	"effect.ars_nouveau.freezing.desc": "持续造成缓慢和冰冻。",
+	"effect.ars_nouveau.blasting.desc": "当效果结束时产生爆炸。",
+	"effect.ars_nouveau.recovery.desc": "增加受到的治疗效果。",
+	"effect.ars_nouveau.spell_damage.desc": "增加法术伤害。",
+	"effect.ars_nouveau.mana_regen.desc": "增加魔力再生速率。",
+	"ars_nouveau.perk.saturation.desc": "食用物品获得额外的饱和度。",
+	"ars_nouveau.perk.mana_regen.desc": "每刻有额外的魔力再生。",
+	"ars_nouveau.perk.percent_max_mana.desc": "最大魔力乘法修正。",
+	"ars_nouveau.perk.flat_max_mana.desc": "最大魔力加法修正。",
+	"ars_nouveau.perk.wixie.desc": "药水效果持续时间乘法修正。",
+	"ars_nouveau.perk.spell_damage.desc": "额外增加法术伤害。",
+	"ars_nouveau.perk.warding.desc": "额外增加伤害减免。",
+	"ars_nouveau.perk.feather.desc": "按比例减少摔落伤害。",
+	"ars_nouveau.perk.feather": "羽毛",
+	"ars_nouveau.perk.toughness.desc": "未实装。",
+	"ars_nouveau.perk.toughness": "坚韧"
+}

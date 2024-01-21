@@ -1,0 +1,8 @@
+{
+	"block.naturesaura.infused_iron_block": "灌注铁块",
+	"item.naturesaura.infused_iron": "灌注铁锭",
+	"advancement.naturesaura.infused_materials.desc": "使用自然祭坛制作灌注铁木锭",
+	"advancement.naturesaura.infused_tools.desc": "制作一把植物学家之镐和植物学家之镐剑",
+	"block.naturesaura.tainted_gold_block": "污染黄金块",
+	"item.naturesaura.tainted_gold": "污染黄金锭"
+}

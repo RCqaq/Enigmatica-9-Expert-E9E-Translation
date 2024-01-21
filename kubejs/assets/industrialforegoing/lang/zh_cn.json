@@ -1,0 +1,8 @@
+{
+	"block.industrialforegoing.ore_laser_base": "材料镭射钻基座",
+	"fluid_type.industrialforegoing.biofuel": "渊晶油",
+	"block.biofuel": "渊晶油",
+	"item.industrialforegoing.biofuel_bucket": "渊晶油桶",
+	"tooltip.titanium.facing_handler.biofuel": "渊晶油",
+	"tooltip.titanium.facing_handler.biofuel_tank": "渊晶油储罐"
+}

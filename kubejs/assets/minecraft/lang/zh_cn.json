@@ -1,0 +1,10 @@
+{
+	"item.minecraft.dragon_breath": "暮色之息",
+	"item.minecraft.shears": "植物学家剪刀",
+	"effect.minecraft.wither.desc": "随时间造成凋零伤害。",
+	"effect.minecraft.absorption.desc": "获得临时生命值。",
+	"effect.minecraft.resistance.desc": "减少受到的伤害。",
+	"generic.attack_range.desc": "你的攻击可以触及的距离。",
+	"generic.reachDistance.desc": "你可以与交互方块的距离。",
+	"item.minecraft.heart_of_the_sea": "蓝色珍珠"
+}

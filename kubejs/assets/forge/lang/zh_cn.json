@@ -1,0 +1,5 @@
+{
+    "forge.nameTagDistance.desc": "实体名称开始显示的距离。",
+    "forge.stepHeight.desc": "无需跳跃就可走上的方块的高度。",
+    "forge.swimSpeed.desc": "游泳时的移动速度乘法修正。"
+}

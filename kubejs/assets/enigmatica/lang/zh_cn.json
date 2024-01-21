@@ -1,0 +1,66 @@
+{
+    "domain.enigmatica.display_name": "Enigmatica 9",
+    "block.minecraft.nether_portal.name": "下界传送门",
+    "block.minecraft.stonecutter": "切石机",
+    "container.stonecutter": "切石机",
+    "entity.minecraft.villager.beekeeper": "养蜂人",
+
+    "miniboss.enigmatica.witch_solitary_witch": "隐士女巫",
+    "miniboss.enigmatica.wither_skeleton_withered_knight": "凋零骑士",
+    "miniboss.enigmatica.stray_hoarfrost_knight": "寒霜骑士",
+    "miniboss.enigmatica.skeleton_forsaken_knight": "遗忘骑士",
+
+    "advancements.enigmatica.husbandry.tame_all_animals.title": "动物学",
+    "advancements.enigmatica.husbandry.tame_all_animals.description": "驯服每种可以驯服的动物！",
+
+    "effect.sushigocrafting.acquired_taste.description": "拥有此效果时食用食物会给予额外的食物效果。",
+    "effect.sushigocrafting.small_bites.description": "拥有此效果时食用食物有几率不消耗食物。",
+    "effect.sushigocrafting.steady_hands.description": "拥有此效果时使用砧板制作时会给你的原料增加额外的重量。",
+
+    "effect.ars_nouveau.recovery.description": "增加从其他来源受到的治疗。",
+    "effect.ars_nouveau.blasting.description": "当效果结束时使目标产生剧烈爆炸。",
+    "effect.ars_nouveau.shielding.description": "减少从所有来源受到的伤害",
+    "effect.ars_nouveau.freezing.description": "缓慢积累冰冻效果。",
+    "effect.ars_nouveau.bounce.description": "使目标弹跳，就好像走在黏液块上一样。",
+    "effect.ars_nouveau.familiar_sickness.description": "阻止使魔召唤。",
+    "effect.ars_nouveau.flight.description": "局限性创造飞行。",
+    "effect.ars_nouveau.glide.description": "获得鞘翅飞行能力。",
+    "effect.ars_nouveau.gravity.description": "使飞行的生物坠落地面。",
+    "effect.ars_nouveau.hex.description": "受到的伤害少量增加，同时伤害会附加中毒、凋零或燃烧。此外，脆弱还会将魔力再生和治疗的速度减半。",
+    "effect.ars_nouveau.magic_find.description": "使魔法生物发光，且紫水晶可以透过方块显示。",
+    "effect.ars_nouveau.shocked.description": "被闪电之魔符击中后获得。使所有额外的闪电伤害都会造成额外伤害。",
+    "effect.ars_nouveau.snared.description": "阻止移动。",
+    "effect.ars_nouveau.spell_damage.description": "增加新生魔艺法术造成的伤害。",
+    "effect.ars_nouveau.summoning_sickness.description": "阻止生物召唤。",
+
+    "effect.naturesaura.breathless.description": "缓慢使目标窒息。",
+
+    "effect.apotheosis.bleeding.description": "随时间失去生命值。",
+    "effect.apotheosis.knowledge.description": "增加获取的经验。",
+    "effect.apotheosis.vitality.description": "每级增加20%受到的治疗。",
+    "effect.apotheosis.grievous.description": "每级减少40%受到的治疗。在III级或更高等级的效果下，所有治疗都不会生效。",
+
+    "effect.occultism.third_eye.description": "获得能够看见异界石和异界树真实形态的能力，使得它们可以被采集。",
+    "effect.occultism.dragon_greed.description": "龙使魔为它们的主人提供了增加经验获取的效果。",
+    "effect.occultism.mummy_dodge.description": "木乃伊使魔是武术专家，能够战斗以保护它们的主人。",
+    "effect.occultism.beaver_harvest.description": "河狸使魔为它们的主人提供了增加砍树速度的效果，并且会在周围的树苗长大之后进行收获。",
+    "effect.occultism.double_jump.description": "获得在空中再次跳跃的能力。",
+    "effect.occultism.bat_lifesteal.description": "偷取被效果持有者攻击的生物的生命力，治疗效果持有者。",
+
+    "affix.apotheosis:sword/mob_effect/breathless": "窒息的",
+    "affix.apotheosis:sword/mob_effect/breathless.suffix": "（虚空）",
+    "affix.apotheosis:sword/mob_effect/bleeding": "牺牲的",
+    "affix.apotheosis:sword/mob_effect/bleeding.suffix": "（猩红仪式）",
+    "affix.apotheosis:sword/mob_effect/paralysis": "带刺的",
+    "affix.apotheosis:sword/mob_effect/paralysis.suffix": "（蜂巢）",
+    "affix.apotheosis:sword/mob_effect/blasting": "爆炸的",
+    "affix.apotheosis:sword/mob_effect/blasting.suffix": "（忍耐之手）",
+    "affix.apotheosis:armor/mob_effect/shielding": "护佑的",
+    "affix.apotheosis:armor/mob_effect/shielding.suffix": "（不屈对手）",
+    "affix.apotheosis:armor/mob_effect/chilling": "冰川的",
+    "affix.apotheosis:armor/mob_effect/chilling.suffix": "（冰霜）",
+
+    "item.apotheosis.gem.apotheosis:everbright/moon_touched": "月染宝石",
+    "item.apotheosis.gem.apotheosis:everdawn/sun_kissed": "日照宝石",
+    "item.apotheosis.gem.apotheosis:twilight_forest/twilight_guardian": "暮色守卫宝石"
+}
