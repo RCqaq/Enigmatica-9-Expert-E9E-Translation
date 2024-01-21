@@ -568,7 +568,7 @@
 		}
 		{
 			dependencies: ["2D08D3CC44A509B9"]
-			description: ["被上帝保佑的天辉金可以像平静时突然响起的清脆鸣钟一样响彻每个维度。这是一个完美的诱饵，用于引诱一股巨大的腐化势力侵入这片土地。"]
+			description: ["被上帝保佑的天辉黄金可以像平静时突然响起的清脆鸣钟一样响彻每个维度。这是一个完美的诱饵，用于引诱一股巨大的腐化势力侵入这片土地。"]
 			id: "39B2F84EBDC27AA3"
 			rewards: [
 				{
@@ -601,7 +601,7 @@
 						value: "forge:ingots/tainted_gold"
 					}
 				}
-				title: "天辉金"
+				title: "天辉黄金"
 				type: "item"
 			}]
 			x: 1.5d
