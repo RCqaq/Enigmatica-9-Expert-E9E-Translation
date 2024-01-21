@@ -28,21 +28,21 @@ ItemEvents.tooltip((event) => {
             items: ['kubejs:energetic_transference_matrix'],
             text: [
                 Text.of(
-                    'A permanent gateway into the Otherworld allowing Source to flow in exchange for labor.'
+                    '通向异界的永恒之门，可以用魔源换取劳动力。'
                 ).lightPurple()
             ]
         },
         {
             items: ['kubejs:dream_stone'],
-            text: [Text.of('It hums quietly when held.').gold()]
+            text: [Text.of('拿着的时候嗡嗡作响。').gold()]
         },
         {
             items: ['spirit:soul_cage'],
-            text: [Text.of('Consumes Aura for each mob spawned.').red()]
+            text: [Text.of('消耗灵气来生成生物。').red()]
         },
         {
             items: ['immersiveengineering:windmill', 'immersiveengineering:watermill'],
-            text: [Text.of('Decorative use only.').green()]
+            text: [Text.of('仅用于装饰用途。').green()]
         }
     ];
 
