@@ -906,7 +906,7 @@
 		}
 		{
 			dependencies: ["77E8DD38A379F9C7"]
-			description: ["火和水都具有净化的能力，可以去除下界合金的杂质，使其恢复往日的荣光。选择一种方式并设计一个能够举行仪式的附魔装置。"]
+			description: ["火和水都具有净化的能力，可以去除下界合金的污痕，使其恢复往日的荣光。选择一种方式并设计一个能够举行仪式的附魔装置。"]
 			id: "2D08D3CC44A509B9"
 			rewards: [{
 				exclude_from_claim_all: true
