@@ -553,8 +553,8 @@
 			description: [
 				"一个防爆的箱子，被破坏后能保留里面的东西。"
 				""
-				"译者注：副标题中的歌词出自Eric Church演唱的歌"
-				"曲《Can T Take It With You》。"
+				"译者注：副标题中的歌词出自Eric Church演唱"
+				"的歌曲《Can T Take It With You》。"
 			]
 			hide_dependency_lines: true
 			id: "78AA867A347E4A37"

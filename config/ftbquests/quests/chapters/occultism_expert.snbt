@@ -57,7 +57,8 @@
 				""
 				"你可以用火焰弹或打火石进行点火。"
 				""
-				"译者注：副标题中的歌词出自Blue Oyster Cult演唱的同名歌曲《Burnin' for You》。"
+				"译者注：副标题中的歌词出自Blue Oyster Cult演唱的同名歌曲"
+				"《Burnin' for You》。"
 			]
 			hide_dependency_lines: true
 			icon: "occultism:spirit_fire"
@@ -463,7 +464,9 @@
 				""
 				"手持它潜行右击促动器来将它们进行绑定。"
 				""
-				"译者注：副标题“里面比外面大”（Bigger on the inside）是科幻电视剧《神秘博士》中的一句经典台词。"
+				"译者注：副标题“里面比外面大”（Bigger on "
+				"the inside）是科幻电视剧《神秘博士》中的一"
+				"句经典台词。"
 			]
 			id: "23E68C9DFD2F0ED7"
 			rewards: [
@@ -611,8 +614,8 @@
 				""
 				"要小心，因为这种特殊的仪式可能会变得非常不稳定，而且它的多维特性已经被发现会在现实中撕开裂痕。"
 				""
-				"译者注：副标题”黑色牡蛎魔法“（Black Oyster Occult）改编自美国重金属"
-				"乐队蓝色牡蛎膜拜（Blue Oyster Cult）。"
+				"译者注：副标题“黑色牡蛎魔法”（Black Oyster Occult）改编自美国重金属乐队蓝色牡"
+				"蛎膜拜（Blue Oyster Cult）。"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:ender_pearl"
@@ -709,7 +712,8 @@
 				""
 				"召唤合适的魔灵可以带来晴朗的天空、下雨，甚至带来雷暴！"
 				""
-				"译者注：副标题中的歌词出自著名音乐剧《Fiddler on the Roof》（屋顶上的提琴手）的插曲《Sunrise Sunset》（日出、日落）。"
+				"译者注：副标题中的歌词出自著名音乐剧《Fiddler on the Roof》（屋顶上的提琴手）的插曲"
+				"《Sunrise Sunset》（日出、日落）。"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:sunflower"
@@ -808,7 +812,8 @@
 				""
 				"注：你并不是总能从火灵身上采集灵髓。建议使用附魔有抢夺的武器来增加获得这种强效材料的几率。"
 				""
-				"译者注：副标题“支配与臣服”（Dominance and Submission）是美国重金属乐队蓝色牡蛎膜拜（Blue Oyster Cult）演唱的一首歌曲。"
+				"译者注：副标题“支配与臣服”（Dominance and Submission）是美"
+				"国重金属乐队蓝色牡蛎膜拜（Blue Oyster Cult）演唱的一首歌曲。"
 			]
 			hide_dependency_lines: true
 			icon: "occultism:afrit_essence"
@@ -889,8 +894,8 @@
 				""
 				"潜行右击魔灵来访问设置过滤器的界面。"
 				""
-				"译者注：副标题中的歌词出自是Steven Wright演唱的"
-				"同名歌曲《Keep On Truckin'》。"
+				"译者注：副标题中的歌词出自是Steven Wright"
+				"演唱的同名歌曲《Keep On Truckin'》。"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:chest_minecart"
