@@ -1,0 +1,3 @@
+forceUnicodeFont:false
+resourcePacks:["vanilla","mod_resources","emendatusenigmatica_assets","file/Minecraft-Mod-Language-Modpack-Converted-1.19.2.zip","Everycomp Generated Pack","Supplementaries Generated Pack","V Slab Compat Generated Pack","packmenu","quark:emote_resources","file/E9E Translation Pack"]
+lang:zh_cn
