@@ -25,9 +25,9 @@ Enigmatica 9: Expert（简称 E9E）是一款 Minecraft 1.19.2 下的任务引�
 ## 如何安装汉化
 
 1. 找到对应版本的汉化压缩包并下载
-2. 将压缩包中的内容（`config` 等文件夹）解压并复制到整合包 `.minecraft` 目录下
+2. 将压缩包中的所有内容（`config` 文件夹等）解压并复制到整合包 `.minecraft` 目录下
 
-注：推荐添加[自动汉化更新](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod)模组以获得更好的中文游戏体验；不推荐开启强制使用Unicode字体选项，这会导致一些文字符号无法显示。
+注：推荐添加[自动汉化更新](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod)模组以获得更好的中文游戏体验；不推荐开启强制使用Unicode字体选项，这会导致一些文字符号无法显示；请勿将整合包自定义内容汉化资源包下移，这可能导致汉化文本被覆盖！
 
 ## 翻译贡献
 
