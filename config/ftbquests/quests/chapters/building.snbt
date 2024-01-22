@@ -690,7 +690,7 @@
 		}
 		{
 			dependencies: ["5411C8D2344CC2F1"]
-			description: ["需要卷尺吗？那么，不妨来看看算盘。这个小家伙可以快速计算出点A到点B的举例，非常适合用于规划大型建筑。只需用算盘右击想要作为起点的方块，然后走到终点就可以了。"]
+			description: ["需要卷尺吗？那么，不妨来看看算盘。这个小家伙可以快速计算出点A到点B的距离，非常适合用于规划大型建筑。只需用算盘右击想要作为起点的方块，然后走到终点就可以了。"]
 			id: "45A99E75C9AFCFC5"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
