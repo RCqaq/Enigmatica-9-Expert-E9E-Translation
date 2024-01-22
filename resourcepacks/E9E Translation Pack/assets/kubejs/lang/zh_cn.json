@@ -17,7 +17,7 @@
     "item.kubejs.tree_of_life_3": "生命之树：阶段3",
     "item.kubejs.tree_of_life_4": "生命之树：阶段4",
     "item.kubejs.eternal_tree_of_life": "永恒生命之树",
-    "item.kubejs.mastery_token_air": "精通标志：风",
+    "item.kubejs.mastery_token_air": "精通标志：气",
     "item.kubejs.mastery_token_earth": "精通标志：土",
     "item.kubejs.mastery_token_fire": "精通标志：火",
     "item.kubejs.mastery_token_water": "精通标志：水",
@@ -74,6 +74,10 @@
     "item.kubejs.crude_iron_ingot": "生铁锭",
     "item.kubejs.subzero_dust": "负温粉",
     "item.kubejs.therium_dust": "空灵粉",
+
+    "item.kubejs.altered_recipe_indicator": "配方更改标志",
+    "item.kubejs.disabled_recipe_indicator": "配方禁用标志",
+    "item.kubejs.disabled_structure_indicator": "结构禁用标志",
 
     "block.kubejs.gloaming_catalyst": "黄昏催化剂",
     "block.kubejs.heartwood_stage_4_inactive": "树心 阶段4：未激活",
