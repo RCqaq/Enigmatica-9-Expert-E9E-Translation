@@ -1079,7 +1079,7 @@
 				title: "史诗热力系列战利品箱"
 				type: "command"
 			}]
-			subtitle: "酷毙了，面对宝石吧！"
+			subtitle: "宝石源自岩石，其面光滑如镜"
 			tasks: [{
 				id: "026846BAD898EAD7"
 				item: "thermal:machine_crystallizer"
