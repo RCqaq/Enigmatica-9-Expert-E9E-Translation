@@ -28,11 +28,11 @@
 				id: "7D0D0C5E4E8FF86D"
 				observe_type: 0
 				timer: 0L
-				title: "黄昏催化剂"
+				title: "黄昏催化器"
 				to_observe: "kubejs:gloaming_catalyst"
 				type: "observation"
 			}]
-			title: "黄昏催化剂"
+			title: "黄昏催化器"
 			x: 1.0d
 			y: 4.0d
 		}
@@ -394,7 +394,7 @@
 				"================================="
 				""
 				"蜂之精华是一种非常罕见的奖励，真的，所以不要浪费它！"
-				"首先使用合成黄昏催化剂，然后再食用它来获得剩余的永久奖励。"
+				"首先使用合成黄昏催化器，然后再食用它来获得剩余的永久奖励。"
 			]
 			icon: "the_bumblezone:essence_of_the_bees"
 			id: "55C6945D58D77AB6"
