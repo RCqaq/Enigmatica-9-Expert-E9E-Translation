@@ -847,7 +847,7 @@
 			tasks: [{
 				id: "4C6D3095E8F582DF"
 				item: "naturesaura:potion_generator"
-				title: "Lingering Absorber"
+				title: "滞留型吸收器"
 				type: "item"
 			}]
 			title: "神秘生态学"
