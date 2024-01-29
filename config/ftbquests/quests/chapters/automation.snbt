@@ -33,7 +33,7 @@
 				item: "modularrouters:modular_router"
 				type: "item"
 			}]
-			title: "物品路由器"
+			title: "模块化路由器"
 			x: -10.0d
 			y: -2.5d
 		}
