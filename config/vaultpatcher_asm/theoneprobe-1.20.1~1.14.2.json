@@ -1,0 +1,517 @@
+[
+    {
+        "authors": "KlparetlR",
+        "name": "theoneprobe模组汉化",
+        "desc": "VP1.3.7+可启用，请勿开启use_cache，会丢汉化！",
+        "mods": "theoneprobe-1.20.1~1.14.2",
+        "dynamic": false
+    },
+    {
+        "t": {
+            "name": "mcjty.theoneprobe.gui.GuiNote",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "This mod can show a tooltip on screen",
+                "v": "这个模组可以在屏幕上显示工具提示"
+            },
+            {
+                "k": "This is set server side",
+                "v": "这是在服务器端设置的"
+            },
+            {
+                "k": "In this pack the probe is configured to be not",
+                "v": "在此选项中，探测器被设置为不"
+            },
+            {
+                "k": "In this pack the probe is configured to be",
+                "v": "在此选项中，探测器被设置为"
+            },
+            {
+                "k": "sneaking) but not for basic information",
+                "v": "潜行时），但不需要探测器来看基本信息"
+            },
+            {
+                "k": "Check out the 'Mod Options... for many client'",
+                "v": "查看‘模式选项……，了解许多客户端’"
+            },
+            {
+                "k": "Things you should know about",
+                "v": "您应该知道的关于"
+            },
+            {
+                "k": "side configuration settings or sneak-right click",
+                "v": "配置设置，或右键单击此说明"
+            },
+            {
+                "k": "this note for more user-friendly setup",
+                "v": "进行更方便的设置"
+            },
+            {
+                "k": "when you look at a block or an entity",
+                "v": "当你看向一个方块或一个实体时"
+            },
+            {
+                "k": "required in order to see the tooltip",
+                "v": "需要，来查看工具提示"
+            },
+            {
+                "k": "required to see extended information (when",
+                "v": "需要，来查看扩展信息 (当"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.theoneprobe.gui.GuiNote",
+            "method": "setInConfig",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Extended",
+                "v": "无需且扩展"
+            },
+            {
+                "k": "Not needed",
+                "v": "无需"
+            },
+            {
+                "k": "Needed",
+                "v": "需要"
+            },
+            {
+                "k": "You can change this here:",
+                "v": "您可以在此处进行更改："
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.theoneprobe.apiimpl.providers.DebugProbeInfoProvider",
+            "method": "showDebugInfo",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Class: ",
+                "v": "所属类名："
+            },
+            {
+                "k": "TE: ",
+                "v": "方块实体名称："
+            },
+            {
+                "k": "Hardness: ",
+                "v": "硬度："
+            },
+            {
+                "k": "Light: ",
+                "v": "亮度："
+            },
+            {
+                "k": "Reg Name: ",
+                "v": "注册名："
+            },
+            {
+                "k": "Unlocname: ",
+                "v": "未本地化键名: "
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.theoneprobe.apiimpl.providers.DefaultProbeInfoEntityProvider",
+            "method": "addProbeEntityInfo",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "Health: ",
+                "v": "生命："
+            },
+            {
+                "k": "Empty",
+                "v": "空"
+            },
+            {
+                "k": "Tameable",
+                "v": "可驯服"
+            },
+            {
+                "k": "Owned by: ",
+                "v": "主人："
+            },
+            {
+                "k": "Unknown owner",
+                "v": "未知主人"
+            },
+            {
+                "k": "Speed: ",
+                "v": "速度："
+            },
+            {
+                "k": "Jump height: ",
+                "v": "跳跃高度："
+            },
+            {
+                "k": "Collar: ",
+                "v": "项圈颜色："
+            },
+            {
+                "k": "Growing time: ",
+                "v": "生长时间："
+            },
+            {
+                "k": "Rotation: ",
+                "v": "旋转："
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "mcjty.theoneprobe.apiimpl.providers.HarvestInfoTools",
+                "method": "",
+                "local": ""
+            },
+            {
+                "name": "mcjty.theoneprobe.apiimpl.providers.HarvestInfoTools",
+                "method": "showHarvestInfo",
+                "local": "MgetName"
+            },
+            {
+                "name": "mcjty.theoneprobe.apiimpl.providers.HarvestInfoTools",
+                "method": "getTools",
+                "local": "Mget"
+            },
+            {
+                "name": "mcjty.theoneprobe.apiimpl.providers.HarvestInfoTools",
+                "method": "getLevels",
+                "local": "Mget"
+            }
+        ],
+        "p": [
+            {
+                "k": "Harvestable",
+                "v": "可收获"
+            },
+            {
+                "k": "No tool",
+                "v": "无需工具"
+            },
+            {
+                "k": " (level ",
+                "v": " (等级： "
+            },
+            {
+                "k": "Tools: ",
+                "v": "工具："
+            },
+            {
+                "k": "Level: ",
+                "v": "等级："
+            },
+            {
+                "k": "Not harvestable",
+                "v": "不可收获"
+            },
+            {
+                "k": "Wood",
+                "v": "木"
+            },
+            {
+                "k": "Gold",
+                "v": "金"
+            },
+            {
+                "k": "Stone",
+                "v": "石头"
+            },
+            {
+                "k": "Iron",
+                "v": "铁"
+            },
+            {
+                "k": "Diamond",
+                "v": "钻石"
+            },
+            {
+                "k": "Netherite",
+                "v": "下界合金"
+            },
+            {
+                "k": "Hoe",
+                "v": "锄"
+            },
+            {
+                "k": "Shovel",
+                "v": "锹"
+            },
+            {
+                "k": "Pickaxe",
+                "v": "镐"
+            },
+            {
+                "k": "Axe",
+                "v": "斧"
+            },
+            {
+                "k": "shovel",
+                "v": "锹"
+            },
+            {
+                "k": "pickaxe",
+                "v": "镐"
+            },
+            {
+                "k": "axe",
+                "v": "斧"
+            },
+            {
+                "key": "iron",
+                "value": "铁"
+            },
+            {
+                "key": "stone",
+                "value": "石头"
+            },
+            {
+                "key": "diamond",
+                "value": "钻石"
+            },
+            {
+                "key": "cobalt",
+                "value": "钴"
+            },
+            {
+                "key": "obsidian",
+                "value": "黑曜石"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.theoneprobe.apiimpl.providers.DefaultProbeInfoProvider",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "key": "Mode: ",
+                "value": "模式："
+            },
+            {
+                "key": "Off",
+                "value": "关"
+            },
+            {
+                "key": "Time: ",
+                "value": "燃烧时间："
+            },
+            {
+                "key": "Power: ",
+                "value": "强度："
+            },
+            {
+                "key": "Liquid:",
+                "value": "流体："
+            },
+            {
+                "key": "Mob: ",
+                "value": "生物："
+            },
+            {
+                "key": "Growth: ",
+                "value": "生长进度："
+            },
+            {
+                "key": "Fully grown",
+                "value": "成熟"
+            },
+            {
+                "key": "Delay: ",
+                "value": "延时："
+            },
+            {
+                "key": "State: ",
+                "value": "状态："
+            },
+            {
+                "key": "On",
+                "value": "开"
+            },
+            {
+                "key": "Fuel: ",
+                "value": "燃料："
+            },
+            {
+                "key": "Locked",
+                "value": "已锁定"
+            },
+            {
+                "key": "unchecked",
+                "value": "未锁定"
+            },
+            {
+                "key": "Player: ",
+                "value": "所属玩家："
+            },
+            {
+                "key": "Note: ",
+                "value": "音符值："
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.theoneprobe.apiimpl.elements.ElementEntity",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "<null>",
+                "v": "<无>"
+            }
+        ]
+    },
+    {
+        "s": [
+            {
+                "name": "mcjty.theoneprobe.apiimpl.client.ElementItemStackRender",
+                "method": "",
+                "local": ""
+            },
+            {
+                "name": "mcjty.theoneprobe.network.PacketGetEntityInfo",
+                "method": "",
+                "local": ""
+            },
+            {
+                "name": "mcjty.theoneprobe.network.PacketGetInfo",
+                "method": "",
+                "local": ""
+            }
+        ],
+        "p": [
+            {
+                "k": "ERROR: ",
+                "v": "错误："
+            },
+            {
+                "k": "Error: ",
+                "v": "错误："
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.theoneprobe.apiimpl.providers.DebugProbeInfoEntityProvider",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "key": "AI Move Speed: ",
+                "value": "AI移速："
+            },
+            {
+                "key": "Growing Age: ",
+                "value": "生长时间："
+            },
+            {
+                "key": "Age: ",
+                "value": "岁数："
+            },
+            {
+                "key": "Tot armor: ",
+                "value": "总护甲值："
+            },
+            {
+                "key": "Revenge Timer: ",
+                "value": "最近受击时间戳："
+            },
+            {
+                "key": "Absorption: ",
+                "value": "伤害吸收："
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.theoneprobe.network.ThrowableIdentity",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "k": "The One Probe catched error: ",
+                "v": "The One Probe 模组捕获到错误："
+            },
+            {
+                "k": "<null>",
+                "v": "<无>"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "mcjty.theoneprobe.gui.GuiConfig",
+            "method": "",
+            "local": ""
+        },
+        "p": [
+            {
+                "key": "Error: ",
+                "value": "错误："
+            },
+            {
+                "key": "Presets:",
+                "value": "预设："
+            },
+            {
+                "key": "TOP Config",
+                "value": "TOP 模组设置"
+            },
+            {
+                "key": "Click on corner in screenshot",
+                "value": "点击截图中的边角处"
+            },
+            {
+                "key": "Default style",
+                "value": "默认风格"
+            },
+            {
+                "key": "Fuel: ",
+                "value": "燃料："
+            },
+            {
+                "key": "WAILA style",
+                "value": "WAILA风格"
+            },
+            {
+                "key": "Black & White style",
+                "value": "黑白风格"
+            },
+            {
+                "key": "to move tooltip there",
+                "value": "将工具提示移至此处"
+            },
+            {
+                "key": "Scale:",
+                "value": "比例:"
+            },
+            {
+                "key": "Full transparent style",
+                "value": "全透明风格"
+            },
+            {
+                "key": "Placement:",
+                "value": "位置:"
+            }
+        ]
+    }
+]

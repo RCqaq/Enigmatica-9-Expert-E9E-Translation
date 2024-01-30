@@ -1,0 +1,11 @@
+{
+  "mods": [
+    "theoneprobe-1.20.1~1.14.2"
+  ],
+  "debug_mode": {
+    "is_enable": false,
+    "use_cache": false,
+    "output_format": "<source> -> <target> in <class> [<ordinal>]",
+    "output_mode": 0
+  }
+}
