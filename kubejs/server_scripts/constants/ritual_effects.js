@@ -133,7 +133,7 @@ const ritual_effects = {
         aura: { y_offset: 4 },
         structure: {
             add: `kubejs/data/kubejs/structures/tree_of_life_1.nbt`,
-            title: `title {"text":"The tree takes root...","color":"dark_green"}`,
+            title: `title {"text":"生命之树生根了……","color":"dark_green"}`,
             start_delay: 160
         },
         offset: { x: 0, y: -4, z: 0 }
@@ -143,7 +143,7 @@ const ritual_effects = {
         structure: {
             add: `kubejs/data/kubejs/structures/tree_of_life_2.nbt`,
             remove: `kubejs/data/kubejs/structures/tree_of_life_1.nbt`,
-            title: `title {"text":"The tree grows stronger...","color":"dark_green"}`,
+            title: `title {"text":"生命之树更强大了……","color":"dark_green"}`,
             start_delay: 160,
             soft_blocks: [
                 'occultism:candle_white',
@@ -159,7 +159,7 @@ const ritual_effects = {
         structure: {
             add: `kubejs/data/kubejs/structures/tree_of_life_3.nbt`,
             remove: `kubejs/data/kubejs/structures/tree_of_life_2.nbt`,
-            title: `title {"text":"The tree grows stronger...","color":"dark_green"}`,
+            title: `title {"text":"生命之树更强大了……","color":"dark_green"}`,
             start_delay: 160,
             soft_blocks: [
                 'occultism:candle_white',
@@ -175,7 +175,7 @@ const ritual_effects = {
         structure: {
             add: `kubejs/data/kubejs/structures/tree_of_life_4.nbt`,
             remove: `kubejs/data/kubejs/structures/tree_of_life_3.nbt`,
-            title: `title {"text":"The tree grows stronger...","color":"dark_green"}`,
+            title: `title {"text":"生命之树更强大了……","color":"dark_green"}`,
             start_delay: 160,
             soft_blocks: [
                 'occultism:candle_white',

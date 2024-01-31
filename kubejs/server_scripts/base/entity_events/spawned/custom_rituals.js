@@ -140,10 +140,10 @@ EntityEvents.spawned((event) => {
                     let area = getSelectorArea(abs.x, abs.y, abs.z, ritual_effect.teleport.range);
 
                     // Warn player of upcoming teleportation
-                    command = `/execute in ${ritual_dimension} run title @p[${area}] subtitle {"text":"Mind the Gap","color":"#D3D3D3"}`;
+                    command = `/execute in ${ritual_dimension} run title @p[${area}] subtitle {"text":"请留意间隙","color":"#D3D3D3"}`;
                     schedule.server.runCommandSilent(command);
 
-                    command = `/execute in ${ritual_dimension} run title @p[${area}] title {"text":"Teleportation Ritual","underlined":true,"color":"#EF0AEF"}`;
+                    command = `/execute in ${ritual_dimension} run title @p[${area}] title {"text":"传送仪式","underlined":true,"color":"#EF0AEF"}`;
                     schedule.server.runCommandSilent(command);
 
                     command = `/execute in ${ritual_dimension} run playsound minecraft:block.respawn_anchor.set_spawn block @p ${abs.x} ${abs.y} ${abs.z} 10 1`;
@@ -162,10 +162,10 @@ EntityEvents.spawned((event) => {
                     let area = getSelectorArea(abs.x, abs.y, abs.z, 10);
 
                     // Warn player this cannot be perfomed in this dimension.
-                    command = `/execute in ${ritual_dimension} run title @p[${area}] subtitle {"text":"Destination Unreachable","color":"#D3D3D3"}`;
+                    command = `/execute in ${ritual_dimension} run title @p[${area}] subtitle {"text":"目的地无法前往","color":"#D3D3D3"}`;
                     schedule.server.runCommandSilent(command);
 
-                    command = `/execute in ${ritual_dimension} run title @p[${area}] title {"text":"Teleportation Ritual","underlined":true,"color":"#EF0AEF"}`;
+                    command = `/execute in ${ritual_dimension} run title @p[${area}] title {"text":"传送仪式","underlined":true,"color":"#EF0AEF"}`;
                     schedule.server.runCommandSilent(command);
 
                     command = `/execute in ${ritual_dimension} run playsound minecraft:block.respawn_anchor.deplete block @p ${abs.x} ${abs.y} ${abs.z} 10 1`;
