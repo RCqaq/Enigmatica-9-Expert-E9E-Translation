@@ -560,7 +560,7 @@
 				icon: "minecraft:netherite_ingot"
 				id: "55E4F11D8C8357A5"
 				item: "minecraft:netherite_ingot"
-				title: "Netherite"
+				title: "下界合金"
 				type: "item"
 			}]
 			x: 0.0d
