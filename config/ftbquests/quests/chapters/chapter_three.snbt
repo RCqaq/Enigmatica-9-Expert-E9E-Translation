@@ -63,7 +63,7 @@
 				item: "minecraft:sculk"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -4.0d
 		}
 		{
@@ -594,18 +594,12 @@
 			tasks: [{
 				icon: "emendatusenigmatica:tainted_gold_ingot"
 				id: "4241691B8FE4293D"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/tainted_gold"
-					}
-				}
+				item: "emendatusenigmatica:tainted_gold_ingot"
 				title: "天辉黄金"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: 1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["39B2F84EBDC27AA3"]
@@ -646,7 +640,6 @@
 					type: "advancement"
 				}
 			]
-			shape: "hexagon"
 			tasks: [
 				{
 					id: "0D29D697AA5F02F1"
@@ -666,8 +659,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -3.0d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4F90F6437D6CF7EC"]
@@ -687,7 +680,6 @@
 				title: "拾荒者乐事包"
 				type: "command"
 			}]
-			shape: "hexagon"
 			tasks: [
 				{
 					dimension: "minecraft:the_nether"
@@ -703,8 +695,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -3.5d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["356B7D1DFF632DBD"]
@@ -944,7 +936,7 @@
 				title: "净化仪式"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -4.5d
 		}
 		{
@@ -954,14 +946,17 @@
 				""
 				"据说监守者仍徘徊在那些古老的破败殿厅之中。找到它并让其安息。"
 				""
-				"================================="
+				"================================================="
 				""
 				"前往主世界地下深处的深暗之域生物群系，制造足够大的噪音使监守者从它藏匿的地方现行。"
+				""
+				"然而，不经由任何协助并发现远古城市绝非易事。也许你可以寻求蜂后的帮助，以合成一个指向远古城市的特殊蜂蜜指南针。"
 				""
 				"杀死它以获得监守者卷须，该卷须可以转变为守护神精华，一种用于创造液态极乐的强大催化剂。"
 			]
 			icon: "apotheosis:soul_touched_sculkshelf"
 			id: "4410E58ED333FBCB"
+			min_width: 300
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/aura_leaves/small"
 				icon: "kubejs:aura_leaf"
@@ -993,7 +988,28 @@
 					type: "item"
 				}
 				{
-					id: "0CCA7157AB1E119F"
+					id: "2ACE6715AB99967A"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:honey_compass"
+						tag: {
+							CompassType: "structure"
+							CustomDescription: "tooltip.the_bumblezone.honey_compass_ancient_city.description"
+							CustomName: "tooltip.the_bumblezone.honey_compass_ancient_city"
+							Locked: 1.0d
+							TargetDimension: "minecraft:overworld"
+							TargetPos: {
+								X: -960
+								Y: 0
+								Z: 992
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7BB480DE9B7AA92F"
 					item: "kubejs:genius_loci"
 					type: "item"
 				}

@@ -1,3 +1,4 @@
 {
-	"system.the_bumblezone.require_hive_blocks_failed": "传送至蜜蜂领域失败。蜂巢下方需要一台通用机械的传送机。"
+	"system.the_bumblezone.require_hive_blocks_failed": "传送至蜜蜂领域失败。蜂巢下方需要一台通用机械的传送机。",
+	"item.the_bumblezone.honey_compass_structure_failed": "蜂蜜指南针 - 右击以搜寻……"
 }

@@ -92,6 +92,9 @@
     "entity.minecraft.villager.byg.forager": "采集者",
     "tooltip.hexerei.sage_seeds": "可以从小市场中购买。",
 
+    "tooltip.the_bumblezone.honey_compass_ancient_city": "蜂蜜指南针 - 远古城市",
+    "tooltip.the_bumblezone.honey_compass_ancient_city.description": "用其在主世界中右击空气以定位远古城市结构！",
+
     "ritual.occultism.sacrifice.ravens": "渡鸦",
     "ritual.occultism.sacrifice.fire_elementals": "烈焰人",
     "ritual.occultism.sacrifice.air_elementals": "狂风人",
