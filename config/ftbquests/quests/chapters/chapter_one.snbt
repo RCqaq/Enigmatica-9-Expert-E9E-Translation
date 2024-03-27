@@ -1636,10 +1636,13 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				advancement: "occultism:occultism/familiar/root"
-				criterion: ""
-				id: "44087E084C0010C4"
-				type: "advancement"
+				icon: "occultism:ritual_dummy/custom_ritual"
+				id: "3BFD0AAF1A00BC7C"
+				observe_type: 6
+				timer: 0L
+				title: "观察一只神秘学使魔"
+				to_observe: "#occultism:familiars"
+				type: "observation"
 			}]
 			title: "战斗辅助——使魔"
 			x: 1.0d
@@ -2675,6 +2678,18 @@
 					id: "nomadictents:mallet"
 					tag: {
 						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+						display: {
+							Name: "{\"text\":\"结实的帐篷锤\"}"
+						}
+						"quark:RuneAttached": 1b
+						"quark:RuneColor": {
+							Count: 1b
+							id: "quark:blank_rune"
+						}						
 					}
 				}
 				type: "item"

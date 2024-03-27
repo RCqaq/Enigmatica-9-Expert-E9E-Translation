@@ -1061,10 +1061,13 @@
 				type: "command"
 			}]
 			tasks: [{
-				advancement: "occultism:occultism/familiar/root"
-				criterion: ""
-				id: "5F5C381C9D83480E"
-				type: "advancement"
+				icon: "occultism:ritual_dummy/custom_ritual"
+				id: "4FF02C15A8C5ABE6"
+				observe_type: 6
+				timer: 0L
+				title: "观察一只神秘学使魔"
+				to_observe: "#occultism:familiars"
+				type: "observation"
 			}]
 			title: "使魔"
 			x: 18.0d
