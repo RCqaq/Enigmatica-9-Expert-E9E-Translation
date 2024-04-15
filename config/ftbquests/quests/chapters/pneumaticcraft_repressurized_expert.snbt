@@ -1019,7 +1019,7 @@
 		{
 			dependencies: ["3BDD27D9FDC82E36"]
 			description: [
-				"装配台提供了一种更简单的制作电路板的方法，并提供了获得其他高级配方的途径。"
+				"装配台是一种可以处理更高级的合成的多方块机器。"
 				""
 				"每个部件都有放置位置的限制。具体放置规则请参阅PNC:R手册。"
 				""
@@ -1033,7 +1033,7 @@
 				"译者注：副标题《贾维斯和玩具工厂》是一部2014年上映的青少年情景喜剧。"
 			]
 			hide_dependency_lines: true
-			icon: "pneumaticcraft:assembly_platform"
+			icon: "pneumaticcraft:assembly_program_drill_laser"
 			id: "2C9A30956A2044A0"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/legendary"

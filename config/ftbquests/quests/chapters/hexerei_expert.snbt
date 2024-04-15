@@ -213,8 +213,33 @@
 			]
 			subtitle: "又高又干——孤立无援"
 			tasks: [{
+				icon: "hexerei:herb_drying_rack"
 				id: "0429E8C49A97273F"
-				item: "hexerei:herb_drying_rack"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:herb_drying_rack"
+							}
+							{
+								Count: 1b
+								id: "hexerei:mahogany_drying_rack"
+							}
+							{
+								Count: 1b
+								id: "hexerei:willow_drying_rack"
+							}
+							{
+								Count: 1b
+								id: "hexerei:witch_hazel_drying_rack"
+							}
+						]
+					}
+				}
+				title: "干燥架"
 				type: "item"
 			}]
 			x: 8.0d

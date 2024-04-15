@@ -150,8 +150,6 @@
 				"与异界的沟通和贸易对进行这项祭典的玩家来说是可行且安全的，不过你需要一些专门的材料才能开始。"
 				""
 				"纯净墨水是唯一已知的适用于抄写用于仪式魔法的魔灵名字的物质。用任何其他东西抄写时都会出现奇怪的褪色现象，就好像它不愿参与其中。"
-				""
-				"煅烧异界石和异界灰烬可以结合并净化，形成一种专门用于绘制仪式中的仪式环的粉笔。"
 			]
 			hide_dependency_lines: true
 			id: "5779806AB9F94AC5"
@@ -180,11 +178,6 @@
 				{
 					id: "68921B19CAED8BD1"
 					item: "occultism:purified_ink"
-					type: "item"
-				}
-				{
-					id: "72C9477A65D081AC"
-					item: "occultism:otherworld_ashes"
 					type: "item"
 				}
 				{

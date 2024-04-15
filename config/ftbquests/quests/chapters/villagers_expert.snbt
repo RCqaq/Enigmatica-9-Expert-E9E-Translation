@@ -293,7 +293,7 @@
 		}
 		{
 			dependencies: ["7A341C5D96C4A809"]
-			description: ["压力技工卖各种各样的气动装置、M134型速射机枪的专用弹药，甚至还有电路板。"]
+			description: ["魔法科技研究员卖各种各样的魔法科技装置，例如逻辑核心、福鲁伊克斯水晶和能量单元。"]
 			id: "18A0D921EEF7FE7F"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
@@ -307,7 +307,7 @@
 				item: "pneumaticcraft:charging_station"
 				type: "item"
 			}]
-			title: "压力技工"
+			title: "魔法科技研究员"
 			x: -2.5d
 			y: 0.5d
 		}

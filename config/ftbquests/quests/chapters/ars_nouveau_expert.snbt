@@ -411,7 +411,7 @@
 				item: "ars_nouveau:bookwyrm_charm"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: 0.0d
 		}
 		{
@@ -448,7 +448,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: -0.5d
 		}
 		{
@@ -588,7 +588,7 @@
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -7.5d
 			y: -0.5d
 		}
 		{
@@ -1187,7 +1187,7 @@
 				item: "ars_nouveau:familiar_wixie"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -1232,7 +1232,7 @@
 				item: "ars_nouveau:familiar_bookwyrm"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -0.5d
 		}
 		{
@@ -1256,7 +1256,7 @@
 				item: "ars_nouveau:familiar_whirlisprig"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -0.5d
 		}
 		{
@@ -1994,6 +1994,7 @@
 				""
 				"想要让它们只与特定方向的面交互？你可以使用方向卷轴来设定它们交互的方向。手持方向卷轴看向想要的方向并潜行右击，然后对星宝石兽使用卷轴进行设定。"
 			]
+			icon: "ars_nouveau:starbuncle_shards"
 			id: "77B0AD19B44B8660"
 			rewards: [
 				{
@@ -2011,7 +2012,11 @@
 			]
 			tasks: [{
 				id: "067A9588CB5F4392"
-				item: "ars_nouveau:starbuncle_shards"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "星宝石兽物流"
@@ -2349,6 +2354,48 @@
 			}]
 			x: 0.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["7EE4A2E96D7FAD4E"]
+			description: ["紫水晶傀儡是和大地有着紧密的联系的使魔，它们可以加强玩家与大地的绑定。"]
+			id: "6855F03D47EB60BF"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "2525AF4E715F5B80"
+				title: "拾荒者乐事包"
+				type: "command"
+			}]
+			subtitle: "不要害羞，大石（dàn）一点！"
+			tasks: [{
+				id: "221D873BF588392A"
+				item: "ars_nouveau:familiar_amethyst_golem"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["607D671B8C399B83"]
+			description: [
+				"这些坚定的小生物对各种各样的水晶都有着强烈的欲望。给一只紫水晶傀儡一块水晶母岩，它不仅可以加速其生长，还能帮助你收获它。"
+				""
+				"在该模组包中，紫水晶傀儡可以接受任何的水晶母岩。然而，它们将方块转换为母岩的能力只限于紫水晶。"
+			]
+			id: "72149B36922D1870"
+			rewards: [{
+				id: "5A3FE066ADE46466"
+				item: "chimes:amethyst_chimes"
+				type: "item"
+			}]
+			subtitle: "宝石时间到！"
+			tasks: [{
+				id: "0B31BFC45A326502"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
 		}
 	]
 	title: "新生魔艺"
