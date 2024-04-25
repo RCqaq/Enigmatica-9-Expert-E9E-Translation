@@ -22,6 +22,8 @@ Enigmatica 9: Expert（简称 E9E）是一款 Minecraft 1.19.2 下的任务引�
 
 汉化版本：1.21.0
 
+汉化下载量（GitHub）：https://shields.io/github/downloads/RCqaq/Enigmatica-9-Expert-E9E-Translation/total?label=Downloads)](https://github.com/RCqaq/Enigmatica-9-Expert-E9E-Translation/releases)
+
 ## 如何安装汉化
 
 1. 找到对应版本的汉化压缩包并下载
