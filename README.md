@@ -1,5 +1,7 @@
 # Enigmatica-9-Expert-E9E-Translation
 
+[![Downloads](https://shields.io/github/downloads/RCqaq/Enigmatica-9-Expert-E9E-Translation/total?label=Downloads)](https://github.com/RCqaq/Enigmatica-9-Expert-E9E-Translation/releases)
+
 本项目为 [Enigmatica 9: Expert - E9E](https://www.curseforge.com/minecraft/modpacks/enigmatica9expert) 整合包的汉化，汉化内容包括任务书、整合包自制模组、整合包自制帕秋莉手册、KubeJS词条等。欢迎大家进行反馈，更欢迎有能力者帮助参与汉化工作。
 
 ## Enigmatica 9: Expert
@@ -21,8 +23,6 @@ Enigmatica 9: Expert（简称 E9E）是一款 Minecraft 1.19.2 下的任务引�
 整合包最新稳定版本：1.21.1
 
 汉化版本：1.21.0
-
-汉化下载量（GitHub）：https://shields.io/github/downloads/RCqaq/Enigmatica-9-Expert-E9E-Translation/total?label=Downloads)](https://github.com/RCqaq/Enigmatica-9-Expert-E9E-Translation/releases)
 
 ## 如何安装汉化
 
