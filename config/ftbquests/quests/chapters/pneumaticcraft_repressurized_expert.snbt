@@ -1748,6 +1748,77 @@
 			x: -10.5d
 			y: -12.0d
 		}
+		{
+			dependencies: ["6C1F18A8BD2AF6CF"]
+			description: [
+				"注魔吹风机将吹风机带到了一个新的高度，它的处理速度比基础的鼓风机快四倍。它用特殊的滤网取代了鼓风机所用的水、熔岩、灵魂火和火。"
+				""
+				"右击吹风机的正面即可安装滤网，而热量则需在其底部供应。"
+				""
+				"你需要浸水滤网来制作洗涤配方。正常情况下，常温应足以使其工作。太冷，滤网就可能冻结。太热了，它就会转换回普通的滤网。"
+				""
+				"你不需要任何滤网即可制作烟熏配方，不过你需要将吹风机加热至110摄氏度左右。如果你安装了致密滤网，你只需要将吹风机加热至55摄氏度即可。"
+				""
+				"冶炼配方需要达到约330摄氏度的温度，和烟熏一样，你可以通过安装致密滤网来大幅降低其所需温度。安装致密滤网后的所需温度只有110摄氏度。"
+				""
+				"最后，你需要缠魂滤网来制作缠魂配方，所需温度约110摄氏度。"
+			]
+			id: "6BD73A0A40A22B92"
+			min_width: 300
+			rewards: [{
+				id: "1DA734BB4AA7029C"
+				item: "compressedcreativity:mesh_dense"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70C2E8C62171FF4B"
+				item: "compressedcreativity:industrial_air_blower"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3BDD27D9FDC82E36"]
+			description: ["吹风机是一种模仿机械动力的鼓风机的空气驱动装置，它消耗少量空气，且处理速度是鼓风机的两倍.如果你觉得速度至关重要，那么它是一次值得的升级。"]
+			hide_dependency_lines: true
+			id: "6C1F18A8BD2AF6CF"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "5B619EDC810C432B"
+				title: "稀有气动工艺战利品箱"
+				type: "command"
+			}]
+			tasks: [{
+				id: "60A5458BE637B6AB"
+				item: "compressedcreativity:air_blower"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3BDD27D9FDC82E36"]
+			dependency_requirement: "all_started"
+			description: ["压缩空气引擎是一种将压缩空气转换为旋转力的紧凑方式。这些引擎可以串联在一起以达到更大的应力供应量。"]
+			hide_dependency_lines: true
+			id: "6C3F0BEBC4650B5D"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/pneumaticcraft/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "28DF7399F734FE9E"
+				title: "稀有气动工艺战利品箱"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2A7CA436DF22BFE9"
+				item: "compressedcreativity:compressed_air_engine"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.5d
+		}
 	]
 	title: "气动工艺：再加压"
 }
