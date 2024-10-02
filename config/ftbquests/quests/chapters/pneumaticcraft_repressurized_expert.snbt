@@ -1801,7 +1801,7 @@
 		{
 			dependencies: ["3BDD27D9FDC82E36"]
 			dependency_requirement: "all_started"
-			description: ["压缩空气引擎是一种将压缩空气转换为旋转力的紧凑方式。这些引擎可以串联在一起以达到更大的应力供应量。"]
+			description: ["西风引擎是一种将压缩空气转换为旋转力的紧凑方式。这些引擎可以串联在一起以达到更大的应力供应量。"]
 			hide_dependency_lines: true
 			id: "6C3F0BEBC4650B5D"
 			rewards: [{

@@ -106,9 +106,7 @@
 				""
 				"尽管字节背后的数学有一点复杂，但要知道，如果存储单元只存储一种类型，则其总容量会比存储多种类型时更大。"
 				""
-				"{\"text\":\"AE2 Wiki：存储元件\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.19.2/features/me-network/storage-cells\"}}"
-				""
-				"译者注：原文的链接失效了，这是新的Wiki链接。"
+				"{\"text\":\"AE2 Wiki：存储元件\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.19.2/features/me-network/storage-cells#:~:text=Portable%20Fluid%20Storage-,Capacity%20Limits,-Storage%20cells%20have\"}}"
 			]
 			id: "0B95DC452E02E964"
 			rewards: [{
@@ -138,9 +136,7 @@
 				""
 				"尽管字节背后的数学原理有一点复杂，但要知道，如果存储单元只存储一种类型，则其总容量会比存储多种类型时更大。"
 				""
-				"{\"text\":\"AE2 Wiki：存储元件\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.19.2/features/me-network/storage-cells\"}}"
-				""
-				"译者注：原文的链接失效了，这是新的Wiki链接。"
+				"{\"text\":\"AE2 Wiki：存储元件\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.19.2/features/me-network/storage-cells#:~:text=Portable%20Fluid%20Storage-,Capacity%20Limits,-Storage%20cells%20have\"}}"
 			]
 			id: "4B21571216DCDC69"
 			rewards: [{
@@ -170,9 +166,7 @@
 				""
 				"尽管字节背后的数学原理有一点复杂，但要知道，如果存储单元只存储一种类型，则其总容量会比存储多种类型时更大。"
 				""
-				"{\"text\":\"AE2 Wiki：存储元件\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.19.2/features/me-network/storage-cells\"}}"
-				""
-				"译者注：原文的链接失效了，这是新的Wiki链接。"
+				"{\"text\":\"AE2 Wiki：存储元件\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.19.2/features/me-network/storage-cells#:~:text=Portable%20Fluid%20Storage-,Capacity%20Limits,-Storage%20cells%20have\"}}"
 			]
 			id: "73765EC8E099FD57"
 			rewards: [{
@@ -389,8 +383,6 @@
 				"{\"text\":\"AE2 Wiki：P2P通道\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.19.2/features/me-network/misc/p2p-tunnel\"}} "
 				""
 				"查看后续页面，了解设置P2P连接的样例。"
-				""
-				"译者注：原文的链接失效了，这是新的Wiki链接。"
 				""
 				"{@pagebreak}"
 				"P2P样例："
@@ -667,8 +659,6 @@
 				"建造好后，两端的网络会被视为是相同的一个网络。请确保两端都被加载。"
 				""
 				"{\"text\":\"AE2 Wiki：量子网桥\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.19.2/features/me-network/quantum-bridge\"}}"
-				""
-				"译者注：原文的链接失效了，这是新的Wiki链接。"
 			]
 			icon: "ae2:quantum_entangled_singularity"
 			id: "03662FB8C114E255"
@@ -926,9 +916,7 @@
 				""
 				"你需要找到一些赛特斯石英来入门，而这需要一点小小的探索。准备好你的靴子，是时候出发了。"
 				""
-				"{\"text\":\"AE2 Wiki\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://appliedenergistics.org\"}}"
-				""
-				"译者注：原文的链接失效了，这是新的Wiki链接。"
+				"{\"text\":\"AE2 Wiki\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.19.2/\"}}"
 			]
 			hide: true
 			icon: "ae2:singularity"

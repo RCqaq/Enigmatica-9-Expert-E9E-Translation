@@ -39,6 +39,8 @@ const ritual_effects = {
             arrival: 'minecraft:overworld',
             // Only allow departure from these dimensions
             departure: ['twilightforest:twilight_forest'],
+            // Message to display on failure
+            notification: '必须从暮色森林出发',
             // How random the teleport destination is
             uncertainty: 5000,
             // Maximum number of entities to affect
@@ -69,6 +71,8 @@ const ritual_effects = {
             arrival: 'minecraft:the_nether',
             // Only allow departure from these dimensions
             departure: ['twilightforest:twilight_forest'],
+            // Message to display on failure
+            notification: '必须从暮色森林出发',
             // How random the teleport destination is
             uncertainty: 5000,
             // Maximum number of entities to affect
@@ -99,6 +103,8 @@ const ritual_effects = {
             arrival: 'minecraft:the_end',
             // Only allow departure from these dimensions
             departure: ['twilightforest:twilight_forest'],
+            // Message to display on failure
+            notification: '必须从暮色森林出发',
             // How random the teleport destination is
             uncertainty: 10000,
             // Maximum number of entities to affect
@@ -132,7 +138,7 @@ const ritual_effects = {
     tree_of_life_1: {
         aura: { y_offset: 4 },
         structure: {
-            add: `kubejs/data/kubejs/structures/tree_of_life_1.nbt`,
+            add: `kubejs/data/kubejs/structures/tree_of_life_1_new.nbt`,
             title: `title {"text":"生命之树生根了……","color":"dark_green"}`,
             start_delay: 160
         },
@@ -141,15 +147,22 @@ const ritual_effects = {
     tree_of_life_2: {
         aura: { y_offset: 5 },
         structure: {
-            add: `kubejs/data/kubejs/structures/tree_of_life_2.nbt`,
-            remove: `kubejs/data/kubejs/structures/tree_of_life_1.nbt`,
+            add: `kubejs/data/kubejs/structures/tree_of_life_2_new.nbt`,
+            remove: [
+                `kubejs/data/kubejs/structures/tree_of_life_1.nbt`,
+                `kubejs/data/kubejs/structures/tree_of_life_1_new.nbt`
+            ],
             title: `title {"text":"生命之树更强大了……","color":"dark_green"}`,
             start_delay: 160,
             soft_blocks: [
                 'occultism:candle_white',
                 'occultism:spirit_attuned_crystal',
                 'quark:yellow_blossom_leaf_carpet',
-                'twilightforest:mushgloom'
+                'twilightforest:mushgloom',
+                'everycomp:q/ars_elemental/yellow_archwood_leaf_carpet',
+                'twilightforest:root_strand',
+                'minecraft:hanging_roots',
+                'naturesaura:gold_powder'
             ]
         },
         offset: { x: 0, y: -3, z: 0 }
@@ -157,15 +170,22 @@ const ritual_effects = {
     tree_of_life_3: {
         aura: { y_offset: 5 },
         structure: {
-            add: `kubejs/data/kubejs/structures/tree_of_life_3.nbt`,
-            remove: `kubejs/data/kubejs/structures/tree_of_life_2.nbt`,
+            add: `kubejs/data/kubejs/structures/tree_of_life_3_new.nbt`,
+            remove: [
+                `kubejs/data/kubejs/structures/tree_of_life_2.nbt`,
+                `kubejs/data/kubejs/structures/tree_of_life_2_new.nbt`
+            ],
             title: `title {"text":"生命之树更强大了……","color":"dark_green"}`,
             start_delay: 160,
             soft_blocks: [
                 'occultism:candle_white',
                 'occultism:spirit_attuned_crystal',
                 'quark:yellow_blossom_leaf_carpet',
-                'twilightforest:mushgloom'
+                'twilightforest:mushgloom',
+                'everycomp:q/ars_elemental/yellow_archwood_leaf_carpet',
+                'twilightforest:root_strand',
+                'minecraft:hanging_roots',
+                'naturesaura:gold_powder'
             ]
         },
         offset: { x: 0, y: -3, z: 0 }
@@ -173,15 +193,22 @@ const ritual_effects = {
     tree_of_life_4: {
         aura: { y_offset: 5 },
         structure: {
-            add: `kubejs/data/kubejs/structures/tree_of_life_4.nbt`,
-            remove: `kubejs/data/kubejs/structures/tree_of_life_3.nbt`,
+            add: `kubejs/data/kubejs/structures/tree_of_life_4_new.nbt`,
+            remove: [
+                `kubejs/data/kubejs/structures/tree_of_life_3.nbt`,
+                `kubejs/data/kubejs/structures/tree_of_life_3_new.nbt`
+            ],
             title: `title {"text":"生命之树更强大了……","color":"dark_green"}`,
             start_delay: 160,
             soft_blocks: [
                 'occultism:candle_white',
                 'occultism:spirit_attuned_crystal',
                 'quark:yellow_blossom_leaf_carpet',
-                'twilightforest:mushgloom'
+                'twilightforest:mushgloom',
+                'everycomp:q/ars_elemental/yellow_archwood_leaf_carpet',
+                'twilightforest:root_strand',
+                'minecraft:hanging_roots',
+                'naturesaura:gold_powder'
             ]
         },
         offset: { x: 0, y: -3, z: 0 }

@@ -197,7 +197,11 @@ ItemEvents.tooltip((event) => {
             text: [Text.of(`奥术装置：探测灵气等级`).green()]
         },
         {
-            items: ['naturesaura:pickup_stopper'],
+            items: [
+                'naturesaura:pickup_stopper',
+                'simplemagnets:basic_demagnetization_coil',
+                'simplemagnets:advanced_demagnetization_coil'
+            ],
             text: [Text.of(`奥术装置：反向磁铁`).green()]
         },
         {

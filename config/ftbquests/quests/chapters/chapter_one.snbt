@@ -17,7 +17,7 @@
 				""
 				"================================="
 				""
-				"金属加工已经被重度魔改过，许多金属都有其独特的获取方法。一定要仔细检查JEI！"
+				"金属加工已经被重度魔改过，许多金属都有其独特的获取方法。一定要仔细检查EMI！"
 			]
 			hide: true
 			id: "1075F3BAA03841EF"
@@ -2672,24 +2672,13 @@
 			]
 			id: "00FB8D9041ED6D73"
 			rewards: [{
-				id: "4C3A6668078E18B6"
+				id: "767B408789000894"
 				item: {
 					Count: 1b
-					id: "nomadictents:mallet"
+					id: "nomadictents:golden_mallet"
 					tag: {
 						Damage: 0
-						Enchantments: [{
-							id: "minecraft:unbreaking"
-							lvl: 3s
-						}]
-						display: {
-							Name: "{\"text\":\"结实的帐篷锤\"}"
-						}
-						"quark:RuneAttached": 1b
-						"quark:RuneColor": {
-							Count: 1b
-							id: "quark:blank_rune"
-						}						
+						Unbreakable: 1.0d					
 					}
 				}
 				type: "item"
