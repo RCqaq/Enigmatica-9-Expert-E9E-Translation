@@ -70,6 +70,46 @@ JEIEvents.information((event) => {
                 /ars_elemental:fire_(hat|robes|leggings|boots)/
             ],
             text: [`身穿全套装备时获得法术伤害提升效果。`]
+        },
+        {
+            items: ['ars_nouveau:mendosteen_pod'],
+            text: [
+                `只能在自然生长的繁茂至高木上找到。`,
+                ` `,
+                `可以像可可豆一样生长在繁茂至高木原木上。`
+            ]
+        },
+        {
+            items: ['ars_nouveau:frostaya_pod'],
+            text: [
+                `只能在自然生长的奔流至高木上找到。`,
+                ` `,
+                `可以像可可豆一样生长在奔流至高木原木上。`
+            ]
+        },
+        {
+            items: ['ars_nouveau:bombegranate_pod'],
+            text: [
+                `只能在自然生长的烈焰至高木上找到。`,
+                ` `,
+                `可以像可可豆一样生长在烈焰至高木原木上。`
+            ]
+        },
+        {
+            items: ['ars_nouveau:bastion_pod'],
+            text: [
+                `只能在自然生长的恼人至高木上找到。`,
+                ` `,
+                `可以像可可豆一样生长在恼人至高木原木上。`
+            ]
+        },
+        {
+            items: ['ars_elemental:flashpine_pod'],
+            text: [
+                `只能在自然生长的闪耀至高木上找到。`,
+                ` `,
+                `可以像可可豆一样生长在闪耀至高木原木上。`
+            ]
         }
     ];
 

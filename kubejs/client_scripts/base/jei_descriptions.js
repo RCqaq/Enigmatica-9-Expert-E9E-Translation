@@ -185,46 +185,6 @@ JEIEvents.information((event) => {
             text: [`可用的流体：药水、以太气体、液化魔源、生物柴油和污泥。`]
         },
         {
-            items: ['ars_nouveau:mendosteen_pod'],
-            text: [
-                `只能在自然生长的繁茂至高木上找到。`,
-                ` `,
-                `可以像可可豆一样生长在繁茂至高木原木上。`
-            ]
-        },
-        {
-            items: ['ars_nouveau:frostaya_pod'],
-            text: [
-                `只能在自然生长的奔流至高木上找到。`,
-                ` `,
-                `可以像可可豆一样生长在奔流至高木原木上。`
-            ]
-        },
-        {
-            items: ['ars_nouveau:bombegranate_pod'],
-            text: [
-                `只能在自然生长的烈焰至高木上找到。`,
-                ` `,
-                `可以像可可豆一样生长在烈焰至高木原木上。`
-            ]
-        },
-        {
-            items: ['ars_nouveau:bastion_pod'],
-            text: [
-                `只能在自然生长的恼人至高木上找到。`,
-                ` `,
-                `可以像可可豆一样生长在恼人至高木原木上。`
-            ]
-        },
-        {
-            items: ['ars_elemental:flashpine_pod'],
-            text: [
-                `只能在自然生长的闪耀至高木上找到。`,
-                ` `,
-                `可以像可可豆一样生长在闪耀至高木原木上。`
-            ]
-        },
-        {
             items: ['ae2:name_press'],
             text: [
                 `用于在压印器中自动重命名物品。`,
@@ -403,20 +363,6 @@ JEIEvents.information((event) => {
             event.addItem(item, description.text);
         });
     });
-
-    // generatableCobblestone.forEach((cobblestone) => {
-    //     event.addItem(
-    //         cobblestone,
-    //         'Can be generated in a Vanilla Cobblestone Generator. The block below where the Cobblestone generates needs to be a Block of Iron.'
-    //     );
-    // });
-
-    // generatableStone.forEach((stone) => {
-    //     event.addItem(
-    //         stone,
-    //         'Can be generated in a Vanilla Stone Generator. The block below where the Stone generates needs to be a Block of Diamond.'
-    //     );
-    // });
 
     jei.base.items.disabled.forEach((item) => {
         if (item !== air) {

@@ -315,7 +315,8 @@ EntityEvents.spawned((event) => {
 
         // Remove Previous Tree of Life Handling
         if (ritual_effect.structure && ritual_effect.structure.remove) {
-            let structure = NBTIO.read(ritual_effect.structure.remove);
+            ritual_effect.structure.remove.forEach((structure) => {
+                structure = NBTIO.read(structure);
             let start_delay = ritual_effect.structure.start_delay;
             let delay;
             let cur = {
@@ -349,6 +350,7 @@ EntityEvents.spawned((event) => {
                 event.server.scheduleInTicks(delay, (schedule) => {
                     command = `/execute in ${ritual_dimension} run fill ${coord.x} ${coord.y} ${coord.z} ${coord.x} ${coord.y} ${coord.z} air replace ${palette.Name}`;
                     schedule.server.runCommandSilent(command);
+                    });
                 });
             });
         }

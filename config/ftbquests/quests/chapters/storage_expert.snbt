@@ -1114,7 +1114,7 @@
 		}
 		{
 			dependencies: ["2A0CD26353B9E8C2"]
-			description: ["为你的背包添加一些额外的功能，比如在不离开界面的情况下合成或使用切石机。"]
+			description: ["为你的背包添加一些额外的功能，比如在不离开背包界面的情况下使用切石机。"]
 			id: "7D8D1C51AED92742"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
@@ -1125,23 +1125,7 @@
 			}]
 			tasks: [{
 				id: "538B1DB69502E750"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "sophisticatedstorage:crafting_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:stonecutter_upgrade"
-							}
-						]
-					}
-				}
-				title: "功能性升级"
+				item: "sophisticatedstorage:stonecutter_upgrade"
 				type: "item"
 			}]
 			x: -5.0d

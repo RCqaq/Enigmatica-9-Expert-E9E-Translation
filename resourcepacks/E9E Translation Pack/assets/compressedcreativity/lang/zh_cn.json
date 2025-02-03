@@ -1,0 +1,9 @@
+{
+	"compressedcreativity.ponder.compressed_air_engine.text_1": "西风引擎消耗压缩空气产生旋转力",
+	"block.compressedcreativity.compressed_air_engine": "西风引擎",
+	"block.compressedcreativity.industrial_air_blower": "注魔吹风机",
+	"compressedcreativity.recipe.blasting.industrial_air_blower": "在熔岩后放置注魔吹风机",
+	"compressedcreativity.recipe.haunting.industrial_air_blower": "在灵魂火后放置注魔吹风机",
+	"compressedcreativity.recipe.smoking.industrial_air_blower": "在火焰后放置注魔吹风机",
+	"compressedcreativity.recipe.washing.industrial_air_blower": "在水后放置注魔吹风机"
+}
