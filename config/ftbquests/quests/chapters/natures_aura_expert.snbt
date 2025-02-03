@@ -245,23 +245,20 @@
 							value: "minecraft:planks"
 						}
 					}
-					title: "任意#minecraft:planks"
+					title: "任意木板"
 					type: "item"
 				}
 				{
-					count: 16L
 					id: "3EA6FF0E4235DB44"
 					item: "minecraft:stone_bricks"
 					type: "item"
 				}
 				{
-					count: 8L
 					id: "12D60736A8AF5AAB"
 					item: "naturesaura:gold_brick"
 					type: "item"
 				}
 				{
-					count: 4L
 					id: "03E99236300A5FFD"
 					item: "minecraft:chiseled_stone_bricks"
 					type: "item"
